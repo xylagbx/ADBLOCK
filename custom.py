@@ -223,7 +223,7 @@ RuleSet.close()
 
 
 with open('/Users/bx/Library/Mobile Documents/com~apple~CloudDocs/备忘/custom/RuleSet.list', "r+") as f:
-    p = re.compile("#|URL-REGEX,|/|_|relief.com")
+    p = re.compile("#|URL-REGEX,|/|_")
     lines = [line for line in f.readlines() if p.search(line) is None]
     f.seek(0)
     f.truncate(0)
