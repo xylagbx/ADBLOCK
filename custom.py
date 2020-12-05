@@ -209,8 +209,8 @@ RuleSet.close()
 
 filename = '/Users/bx/Library/Mobile Documents/com~apple~CloudDocs/备忘/custom/RuleSet.list'
 content = codecs.open(filename, 'r').read()
-content = content.write(content)
-codecs.open(filename, 'w', encoding='ascii').write(content)
+# rule = content.write(content)
+codecs.open(filename, 'w', encoding='utf-8').write(content)
 
 
 remove('/Users/bx/Library/Mobile Documents/com~apple~CloudDocs/备忘/custom/AdBlockList.txt')
