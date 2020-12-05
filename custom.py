@@ -263,7 +263,33 @@ content = codecs.open(filename, 'r').read()
 codecs.open(filename, 'w', encoding='utf-8').write(content)
 
 
+RuleSet = open(
+    '/Users/bx/Library/Mobile Documents/com~apple~CloudDocs/备忘/custom/RuleSet.list', 'r')
+f = open('/Users/bx/Library/Mobile Documents/com~apple~CloudDocs/备忘/custom/out.txt',
+         'w', encoding='UTF-8')
+try:
+    for line in RuleSet:
+        g = re.search("DOMAIN-SUFFIX,|DOMAIN-KEYWORD,|DOMAIN,", line)
+        if g:
+            # print(g.group())
+            f.writelines(line)
+finally:
+    RuleSet.close()
+
+RuleSet = open(
+    '/Users/bx/Library/Mobile Documents/com~apple~CloudDocs/备忘/custom/RuleSet.list', 'w')
+out = open(
+    '/Users/bx/Library/Mobile Documents/com~apple~CloudDocs/备忘/custom/out.txt', 'r')
+RuleSet.write(out.read())
+RuleSet.close()
+out.close()
+
+
+
+
 remove('/Users/bx/Library/Mobile Documents/com~apple~CloudDocs/备忘/custom/AdBlockList.txt')
 remove('/Users/bx/Library/Mobile Documents/com~apple~CloudDocs/备忘/custom/adblock.txt')
 remove('/Users/bx/Library/Mobile Documents/com~apple~CloudDocs/备忘/custom/domain.txt')
 remove('/Users/bx/Library/Mobile Documents/com~apple~CloudDocs/备忘/custom/host.txt')
+remove('/Users/bx/Library/Mobile Documents/com~apple~CloudDocs/备忘/custom/RuleSet.txt')
+remove('/Users/bx/Library/Mobile Documents/com~apple~CloudDocs/备忘/custom/out.txt')
