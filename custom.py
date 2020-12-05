@@ -201,6 +201,14 @@ with AdBlockList as f, RuleSet as ff:
 AdBlockList.close()
 RuleSet.close()
 
+with open('/Users/bx/Library/Mobile Documents/com~apple~CloudDocs/备忘/custom/AdBlockList.txt', "r+") as f:
+    p = re.compile("#")
+    lines = [line for line in f.readlines() if p.search(line) is None]
+    f.seek(0)
+    f.truncate(0)
+    f.writelines(lines)
+
+
 # content = codecs.open(
 #     '/Users/bx/Library/Mobile Documents/com~apple~CloudDocs/备忘/custom/RuleSet.list', 'r', 'utf-8').write(content)
 
