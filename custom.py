@@ -249,7 +249,7 @@ filename = '/Users/bx/Library/Mobile Documents/com~apple~CloudDocs/备忘/custom
 content = codecs.open(filename, 'r').read()
 # rule = content.write(content)
 # sys.stdout = codecs.getwriter("utf-8")(sys.stdout.detach())
-codecs.open(filename, 'w', encoding='utf-8').write(content)
+codecs.open(filename, 'w', encoding='ascii').write(content)
 
 
 # remove('/Users/bx/Library/Mobile Documents/com~apple~CloudDocs/备忘/custom/AdBlockList.txt')
