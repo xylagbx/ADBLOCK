@@ -5918,7 +5918,7 @@ DOMAIN-SUFFIX,duote.com
 DOMAIN-SUFFIX,app01.nodes.gslb.mi-idc.com
 DOMAIN-SUFFIX,vihtori-analytics.fi
 DOMAIN-SUFFIX,ea.pixmania.se
-UFFIX,1nimo.com
+DOMAIN-SUFFIX,1nimo.com
 DOMAIN-SUFFIX,wolvedfdg.club
 DOMAIN-SUFFIX,alpari.ru
 DOMAIN-SUFFIX,bunkirling.co
