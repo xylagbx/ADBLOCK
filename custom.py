@@ -1,10 +1,13 @@
-# -*- coding: UTF-8 -*-
+# -*- coding: utf-8 -*-
 
 import requests
 from posix import remove
 import re
-import chardet
+# import chardet
 import codecs
+# import urllib.request
+# import sys
+import string
 
 # 云端地址 本地地址
 # Rule-set
@@ -56,18 +59,18 @@ my_black = my_black.read()
 
 
 # 从云端下载并保存在本地
-for web_url, local_url in urls:
-    myfile = requests.get(web_url)
-    open(local_url, 'wb').write(myfile.content)
-for web_url, local_url in Adblock:
-    myfile = requests.get(web_url)
-    open(local_url, 'wb').write(myfile.content)
-for web_url, local_url in Domain:
-    myfile = requests.get(web_url)
-    open(local_url, 'wb').write(myfile.content)
-for web_url, local_url in Host:
-    myfile = requests.get(web_url)
-    open(local_url, 'wb').write(myfile.content)
+# for web_url, local_url in urls:
+#     myfile = requests.get(web_url)
+#     open(local_url, 'wb').write(myfile.content)
+# for web_url, local_url in Adblock:
+#     myfile = requests.get(web_url)
+#     open(local_url, 'wb').write(myfile.content)
+# for web_url, local_url in Domain:
+#     myfile = requests.get(web_url)
+#     open(local_url, 'wb').write(myfile.content)
+# for web_url, local_url in Host:
+#     myfile = requests.get(web_url)
+#     open(local_url, 'wb').write(myfile.content)
 
 
 # 合并文件
@@ -201,12 +204,39 @@ with AdBlockList as f, RuleSet as ff:
 AdBlockList.close()
 RuleSet.close()
 
-with open('/Users/bx/Library/Mobile Documents/com~apple~CloudDocs/备忘/custom/AdBlockList.txt', "r+") as f:
+
+
+
+with open('/Users/bx/Library/Mobile Documents/com~apple~CloudDocs/备忘/custom/RuleSet.list', "r+") as f:
     p = re.compile("#")
     lines = [line for line in f.readlines() if p.search(line) is None]
     f.seek(0)
     f.truncate(0)
     f.writelines(lines)
+
+
+ruleset = open(
+    '/Users/bx/Library/Mobile Documents/com~apple~CloudDocs/备忘/custom/RuleSet.list', 'r')
+alllines = ruleset.readlines()
+ruleset.close()
+ruleset = open(
+    '/Users/bx/Library/Mobile Documents/com~apple~CloudDocs/备忘/custom/RuleSet.list', 'w')
+for eachline in alllines:
+    # a = eachline.decode('utf-8')
+    # printable = set(string.eachline)
+    # a = filter(lambda x: x in eachline, s)
+    for char in eachline:
+        a = ord(char)
+        # a = a.decode('utf-8')
+        ruleset.writelines(a)
+ruleset.close()
+
+
+
+
+
+
+
 
 
 # content = codecs.open(
@@ -218,10 +248,11 @@ with open('/Users/bx/Library/Mobile Documents/com~apple~CloudDocs/备忘/custom/
 filename = '/Users/bx/Library/Mobile Documents/com~apple~CloudDocs/备忘/custom/RuleSet.list'
 content = codecs.open(filename, 'r').read()
 # rule = content.write(content)
+# sys.stdout = codecs.getwriter("utf-8")(sys.stdout.detach())
 codecs.open(filename, 'w', encoding='utf-8').write(content)
 
 
-remove('/Users/bx/Library/Mobile Documents/com~apple~CloudDocs/备忘/custom/AdBlockList.txt')
-remove('/Users/bx/Library/Mobile Documents/com~apple~CloudDocs/备忘/custom/adblock.txt')
-remove('/Users/bx/Library/Mobile Documents/com~apple~CloudDocs/备忘/custom/domain.txt')
-remove('/Users/bx/Library/Mobile Documents/com~apple~CloudDocs/备忘/custom/host.txt')
+# remove('/Users/bx/Library/Mobile Documents/com~apple~CloudDocs/备忘/custom/AdBlockList.txt')
+# remove('/Users/bx/Library/Mobile Documents/com~apple~CloudDocs/备忘/custom/adblock.txt')
+# remove('/Users/bx/Library/Mobile Documents/com~apple~CloudDocs/备忘/custom/domain.txt')
+# remove('/Users/bx/Library/Mobile Documents/com~apple~CloudDocs/备忘/custom/host.txt')
