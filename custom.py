@@ -196,6 +196,7 @@ for eachline in alllines:
     a = eachline.replace('^', '')
     a = a.replace('$important', '')
     a = a.strip('imo.com')
+    # a = a.replace(',DIRECT\n', '\n')
     # a = eachline.strip('^')
     AdBlockList.writelines(a)
 AdBlockList.close()
