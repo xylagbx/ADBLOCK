@@ -3,6 +3,8 @@
 import requests
 from posix import remove
 import re
+import chardet
+import codecs
 
 # 云端地址 本地地址
 # Rule-set
@@ -198,6 +200,17 @@ with AdBlockList as f, RuleSet as ff:
     ff.writelines([item + '\n' for item in new_data if item])
 AdBlockList.close()
 RuleSet.close()
+
+# content = codecs.open(
+#     '/Users/bx/Library/Mobile Documents/com~apple~CloudDocs/备忘/custom/RuleSet.list', 'r', 'utf-8').write(content)
+
+# codecs.open("/Users/bx/Library/Mobile Documents/com~apple~CloudDocs/备忘/custom/RuleSet.txt",
+#             'w', encoding='ascii').write(content)
+
+filename = '/Users/bx/Library/Mobile Documents/com~apple~CloudDocs/备忘/custom/RuleSet.list'
+content = codecs.open(filename, 'r').read()
+content = content.write(content)
+codecs.open(filename, 'w', encoding='ascii').write(content)
 
 
 remove('/Users/bx/Library/Mobile Documents/com~apple~CloudDocs/备忘/custom/AdBlockList.txt')
