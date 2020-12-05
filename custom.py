@@ -226,9 +226,9 @@ for eachline in alllines:
     # printable = set(string.eachline)
     # a = filter(lambda x: x in eachline, s)
     for char in eachline:
-        a = ord(char)
+        char = ord(char)
         # a = a.decode('utf-8')
-        ruleset.writelines(a)
+    ruleset.writelines(eachline)
 ruleset.close()
 
 
