@@ -22,12 +22,13 @@ test.close()
 
 test = open(
     '/Users/bx/Library/Mobile Documents/com~apple~CloudDocs/备忘/custom/test.txt', 'r+')
-# with test as f:
-#     p = re.compile("DOMAIN-SUFFIX,|DOMAIN-KEYWORD,|DOMAIN,")
-#     lines = [line for line in f.readlines() if p.search(line) is None]
-#     f.seek(0)
-#     f.truncate(0)
-#     f.writelines(lines)
+with test as f:
+    p = re.compile("DOMAIN-SUFFIX,|DOMAIN-KEYWORD,|DOMAIN,")
+    lines = [line for line in f.readlines() if p.search(line) is None]
+    f.seek(0)
+    f.truncate(0)
+    f.writelines(lines)
+test.close()
 
 # with test as f:
 #     p = re.compile("DOMAIN-SUFFIX,|DOMAIN-KEYWORD,|DOMAIN,")
@@ -38,21 +39,21 @@ test = open(
 
 
 # file_object = open('test.txt', 'rU', encoding='UTF-8')
-f = open('/Users/bx/Library/Mobile Documents/com~apple~CloudDocs/备忘/custom/out.txt',
-         'w', encoding='UTF-8')
-try:
-    for line in test:
-        g = re.search("DOMAIN-SUFFIX,|DOMAIN-KEYWORD,|DOMAIN,", line)
-        if g:
-            # print(g.group())
-            f.writelines(line)
-finally:
-    test.close()
+# f = open('/Users/bx/Library/Mobile Documents/com~apple~CloudDocs/备忘/custom/out.txt',
+#          'w', encoding='UTF-8')
+# try:
+#     for line in test:
+#         g = re.search("DOMAIN-SUFFIX,|DOMAIN-KEYWORD,|DOMAIN,", line)
+#         if g:
+#             # print(g.group())
+#             f.writelines(line)
+# finally:
+#     test.close()
 
-RuleSet = open(
-    '/Users/bx/Library/Mobile Documents/com~apple~CloudDocs/备忘/custom/RuleSet.list', 'w')
-test = open(
-    '/Users/bx/Library/Mobile Documents/com~apple~CloudDocs/备忘/custom/test.txt', 'r')
-RuleSet.write(test.read())
-RuleSet.close()
-test.close()
+# RuleSet = open(
+#     '/Users/bx/Library/Mobile Documents/com~apple~CloudDocs/备忘/custom/RuleSet.list', 'w')
+# test = open(
+#     '/Users/bx/Library/Mobile Documents/com~apple~CloudDocs/备忘/custom/test.txt', 'r')
+# RuleSet.write(test.read())
+# RuleSet.close()
+# test.close()
