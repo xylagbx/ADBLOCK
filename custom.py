@@ -262,7 +262,7 @@ ruleset.close()
 #             'w', encoding='ascii').write(content)
 
 filename = '/Users/bx/Library/Mobile Documents/com~apple~CloudDocs/备忘/custom/RuleSet.txt'
-content = codecs.open(filename, 'r').read()
+content = codecs.open(filename, 'r', encoding='ascii').read()
 # rule = content.write(content)
 # sys.stdout = codecs.getwriter("utf-8")(sys.stdout.detach())
 codecs.open(filename, 'w', encoding='ascii').write(content)
