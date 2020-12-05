@@ -28,7 +28,7 @@ DOMAIN-SUFFIX,kfhuihe.net
 DOMAIN-SUFFIX,cilidaquan.pw
 DOMAIN-SUFFIX,s.5jjx.net
 DOMAIN-SUFFIX,tv.giredo.com
-DOMAIN-SUFFIXrelief.com
+DOMAIN-SUFFIX,relief.com
 DOMAIN-SUFFIX,reliablecoins.net
 DOMAIN-SUFFIX,badsims.com
 DOMAIN-SUFFIX,str1kee.com
