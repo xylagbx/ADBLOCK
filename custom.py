@@ -194,6 +194,7 @@ AdBlockList = open(
 for eachline in alllines:
     # a = re.sub('^\n', '\n', eachline)
     a = eachline.replace('^', '')
+    a = a.replace('$important', '')
     # a = eachline.strip('^')
     AdBlockList.writelines(a)
 AdBlockList.close()
@@ -221,10 +222,8 @@ AdBlockList.close()
 RuleSet.close()
 
 
-
-
 with open('/Users/bx/Library/Mobile Documents/com~apple~CloudDocs/备忘/custom/RuleSet.list', "r+") as f:
-    p = re.compile("#")
+    p = re.compile("#|URL-REGEX,|/")
     lines = [line for line in f.readlines() if p.search(line) is None]
     f.seek(0)
     f.truncate(0)
@@ -248,13 +247,6 @@ for eachline in alllines:
 ruleset.close()
 
 
-
-
-
-
-
-
-
 # content = codecs.open(
 #     '/Users/bx/Library/Mobile Documents/com~apple~CloudDocs/备忘/custom/RuleSet.list', 'r', 'utf-8').write(content)
 
@@ -262,10 +254,10 @@ ruleset.close()
 #             'w', encoding='ascii').write(content)
 
 filename = '/Users/bx/Library/Mobile Documents/com~apple~CloudDocs/备忘/custom/RuleSet.txt'
-content = codecs.open(filename, 'r', encoding='ascii').read()
+content = codecs.open(filename, 'r').read()
 # rule = content.write(content)
 # sys.stdout = codecs.getwriter("utf-8")(sys.stdout.detach())
-codecs.open(filename, 'w', encoding='ascii').write(content)
+codecs.open(filename, 'w', encoding='utf-8').write(content)
 
 
 remove('/Users/bx/Library/Mobile Documents/com~apple~CloudDocs/备忘/custom/AdBlockList.txt')
