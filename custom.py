@@ -59,18 +59,18 @@ my_black = my_black.read()
 
 
 # 从云端下载并保存在本地
-# for web_url, local_url in urls:
-#     myfile = requests.get(web_url)
-#     open(local_url, 'wb').write(myfile.content)
-# for web_url, local_url in Adblock:
-#     myfile = requests.get(web_url)
-#     open(local_url, 'wb').write(myfile.content)
-# for web_url, local_url in Domain:
-#     myfile = requests.get(web_url)
-#     open(local_url, 'wb').write(myfile.content)
-# for web_url, local_url in Host:
-#     myfile = requests.get(web_url)
-#     open(local_url, 'wb').write(myfile.content)
+for web_url, local_url in urls:
+    myfile = requests.get(web_url)
+    open(local_url, 'wb').write(myfile.content)
+for web_url, local_url in Adblock:
+    myfile = requests.get(web_url)
+    open(local_url, 'wb').write(myfile.content)
+for web_url, local_url in Domain:
+    myfile = requests.get(web_url)
+    open(local_url, 'wb').write(myfile.content)
+for web_url, local_url in Host:
+    myfile = requests.get(web_url)
+    open(local_url, 'wb').write(myfile.content)
 
 
 # 合并文件
@@ -119,8 +119,9 @@ adblock.close()
 adblock = open(
     '/Users/bx/Library/Mobile Documents/com~apple~CloudDocs/备忘/custom/adblock.txt', 'w')
 for eachline in alllines:
-    # a = re.sub('^', '', eachline)
-    a = eachline.strip('^')
+    a = eachline.replace('^', '')
+    # a = re.sub('^\n', '\n', eachline)
+    # a = eachline.strip('^')
     adblock.writelines(a)
 adblock.close()
 
@@ -181,6 +182,21 @@ AdBlockList.close()
 adblock.close()
 domain.close()
 host.close()
+
+
+# 删除末尾的 '^'
+AdBlockList = open(
+    '/Users/bx/Library/Mobile Documents/com~apple~CloudDocs/备忘/custom/AdBlockList.txt', 'r')
+alllines = AdBlockList.readlines()
+AdBlockList.close()
+AdBlockList = open(
+    '/Users/bx/Library/Mobile Documents/com~apple~CloudDocs/备忘/custom/AdBlockList.txt', 'w')
+for eachline in alllines:
+    # a = re.sub('^\n', '\n', eachline)
+    a = eachline.replace('^', '')
+    # a = eachline.strip('^')
+    AdBlockList.writelines(a)
+AdBlockList.close()
 
 # 删除本地原有的文件
 # remove('/Users/bx/Library/Mobile Documents/com~apple~CloudDocs/备忘/custom/AdBlock.txt')
@@ -252,7 +268,7 @@ content = codecs.open(filename, 'r').read()
 codecs.open(filename, 'w', encoding='ascii').write(content)
 
 
-# remove('/Users/bx/Library/Mobile Documents/com~apple~CloudDocs/备忘/custom/AdBlockList.txt')
-# remove('/Users/bx/Library/Mobile Documents/com~apple~CloudDocs/备忘/custom/adblock.txt')
-# remove('/Users/bx/Library/Mobile Documents/com~apple~CloudDocs/备忘/custom/domain.txt')
-# remove('/Users/bx/Library/Mobile Documents/com~apple~CloudDocs/备忘/custom/host.txt')
+remove('/Users/bx/Library/Mobile Documents/com~apple~CloudDocs/备忘/custom/AdBlockList.txt')
+remove('/Users/bx/Library/Mobile Documents/com~apple~CloudDocs/备忘/custom/adblock.txt')
+remove('/Users/bx/Library/Mobile Documents/com~apple~CloudDocs/备忘/custom/domain.txt')
+remove('/Users/bx/Library/Mobile Documents/com~apple~CloudDocs/备忘/custom/host.txt')
