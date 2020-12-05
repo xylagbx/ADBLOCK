@@ -194,7 +194,7 @@ AdBlockList = open(
 for eachline in alllines:
     # a = re.sub('^\n', '\n', eachline)
     a = eachline.replace('^', '')
-    a = a.replace('$important', '')
+    # a = a.replace('$important', '')
     # a = eachline.strip('^')
     AdBlockList.writelines(a)
 AdBlockList.close()
