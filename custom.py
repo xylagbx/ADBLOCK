@@ -236,7 +236,7 @@ ruleset = open(
 alllines = ruleset.readlines()
 ruleset.close()
 ruleset = open(
-    '/Users/bx/Library/Mobile Documents/com~apple~CloudDocs/备忘/custom/RuleSet.list', 'w')
+    '/Users/bx/Library/Mobile Documents/com~apple~CloudDocs/备忘/custom/RuleSet.txt', 'w')
 for eachline in alllines:
     # a = eachline.decode('utf-8')
     # printable = set(string.eachline)
@@ -261,7 +261,7 @@ ruleset.close()
 # codecs.open("/Users/bx/Library/Mobile Documents/com~apple~CloudDocs/备忘/custom/RuleSet.txt",
 #             'w', encoding='ascii').write(content)
 
-filename = '/Users/bx/Library/Mobile Documents/com~apple~CloudDocs/备忘/custom/RuleSet.list'
+filename = '/Users/bx/Library/Mobile Documents/com~apple~CloudDocs/备忘/custom/RuleSet.txt'
 content = codecs.open(filename, 'r').read()
 # rule = content.write(content)
 # sys.stdout = codecs.getwriter("utf-8")(sys.stdout.detach())
