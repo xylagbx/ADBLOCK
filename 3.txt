@@ -1,8 +1,0 @@
-DOMAIN-SUFFIX,gblcdn.com
-DOMAIN-SUFFIX,gamepsvita.com
-DOMAIN-SUFFIX,1stop-entertainment.com
-DOMAIN-SUFFIX,m3haw43xxuiai.win
-DOMAIN-SUFFIX,clkads.com
-DOMAIN-SUFFIX,raus.de
-DOMAIN-SUFFIX,aedme.org.mx
-DOMAIN-SUFFIX,mardelua.com

@@ -8703,7 +8703,7 @@ DOMAIN-SUFFIX,ipiakraazowdui.com
 DOMAIN-SUFFIX,ytcgivcxzawx.com
 DOMAIN-SUFFIX,cyad123.com
 DOMAIN-SUFFIX,rtmonitor.kugou.com
-DOMAIN-KEYWORD,track,AdBlock
+DOMAIN-KEYWORD,track
 DOMAIN-SUFFIX,adsview.qq.com
 DOMAIN-SUFFIX,bdu.focus.cn
 DOMAIN-SUFFIX,falcoware.com
@@ -22344,7 +22344,7 @@ DOMAIN-SUFFIX,dtvlalitvg.com
 DOMAIN-SUFFIX,j.qiqivv.com
 DOMAIN-SUFFIX,interestably.com
 DOMAIN-SUFFIX,z1.cnywst.com
-DOMAIN-KEYWORD,rayjump,AdBlock
+DOMAIN-KEYWORD,rayjump
 DOMAIN-SUFFIX,botscanner.com
 DOMAIN-SUFFIX,clickly.me
 DOMAIN-SUFFIX,topiz.ru
@@ -26287,7 +26287,7 @@ DOMAIN-SUFFIX,dajlkvplxyzbsa.com
 DOMAIN-SUFFIX,events.turbosquid.com
 DOMAIN-SUFFIX,fzeahussyd.com
 DOMAIN-SUFFIX,affiliate-robot.com
-DOMAIN-KEYWORD,jpush,AdBlock
+DOMAIN-KEYWORD,jpush
 DOMAIN-SUFFIX,pic50.pingguolv.com
 DOMAIN-SUFFIX,2fx32.cn
 DOMAIN-SUFFIX,sitetraq.nl
@@ -27263,7 +27263,7 @@ DOMAIN-SUFFIX,ku9377.com
 DOMAIN-SUFFIX,dko.vente-unique.nl
 DOMAIN-SUFFIX,promo-market.net
 DOMAIN-SUFFIX,mrksys.com
-DOMAIN-KEYWORD,in-addr.arpa,AdBlock
+DOMAIN-KEYWORD,in-addr.arpa
 DOMAIN-SUFFIX,img.adbox.sina.com.cn
 DOMAIN-SUFFIX,adone.ru
 DOMAIN-SUFFIX,pswucdobdvt.com
@@ -29163,7 +29163,7 @@ DOMAIN-SUFFIX,ck.kejet.net
 DOMAIN-SUFFIX,onlinepbx.ru
 DOMAIN-SUFFIX,viboom.ru
 DOMAIN-SUFFIX,applequan.com
-DOMAIN-KEYWORD,umeng,AdBlock
+DOMAIN-KEYWORD,umeng
 DOMAIN,ad.yixin.im
 DOMAIN-SUFFIX,ad.1serve-sys.com
 DOMAIN-SUFFIX,traveltracking.check24.de
@@ -30732,7 +30732,7 @@ DOMAIN-SUFFIX,ee.j5s9b.cn
 DOMAIN-SUFFIX,zxrtn.com
 DOMAIN-SUFFIX,js.lmggdka.cn
 DOMAIN-SUFFIX,housandady.site
-DOMAIN-KEYWORD,measurement,AdBlock
+DOMAIN-KEYWORD,measurement
 DOMAIN-SUFFIX,abbeyblog.me
 DOMAIN-SUFFIX,uanomwcxixed.com
 DOMAIN-SUFFIX,ssp.chaohutechan.com
@@ -32415,7 +32415,7 @@ DOMAIN-SUFFIX,drydrum.com
 DOMAIN-SUFFIX,gdpr.prisa.com
 DOMAIN-SUFFIX,huixingcheng.cn
 DOMAIN-SUFFIX,e.pubbirdf.com
-DOMAIN-KEYWORD,crashlytics,AdBlock
+DOMAIN-KEYWORD,crashlytics
 DOMAIN-SUFFIX,metrics.timewarnercable.com
 DOMAIN-SUFFIX,d.haberler.com
 DOMAIN-SUFFIX,psbadfsth.bid
@@ -47964,7 +47964,7 @@ DOMAIN-SUFFIX,dmrzm8vdeuibaj1.info
 DOMAIN-SUFFIX,acticgreasonsc.info
 DOMAIN-SUFFIX,mineralt.io
 DOMAIN-SUFFIX,stfowevsn.com
-DOMAIN-KEYWORD,analy,AdBlock
+DOMAIN-KEYWORD,analy
 DOMAIN-SUFFIX,abckzo.cn
 DOMAIN-SUFFIX,yabuka.com
 DOMAIN-SUFFIX,qiyeit.com.cn
