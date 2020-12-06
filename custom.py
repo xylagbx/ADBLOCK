@@ -265,7 +265,7 @@ codecs.open(filename, 'w', encoding='utf-8').write(content)
 
 # Domain-set 规则集
 RuleSet = open(
-    '/Users/bx/Library/Mobile Documents/com~apple~CloudDocs/备忘/custom/RuleSet.list', 'r')
+    '/Users/bx/Library/Mobile Documents/com~apple~CloudDocs/备忘/custom/RuleSet.list', 'r', encoding='UTF-8')
 f = open('/Users/bx/Library/Mobile Documents/com~apple~CloudDocs/备忘/custom/out.txt',
          'w', encoding='UTF-8')
 try:
@@ -276,21 +276,22 @@ try:
             f.writelines(line)
 finally:
     RuleSet.close()
+    f.close()
 
 DomainSet = open(
-    '/Users/bx/Library/Mobile Documents/com~apple~CloudDocs/备忘/custom/DomainSet.list', 'w')
+    '/Users/bx/Library/Mobile Documents/com~apple~CloudDocs/备忘/custom/DomainSet.list', 'w', encoding='UTF-8')
 out = open(
-    '/Users/bx/Library/Mobile Documents/com~apple~CloudDocs/备忘/custom/out.txt', 'r')
+    '/Users/bx/Library/Mobile Documents/com~apple~CloudDocs/备忘/custom/out.txt', 'r', encoding='UTF-8')
 DomainSet.write(out.read())
 DomainSet.close()
 out.close()
 
 DomainSet = open(
-    '/Users/bx/Library/Mobile Documents/com~apple~CloudDocs/备忘/custom/DomainSet.list', 'r')
+    '/Users/bx/Library/Mobile Documents/com~apple~CloudDocs/备忘/custom/DomainSet.list', 'r', encoding='UTF-8')
 alllines = DomainSet.readlines()
 DomainSet.close()
 DomainSet = open(
-    '/Users/bx/Library/Mobile Documents/com~apple~CloudDocs/备忘/custom/DomainSet.list', 'w')
+    '/Users/bx/Library/Mobile Documents/com~apple~CloudDocs/备忘/custom/DomainSet.list', 'w', encoding='UTF-8')
 for eachline in alllines:
     a = eachline.replace('DOMAIN-SUFFIX,', '.')
     a = a.replace('DOMAIN,', '.')
@@ -298,7 +299,7 @@ for eachline in alllines:
 DomainSet.close()
 
 DomainSet = open(
-    '/Users/bx/Library/Mobile Documents/com~apple~CloudDocs/备忘/custom/DomainSet.list', 'r')
+    '/Users/bx/Library/Mobile Documents/com~apple~CloudDocs/备忘/custom/DomainSet.list', 'r', encoding='UTF-8')
 f = open('/Users/bx/Library/Mobile Documents/com~apple~CloudDocs/备忘/custom/out.txt',
          'w', encoding='UTF-8')
 try:
@@ -311,29 +312,7 @@ finally:
     DomainSet.close()
 
 
-
 # Rule-set 规则集
-# RuleSet = open(
-#     '/Users/bx/Library/Mobile Documents/com~apple~CloudDocs/备忘/custom/RuleSet.list', 'r')
-# f = open('/Users/bx/Library/Mobile Documents/com~apple~CloudDocs/备忘/custom/out.txt',
-#          'w', encoding='UTF-8')
-# try:
-#     for line in RuleSet:
-#         g = re.search("DOMAIN-KEYWORD,", line)
-#         if g:
-#             # print(g.group())
-#             f.writelines(line)
-# finally:
-#     RuleSet.close()
-
-# RuleSet = open(
-#     '/Users/bx/Library/Mobile Documents/com~apple~CloudDocs/备忘/custom/Rule_Set.list', 'w')
-# out = open(
-#     '/Users/bx/Library/Mobile Documents/com~apple~CloudDocs/备忘/custom/out.txt', 'r')
-# RuleSet.write(out.read())
-# RuleSet.close()
-# out.close()
-
 with open('/Users/bx/Library/Mobile Documents/com~apple~CloudDocs/备忘/custom/RuleSet.list', "r+") as f:
     p = re.compile("DOMAIN-SUFFIX,|DOMAIN,")
     lines = [line for line in f.readlines() if p.search(line) is None]
@@ -341,6 +320,27 @@ with open('/Users/bx/Library/Mobile Documents/com~apple~CloudDocs/备忘/custom/
     f.truncate(0)
     f.writelines(lines)
 
+RuleSet = open(
+    '/Users/bx/Library/Mobile Documents/com~apple~CloudDocs/备忘/custom/RuleSet.list', 'r', encoding='UTF-8')
+f = open('/Users/bx/Library/Mobile Documents/com~apple~CloudDocs/备忘/custom/out1.txt',
+         'w', encoding='UTF-8')
+try:
+    for line in RuleSet:
+        g = re.search("DOMAIN-KEYWORD,", line)
+        if g:
+            # print(g.group())
+            f.writelines(line)
+finally:
+    RuleSet.close()
+    f.close()
+
+RuleSet = open(
+    '/Users/bx/Library/Mobile Documents/com~apple~CloudDocs/备忘/custom/RuleSet.list', 'w')
+out1 = open(
+    '/Users/bx/Library/Mobile Documents/com~apple~CloudDocs/备忘/custom/out1.txt', 'r')
+RuleSet.write(out1.read())
+RuleSet.close()
+out1.close()
 
 
 remove('/Users/bx/Library/Mobile Documents/com~apple~CloudDocs/备忘/custom/AdBlockList.txt')
@@ -349,3 +349,4 @@ remove('/Users/bx/Library/Mobile Documents/com~apple~CloudDocs/备忘/custom/dom
 remove('/Users/bx/Library/Mobile Documents/com~apple~CloudDocs/备忘/custom/host.txt')
 remove('/Users/bx/Library/Mobile Documents/com~apple~CloudDocs/备忘/custom/RuleSet.txt')
 remove('/Users/bx/Library/Mobile Documents/com~apple~CloudDocs/备忘/custom/out.txt')
+remove('/Users/bx/Library/Mobile Documents/com~apple~CloudDocs/备忘/custom/out1.txt')
