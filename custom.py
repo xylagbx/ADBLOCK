@@ -263,27 +263,83 @@ content = codecs.open(filename, 'r').read()
 codecs.open(filename, 'w', encoding='utf-8').write(content)
 
 
+# Domain-set 规则集
 RuleSet = open(
     '/Users/bx/Library/Mobile Documents/com~apple~CloudDocs/备忘/custom/RuleSet.list', 'r')
 f = open('/Users/bx/Library/Mobile Documents/com~apple~CloudDocs/备忘/custom/out.txt',
          'w', encoding='UTF-8')
 try:
     for line in RuleSet:
-        g = re.search("DOMAIN-SUFFIX,|DOMAIN-KEYWORD,|DOMAIN,", line)
+        g = re.search("DOMAIN-SUFFIX,|DOMAIN,", line)
         if g:
             # print(g.group())
             f.writelines(line)
 finally:
     RuleSet.close()
 
-RuleSet = open(
-    '/Users/bx/Library/Mobile Documents/com~apple~CloudDocs/备忘/custom/RuleSet.list', 'w')
+DomainSet = open(
+    '/Users/bx/Library/Mobile Documents/com~apple~CloudDocs/备忘/custom/DomainSet.list', 'w')
 out = open(
     '/Users/bx/Library/Mobile Documents/com~apple~CloudDocs/备忘/custom/out.txt', 'r')
-RuleSet.write(out.read())
-RuleSet.close()
+DomainSet.write(out.read())
+DomainSet.close()
 out.close()
 
+DomainSet = open(
+    '/Users/bx/Library/Mobile Documents/com~apple~CloudDocs/备忘/custom/DomainSet.list', 'r')
+alllines = DomainSet.readlines()
+DomainSet.close()
+DomainSet = open(
+    '/Users/bx/Library/Mobile Documents/com~apple~CloudDocs/备忘/custom/DomainSet.list', 'w')
+for eachline in alllines:
+    a = eachline.replace('DOMAIN-SUFFIX,', '.')
+    a = a.replace('DOMAIN,', '.')
+    DomainSet.writelines(a)
+DomainSet.close()
+
+DomainSet = open(
+    '/Users/bx/Library/Mobile Documents/com~apple~CloudDocs/备忘/custom/DomainSet.list', 'r')
+f = open('/Users/bx/Library/Mobile Documents/com~apple~CloudDocs/备忘/custom/out.txt',
+         'w', encoding='UTF-8')
+try:
+    for line in DomainSet:
+        g = re.search("\.", line)
+        if g:
+            # print(g.group())
+            f.writelines(line)
+finally:
+    DomainSet.close()
+
+
+
+# Rule-set 规则集
+# RuleSet = open(
+#     '/Users/bx/Library/Mobile Documents/com~apple~CloudDocs/备忘/custom/RuleSet.list', 'r')
+# f = open('/Users/bx/Library/Mobile Documents/com~apple~CloudDocs/备忘/custom/out.txt',
+#          'w', encoding='UTF-8')
+# try:
+#     for line in RuleSet:
+#         g = re.search("DOMAIN-KEYWORD,", line)
+#         if g:
+#             # print(g.group())
+#             f.writelines(line)
+# finally:
+#     RuleSet.close()
+
+# RuleSet = open(
+#     '/Users/bx/Library/Mobile Documents/com~apple~CloudDocs/备忘/custom/Rule_Set.list', 'w')
+# out = open(
+#     '/Users/bx/Library/Mobile Documents/com~apple~CloudDocs/备忘/custom/out.txt', 'r')
+# RuleSet.write(out.read())
+# RuleSet.close()
+# out.close()
+
+with open('/Users/bx/Library/Mobile Documents/com~apple~CloudDocs/备忘/custom/RuleSet.list', "r+") as f:
+    p = re.compile("DOMAIN-SUFFIX,|DOMAIN,")
+    lines = [line for line in f.readlines() if p.search(line) is None]
+    f.seek(0)
+    f.truncate(0)
+    f.writelines(lines)
 
 
 
