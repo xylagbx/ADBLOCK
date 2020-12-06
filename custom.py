@@ -347,6 +347,6 @@ remove('/Users/bx/Library/Mobile Documents/com~apple~CloudDocs/备忘/custom/AdB
 remove('/Users/bx/Library/Mobile Documents/com~apple~CloudDocs/备忘/custom/adblock.txt')
 remove('/Users/bx/Library/Mobile Documents/com~apple~CloudDocs/备忘/custom/domain.txt')
 remove('/Users/bx/Library/Mobile Documents/com~apple~CloudDocs/备忘/custom/host.txt')
-remove('/Users/bx/Library/Mobile Documents/com~apple~CloudDocs/备忘/custom/RuleSet.txt')
+# remove('/Users/bx/Library/Mobile Documents/com~apple~CloudDocs/备忘/custom/RuleSet.txt')
 remove('/Users/bx/Library/Mobile Documents/com~apple~CloudDocs/备忘/custom/out.txt')
 remove('/Users/bx/Library/Mobile Documents/com~apple~CloudDocs/备忘/custom/out1.txt')
