@@ -22656,7 +22656,6 @@ DOMAIN-SUFFIX,8livevn.com
 DOMAIN-SUFFIX,zxwdw.com
 DOMAIN-SUFFIX,sync.mathtag.com
 DOMAIN-SUFFIX,axmxarqxbkc.com
-DOMAIN-SUFFIX,k128-mzstatic.gslb.ksyuncdn.com
 DOMAIN-SUFFIX,wl.eastlady.cn
 DOMAIN-SUFFIX,mmcispartners.com
 DOMAIN-SUFFIX,amakwktrnb.com
@@ -22989,7 +22988,6 @@ DOMAIN-SUFFIX,hxwgfumgg.com
 DOMAIN-SUFFIX,creara-media.ru
 DOMAIN-SUFFIX,rarbgproxy.org
 DOMAIN-SUFFIX,masudel.com
-DOMAIN-SUFFIX,ocsp.apple.com.cdn20.com
 DOMAIN-SUFFIX,track.social.com
 DOMAIN-SUFFIX,same.eastmoney.com
 DOMAIN-SUFFIX,oupox.club
@@ -29138,7 +29136,6 @@ DOMAIN-SUFFIX,m.yangzhenpeng.top
 DOMAIN-SUFFIX,socialrest.com
 DOMAIN-SUFFIX,d-ns.ga
 DOMAIN-SUFFIX,glodsool.net
-DOMAIN-SUFFIX,ocsp.g.aaplimg.com
 DOMAIN-SUFFIX,tw13b093.sandai.net
 DOMAIN-SUFFIX,repefwairfkx.com
 DOMAIN-SUFFIX,rgyuvwsiuw.com
@@ -31760,7 +31757,6 @@ DOMAIN-SUFFIX,m.apxyz.com
 DOMAIN-SUFFIX,bqntkevvmkk.com
 DOMAIN-SUFFIX,rareru.ru
 DOMAIN-SUFFIX,trevoltas.pro
-DOMAIN-SUFFIX,ocsp.digicert.com
 DOMAIN-SUFFIX,farm-cn.plista.com
 DOMAIN-SUFFIX,videostat.com
 DOMAIN-SUFFIX,reklampazar.com
@@ -32878,7 +32874,6 @@ DOMAIN-SUFFIX,bcggo.ru
 DOMAIN-SUFFIX,nicorette.co.kr
 DOMAIN-SUFFIX,flux.faloo.com
 DOMAIN-SUFFIX,hzlewuunwm.com
-DOMAIN-SUFFIX,ocsp-cn-lb.apple.com.akadns.net
 DOMAIN-SUFFIX,beacons.mediamelon.com
 DOMAIN-SUFFIX,onemobile.yahoo.com
 DOMAIN-SUFFIX,shopalyst.com
@@ -39095,7 +39090,6 @@ DOMAIN-SUFFIX,loders.club
 DOMAIN-SUFFIX,scund.com
 DOMAIN-SUFFIX,pldsafpulgnw.com
 DOMAIN-SUFFIX,iklantop.net
-DOMAIN-SUFFIX,ocsp.apple.com.download.ks-cdn.com
 DOMAIN-SUFFIX,dropzenad.com
 DOMAIN-SUFFIX,authornernsa.pro
 DOMAIN-SUFFIX,jozfwcmrxkwva.com
@@ -39616,7 +39610,6 @@ DOMAIN-SUFFIX,24ad89fc2690ed9369.com
 DOMAIN-SUFFIX,znxvuabzgm.com
 DOMAIN-SUFFIX,zoomanalytics.co
 DOMAIN-SUFFIX,affrh2020.com
-DOMAIN-SUFFIX,ocsp.apple.com
 DOMAIN-SUFFIX,mrtehsag.com
 DOMAIN-SUFFIX,geo.vortex.data.microsoft.com.akadns.net
 DOMAIN-SUFFIX,network-media.info
@@ -49132,7 +49125,6 @@ DOMAIN-SUFFIX,bdisnqwfcq.com
 DOMAIN-SUFFIX,znicvrdirncxq.com
 DOMAIN-SUFFIX,onxxyeoyes.com
 DOMAIN-SUFFIX,adm2.autoimg.cn
-DOMAIN-SUFFIX,ocsp-lb.apple.com.akadns.net
 DOMAIN-SUFFIX,as.1und1.de/ias/track
 DOMAIN-SUFFIX,reklam.arabul.com
 DOMAIN-SUFFIX,madmini.com
