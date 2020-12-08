@@ -2052,7 +2052,7 @@ DOMAIN-SUFFIX,horheloopo.com
 DOMAIN-SUFFIX,sblcjzjp.com
 DOMAIN-SUFFIX,penglei.info
 DOMAIN-SUFFIX,fusion.qq.com
-# URL-REGEX,https?://9377\w{2}.com
+URL-REGEX,https?://9377\w{2}.com
 DOMAIN-SUFFIX,zenkreka.com
 DOMAIN-SUFFIX,lpbhbwpbpnl.com
 DOMAIN-SUFFIX,e.m8l0ka.cn
@@ -2698,7 +2698,7 @@ DOMAIN-SUFFIX,acmsg.online
 DOMAIN-SUFFIX,articles2.marketrealist.com/aptrk
 DOMAIN-SUFFIX,nwejs.myzcoffice.com
 DOMAIN-SUFFIX,nonmoves.date
-# URL-REGEX,https?://.+.atm.youku.com
+URL-REGEX,https?://.+.atm.youku.com
 DOMAIN-SUFFIX,xxguan.cn
 DOMAIN-SUFFIX,kinley.com
 DOMAIN-SUFFIX,0082tv.net
@@ -2949,7 +2949,7 @@ DOMAIN-SUFFIX,eqiuy.com
 DOMAIN-SUFFIX,pbcyvzvdi.bid
 DOMAIN-SUFFIX,text-ali.ru
 DOMAIN-SUFFIX,subscriptions.cbc.ca
-# URL-REGEX,https?://\w{6}.com1.z0.glb.clouddn.com
+URL-REGEX,https?://\w{6}.com1.z0.glb.clouddn.com
 DOMAIN-SUFFIX,codeym.dictall.com
 DOMAIN-SUFFIX,a433.com
 DOMAIN-SUFFIX,fruitice.realnetwrk.com
@@ -4355,7 +4355,7 @@ DOMAIN-SUFFIX,e.shenyunkeji.com
 DOMAIN-SUFFIX,shareaholic.com
 DOMAIN-SUFFIX,awept.com
 DOMAIN-SUFFIX,octomarket.com
-# URL-REGEX,https?://d\d.sinaimg.cn
+URL-REGEX,https?://d\d.sinaimg.cn
 DOMAIN-SUFFIX,backlink-umsonst.de
 DOMAIN-SUFFIX,lciapi.ninthdecimal.com
 DOMAIN-SUFFIX,kerebro.com
@@ -10167,7 +10167,7 @@ DOMAIN-SUFFIX,pas-rahav.com
 DOMAIN-SUFFIX,piwik.pro
 DOMAIN-SUFFIX,vzlyapss.com
 DOMAIN-SUFFIX,qlmho.renhengshangmao.com
-# URL-REGEX,https?://img\w.g.pptv.com
+URL-REGEX,https?://img\w.g.pptv.com
 DOMAIN-SUFFIX,jjokvprdxwf.com
 DOMAIN-SUFFIX,onclickpredictiv.com
 DOMAIN-SUFFIX,womenclick.ru
@@ -10349,7 +10349,7 @@ DOMAIN-SUFFIX,rpc-php.trafficfactory.biz
 DOMAIN-SUFFIX,clickn.fang.com
 DOMAIN-SUFFIX,ad.12306.cn
 DOMAIN-SUFFIX,vra.outbrain.com
-# URL-REGEX,https?://\w+.kingsoft-office-service.com
+URL-REGEX,https?://\w+.kingsoft-office-service.com
 DOMAIN-SUFFIX,qgjapp.com
 DOMAIN-SUFFIX,choices.truste.com
 DOMAIN-SUFFIX,kuaishang.cn
@@ -10586,7 +10586,7 @@ DOMAIN-SUFFIX,balvalur.com
 DOMAIN-SUFFIX,xkgbbiqqekja.com
 DOMAIN-SUFFIX,wlzdghlzjewbwv.com
 DOMAIN-SUFFIX,zzkfs.xyz
-# URL-REGEX,https?://\w.?up.qingdaonews.com
+URL-REGEX,https?://\w.?up.qingdaonews.com
 DOMAIN-SUFFIX,yunjiasu.com
 DOMAIN-SUFFIX,state.sml2.ru
 DOMAIN-SUFFIX,mimg.7791.com.cn
@@ -13065,7 +13065,7 @@ DOMAIN-SUFFIX,winneradsmedia.com
 DOMAIN,iadmat.nosdn.127.net
 DOMAIN-SUFFIX,trafficzap.com
 DOMAIN-SUFFIX,ppinstall.com
-# URL-REGEX,https?://dl.app.gtja.com/.+\d+.jpg$
+URL-REGEX,https?://dl.app.gtja.com/.+\d+.jpg$
 DOMAIN-SUFFIX,zqdvdygz.com
 DOMAIN-SUFFIX,2fnrc.cn
 DOMAIN-SUFFIX,partners.parimatch.net
@@ -13510,7 +13510,7 @@ DOMAIN-SUFFIX,up4.ucweb.com
 DOMAIN-SUFFIX,zhihei.com
 DOMAIN-SUFFIX,sxcdn5.herokuapp.com
 DOMAIN-SUFFIX,weddingeeos.com
-# URL-REGEX,https?://(a?d|sax)\d.sina.com
+URL-REGEX,https?://(a?d|sax)\d.sina.com
 DOMAIN-SUFFIX,courgis.de
 DOMAIN-SUFFIX,jxswwvvejwzdd.com
 DOMAIN-SUFFIX,an.reflektion.com
@@ -13676,7 +13676,7 @@ DOMAIN-SUFFIX,api2.poperblocker.com
 DOMAIN-SUFFIX,pornostunde.com
 DOMAIN-SUFFIX,addroplet.com
 DOMAIN-SUFFIX,lvgliqkumatjv.com
-# URL-REGEX,https?://sax\w?.sina.cn
+URL-REGEX,https?://sax\w?.sina.cn
 DOMAIN-SUFFIX,static-ssp.yidianzixun.com
 DOMAIN-SUFFIX,sunnimiq2.cf
 DOMAIN-SUFFIX,v7.kawinhome.com
@@ -15562,7 +15562,7 @@ DOMAIN-SUFFIX,play.entretenimientolz.com
 DOMAIN-SUFFIX,zuowen.hydcd.com
 DOMAIN-SUFFIX,adfly.vn
 DOMAIN-SUFFIX,a.qiao024.com
-# URL-REGEX,https?://sax\w?.sina.com.cn
+URL-REGEX,https?://sax\w?.sina.com.cn
 DOMAIN-SUFFIX,togroltu.net
 DOMAIN-SUFFIX,tracking.lenzmx.com
 DOMAIN-SUFFIX,alloffs.ru
@@ -16865,7 +16865,7 @@ DOMAIN-SUFFIX,yiopqbbmugak.com
 DOMAIN-SUFFIX,frosmo.com
 DOMAIN-SUFFIX,crabbychin.com
 DOMAIN-SUFFIX,2d-c.cn
-# URL-REGEX,https?://t\d{2}.baidu.com
+URL-REGEX,https?://t\d{2}.baidu.com
 DOMAIN-SUFFIX,zckpaeifoq.com
 DOMAIN-SUFFIX,xmshqh.com
 DOMAIN-SUFFIX,m.bgkgko.cn
@@ -18862,7 +18862,7 @@ DOMAIN-SUFFIX,df77.com
 DOMAIN-SUFFIX,eco.vcbn65.xyz
 DOMAIN-SUFFIX,bodapet.com
 DOMAIN-SUFFIX,dujbubzvrdw.com
-# URL-REGEX,https?://[^bbs].tianya\.cn
+URL-REGEX,https?://[^bbs].tianya\.cn
 DOMAIN-SUFFIX,icapabloidsety.club
 DOMAIN-SUFFIX,m.sewxi.com
 DOMAIN-SUFFIX,chushoushijian.cn
@@ -19056,7 +19056,7 @@ DOMAIN-SUFFIX,rmvlpkaa.com
 DOMAIN-SUFFIX,acwgf.com
 DOMAIN-SUFFIX,xmas-xmas-wow.com
 DOMAIN-SUFFIX,utilistom.info
-# URL-REGEX,https?://\w+.cloudfront.net/banner
+URL-REGEX,https?://\w+.cloudfront.net/banner
 DOMAIN-SUFFIX,obynjduwh.bid
 DOMAIN-SUFFIX,analyticsnew.overwolf.com
 DOMAIN-SUFFIX,ads.fotoable.com
@@ -19925,7 +19925,7 @@ DOMAIN-SUFFIX,advonline.goforandroid.com
 DOMAIN-SUFFIX,dd.iask.cn
 DOMAIN-SUFFIX,gdyjs.com
 DOMAIN-SUFFIX,img1122.com
-# URL-REGEX,https?://[^(apple|10010)]+.(com|cn)\/(a|A)d(s|v)?(/|.js)
+URL-REGEX,https?://[^(apple|10010)]+.(com|cn)\/(a|A)d(s|v)?(/|.js)
 DOMAIN-SUFFIX,trader.erosdlz.com
 DOMAIN-SUFFIX,tracker.shopclues.com
 DOMAIN-SUFFIX,m.zhipianwu.com
@@ -22407,7 +22407,7 @@ DOMAIN-SUFFIX,ntsartingaccura.info
 DOMAIN-SUFFIX,sscefsol.com
 DOMAIN-SUFFIX,ijhpzjzjaujpov.com
 DOMAIN-SUFFIX,zgeuzenogpy.com
-# URL-REGEX,https?://api\d.tuisong.baidu.com
+URL-REGEX,https?://api\d.tuisong.baidu.com
 DOMAIN-SUFFIX,promoboom.org
 DOMAIN-SUFFIX,onuwbarslrii.bid
 DOMAIN-SUFFIX,awtks.com
@@ -24848,7 +24848,7 @@ DOMAIN-SUFFIX,gongeeta.net
 DOMAIN-SUFFIX,ezhdgoeat.com
 DOMAIN-SUFFIX,d1il9t8pu4dsoj.cloudfront.net
 DOMAIN-SUFFIX,kayakm.com
-# URL-REGEX,https?://notice.send-anywhere.com/banner
+URL-REGEX,https?://notice.send-anywhere.com/banner
 DOMAIN-SUFFIX,seiya.work
 DOMAIN-SUFFIX,a-ssl.ligatus.com
 DOMAIN-SUFFIX,hgukeujwsfgwrq.com
@@ -27116,7 +27116,7 @@ DOMAIN-SUFFIX,mz28ismn.com
 DOMAIN-SUFFIX,1haows.cn
 DOMAIN-SUFFIX,videortb.ru
 DOMAIN-SUFFIX,tatahn.com
-# URL-REGEX,https?://api.zhihu.com/(fringe|zst|real_time|ad-style-service|banners|topstory/hot-lists|market/popover|mqtt|me|.*launch|.*featured-comment-ad|search/(top|tabs|preset))
+URL-REGEX,https?://api.zhihu.com/(fringe|zst|real_time|ad-style-service|banners|topstory/hot-lists|market/popover|mqtt|me|.*launch|.*featured-comment-ad|search/(top|tabs|preset))
 DOMAIN-SUFFIX,sinaalicdn.com
 DOMAIN-SUFFIX,ezojs.com
 DOMAIN-SUFFIX,dlvkf5067xruv.cloudfront.net
@@ -27604,7 +27604,7 @@ DOMAIN-SUFFIX,llnxczmgusq.com
 DOMAIN-SUFFIX,plcsedkinoul.com
 DOMAIN-SUFFIX,pvstat.html5.qq.com
 DOMAIN-SUFFIX,wpan.sc2yun.com
-# URL-REGEX,https?://(e|m).+/((uu|oo).php.+|\d+.x?html\?$)
+URL-REGEX,https?://(e|m).+/((uu|oo).php.+|\d+.x?html\?$)
 DOMAIN-SUFFIX,yllasatra.xyz
 DOMAIN-SUFFIX,appsflybeta.biz
 DOMAIN-SUFFIX,4prgkoj870j9.com
@@ -33691,7 +33691,7 @@ DOMAIN-SUFFIX,adnetwork.5imedia.vn
 DOMAIN-SUFFIX,nighter.club
 DOMAIN-SUFFIX,oezto.com
 DOMAIN-SUFFIX,kas.keydot.net
-# URL-REGEX,https?://\w{8}.logic.cpm.cm.kankan.com
+URL-REGEX,https?://\w{8}.logic.cpm.cm.kankan.com
 DOMAIN-SUFFIX,ladskiz.com
 DOMAIN-SUFFIX,twcczhu.com
 DOMAIN-SUFFIX,yoc-adserver.com
@@ -33792,7 +33792,7 @@ DOMAIN-SUFFIX,kliksaya.com
 DOMAIN-SUFFIX,nmvqhlengcrur.com
 DOMAIN-SUFFIX,sel-sel-fie.com
 DOMAIN-SUFFIX,secure-wa-na.unileversolutions.com
-# URL-REGEX,https?://log.+?baidu.com
+URL-REGEX,https?://log.+?baidu.com
 DOMAIN-SUFFIX,swe.shylsp.com
 DOMAIN-SUFFIX,qevmzohvwxesrd.com
 DOMAIN-SUFFIX,tracker.stileo.it
@@ -40823,7 +40823,7 @@ DOMAIN-SUFFIX,jsc.marketgid.com
 DOMAIN-SUFFIX,nativeadmatch.com
 DOMAIN-SUFFIX,hprofits.com
 DOMAIN-SUFFIX,fouas.com
-# URL-REGEX,https?://\w+.gdt.qq.com
+URL-REGEX,https?://\w+.gdt.qq.com
 DOMAIN-SUFFIX,hotcounter.de
 DOMAIN-SUFFIX,freewebcams.com
 DOMAIN-SUFFIX,romksuecd.bid
@@ -40916,7 +40916,7 @@ DOMAIN-SUFFIX,jcwwxn.com
 DOMAIN-SUFFIX,lyehemarm.club
 DOMAIN-SUFFIX,p.vtracy.de
 DOMAIN-SUFFIX,binlayer.de
-# URL-REGEX,https?://h\w{2}.hxsame.hexun.com
+URL-REGEX,https?://h\w{2}.hxsame.hexun.com
 DOMAIN-SUFFIX,e.qj10b.cn
 DOMAIN-SUFFIX,nqmwfddfwogbhw.com
 DOMAIN-SUFFIX,standtrouble.com
@@ -42819,7 +42819,7 @@ DOMAIN-SUFFIX,go.traqueto.com
 DOMAIN-SUFFIX,geo.frtyd.com
 DOMAIN-SUFFIX,8547459af5da02.com
 DOMAIN-SUFFIX,geoip.pennlive.com
-# URL-REGEX,https?://a0b\w{2}.com
+URL-REGEX,https?://a0b\w{2}.com
 DOMAIN-SUFFIX,businessclick.com
 DOMAIN-SUFFIX,xshop3.ru
 DOMAIN-SUFFIX,1v7.cn
@@ -43392,7 +43392,7 @@ DOMAIN-SUFFIX,zsrycovuxfgzyn.com
 DOMAIN-SUFFIX,smartclip.net
 DOMAIN-SUFFIX,qqvatwaqtzgp.com
 DOMAIN-SUFFIX,scarabresearch.com
-# URL-REGEX,https?://sa\d.tuisong.baidu.com
+URL-REGEX,https?://sa\d.tuisong.baidu.com
 DOMAIN-SUFFIX,mcljm.top
 DOMAIN-SUFFIX,zm-bulu.cn
 DOMAIN-SUFFIX,s.dpcq1.net
@@ -46806,7 +46806,7 @@ DOMAIN-SUFFIX,ixeq490u20.com
 DOMAIN-SUFFIX,mcyopesbusomqf.com
 DOMAIN-SUFFIX,9669.com
 DOMAIN-SUFFIX,pixel.sprinklr.com
-# URL-REGEX,https?://www.bldimg.com/(background|splash)/.+.png$
+URL-REGEX,https?://www.bldimg.com/(background|splash)/.+.png$
 DOMAIN-SUFFIX,dpypzvjarj.com
 DOMAIN-SUFFIX,iwqzrm.com
 DOMAIN-SUFFIX,800d24d61daea3c.com
@@ -47440,7 +47440,7 @@ DOMAIN-SUFFIX,delainlygoverhe.info
 DOMAIN-SUFFIX,pvmax.net
 DOMAIN-SUFFIX,y.hk9600.com
 DOMAIN-SUFFIX,dvv.muyfgf.xyz
-# URL-REGEX,https?://impservice.+?youdao.com
+URL-REGEX,https?://impservice.+?youdao.com
 DOMAIN-SUFFIX,mcdstorage.com
 DOMAIN-SUFFIX,counter.powweb.com
 DOMAIN-SUFFIX,nuhcibapynaj.bid
@@ -48982,7 +48982,7 @@ DOMAIN-SUFFIX,call-tracking.co.uk
 DOMAIN-SUFFIX,ozrdgjalmch.com
 DOMAIN-SUFFIX,analytics.orenshmu.com
 DOMAIN-SUFFIX,nocwsbtdiiufa.bid
-# URL-REGEX,https?://server-\w+.imrworldwide.com
+URL-REGEX,https?://server-\w+.imrworldwide.com
 DOMAIN-SUFFIX,idbtfwllhogxc.com
 DOMAIN-SUFFIX,analytics-tracker.thescore.com
 DOMAIN-SUFFIX,sexcounter.com
