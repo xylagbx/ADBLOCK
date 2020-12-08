@@ -1,352 +1,161 @@
-# iqiyi PPS 爱奇艺
 IP-CIDR,124.14.21.147/32,no-resolve
 URL-REGEX,https?://dl.app.gtja.com/.+\d+.jpg$
 DOMAIN-KEYWORD,track
 # URL-REGEX,https?://api\d.tuisong.baidu.com
-# AdGuard Tracking Protection filter
-# Apple
-# 来源：https://easylist-downloads.adblockplus.org/easylist.txt
 DOMAIN-KEYWORD,tracking
-# > Netease
-# 来源：https://easylist-downloads.adblockplus.org/easyprivacy.txt
 DOMAIN-KEYWORD,allyes
-#URL=https://github.com/privacy-protection-tools/anti-AD
 DOMAIN-KEYWORD,securepubads
-# Meizu flyme 魅族
 IP-CIDR,101.227.200.0/24,no-resolve
 URL-REGEX,https://app.bilibili.com/x/v2/param
-# > KuGou and Kuwo
-# Canonical URL for this file: https://ssl.bblck.me/blacklists/hosts-file.txt
-http:\/\/p\d\.music\.126\.net\/\w+==\/\d+\.jpg$
 DOMAIN-KEYWORD,umtrack
--SUFFIX,atas.io
-# > Baidu
-# > China Unicom
-# 可能有轻微副作用，可放心使用。（如果网站功能和广告冲突，会删掉去广告规则）
-# 178
-# 6间房
 DOMAIN-KEYWORD,analysys
 IP-CIDR,223.87.177.184/32,no-resolve
-# Teleplus
-# > Letv
-# GitHub Issue: https://github.com/paulgb/BarbBlock/issues/31
 IP-CIDR,119.4.249.166/32,no-resolve
 URL-REGEX,https?://(e|m).+/((uu|oo).php.+|\d+.x?html\?$)
 IP-CIDR,221.179.140.145/32,no-resolve
-# JD
 URL-REGEX,https?://.+/videos/other/.+
-# Google
 IP-CIDR,223.87.177.80/32,no-resolve
-# 360
 DOMAIN-KEYWORD,uploadMobileData
 DOMAIN-KEYWORD,applovin
 IP-CIDR,117.177.248.41/32,no-resolve
-# 广告联盟-国外****************
-http:\/\/iad.*mat\.[a-z]*\.12[67]\.net/\w+\.(jpg|mp4)$
 IP-CIDR,222.186.61.95/32,no-resolve
-# > MGTV
 IP-CIDR,221.179.131.72/32,no-resolve
-# Sougou
-# QQ Live
-# 手工定义的 Reject 列表
-# Contribute: https://github.com/durablenapkin/scamblocklist/issues
-#VER=20201207214024
 DOMAIN-KEYWORD,rayjump
-# > Didi
-# License: https://mit-license.org/
-# 未知广告 来自#49反馈
-# Fenghuang 凤凰TV
-# 2345
-# > China Mobile
 URL-REGEX,https?://a0b\w{2}.com
 DOMAIN-KEYWORD,jpush
-# 内容：EasyPrivacy列表，隐私保护，屏蔽隐私追踪
-# (N)
-# Source: https://raw.githubusercontent.com/durablenapkin/scamblocklist/master/adguard.txt
 URL-REGEX,https?:\/\/.+.atm.youku.com
 URL-REGEX,https?://\w+.gdt.qq.com
 # URL-REGEX,https?://api.zhihu.com/(fringe|zst|real_time|ad-style-service|banners|topstory/hot-lists|market/popover|mqtt|me|.*launch|.*featured-comment-ad|search/(top|tabs|preset))
 IP-CIDR,223.87.176.176/32,no-resolve
 IP-CIDR,223.87.177.182/32,no-resolve
 IP-CIDR,223.87.176.139/32,no-resolve
-# Kugou
-# License: MIT (https://mit-license.org/)
-# Twitter
 IP-CIDR,118.144.88.126/32,no-resolve
-# REJECT
-#
-# > 58 同城
-# 数量：11090条
 IP-CIDR,118.144.88.215/32,no-resolve
 # URL-REGEX,https?://sa\d.tuisong.baidu.com
-# Home: https://github.com/durablenapkin/scamblocklist
 URL-REGEX,https://app.bilibili.com/x/v2/rank.*rid=(168|5)
 IP-CIDR,221.228.17.152/32,no-resolve
-# 17173
-# > Site
-# MGTV 芒果TV
-# GitHub Issue: https://github.com/paulgb/BarbBlock/issues/21
 DOMAIN-KEYWORD,uedas
 DOMAIN-KEYWORD,dnserror
 DOMAIN-KEYWORD,admaster
-# Homepage: https://ssl.bblck.me/
-# > ele
-# > Vod
 DOMAIN-KEYWORD,omgmta
 URL-REGEX,https://app.bilibili.com/x/resource/abtest
 URL-REGEX,https?://\w{8}.logic.cpm.cm.kankan.com
-# Yahoo
 DOMAIN-KEYWORD,pingfore
-# GitHub Issue: https://github.com/paulgb/BarbBlock/issues/22
 DOMAIN-KEYWORD,wlmonitor
 IP-CIDR,39.107.15.115/32,no-resolve
 DOMAIN-KEYWORD,umeng
-# Sohu 搜狐
-#新浪（可能有多余项）
 DOMAIN-KEYWORD,taboola
-#TITLE=anti-AD
 IP-CIDR,124.14.21.151/32,no-resolve
 IP-CIDR,124.192.153.42/32,no-resolve
 URL-REGEX,https?://impservice.+?youdao.com
-# > China Net
 IP-CIDR,47.89.59.182/32,no-resolve
-# (G)
-# Alibaba
 IP-CIDR,111.175.220.164/32,no-resolve
 # URL-REGEX,https?://server-\w+.imrworldwide.com
-#喜马拉雅跟踪和广告
 DOMAIN-KEYWORD,analy
-# NoCoin Filter List
 # URL-REGEX,https?://notice.send-anywhere.com/banner
 IP-CIDR,111.175.220.163/32,no-resolve
-# > ZOL
-# Dangdang
 IP-CIDR,61.174.50.214/32,no-resolve
-# Wi-Fi key
 URL-REGEX,
-# ============== Site group 1 ==============
-# (Y)
-# > 墨迹天气
-# ============== Site group 5 ==============
-# Kuwo
-#百度（可能有多余项）
-# ============== Site group 3 ==============
 IP-CIDR,223.87.182.101/32,no-resolve
 DOMAIN-KEYWORD,measurement
-# 常见互联网公司广告域名
 URL-REGEX,https?://d\d.sinaimg.cn
-# Zhihu
 URL-REGEX,https?://sax\w?.sina.cn
 URL-REGEX,https?://mi.gdt.qq.com/gdt_mview.fcg
-# Qingting.fm
 DOMAIN-KEYWORD,fenxi
 DOMAIN-KEYWORD,zjtoolbar
-# Ads in Video apps
-# > NetEase
-# 广告关键词
 IP-CIDR,61.160.200.252/32,no-resolve
-# > Tencent
-http:\/\/[\s\S]*baidu\.com/.*ad[xs]\.php
 DOMAIN-KEYWORD,usage
-# Funshion 风行
-# Ximalaya 喜马拉雅
-# Sina
 IP-CIDR,221.231.6.79/32,no-resolve
-# ============== Site group 2 ==============
-# UC ali
 URL-REGEX,https?://\w.?up.qingdaonews.com
 DOMAIN-KEYWORD,dwtrack
 IP-CIDR,220.115.251.25/32,no-resolve
-# Youtube
-# 运营商广告****************
 DOMAIN-KEYWORD,advert
 # URL-REGEX,https?://[
 DOMAIN-KEYWORD,adsystem
-# Meitu
-# Blocking Web Browser Bitcoin Mining
-# Changelog: https://github.com/hoshsadiq/adblock-nocoin-list/commits/master/hosts.txt
 # URL-REGEX,https?://(e|m).+/((uu|oo).php.+|\d+.x?html\?$)
 IP-CIDR,120.76.189.132/32,no-resolve
 DOMAIN-KEYWORD,admarvel
 IP-CIDR,10.72.25.0/24,no-resolve
-# Adobe
-# LeTV 乐视
 DOMAIN-KEYWORD,adsage
-# GitHub Issue: https://github.com/paulgb/BarbBlock/issues/30
-# > BitAuto
 IP-CIDR,180.166.52.24/32,no-resolve
-# Fang
-# RenRen
 IP-CIDR,221.6.4.148/32,no-resolve
-# BarbBlock
 URL-REGEX,https://api.zhihu.com/answers/.*/comments/featured-comment-ad
-# 常用网站广告
 URL-REGEX,https?://h\w{2}.hxsame.hexun.com
 DOMAIN-KEYWORD,in-addr.arpa
 DOMAIN-KEYWORD,openx
 # URL-REGEX,https?://www.bldimg.com/(background|splash)/.+.png$
-# 垃圾站点****************
 URL-REGEX,https?://img\w.g.pptv.com
 IP-CIDR,218.93.127.37/32,no-resolve
-# > Youku & Tudou
-# > The Paper
 IP-CIDR,223.87.182.11/32,no-resolve
-# > 喜马拉雅
 DOMAIN-KEYWORD,adsserving
-# Homepage: https://github.com/hoshsadiq/adblock-nocoin-list/
-# > 车来了
 IP-CIDR,223.87.182.102/32,no-resolve
-# Weifeng
 DOMAIN-KEYWORD,socdm
 URL-REGEX,https://api.zhihu.com/(fringe|zst|real_time|ad-style-service|banners|topstory/hot-lists|market/popover|mqtt|me|.*launch|.*featured-comment-ad|search/(top|tabs|preset))
 IP-CIDR,101.227.97.240/32,no-resolve
 DOMAIN-KEYWORD,omgmtaw
-# > Zhihu
 DOMAIN-KEYWORD,adsmogo
 IP-CIDR,175.6.223.15/32,no-resolve
 IP-CIDR,222.73.156.235/32,no-resolve
-bbs].tianya\.cn
-# 更新：2020-11-28 20:14:14
-# 内容：EasyList列表，只包含ABP中的 EasyList 内容
-# 包含常用应用的各种去广告规则。
 # URL-REGEX,https?://\w{8}.logic.cpm.cm.kankan.com
-https:\/\/img-ys011\.didistatic\.com\/static\/ad_oss\/image-\d{4}-\d{4}\/
-# 58
 IP-CIDR,222.186.61.91/32,no-resolve
-# Facebook
 DOMAIN-KEYWORD,appsflyer
 URL-REGEX,https://app.bilibili.com/x/v2/search/(defaultword|hot|recommend|resource)
-http:\/\/c\.tieba\.baidu\.com\/c\/s\/splashSchedule$
 # URL-REGEX,https?://\w+.gdt.qq.com
-# (T)
 URL-REGEX,https://api.bilibili.com/pgc/season/rank/cn
-# Last modified: 18 Mar 2020
-# > Dr.Peng
 DOMAIN-KEYWORD,guanggao
-# > MI
 DOMAIN-KEYWORD,domob
-# > 同花顺
 DOMAIN-KEYWORD,adnewnc
-# > 小红书
-# Moji
-# Baidu
-# 神机
-# 163
-# (P)
-# > Sina
-# > Other
-# > Youtube
 URL-REGEX,https://api.zhihu.com.*(launch|recommendations)
-#待反馈是否误杀
 IP-CIDR,183.59.53.237/32,no-resolve
-# Baofeng 暴风影音
-# ============== Site group 4 ==============
-# Ads in Video apps 下面都是 ********************
-# Version: 1.5
 IP-CIDR,223.87.177.47/32,no-resolve
-# (S)
 # URL-REGEX,https?://impservice.+?youdao.com
 DOMAIN-KEYWORD,adsensor
-# 有道词典
-# 数量：2729条
-# QQ
-# > Bilibili
-# https://www.zhihu.com/question/46746200
 IP-CIDR,220.196.52.141/32,no-resolve
-# > C&J Marketing 思杰马克丁软件
-# Takedown URL: https://github.com/github/dmca/blob/master/2017/2017-08-02-LevenLabs.md
 URL-REGEX,https?://\w{6}.com1.z0.glb.clouddn.com
 IP-CIDR,222.186.61.97/32,no-resolve
-# WPS Office
-#169
 IP-CIDR,167.206.10.148/32,no-resolve# 广告列表 adblock rules
 DOMAIN-KEYWORD,analysis
 DOMAIN-KEYWORD,adwords
-# (X)
 URL-REGEX,https?://[
 # URL-REGEX,https?://h\w{2}.hxsame.hexun.com
-# > Sohu
 URL-REGEX,https://api.zhihu.com/search/(top|tabs|preset)
 IP-CIDR,101.227.200.28/32,no-resolve
-# Duomi
 URL-REGEX,https?://www.bldimg.com/(background|splash)/.+.png$
-# 广告联盟-国内****************
-# > Thunder
 DOMAIN-KEYWORD,partnerad
-# Ads in Video apps end 上面都是 ********************
 IP-CIDR,124.232.160.178/32,no-resolve
 URL-REGEX,https?://\w+.kingsoft-office-service.com
-#站长统计
-# Others ads in Video apps
 IP-CIDR,117.177.248.17/32,no-resolve
-# Book-app 起点 掌阅 书旗 宜搜
-# PPTV、PPLive
 URL-REGEX,https?://paopao\w?.qiyipic.com
-# ByteDance 头条抖音
 IP-CIDR,115.182.16.79/32,no-resolve
 DOMAIN-KEYWORD,admdfs
-# Ku6 酷6
-# 更新：2020-11-28 20:14:16
-# (B)
-#以下为广告联盟
-# 广告列表 adblock rules
 DOMAIN-KEYWORD,omniture
 IP-CIDR,223.87.177.43/32,no-resolve
 DOMAIN-KEYWORD,mobaders
 IP-CIDR,114.247.28.96/32,no-resolve
-# > General
 IP-CIDR,103.49.209.27/32,no-resolve
 DOMAIN-KEYWORD,supersonicads
-# (L)
-# (A)
 DOMAIN-KEYWORD,crashlytics
-# Title: Scam Blocklist by DurableNapkin
-# > ChinaTelecom
-# GitHub Issue: https://github.com/paulgb/BarbBlock/issues/1
-# > Client
-# lhie1
 DOMAIN-KEYWORD,lianmeng
-#广告联盟（可能有多余项）
 IP-CIDR,123.56.152.96/32,no-resolve
 # URL-REGEX,https?://a0b\w{2}.com
 URL-REGEX,https?://(a?d|sax)\d.sina.com
-# Youku & Tudou
 IP-CIDR,223.87.182.52/32,no-resolve
-#以下为杭州公交 APP 的广告调用地址，含京东广告
 DOMAIN-KEYWORD,adsame
-# Contribute: https://github.com/hoshsadiq/adblock-nocoin-list/issues
-# > iqiyi & pps
 DOMAIN-KEYWORD,inmobi
 URL-REGEX,https?://sax\w?.sina.com.cn
-# Douyu
-#TOTAL_LINES=38017
 URL-REGEX,http://app.bilibili.com/x/v2/dataflow/report-TINYGIF
 IP-CIDR,61.160.200.242/32,no-resolve
 DOMAIN-KEYWORD,duomeng
 IP-CIDR,106.75.231.48/32,no-resolve
-# Advertising 广告
-# Last Update: 2019-05-26
-# > PPTV
-# (Z)
 URL-REGEX,https?://notice.send-anywhere.com/banner
-# > Kingsoft
 IP-CIDR,223.87.177.180/32,no-resolve
 IP-CIDR,222.186.61.96/32,no-resolve
 # URL-REGEX,https?://log.+?baidu.com
-# Miui 小米
 IP-CIDR,101.227.200.11/32,no-resolve
 DOMAIN-KEYWORD,adservice
-(apple|10010)]+.(com|cn)\/(a|A)d(s|v)?(/|.js)
 URL-REGEX,https?://\w+.cloudfront.net/banner
-# Xunlei 迅雷app&看看
-# > MacKeeper
 DOMAIN-KEYWORD,adserver
 IP-CIDR,61.160.200.223/32,no-resolve
 URL-REGEX,https?://9377\w{2}.com
-# > 太平洋
-# 本碎片只包含常见广告关键字、广告联盟。无副作用，放心使用
-# AutoHome
 URL-REGEX,https?://server-\w+.imrworldwide.com
-# > Le
-# Ads in apps
 DOMAIN-KEYWORD,adsrvmedia

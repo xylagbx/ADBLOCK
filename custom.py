@@ -5,7 +5,7 @@ import requests
 from posix import remove
 import re
 # import chardet
-import codecs
+# import codecs
 # import urllib.request
 # import sys
 import string
@@ -25,17 +25,17 @@ urls = [('https://anti-ad.net/surge.txt',
         ('https://raw.githubusercontent.com/lhie1/Rules/master/Surge/Surge%203/Provider/Reject.list',
          '/Users/bx/Library/Mobile Documents/com~apple~CloudDocs/备忘/custom/原始文件/Rule_set/Reject.txt')]
 
-# ||
+# || 开头的规则
 Adblock = [('https://raw.githubusercontent.com/durablenapkin/scamblocklist/master/adguard.txt',
             '/Users/bx/Library/Mobile Documents/com~apple~CloudDocs/备忘/custom/原始文件/AdGuard/Scam Blocklist by DurableNapkin.txt')]
 
-# domain
+# domain 开头的规则
 Domain = [('https://raw.githubusercontent.com/Spam404/lists/master/main-blacklist.txt',
            '/Users/bx/Library/Mobile Documents/com~apple~CloudDocs/备忘/custom/原始文件/AdGuard/Spam404.txt'),
           ('https://raw.githubusercontent.com/mitchellkrogza/The-Big-List-of-Hacked-Malware-Web-Sites/master/hacked-domains.list',
            '/Users/bx/Library/Mobile Documents/com~apple~CloudDocs/备忘/custom/原始文件/AdGuard/The Big List of Hacked Malware Web Sites.txt')]
 
-# 0.0.0.0
+# 0.0.0.0 开头的规则
 Host = [('https://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/hosts.txt',
          '/Users/bx/Library/Mobile Documents/com~apple~CloudDocs/备忘/custom/原始文件/AdGuard/NoCoin Filter List.txt'),
         ('https://paulgb.github.io/BarbBlock/blacklists/hosts-file.txt',
@@ -55,27 +55,27 @@ host = open(
     '/Users/bx/Library/Mobile Documents/com~apple~CloudDocs/备忘/custom/host.txt', 'w')
 
 #
-my_black = my_black.read()
+# my_black = my_black.read()
 # my_white = my_white.read()
 
 
 # 从云端下载并保存在本地
-for web_url, local_url in urls:
-    myfile = requests.get(web_url)
-    open(local_url, 'wb').write(myfile.content)
-for web_url, local_url in Adblock:
-    myfile = requests.get(web_url)
-    open(local_url, 'wb').write(myfile.content)
-for web_url, local_url in Domain:
-    myfile = requests.get(web_url)
-    open(local_url, 'wb').write(myfile.content)
-for web_url, local_url in Host:
-    myfile = requests.get(web_url)
-    open(local_url, 'wb').write(myfile.content)
+# for web_url, local_url in urls:
+#     myfile = requests.get(web_url)
+#     open(local_url, 'wb').write(myfile.content)
+# for web_url, local_url in Adblock:
+#     myfile = requests.get(web_url)
+#     open(local_url, 'wb').write(myfile.content)
+# for web_url, local_url in Domain:
+#     myfile = requests.get(web_url)
+#     open(local_url, 'wb').write(myfile.content)
+# for web_url, local_url in Host:
+#     myfile = requests.get(web_url)
+#     open(local_url, 'wb').write(myfile.content)
 
 
 # 合并文件
-AdBlockList.write(my_black)
+AdBlockList.write(my_black.read())
 for web_url, local_url in urls:
     x = open(local_url,  "r")
     AdBlockList.write(x.read())
@@ -96,10 +96,11 @@ AdBlockList.close()
 adblock.close()
 domain.close()
 host.close()
+my_black.close()
 
 
 # 对 adblock 规则进行修改
-# 将 ! 替换为 #
+# 将 ! 替换为 # ，将 '^' 替换为 '\n' ，替换开头的 '||' 为 'DOMAIN-SUFFIX,'
 adblock = open(
     '/Users/bx/Library/Mobile Documents/com~apple~CloudDocs/备忘/custom/adblock.txt', 'r')
 alllines = adblock.readlines()
@@ -108,36 +109,13 @@ adblock = open(
     '/Users/bx/Library/Mobile Documents/com~apple~CloudDocs/备忘/custom/adblock.txt', 'w')
 for eachline in alllines:
     # a = re.sub('!', '#', eachline)
-    a = eachline.replace('!', '#')
+    a = eachline.replace('!', '\n#')
+    a = a.replace('^', '\n')
+    a = a.replace('||', 'DOMAIN-SUFFIX,')
     adblock.writelines(a)
 adblock.close()
 
-# 删除末尾的 '^'
-adblock = open(
-    '/Users/bx/Library/Mobile Documents/com~apple~CloudDocs/备忘/custom/adblock.txt', 'r')
-alllines = adblock.readlines()
-adblock.close()
-adblock = open(
-    '/Users/bx/Library/Mobile Documents/com~apple~CloudDocs/备忘/custom/adblock.txt', 'w')
-for eachline in alllines:
-    a = eachline.replace('^', '')
-    # a = re.sub('^\n', '\n', eachline)
-    # a = eachline.strip('^')
-    adblock.writelines(a)
-adblock.close()
 
-# 替换开头的 '||' 为 'DOMAIN-SUFFIX,'
-adblock = open(
-    '/Users/bx/Library/Mobile Documents/com~apple~CloudDocs/备忘/custom/adblock.txt', 'r')
-alllines = adblock.readlines()
-adblock.close()
-adblock = open(
-    '/Users/bx/Library/Mobile Documents/com~apple~CloudDocs/备忘/custom/adblock.txt', 'w')
-for eachline in alllines:
-    # a = re.sub('||', 'DOMAIN-SUFFIX,', eachline)
-    a = eachline.replace('||', 'DOMAIN-SUFFIX,')
-    adblock.writelines(a)
-adblock.close()
 
 # 对 domain 规则进行修改
 # 将 ! 替换为 #
@@ -194,9 +172,9 @@ AdBlockList = open(
     '/Users/bx/Library/Mobile Documents/com~apple~CloudDocs/备忘/custom/AdBlockList.txt', 'w')
 for eachline in alllines:
     # a = re.sub('^\n', '\n', eachline)
-    a = eachline.replace('^', '')
-    a = a.replace('$important', '')
-    a = a.strip('imo.com')
+    a = eachline.replace('^', '\n')
+    # a = a.replace('$important', '')
+    # a = a.strip('imo.com')
     # a = a.replace(',DIRECT\n', '\n')
     # a = eachline.strip('^')
     AdBlockList.writelines(a)
@@ -205,7 +183,7 @@ AdBlockList.close()
 # 删除本地原有的文件
 # remove('/Users/bx/Library/Mobile Documents/com~apple~CloudDocs/备忘/custom/AdBlock.txt')
 
-# 新建一个 Rule_set.txt 文件，如果已经存在，就覆盖掉它
+# 新建一个 RuleSet.txt 文件，如果已经存在，就覆盖掉它
 RuleSet = open(
     '/Users/bx/Library/Mobile Documents/com~apple~CloudDocs/备忘/custom/RuleSet.list', 'wb')
 RuleSet.close()
@@ -224,43 +202,14 @@ with AdBlockList as f, RuleSet as ff:
 AdBlockList.close()
 RuleSet.close()
 
-
+# 删除具有特定内容的行
 with open('/Users/bx/Library/Mobile Documents/com~apple~CloudDocs/备忘/custom/RuleSet.list', "r+") as f:
-    p = re.compile("#|URL-REGEX,|/|_|\*")
+    # p = re.compile("#|/|_|\*|\^")
+    p = re.compile("\^")
     lines = [line for line in f.readlines() if p.search(line) is None]
     f.seek(0)
     f.truncate(0)
     f.writelines(lines)
-
-
-ruleset = open(
-    '/Users/bx/Library/Mobile Documents/com~apple~CloudDocs/备忘/custom/RuleSet.list', 'r')
-alllines = ruleset.readlines()
-ruleset.close()
-ruleset = open(
-    '/Users/bx/Library/Mobile Documents/com~apple~CloudDocs/备忘/custom/RuleSet.txt', 'w')
-for eachline in alllines:
-    # a = eachline.decode('utf-8')
-    # printable = set(string.eachline)
-    # a = filter(lambda x: x in eachline, s)
-    for char in eachline:
-        char = ord(char)
-        # a = a.decode('utf-8')
-    ruleset.writelines(eachline)
-ruleset.close()
-
-
-# content = codecs.open(
-#     '/Users/bx/Library/Mobile Documents/com~apple~CloudDocs/备忘/custom/RuleSet.list', 'r', 'utf-8').write(content)
-
-# codecs.open("/Users/bx/Library/Mobile Documents/com~apple~CloudDocs/备忘/custom/RuleSet.txt",
-#             'w', encoding='ascii').write(content)
-
-filename = '/Users/bx/Library/Mobile Documents/com~apple~CloudDocs/备忘/custom/RuleSet.txt'
-content = codecs.open(filename, 'r').read()
-# rule = content.write(content)
-# sys.stdout = codecs.getwriter("utf-8")(sys.stdout.detach())
-codecs.open(filename, 'w', encoding='utf-8').write(content)
 
 
 # Domain-set 规则集
@@ -311,8 +260,10 @@ try:
 finally:
     DomainSet.close()
 
+# IP-CIDR 规则集
 
-# Rule-set 规则集
+
+# keyword 规则集
 with open('/Users/bx/Library/Mobile Documents/com~apple~CloudDocs/备忘/custom/RuleSet.list', "r+") as f:
     p = re.compile("DOMAIN-SUFFIX,|DOMAIN,")
     lines = [line for line in f.readlines() if p.search(line) is None]
@@ -326,7 +277,7 @@ f = open('/Users/bx/Library/Mobile Documents/com~apple~CloudDocs/备忘/custom/o
          'w', encoding='UTF-8')
 try:
     for line in RuleSet:
-        g = re.search("DOMAIN-KEYWORD,", line)
+        g = re.search("DOMAIN-KEYWORD,|IP-CIDR,|URL-REGEX,", line)
         if g:
             # print(g.group())
             f.writelines(line)
@@ -334,19 +285,19 @@ finally:
     RuleSet.close()
     f.close()
 
-RuleSet = open(
-    '/Users/bx/Library/Mobile Documents/com~apple~CloudDocs/备忘/custom/RuleSet.list', 'w')
-out1 = open(
-    '/Users/bx/Library/Mobile Documents/com~apple~CloudDocs/备忘/custom/out1.txt', 'r')
-RuleSet.write(out1.read())
-RuleSet.close()
-out1.close()
+# RuleSet = open(
+#     '/Users/bx/Library/Mobile Documents/com~apple~CloudDocs/备忘/custom/RuleSet.list', 'w')
+# out1 = open(
+#     '/Users/bx/Library/Mobile Documents/com~apple~CloudDocs/备忘/custom/out1.txt', 'r')
+# RuleSet.write(out1.read())
+# RuleSet.close()
+# out1.close()
 
 
-remove('/Users/bx/Library/Mobile Documents/com~apple~CloudDocs/备忘/custom/AdBlockList.txt')
-remove('/Users/bx/Library/Mobile Documents/com~apple~CloudDocs/备忘/custom/adblock.txt')
-remove('/Users/bx/Library/Mobile Documents/com~apple~CloudDocs/备忘/custom/domain.txt')
-remove('/Users/bx/Library/Mobile Documents/com~apple~CloudDocs/备忘/custom/host.txt')
+# remove('/Users/bx/Library/Mobile Documents/com~apple~CloudDocs/备忘/custom/AdBlockList.txt')
+# remove('/Users/bx/Library/Mobile Documents/com~apple~CloudDocs/备忘/custom/adblock.txt')
+# remove('/Users/bx/Library/Mobile Documents/com~apple~CloudDocs/备忘/custom/domain.txt')
+# remove('/Users/bx/Library/Mobile Documents/com~apple~CloudDocs/备忘/custom/host.txt')
 # remove('/Users/bx/Library/Mobile Documents/com~apple~CloudDocs/备忘/custom/RuleSet.txt')
-remove('/Users/bx/Library/Mobile Documents/com~apple~CloudDocs/备忘/custom/out.txt')
-remove('/Users/bx/Library/Mobile Documents/com~apple~CloudDocs/备忘/custom/out1.txt')
+# remove('/Users/bx/Library/Mobile Documents/com~apple~CloudDocs/备忘/custom/out.txt')
+# remove('/Users/bx/Library/Mobile Documents/com~apple~CloudDocs/备忘/custom/out1.txt')
