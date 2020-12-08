@@ -11,17 +11,16 @@ import re
 # import string
 
 
-RuleSet = open(
-    '/Users/bx/Library/Mobile Documents/com~apple~CloudDocs/备忘/custom/RuleSet.list', 'r')
+RuleSet = open(r'DOMAIN-BLOCK.txt', 'r')
 test = open(
-    '/Users/bx/Library/Mobile Documents/com~apple~CloudDocs/备忘/custom/test.txt', 'r+')
+    r'test.txt', 'w')
 test.write(RuleSet.read())
 RuleSet.close()
 test.close()
 
 
 test = open(
-    '/Users/bx/Library/Mobile Documents/com~apple~CloudDocs/备忘/custom/test.txt', 'r+')
+    r'test.txt', 'r+')
 with test as f:
     p = re.compile("DOMAIN-SUFFIX,|DOMAIN-KEYWORD,|DOMAIN,")
     lines = [line for line in f.readlines() if p.search(line) is None]

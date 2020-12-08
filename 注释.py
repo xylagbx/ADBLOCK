@@ -85,16 +85,16 @@ def Merge_Files(tag, urls):
     tag.close()
 
 
-def Replace_Words(File_r, File_w, tag, org):
-    """
-    将 File 文件中的某些字符或字符串 org 替换为 tag
-    """
-    alllines = File_r.readlines()
-    File_r.close()
-    for eachline in alllines:
-        a = eachline.replace(org, tag)
-        File_w.writelines(a)
-    File_w.close()
+# def Replace_Words(File_r, File_w, tag, org):
+#     """
+#     将 File 文件中的某些字符或字符串 org 替换为 tag
+#     """
+#     alllines = File_r.readlines()
+#     File_r.close()
+#     for eachline in alllines:
+#         a = eachline.replace(org, tag)
+#         File_w.writelines(a)
+#     File_w.close()
 
 
 def Extract_Line(file1, file2, words):

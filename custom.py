@@ -125,11 +125,11 @@ Merge_Files(domain, Domain)
 Merge_Files(host, Host)
 
 
-# 创建 URL-BLOCK 规则集
+# 创建 BLOCK-URL 规则集
 Extract_Line(open(r'AdBlockList.txt', 'r'), open(
-    r'URL-BLOCK.txt', 'w'), "URL-REGEX,")
-Remove_Repetition(open(r'URL-BLOCK.txt', 'r'), open(r'out2.txt', 'a'))
-URLBLOCK = open(r'URL-BLOCK.txt', 'w')
+    r'BLOCK-URL.txt', 'w'), "URL-REGEX,")
+Remove_Repetition(open(r'BLOCK-URL.txt', 'r'), open(r'out2.txt', 'a'))
+URLBLOCK = open(r'BLOCK-URL.txt', 'w')
 out2 = open(r'out2.txt', 'r')
 URLBLOCK.write(out2.read())
 URLBLOCK.close()
@@ -227,22 +227,21 @@ RuleSet.close()
 Remove_Repetition(open(r'AdBlockList.txt', 'r'), open(r'RuleSet.list', 'a'))
 
 
-# Domain-set 规则集
+# 创建 DOMAIN-SET 规则集
 Extract_Line(open(r'RuleSet.list', 'r'), open(
-    r'out.txt', 'w'), "DOMAIN-SUFFIX,|DOMAIN,")
+    r'BLOCK-DOMAIN.txt', 'w'), "DOMAIN-SUFFIX,|DOMAIN,")
 
-# 将 out.txt 的内容复制给 DomainSet.list
-DomainSet = open(r'DomainSet.list', 'w')
-out = open(r'out.txt', 'r')
-DomainSet.write(out.read())
-DomainSet.close()
+# 将 out.txt 的内容复制给 BLOCK-DOMAIN-SET.list
+BLOCKDomainSet = open(r'BLOCK-DOMAIN-SET.list', 'w')
+out = open(r'BLOCK-DOMAIN.txt', 'r')
+BLOCKDomainSet.write(out.read())
+BLOCKDomainSet.close()
 out.close()
 
-# 创建 DOMAIN-SET 规则集
-File_r = open(r'DomainSet.list', 'r')
+File_r = open(r'BLOCK-DOMAIN-SET.list', 'r')
 alllines = File_r.readlines()
 File_r.close()
-File_w = open(r'DomainSet.list', 'w')
+File_w = open(r'BLOCK-DOMAIN-SET.list', 'w')
 for eachline in alllines:
     a = eachline.replace('DOMAIN-SUFFIX,', '.')
     File_w.writelines(a)
@@ -258,17 +257,17 @@ for eachline in alllines:
 File_w.close()
 
 # 将 DOMAIN-SET 规则集中
-# Extract_Line(open(r'DomainSet.list', 'r'), open(r'out.txt', 'w'), "\.")
+# Extract_Line(open(r'BLOCK-DOMAIN-SET.list', 'r'), open(r'out.txt', 'w'), "\.")
 
 
 # IP-CIDR 规则集
 Extract_Line(open(r'RuleSet.list', 'r'), open(
-    r'IP-CIDR-BLOCK.txt', 'w'), "IP-CIDR,")
+    r'BLOCK-IP-CIDR.txt', 'w'), "IP-CIDR,")
 
-File_r = open(r'IP-CIDR-BLOCK.txt', 'r')
+File_r = open(r'BLOCK-IP-CIDR.txt', 'r')
 alllines = File_r.readlines()
 File_r.close()
-File_w = open(r'IP-CIDR-BLOCK.txt', 'w')
+File_w = open(r'BLOCK-IP-CIDR.txt', 'w')
 for eachline in alllines:
     a = eachline.replace('# 广告列表 adblock rules', '')
     File_w.writelines(a)
@@ -276,7 +275,7 @@ File_w.close()
 
 # keyword 规则集
 Extract_Line(open(r'RuleSet.list', 'r'), open(
-    r'KEYWORD-BLOCK.txt', 'w'), "DOMAIN-KEYWORD,")
+    r'BLOCK-KEYWORD.txt', 'w'), "DOMAIN-KEYWORD,")
 
 
 # RuleSet = open(
@@ -288,10 +287,10 @@ Extract_Line(open(r'RuleSet.list', 'r'), open(
 # out1.close()
 
 
-# remove(r'AdBlockList.txt')
-# remove(r'adblock.txt')
-# remove(r'domain.txt')
-# remove(r'host.txt')
+remove(r'AdBlockList.txt')
+remove(r'adblock.txt')
+remove(r'domain.txt')
+remove(r'host.txt')
 # remove(r'RuleSet.txt')
 # remove(r'out.txt')
-# remove(r'out1.txt')
+remove(r'out2.txt')
