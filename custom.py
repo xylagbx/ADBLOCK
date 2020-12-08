@@ -261,23 +261,50 @@ finally:
     DomainSet.close()
 
 # IP-CIDR 规则集
-
-
-# keyword 规则集
-with open('/Users/bx/Library/Mobile Documents/com~apple~CloudDocs/备忘/custom/RuleSet.list', "r+") as f:
-    p = re.compile("DOMAIN-SUFFIX,|DOMAIN,")
-    lines = [line for line in f.readlines() if p.search(line) is None]
-    f.seek(0)
-    f.truncate(0)
-    f.writelines(lines)
-
 RuleSet = open(
     '/Users/bx/Library/Mobile Documents/com~apple~CloudDocs/备忘/custom/RuleSet.list', 'r', encoding='UTF-8')
-f = open('/Users/bx/Library/Mobile Documents/com~apple~CloudDocs/备忘/custom/out1.txt',
+f = open('/Users/bx/Library/Mobile Documents/com~apple~CloudDocs/备忘/custom/IP-CIDR-BLOCK.txt',
          'w', encoding='UTF-8')
 try:
     for line in RuleSet:
-        g = re.search("DOMAIN-KEYWORD,|IP-CIDR,|URL-REGEX,", line)
+        g = re.search("IP-CIDR,", line)
+        if g:
+            # print(g.group())
+            f.writelines(line)
+finally:
+    RuleSet.close()
+    f.close()
+
+# keyword 规则集
+# with open('/Users/bx/Library/Mobile Documents/com~apple~CloudDocs/备忘/custom/RuleSet.list', "r+") as f:
+#     p = re.compile("DOMAIN-SUFFIX,|DOMAIN,")
+#     lines = [line for line in f.readlines() if p.search(line) is None]
+#     f.seek(0)
+#     f.truncate(0)
+#     f.writelines(lines)
+
+RuleSet = open(
+    '/Users/bx/Library/Mobile Documents/com~apple~CloudDocs/备忘/custom/RuleSet.list', 'r', encoding='UTF-8')
+f = open('/Users/bx/Library/Mobile Documents/com~apple~CloudDocs/备忘/custom/KEYWORD-BLOCK.txt',
+         'w', encoding='UTF-8')
+try:
+    for line in RuleSet:
+        g = re.search("DOMAIN-KEYWORD,", line)
+        if g:
+            # print(g.group())
+            f.writelines(line)
+finally:
+    RuleSet.close()
+    f.close()
+
+# URL-REGEX,
+RuleSet = open(
+    '/Users/bx/Library/Mobile Documents/com~apple~CloudDocs/备忘/custom/RuleSet.list', 'r', encoding='UTF-8')
+f = open('/Users/bx/Library/Mobile Documents/com~apple~CloudDocs/备忘/custom/URL-BLOCK.txt',
+         'w', encoding='UTF-8')
+try:
+    for line in RuleSet:
+        g = re.search("URL-REGEX,", line)
         if g:
             # print(g.group())
             f.writelines(line)
