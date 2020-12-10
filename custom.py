@@ -441,12 +441,36 @@ PRuleSet = open(r'PRuleSet.list', 'w')
 PRuleSet.close()
 
 # 去重
-Remove_Repetition(open(r'AdBlockList.txt', 'r',
-                       encoding="utf-8"), open(r'RuleSet.list', 'a'))
-Remove_Repetition(open(r'DirectList.txt', 'r',
-                       encoding="utf-8"), open(r'DRuleSet.list', 'a'))
-Remove_Repetition(open(r'ProxyList.txt', 'r',
-                       encoding="utf-8"), open(r'PRuleSet.list', 'a'))
+Remove_Repetition(open(r'AdBlockList.txt', 'r'), open(r'RuleSet.list', 'a'))
+Remove_Repetition(open(r'DirectList.txt', 'r'), open(r'DRuleSet.list', 'a'))
+Remove_Repetition(open(r'ProxyList.txt', 'r'), open(r'PRuleSet.list', 'a'))
+
+
+"""从proxy中排除apple"""
+Apple = open(r'原始文件/Apple.txt', 'r')
+alllines = Apple.readlines()
+Apple.close()
+for eachline in alllines:
+    del_line(open(r'PRuleSet.list', 'r+'), eachline)
+
+"""从direct中排除reject"""
+RuleSet = open(r'RuleSet.list', 'r')
+alllines = RuleSet.readlines()
+RuleSet.close()
+for eachline in alllines:
+    del_line(open(r'DRuleSet.list', 'r+'), eachline)
+
+"""从proxy中排除reject，direct"""
+RuleSet = open(r'RuleSet.list', 'r')
+alllines = RuleSet.readlines()
+RuleSet.close()
+for eachline in alllines:
+    del_line(open(r'PRuleSet.list', 'r+'), eachline)
+DRuleSet = open(r'DRuleSet.list', 'r')
+alllines = DRuleSet.readlines()
+DRuleSet.close()
+for eachline in alllines:
+    del_line(open(r'PRuleSet.list', 'r+'), eachline)
 
 
 # 创建 DOMAIN-SET 规则集
@@ -558,9 +582,9 @@ remove(r'ProxyList.txt')
 remove(r'adblock.txt')
 remove(r'domain.txt')
 remove(r'host.txt')
-remove(r'RuleSet.list')
-remove(r'DRuleSet.list')
-remove(r'PRuleSet.list')
+# remove(r'RuleSet.list')
+# remove(r'DRuleSet.list')
+# remove(r'PRuleSet.list')
 remove(r'out1.txt')
 remove(r'out2.txt')
 remove(r'out3.txt')
