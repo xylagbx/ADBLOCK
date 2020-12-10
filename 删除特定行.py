@@ -11,5 +11,15 @@ def del_line(file, words):
         f.writelines(lines)
 
 
-myblack = open(r'原始文件/myblack.txt',  "r+", encoding="utf-8")
+myblack = open(r'原始文件/clash.txt',  "r+", encoding="utf-8")
 del_line(myblack, '#')
+
+
+File_r = open(r'adblock.txt', 'r')
+alllines = File_r.readlines()
+File_r.close()
+File_w = open(r'adblock.txt', 'w')
+for eachline in alllines:
+    a = eachline.replace('||', 'DOMAIN-SUFFIX,')
+    File_w.writelines(a)
+File_w.close()

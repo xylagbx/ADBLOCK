@@ -1,0 +1,39 @@
+# Reject
+https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanEasyListChina.list
+
+# 云端地址 本地地址
+# Rule-set
+urls = [('https://anti-ad.net/surge.txt', 
+         r'原始文件/Rule_set/anti-ad.txt'),
+        ('https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanAD.list',
+         r'原始文件/Rule_set/BanAD.txt'),
+        ('https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanProgramAD.list',
+         r'原始文件/Rule_set/BanProgramAD.txt'),
+        ('https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanEasyList.list',
+         r'原始文件/Rule_set/BanEasyList.txt'),
+        ('https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanEasyPrivacy.list',
+         r'原始文件/Rule_set/BanEasyPrivacy.txt'),
+        ('https://raw.githubusercontent.com/lhie1/Rules/master/Surge/Surge%203/Provider/Reject.list', 
+         r'原始文件/Rule_set/Reject.txt')]
+
+# || 开头的规则
+Adblock = [('https://raw.githubusercontent.com/durablenapkin/scamblocklist/master/adguard.txt',
+           r'原始文件/AdGuard/Scam Blocklist by DurableNapkin.txt')]
+
+# domain 开头的规则
+Domain = [('https://raw.githubusercontent.com/Spam404/lists/master/main-blacklist.txt', 
+           r'原始文件/AdGuard/Spam404.txt'),
+          ('https://raw.githubusercontent.com/mitchellkrogza/The-Big-List-of-Hacked-Malware-Web-Sites/master/hacked-domains.list', 
+           r'原始文件/AdGuard/The Big List of Hacked Malware Web Sites.txt')]
+
+# 0.0.0.0 开头的规则
+Host = [('https://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/hosts.txt', 
+         r'原始文件/AdGuard/NoCoin Filter List.txt'),
+        ('https://paulgb.github.io/BarbBlock/blacklists/hosts-file.txt', 
+         r'原始文件/AdGuard/BarbBlock.txt')]
+
+# DOMAIN-SET 规则
+Dset = [
+    ('https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/reject.txt', 
+    r'原始文件/Rule_set/DOMAINreject.txt')]
+    
