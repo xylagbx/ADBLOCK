@@ -453,24 +453,24 @@ Apple.close()
 for eachline in alllines:
     del_line(open(r'PRuleSet.list', 'r+'), eachline)
 
-"""从direct中排除reject"""
-RuleSet = open(r'RuleSet.list', 'r')
-alllines = RuleSet.readlines()
-RuleSet.close()
-for eachline in alllines:
-    del_line(open(r'DRuleSet.list', 'r+'), eachline)
+# """从direct中排除reject"""
+# RuleSet = open(r'RuleSet.list', 'r')
+# alllines = RuleSet.readlines()
+# RuleSet.close()
+# for eachline in alllines:
+#     del_line(open(r'DRuleSet.list', 'r+'), eachline)
 
-"""从proxy中排除reject，direct"""
-RuleSet = open(r'RuleSet.list', 'r')
-alllines = RuleSet.readlines()
-RuleSet.close()
-for eachline in alllines:
-    del_line(open(r'PRuleSet.list', 'r+'), eachline)
-DRuleSet = open(r'DRuleSet.list', 'r')
-alllines = DRuleSet.readlines()
-DRuleSet.close()
-for eachline in alllines:
-    del_line(open(r'PRuleSet.list', 'r+'), eachline)
+# """从proxy中排除reject，direct"""
+# RuleSet = open(r'RuleSet.list', 'r')
+# alllines = RuleSet.readlines()
+# RuleSet.close()
+# for eachline in alllines:
+#     del_line(open(r'PRuleSet.list', 'r+'), eachline)
+# DRuleSet = open(r'DRuleSet.list', 'r')
+# alllines = DRuleSet.readlines()
+# DRuleSet.close()
+# for eachline in alllines:
+#     del_line(open(r'PRuleSet.list', 'r+'), eachline)
 
 
 # 创建 DOMAIN-SET 规则集
