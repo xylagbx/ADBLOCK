@@ -209,12 +209,12 @@ host = open(r'host.txt', 'w')
 
 
 # 从云端下载并保存在本地
-# Download_Cloud(urls)
-# Download_Cloud(Adblock)
-# Download_Cloud(Domain)
-# Download_Cloud(Host)
-# Download_Cloud(Direct)
-# Download_Cloud(Proxy)
+Download_Cloud(urls)
+Download_Cloud(Adblock)
+Download_Cloud(Domain)
+Download_Cloud(Host)
+Download_Cloud(Direct)
+Download_Cloud(Proxy)
 
 
 # 合并文件
@@ -446,9 +446,6 @@ Remove_Repetition(open(r'DirectList.txt', 'r'), open(r'DRuleSet.list', 'a'))
 Remove_Repetition(open(r'ProxyList.txt', 'r'), open(r'PRuleSet.list', 'a'))
 
 
-
-
-
 """从proxy中排除apple"""
 Apple = open(r'原始文件/Apple.txt', 'r')
 alllines = Apple.readlines()
@@ -474,6 +471,22 @@ for eachline in alllines:
 # DRuleSet.close()
 # for eachline in alllines:
 #     del_line(open(r'PRuleSet.list', 'r+'), eachline)
+
+
+# 将部分以 'IP-CIDR,' 开头的 ipv6 地址规则改为 'IP-CIDR6,' 开头
+File_r = open(r'PROXY/IP-CIDR.txt', 'r')
+alllines = File_r.readlines()
+File_r.close()
+File_w = open(r'PROXY/IP-CIDR.txt', 'w')
+for eachline in alllines:
+    g = re.search(':', eachline)
+    if g:
+        a = eachline.replace('IP-CIDR,', 'IP-CIDR6,')
+        File_w.writelines(a)
+    else:
+        File_w.writelines(eachline)
+File_w.close()
+
 
 # 合并生成 Shadowrocket 配置文件
 a = open(r'RuleSet.txt', 'w')
@@ -638,19 +651,6 @@ Extract_Line(open(r'DRuleSet.list', 'r'), open(
     r'DIRECT/IP-CIDR.txt', 'w'), "IP-CIDR,|IP-CIDR6,")
 Extract_Line(open(r'PRuleSet.list', 'r'), open(
     r'PROXY/IP-CIDR.txt', 'w'), "IP-CIDR,|IP-CIDR6,")
-
-File_r = open(r'PROXY/IP-CIDR.txt', 'r')
-alllines = File_r.readlines()
-File_r.close()
-File_w = open(r'PROXY/IP-CIDR.txt', 'w')
-for eachline in alllines:
-    g = re.search(':', eachline)
-    if g:
-        a = eachline.replace('IP-CIDR,', 'IP-CIDR6,')
-        File_w.writelines(a)
-    else:
-        File_w.writelines(eachline)
-File_w.close()
 
 
 File_r = open(r'BLOCK/IP-CIDR.txt', 'r')
