@@ -209,12 +209,12 @@ host = open(r'host.txt', 'w')
 
 
 # 从云端下载并保存在本地
-Download_Cloud(urls)
-Download_Cloud(Adblock)
-Download_Cloud(Domain)
-Download_Cloud(Host)
-Download_Cloud(Direct)
-Download_Cloud(Proxy)
+# Download_Cloud(urls)
+# Download_Cloud(Adblock)
+# Download_Cloud(Domain)
+# Download_Cloud(Host)
+# Download_Cloud(Direct)
+# Download_Cloud(Proxy)
 
 
 # 合并文件
@@ -638,6 +638,19 @@ Extract_Line(open(r'DRuleSet.list', 'r'), open(
     r'DIRECT/IP-CIDR.txt', 'w'), "IP-CIDR,|IP-CIDR6,")
 Extract_Line(open(r'PRuleSet.list', 'r'), open(
     r'PROXY/IP-CIDR.txt', 'w'), "IP-CIDR,|IP-CIDR6,")
+
+File_r = open(r'PROXY/IP-CIDR.txt', 'r')
+alllines = File_r.readlines()
+File_r.close()
+File_w = open(r'PROXY/IP-CIDR.txt', 'w')
+for eachline in alllines:
+    g = re.search(':', eachline)
+    if g:
+        a = eachline.replace('IP-CIDR,', 'IP-CIDR6,')
+        File_w.writelines(a)
+    else:
+        File_w.writelines(eachline)
+File_w.close()
 
 
 File_r = open(r'BLOCK/IP-CIDR.txt', 'r')
