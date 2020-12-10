@@ -235,15 +235,19 @@ myProxy.close()
 Merge_Files(open(r'ProxyList.txt', 'a'), Proxy)
 
 # 将 'IP-CIDR,180.76.76.76/32DOMAIN-SUFFIX,0-100.com' 替换为 'IP-CIDR,180.76.76.76/32\nDOMAIN-SUFFIX,0-100.com'
-File_r = open(r'DirectList.txt', 'r')
+# 将 'IP-CIDR,2001:67c:4e8::/48DOMAIN-SUFFIX,000000000000000000000000000000000000000000000000000000000000001.com' 替换为 'IP-CIDR,2001:67c:4e8::/48\nDOMAIN-SUFFIX,000000000000000000000000000000000000000000000000000000000000001.com'
+File_r = open(r'ProxyList.txt', 'r')
 alllines = File_r.readlines()
 File_r.close()
-File_w = open(r'DirectList.txt', 'w')
+File_w = open(r'ProxyList.txt', 'w')
 for eachline in alllines:
     a = eachline.replace('IP-CIDR,180.76.76.76/32DOMAIN-SUFFIX,0-100.com',
                          'IP-CIDR,180.76.76.76/32\nDOMAIN-SUFFIX,0-100.com')
+    a = a.replace('IP-CIDR,2001:67c:4e8::/48DOMAIN-SUFFIX,000000000000000000000000000000000000000000000000000000000000001.com',
+                  'IP-CIDR,2001:67c:4e8::/48\nDOMAIN-SUFFIX,000000000000000000000000000000000000000000000000000000000000001.com')
     File_w.writelines(a)
 File_w.close()
+
 
 # 将所有到 '#' 替换为 '\n#'
 # 将所有到 ',no-resolve' 替换为 '\n,no-resolve'
