@@ -1,7 +1,3 @@
-# open(r'RuleSet.list', 'r')
-# open(r'DRuleSet.list', 'r')
-# open(r'PRuleSet.list', 'r')
-
 a = open(r'RuleSet.txt', 'w')
 RuleSet = open(r'RuleSet.list', 'r')
 a.write(RuleSet.read())

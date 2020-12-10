@@ -475,6 +475,85 @@ for eachline in alllines:
 # for eachline in alllines:
 #     del_line(open(r'PRuleSet.list', 'r+'), eachline)
 
+# 合并生成 Shadowrocket 配置文件
+a = open(r'RuleSet.txt', 'w')
+RuleSet = open(r'RuleSet.list', 'r')
+a.write(RuleSet.read())
+RuleSet.close()
+a.close()
+RuleSet = open(r'RuleSet.txt', 'r')
+alllines = RuleSet.readlines()
+RuleSet.close()
+RuleSet = open(r'RuleSet.txt', 'w')
+for eachline in alllines:
+    a = eachline.strip() + ',REJECT\n'
+    RuleSet.writelines(a)
+RuleSet.close()
+
+a = open(r'DRuleSet.txt', 'w')
+DRuleSet = open(r'DRuleSet.list', 'r')
+a.write(DRuleSet.read())
+DRuleSet.close()
+a.close()
+DRuleSet = open(r'DRuleSet.txt', 'r')
+alllines = DRuleSet.readlines()
+DRuleSet.close()
+DRuleSet = open(r'DRuleSet.txt', 'w')
+for eachline in alllines:
+    a = eachline.strip() + ',DIRECT\n'
+    DRuleSet.writelines(a)
+DRuleSet.close()
+
+a = open(r'PRuleSet.txt', 'w')
+PRuleSet = open(r'PRuleSet.list', 'r')
+a.write(PRuleSet.read())
+PRuleSet.close()
+a.close()
+PRuleSet = open(r'PRuleSet.txt', 'r')
+alllines = PRuleSet.readlines()
+PRuleSet.close()
+PRuleSet = open(r'PRuleSet.txt', 'w')
+for eachline in alllines:
+    a = eachline.strip() + ',PROXY\n'
+    PRuleSet.writelines(a)
+PRuleSet.close()
+
+All = open(r'customp.conf', 'w')
+RuleSet = open(r'RuleSet.txt', 'r')
+DRuleSet = open(r'DRuleSet.txt', 'r')
+PRuleSet = open(r'PRuleSet.txt', 'r')
+titlep = open(r'原始文件/titlep.txt', 'r')
+tail = open(r'原始文件/tail.txt', 'r')
+All.write(titlep.read())
+All.write(PRuleSet.read())
+All.write(DRuleSet.read())
+All.write(RuleSet.read())
+All.write(tail.read())
+All.close()
+RuleSet.close()
+DRuleSet.close()
+PRuleSet.close()
+titlep.close()
+tail.close()
+
+All = open(r'customq.conf', 'w')
+RuleSet = open(r'RuleSet.txt', 'r')
+DRuleSet = open(r'DRuleSet.txt', 'r')
+PRuleSet = open(r'PRuleSet.txt', 'r')
+titleq = open(r'原始文件/titleq.txt', 'r')
+tail = open(r'原始文件/tail.txt', 'r')
+All.write(titleq.read())
+All.write(PRuleSet.read())
+All.write(DRuleSet.read())
+All.write(RuleSet.read())
+All.write(tail.read())
+All.close()
+RuleSet.close()
+DRuleSet.close()
+PRuleSet.close()
+titleq.close()
+tail.close()
+
 
 # 创建 DOMAIN-SET 规则集
 Extract_Line(open(r'RuleSet.list', 'r'), open(
@@ -585,9 +664,14 @@ remove(r'ProxyList.txt')
 remove(r'adblock.txt')
 remove(r'domain.txt')
 remove(r'host.txt')
-# remove(r'RuleSet.list')
-# remove(r'DRuleSet.list')
-# remove(r'PRuleSet.list')
+remove(r'RuleSet.list')
+remove(r'DRuleSet.list')
+remove(r'PRuleSet.list')
+
+remove(r'RuleSet.txt')
+remove(r'DRuleSet.txt')
+remove(r'PRuleSet.txt')
+
 remove(r'out1.txt')
 remove(r'out2.txt')
 remove(r'out3.txt')
