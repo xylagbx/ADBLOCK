@@ -1,4 +1,3 @@
-#
 DOMAIN-SUFFIX,graph.facebook.com
 DOMAIN-SUFFIX,tracking.sim-technik.de
 DOMAIN-SUFFIX,webengage.com
