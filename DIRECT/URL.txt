@@ -1,2 +1,1 @@
 URL-REGEX,(Subject|HELO|SMTP)
-URL-REGEX,(Subject|HELO|SMTP)

@@ -446,6 +446,9 @@ Remove_Repetition(open(r'DirectList.txt', 'r'), open(r'DRuleSet.list', 'a'))
 Remove_Repetition(open(r'ProxyList.txt', 'r'), open(r'PRuleSet.list', 'a'))
 
 
+
+
+
 """从proxy中排除apple"""
 Apple = open(r'原始文件/Apple.txt', 'r')
 alllines = Apple.readlines()
