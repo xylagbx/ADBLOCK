@@ -194,6 +194,12 @@ Proxy = [
     ('https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyGFWlist.list', r'原始文件/Proxy/ProxyGFWlist.txt')]
 
 
+# External 策略组
+External = [
+    ('https://api.dler.io/sub?target=surge&ver=4&url=https%3A%2F%2Fjj-rss-01.best%2Flink%2FaKgikRhRwi8v2kOv%3Fclash%3D2&insert=true&append_type=true&emoji=true&list=false&udp=true&tfo=false&scv=false&fdn=true&sort=true&surge.doh=true', r'原始文件/External.txt')]
+
+
+
 # 本地已有文件
 myblack = open(r'原始文件/myblack.txt',  "r")
 myclash = open(r'原始文件/clash.txt',  "r")
@@ -209,13 +215,17 @@ host = open(r'host.txt', 'w')
 
 
 # 从云端下载并保存在本地
-Download_Cloud(urls)
-Download_Cloud(Adblock)
-Download_Cloud(Domain)
-Download_Cloud(Host)
-Download_Cloud(Direct)
-Download_Cloud(Proxy)
+# Download_Cloud(urls)
+# Download_Cloud(Adblock)
+# Download_Cloud(Domain)
+# Download_Cloud(Host)
+# Download_Cloud(Direct)
+# Download_Cloud(Proxy)
+# Download_Cloud(External)
 
+# 制作 External 策略组
+Extract_Line(open(r'原始文件/External.txt', 'r'),
+             open(r'原始文件/egroup.txt', 'w'), 'vmess')
 
 # 合并文件
 AdBlockList.write(myblack.read())
@@ -606,68 +616,68 @@ Extract_Line(open(r'DRuleSet.list', 'r'), open(
 Extract_Line(open(r'PRuleSet.list', 'r'), open(
     r'PROXY/DOMAIN.txt', 'w'), "DOMAIN-SUFFIX,|DOMAIN,")
 
-# 将 DOMAIN.txt 的内容复制给 BLOCK/DOMAIN-SET.list
-BLOCKDomainSet = open(r'BLOCK/DOMAIN-SET.list', 'w')
+# 将 DOMAIN.txt 的内容复制给 BLOCK/DOMAIN-SET.txt
+BLOCKDomainSet = open(r'BLOCK/DOMAIN-SET.txt', 'w')
 out = open(r'BLOCK/DOMAIN.txt', 'r')
 BLOCKDomainSet.write(out.read())
 BLOCKDomainSet.close()
 out.close()
-DIRECTDomainSet = open(r'DIRECT/DOMAIN-SET.list', 'w')
+DIRECTDomainSet = open(r'DIRECT/DOMAIN-SET.txt', 'w')
 out = open(r'DIRECT/DOMAIN.txt', 'r')
 DIRECTDomainSet.write(out.read())
 DIRECTDomainSet.close()
 out.close()
-PROXYDomainSet = open(r'PROXY/DOMAIN-SET.list', 'w')
+PROXYDomainSet = open(r'PROXY/DOMAIN-SET.txt', 'w')
 out = open(r'PROXY/DOMAIN.txt', 'r')
 PROXYDomainSet.write(out.read())
 PROXYDomainSet.close()
 out.close()
 
-File_r = open(r'BLOCK/DOMAIN-SET.list', 'r')
+File_r = open(r'BLOCK/DOMAIN-SET.txt', 'r')
 alllines = File_r.readlines()
 File_r.close()
-File_w = open(r'BLOCK/DOMAIN-SET.list', 'w')
+File_w = open(r'BLOCK/DOMAIN-SET.txt', 'w')
 for eachline in alllines:
     a = eachline.replace('DOMAIN-SUFFIX,', '.')
     File_w.writelines(a)
 File_w.close()
-File_r = open(r'DIRECT/DOMAIN-SET.list', 'r')
+File_r = open(r'DIRECT/DOMAIN-SET.txt', 'r')
 alllines = File_r.readlines()
 File_r.close()
-File_w = open(r'DIRECT/DOMAIN-SET.list', 'w')
+File_w = open(r'DIRECT/DOMAIN-SET.txt', 'w')
 for eachline in alllines:
     a = eachline.replace('DOMAIN-SUFFIX,', '.')
     File_w.writelines(a)
 File_w.close()
-File_r = open(r'PROXY/DOMAIN-SET.list', 'r')
+File_r = open(r'PROXY/DOMAIN-SET.txt', 'r')
 alllines = File_r.readlines()
 File_r.close()
-File_w = open(r'PROXY/DOMAIN-SET.list', 'w')
+File_w = open(r'PROXY/DOMAIN-SET.txt', 'w')
 for eachline in alllines:
     a = eachline.replace('DOMAIN-SUFFIX,', '.')
     File_w.writelines(a)
 File_w.close()
 
-File_r = open(r'BLOCK/DOMAIN-SET.list', 'r')
+File_r = open(r'BLOCK/DOMAIN-SET.txt', 'r')
 alllines = File_r.readlines()
 File_r.close()
-File_w = open(r'BLOCK/DOMAIN-SET.list', 'w')
+File_w = open(r'BLOCK/DOMAIN-SET.txt', 'w')
 for eachline in alllines:
     a = eachline.replace('DOMAIN,', '.')
     File_w.writelines(a)
 File_w.close()
-File_r = open(r'DIRECT/DOMAIN-SET.list', 'r')
+File_r = open(r'DIRECT/DOMAIN-SET.txt', 'r')
 alllines = File_r.readlines()
 File_r.close()
-File_w = open(r'DIRECT/DOMAIN-SET.list', 'w')
+File_w = open(r'DIRECT/DOMAIN-SET.txt', 'w')
 for eachline in alllines:
     a = eachline.replace('DOMAIN,', '.')
     File_w.writelines(a)
 File_w.close()
-File_r = open(r'PROXY/DOMAIN-SET.list', 'r')
+File_r = open(r'PROXY/DOMAIN-SET.txt', 'r')
 alllines = File_r.readlines()
 File_r.close()
-File_w = open(r'PROXY/DOMAIN-SET.list', 'w')
+File_w = open(r'PROXY/DOMAIN-SET.txt', 'w')
 for eachline in alllines:
     a = eachline.replace('DOMAIN,', '.')
     File_w.writelines(a)
