@@ -209,12 +209,12 @@ host = open(r'host.txt', 'w')
 
 
 # 从云端下载并保存在本地
-# Download_Cloud(urls)
-# Download_Cloud(Adblock)
-# Download_Cloud(Domain)
-# Download_Cloud(Host)
-# Download_Cloud(Direct)
-# Download_Cloud(Proxy)
+Download_Cloud(urls)
+Download_Cloud(Adblock)
+Download_Cloud(Domain)
+Download_Cloud(Host)
+Download_Cloud(Direct)
+Download_Cloud(Proxy)
 
 
 # 合并文件

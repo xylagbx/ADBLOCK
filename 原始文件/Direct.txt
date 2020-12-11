@@ -1,3 +1,4 @@
+DOMAIN,magi.com
 DOMAIN-SUFFIX,api.sfacg.com
 DOMAIN-SUFFIX,translate.google.cn
 DOMAIN-SUFFIX,bilibili.com
