@@ -215,13 +215,13 @@ host = open(r'host.txt', 'w')
 
 
 # 从云端下载并保存在本地
-# Download_Cloud(urls)
-# Download_Cloud(Adblock)
-# Download_Cloud(Domain)
-# Download_Cloud(Host)
-# Download_Cloud(Direct)
-# Download_Cloud(Proxy)
-# Download_Cloud(External)
+Download_Cloud(urls)
+Download_Cloud(Adblock)
+Download_Cloud(Domain)
+Download_Cloud(Host)
+Download_Cloud(Direct)
+Download_Cloud(Proxy)
+Download_Cloud(External)
 
 # 制作 External 策略组
 Extract_Line(open(r'原始文件/External.txt', 'r'),
@@ -462,6 +462,13 @@ alllines = Apple.readlines()
 Apple.close()
 for eachline in alllines:
     del_line(open(r'PRuleSet.list', 'r+'), eachline)
+
+"""从direct中排除apple"""
+Apple = open(r'原始文件/Apple.txt', 'r')
+alllines = Apple.readlines()
+Apple.close()
+for eachline in alllines:
+    del_line(open(r'DRuleSet.list', 'r+'), eachline)
 
 # """从direct中排除reject"""
 # RuleSet = open(r'RuleSet.list', 'r')
