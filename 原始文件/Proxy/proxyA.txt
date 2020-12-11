@@ -16528,7 +16528,6 @@ DOMAIN-SUFFIX,playssh.com
 DOMAIN-SUFFIX,playstation
 DOMAIN-SUFFIX,playstation.com
 DOMAIN-SUFFIX,playstation.net
-DOMAIN-SUFFIX,playstationnetwork.com
 DOMAIN-SUFFIX,playtube.pk
 DOMAIN-SUFFIX,playvalorant.com
 DOMAIN-SUFFIX,playvid.com
@@ -25767,6 +25766,7 @@ DOMAIN-SUFFIX,youjizz-fuck.com
 DOMAIN-SUFFIX,youjizz.com
 DOMAIN-SUFFIX,youjizzlive.com
 DOMAIN-SUFFIX,youlepoker.com
+DOMAIN-SUFFIX,youlucky.com
 DOMAIN-SUFFIX,youmaker.com
 DOMAIN-SUFFIX,youneed.win
 DOMAIN-SUFFIX,younganaltryouts.com

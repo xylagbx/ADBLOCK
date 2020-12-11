@@ -209,12 +209,12 @@ host = open(r'host.txt', 'w')
 
 
 # 从云端下载并保存在本地
-Download_Cloud(urls)
-Download_Cloud(Adblock)
-Download_Cloud(Domain)
-Download_Cloud(Host)
-Download_Cloud(Direct)
-Download_Cloud(Proxy)
+# Download_Cloud(urls)
+# Download_Cloud(Adblock)
+# Download_Cloud(Domain)
+# Download_Cloud(Host)
+# Download_Cloud(Direct)
+# Download_Cloud(Proxy)
 
 
 # 合并文件
@@ -474,10 +474,10 @@ for eachline in alllines:
 
 
 # 将部分以 'IP-CIDR,' 开头的 ipv6 地址规则改为 'IP-CIDR6,' 开头
-File_r = open(r'PROXY/IP-CIDR.txt', 'r')
+File_r = open(r'PRuleSet.list', 'r')
 alllines = File_r.readlines()
 File_r.close()
-File_w = open(r'PROXY/IP-CIDR.txt', 'w')
+File_w = open(r'PRuleSet.list', 'w')
 for eachline in alllines:
     g = re.search(':', eachline)
     if g:
@@ -486,6 +486,16 @@ for eachline in alllines:
     else:
         File_w.writelines(eachline)
 File_w.close()
+
+# Extract_Line(open(r'PROXY/IP-CIDR.txt', 'r'), open(r'PROXY/IP-CIDR6.txt', 'w'), ':')
+# File_r = open(r'PROXY/IP-CIDR6.txt', 'r')
+# alllines = File_r.readlines()
+# File_r.close()
+# File_w = open(r'PROXY/IP-CIDR6.txt', 'w')
+# for eachline in alllines:
+#     a = eachline.replace('IP-CIDR,', 'IP-CIDR6,')
+#     File_w.writelines(a)
+# File_w.close()
 
 
 # 合并生成 Shadowrocket 配置文件
@@ -498,6 +508,20 @@ RuleSet = open(r'RuleSet.txt', 'r')
 alllines = RuleSet.readlines()
 RuleSet.close()
 RuleSet = open(r'RuleSet.txt', 'w')
+for eachline in alllines:
+    a = eachline.strip() + ',REJECT\n'
+    RuleSet.writelines(a)
+RuleSet.close()
+
+a = open(r'BLOCK/URL.list', 'w')
+RuleSet = open(r'BLOCK/URL.txt', 'r')
+a.write(RuleSet.read())
+RuleSet.close()
+a.close()
+RuleSet = open(r'BLOCK/URL.list', 'r')
+alllines = RuleSet.readlines()
+RuleSet.close()
+RuleSet = open(r'BLOCK/URL.list', 'w')
 for eachline in alllines:
     a = eachline.strip() + ',REJECT\n'
     RuleSet.writelines(a)
@@ -535,17 +559,20 @@ All = open(r'customp.conf', 'w')
 RuleSet = open(r'RuleSet.txt', 'r')
 DRuleSet = open(r'DRuleSet.txt', 'r')
 PRuleSet = open(r'PRuleSet.txt', 'r')
+url = open(r'BLOCK/URL.list', 'r')
 titlep = open(r'原始文件/titlep.txt', 'r')
 tail = open(r'原始文件/tail.txt', 'r')
 All.write(titlep.read())
 All.write(PRuleSet.read())
 All.write(DRuleSet.read())
 All.write(RuleSet.read())
+All.write(url.read())
 All.write(tail.read())
 All.close()
 RuleSet.close()
 DRuleSet.close()
 PRuleSet.close()
+url.close()
 titlep.close()
 tail.close()
 
@@ -553,17 +580,20 @@ All = open(r'customq.conf', 'w')
 RuleSet = open(r'RuleSet.txt', 'r')
 DRuleSet = open(r'DRuleSet.txt', 'r')
 PRuleSet = open(r'PRuleSet.txt', 'r')
+url = open(r'BLOCK/URL.list', 'r')
 titleq = open(r'原始文件/titleq.txt', 'r')
 tail = open(r'原始文件/tail.txt', 'r')
 All.write(titleq.read())
 All.write(PRuleSet.read())
 All.write(DRuleSet.read())
 All.write(RuleSet.read())
+All.write(url.read())
 All.write(tail.read())
 All.close()
 RuleSet.close()
 DRuleSet.close()
 PRuleSet.close()
+url.close()
 titleq.close()
 tail.close()
 
@@ -684,6 +714,7 @@ remove(r'PRuleSet.list')
 remove(r'RuleSet.txt')
 remove(r'DRuleSet.txt')
 remove(r'PRuleSet.txt')
+remove(r'BLOCK/URL.list')
 
 remove(r'out1.txt')
 remove(r'out2.txt')
