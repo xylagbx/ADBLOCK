@@ -3406,6 +3406,7 @@ DOMAIN-SUFFIX,bankdirect.com
 DOMAIN-SUFFIX,bankiowa.com
 DOMAIN-SUFFIX,bankmandiri.co.id
 DOMAIN-SUFFIX,bankmobilevibe.com
+DOMAIN-SUFFIX,banned.video
 DOMAIN-SUFFIX,bannedbook.org
 DOMAIN-SUFFIX,bannednews.org
 DOMAIN-SUFFIX,banorte.com
@@ -7748,6 +7749,7 @@ DOMAIN-SUFFIX,edilly.com
 DOMAIN-SUFFIX,edisebay.com
 DOMAIN-SUFFIX,edmontonchina.com
 DOMAIN-SUFFIX,edmontonservice.com
+DOMAIN-SUFFIX,edninfo.com
 DOMAIN-SUFFIX,edns.biz
 DOMAIN-SUFFIX,edoors.com
 DOMAIN-SUFFIX,edu-research.org
@@ -7921,15 +7923,21 @@ DOMAIN-SUFFIX,epigeum.com
 DOMAIN-SUFFIX,epinions.com
 DOMAIN-SUFFIX,episcopalchurch.org
 DOMAIN-SUFFIX,episodic.com
+DOMAIN-SUFFIX,epoch.cloud
 DOMAIN-SUFFIX,epoch.com
+DOMAIN-SUFFIX,epochbuy.com
+DOMAIN-SUFFIX,epochcar.com
 DOMAIN-SUFFIX,epochhk.com
+DOMAIN-SUFFIX,epochmall.com
 DOMAIN-SUFFIX,epochmediagroup.com
+DOMAIN-SUFFIX,epochshop.com
 DOMAIN-SUFFIX,epochstories.com
 DOMAIN-SUFFIX,epochtime.com
 DOMAIN-SUFFIX,epochtimes-bg.com
 DOMAIN-SUFFIX,epochtimes-romania.com
 DOMAIN-SUFFIX,epochtimes.com
 DOMAIN-SUFFIX,epochtimes.it
+DOMAIN-SUFFIX,epochtimeshk.org
 DOMAIN-SUFFIX,epochtimestr.com
 DOMAIN-SUFFIX,epochweek.com
 DOMAIN-SUFFIX,epochweekly.com
@@ -8023,6 +8031,7 @@ DOMAIN-SUFFIX,ets.cc
 DOMAIN-SUFFIX,etsy.com
 DOMAIN-SUFFIX,ettego.com
 DOMAIN-SUFFIX,ettoday.net
+DOMAIN-SUFFIX,etviet.com
 DOMAIN-SUFFIX,eu
 DOMAIN-SUFFIX,eu-consumer-empowerment.com
 DOMAIN-SUFFIX,eu.org
@@ -9967,6 +9976,7 @@ DOMAIN-SUFFIX,goldpoint
 DOMAIN-SUFFIX,goldporntube.com
 DOMAIN-SUFFIX,goldstep.net
 DOMAIN-SUFFIX,goldwave.com
+DOMAIN-SUFFIX,golosameriki.com
 DOMAIN-SUFFIX,gomextv.com
 DOMAIN-SUFFIX,gommehd.net
 DOMAIN-SUFFIX,gomokuworld.com
@@ -11507,6 +11517,8 @@ DOMAIN-SUFFIX,infoqube.biz
 DOMAIN-SUFFIX,informs.org
 DOMAIN-SUFFIX,infosys
 DOMAIN-SUFFIX,infotmj.com
+DOMAIN-SUFFIX,infowars.com
+DOMAIN-SUFFIX,infowarsmedia.com
 DOMAIN-SUFFIX,infrapedia.com
 DOMAIN-SUFFIX,infy
 DOMAIN-SUFFIX,ingads.com
@@ -14811,9 +14823,10 @@ DOMAIN-SUFFIX,n.stood.pw
 DOMAIN-SUFFIX,n1g.org
 DOMAIN-SUFFIX,n2.n4t.co
 DOMAIN-SUFFIX,n2k2.ch
-DOMAIN-SUFFIX,n3ro.fun
 DOMAIN-SUFFIX,n3ro.live
+DOMAIN-SUFFIX,n3ro.lol
 DOMAIN-SUFFIX,n3ro.net
+DOMAIN-SUFFIX,n3ro.wtf
 DOMAIN-SUFFIX,n70717.com
 DOMAIN-SUFFIX,n88800.com
 DOMAIN-SUFFIX,n88810.com
@@ -15440,7 +15453,9 @@ DOMAIN-SUFFIX,nstagram.com
 DOMAIN-SUFFIX,ntc.party
 DOMAIN-SUFFIX,ntd.com
 DOMAIN-SUFFIX,ntd.tv
+DOMAIN-SUFFIX,ntdca.com
 DOMAIN-SUFFIX,ntdcantonese.com
+DOMAIN-SUFFIX,ntdimg.com
 DOMAIN-SUFFIX,ntdtv.com
 DOMAIN-SUFFIX,ntdtv.org
 DOMAIN-SUFFIX,ntdtvla.com
@@ -16289,6 +16304,7 @@ DOMAIN-SUFFIX,permatareload.net
 DOMAIN-SUFFIX,persagg.com
 DOMAIN-SUFFIX,persecution.net
 DOMAIN-SUFFIX,persecutionblog.com
+DOMAIN-SUFFIX,persianepochtimes.com
 DOMAIN-SUFFIX,persiankitty.com
 DOMAIN-SUFFIX,personaltrainermath.com
 DOMAIN-SUFFIX,personeelsland.com
@@ -21450,6 +21466,7 @@ DOMAIN-SUFFIX,wangruoshui.net
 DOMAIN-SUFFIX,wanip.ch
 DOMAIN-SUFFIX,wankspider.com
 DOMAIN-SUFFIX,wannaflix.com
+DOMAIN-SUFFIX,wanokokorosoh.com
 DOMAIN-SUFFIX,wanqiucai.com
 DOMAIN-SUFFIX,want-daily.com
 DOMAIN-SUFFIX,wanyepu.com
@@ -23150,7 +23167,6 @@ DOMAIN-SUFFIX,www.economist.net
 DOMAIN-SUFFIX,www.ecotibet.org
 DOMAIN-SUFFIX,www.ed2000.com
 DOMAIN-SUFFIX,www.edf818.com
-DOMAIN-SUFFIX,www.edninfo.com
 DOMAIN-SUFFIX,www.educoco.com
 DOMAIN-SUFFIX,www.eg1111.vip
 DOMAIN-SUFFIX,www.egaleonews.bravehost.com

@@ -84,7 +84,7 @@ def Remove_Repetition(file1, file2):
 # reject
 # 云端地址 本地地址
 # Rule-set
-urls = [('https://anti-ad.net/surge.txt',
+urls = [('https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-surge.txt',
          r'原始文件/Rule_set/anti-ad.txt'),
         ('https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanAD.list',
          r'原始文件/Rule_set/BanAD.txt'),
@@ -197,7 +197,6 @@ Proxy = [
 # External 策略组
 External = [
     ('https://api.dler.io/sub?target=surge&ver=4&url=https%3A%2F%2Fjj-rss-01.best%2Flink%2FaKgikRhRwi8v2kOv%3Fclash%3D2&insert=true&append_type=true&emoji=true&list=false&udp=true&tfo=false&scv=false&fdn=true&sort=true&surge.doh=true', r'原始文件/External.txt')]
-
 
 
 # 本地已有文件
