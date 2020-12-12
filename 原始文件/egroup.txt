@@ -11,4 +11,8 @@
 [VMess] 🇨🇳 I.CV3327丨框架隧道.粵台 TW = vmess, SHost.G01H2127.REEOSS.China-nHost-nSQL.com, 3327, username=96589269-2bab-30ad-9eeb-038df8b6fa99, tls=false, ws=true, ws-path=/iso, sni=SHost.G01H2127.REEOSS.China-nHost-nSQL.com, ws-headers=Host:SHost.G01H2127.REEOSS.China-nHost-nSQL.com, skip-cert-verify=0, tfo=false, udp-relay=true
 [VMess] 🇨🇳 I.CV3328丨框架隧道.粵台 TW = vmess, SHost.G01H2128.REEOSS.China-nHost-nSQL.com, 3328, username=96589269-2bab-30ad-9eeb-038df8b6fa99, tls=false, ws=true, ws-path=/iso, sni=SHost.G01H2128.REEOSS.China-nHost-nSQL.com, ws-headers=Host:SHost.G01H2128.REEOSS.China-nHost-nSQL.com, skip-cert-verify=0, tfo=false, udp-relay=true
 [VMess] 🇭🇰 I.CV7318丨三網穩定隧道.港台 TW = vmess, SCDN.CV7318.GZVDBW.China-nCDN-nRDS.com, 7318, username=96589269-2bab-30ad-9eeb-038df8b6fa99, tls=false, ws=true, ws-path=/iso, sni=SCDN.CV7318.GZVDBW.China-nCDN-nRDS.com, ws-headers=Host:SCDN.CV7318.GZVDBW.China-nCDN-nRDS.com, skip-cert-verify=0, tfo=false, udp-relay=true
+<<<<<<< HEAD
 ssr = http, 127.0.0.1, 7890
+=======
+ssr = http, 127.0.0.1, 7890
+>>>>>>> 8a2c1dca88d5e92866a3975a218a6092895bde54
