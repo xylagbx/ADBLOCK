@@ -226,6 +226,14 @@ Download_Cloud(External)
 Extract_Line(open(r'原始文件/External.txt', 'r'),
              open(r'原始文件/egroup.txt', 'w'), 'vmess')
 
+e = open(r'原始文件/egroup.txt', 'r')
+a = e.read()
+e.close()
+a = a + 'ssr = http, 127.0.0.1, 7890'
+e = open(r'原始文件/egroup.txt', 'w')
+e.write(a)
+e.close()
+
 # 合并文件
 AdBlockList.write(myblack.read())
 AdBlockList.close()
