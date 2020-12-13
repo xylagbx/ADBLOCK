@@ -196,7 +196,7 @@ Proxy = [
 
 # External 策略组
 External = [
-    ('https://api.dler.io/sub?target=surge&ver=4&url=https%3A%2F%2Fjj-rss-01.best%2Flink%2FaKgikRhRwi8v2kOv%3Fclash%3D2&insert=true&append_type=true&emoji=true&list=false&udp=true&tfo=false&scv=false&fdn=true&sort=true&surge.doh=true', r'原始文件/External.txt')]
+    ('https://api.dler.io/sub?target=surge&ver=4&url=https%3A%2F%2Fjj-rss-01.best%2Flink%2FaKgikRhRwi8v2kOv%3Fclash%3D2&insert=true&append_type=true&emoji=true&list=false&udp=true&tfo=false&scv=false&fdn=true&sort=true&surge.doh=true', r'/Users/bx/Downloads/Uncategorized/External.txt')]
 
 
 # 本地已有文件
@@ -223,14 +223,14 @@ Download_Cloud(Proxy)
 Download_Cloud(External)
 
 # 制作 External 策略组
-Extract_Line(open(r'原始文件/External.txt', 'r'),
-             open(r'原始文件/egroup.txt', 'w'), 'vmess')
+Extract_Line(open(r'/Users/bx/Downloads/Uncategorized/External.txt', 'r'),
+             open(r'/Users/bx/Downloads/Uncategorized/egroup.txt', 'w'), 'vmess')
 
-e = open(r'原始文件/egroup.txt', 'r')
+e = open(r'/Users/bx/Downloads/Uncategorized/egroup.txt', 'r')
 a = e.read()
 e.close()
 a = a + 'ssr = http, 127.0.0.1, 7890'
-e = open(r'原始文件/egroup.txt', 'w')
+e = open(r'/Users/bx/Downloads/Uncategorized/egroup.txt', 'w')
 e.write(a)
 e.close()
 
