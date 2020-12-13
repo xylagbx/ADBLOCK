@@ -119,39 +119,10 @@ Host = [('https://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master
 
 
 # direct
-Direct = [
-    ('https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/ruleset/direct.txt',
-     r'原始文件/Direct/direct.txt'),
-    ('https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/ruleset/cncidr.txt',
-     r'原始文件/Direct/cncidr.txt'),
-    ('https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/LocalAreaNetwork.list',
-     r'原始文件/Direct/LocalAreaNetwork.txt'),
-    ('https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/GoogleCN.list',
+Direct = [('https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/GoogleCN.list',
      r'原始文件/Direct/GoogleCN.txt'),
-    ('https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaDomain.list',
-     r'原始文件/Direct/ChinaDomain.txt'),
-    ('https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaCompanyIp.list',
-     r'原始文件/Direct/ChinaCompanyIp.txt'),
-    ('https://raw.githubusercontent.com/lhie1/Rules/master/Surge/Surge%203/Provider/Special.list',
-     r'原始文件/Direct/Special.txt'),
-    ('https://raw.githubusercontent.com/lhie1/Rules/master/Surge/Surge%203/Provider/Media/Bilibili.list',
-     r'原始文件/Direct/Bilibili.txt'),
-    ('https://raw.githubusercontent.com/lhie1/Rules/master/Surge/Surge%203/Provider/Media/iQiyi.list',
-     r'原始文件/Direct/iQiyi.txt'),
-    ('https://raw.githubusercontent.com/lhie1/Rules/master/Surge/Surge%203/Provider/Media/Letv.list',
-     r'原始文件/Direct/Letv.txt'),
-    ('https://raw.githubusercontent.com/lhie1/Rules/master/Surge/Surge%203/Provider/Media/Netease%20Music.list',
-     r'原始文件/Direct/Netease_Music.txt'),
-    ('https://raw.githubusercontent.com/lhie1/Rules/master/Surge/Surge%203/Provider/Media/Tencent%20Video.list',
-     r'原始文件/Direct/Tencent_Video.txt'),
-    ('https://raw.githubusercontent.com/lhie1/Rules/master/Surge/Surge%203/Provider/Media/Youku.list',
-     r'原始文件/Direct/Youku.txt'),
     ('https://raw.githubusercontent.com/lhie1/Rules/master/Surge/Surge%203/Provider/Domestic.list',
      r'原始文件/Direct/Domestic.txt'),
-    ('https://raw.githubusercontent.com/lhie1/Rules/master/Surge/Surge%203/Provider/Domestic%20IPs.list',
-     r'原始文件/Direct/Domestic_IPs.txt'),
-    ('https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaIp.list',
-     r'原始文件/Direct/ChinaIp.txt'),
     ('https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaMedia.list', r'原始文件/Direct/ChinaMedia.txt')]
 
 
