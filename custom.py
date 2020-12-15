@@ -119,11 +119,39 @@ Host = [('https://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master
 
 
 # direct
-Direct = [('https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/GoogleCN.list',
-     r'原始文件/Direct/GoogleCN.txt'),
-    ('https://raw.githubusercontent.com/lhie1/Rules/master/Surge/Surge%203/Provider/Domestic.list',
-     r'原始文件/Direct/Domestic.txt'),
-    ('https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaMedia.list', r'原始文件/Direct/ChinaMedia.txt')]
+Direct = [('https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/ruleset/direct.txt',
+           r'原始文件/Direct/direct.txt'),
+          ('https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/ruleset/cncidr.txt',
+           r'原始文件/Direct/cncidr.txt'),
+          ('https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/LocalAreaNetwork.list',
+           r'原始文件/Direct/LocalAreaNetwork.txt'),
+          ('https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/GoogleCN.list',
+           r'原始文件/Direct/GoogleCN.txt'),
+          ('https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaDomain.list',
+           r'原始文件/Direct/ChinaDomain.txt'),
+          ('https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaCompanyIp.list',
+           r'原始文件/Direct/ChinaCompanyIp.txt'),
+          ('https://raw.githubusercontent.com/lhie1/Rules/master/Surge/Surge%203/Provider/Special.list',
+           r'原始文件/Direct/Special.txt'),
+          ('https://raw.githubusercontent.com/lhie1/Rules/master/Surge/Surge%203/Provider/Media/Bilibili.list',
+           r'原始文件/Direct/Bilibili.txt'),
+          ('https://raw.githubusercontent.com/lhie1/Rules/master/Surge/Surge%203/Provider/Media/iQiyi.list',
+           r'原始文件/Direct/iQiyi.txt'),
+          ('https://raw.githubusercontent.com/lhie1/Rules/master/Surge/Surge%203/Provider/Media/Letv.list',
+           r'原始文件/Direct/Letv.txt'),
+          ('https://raw.githubusercontent.com/lhie1/Rules/master/Surge/Surge%203/Provider/Media/Netease%20Music.list',
+           r'原始文件/Direct/Netease_Music.txt'),
+          ('https://raw.githubusercontent.com/lhie1/Rules/master/Surge/Surge%203/Provider/Media/Tencent%20Video.list',
+           r'原始文件/Direct/Tencent_Video.txt'),
+          ('https://raw.githubusercontent.com/lhie1/Rules/master/Surge/Surge%203/Provider/Media/Youku.list',
+           r'原始文件/Direct/Youku.txt'),
+          ('https://raw.githubusercontent.com/lhie1/Rules/master/Surge/Surge%203/Provider/Domestic.list',
+           r'原始文件/Direct/Domestic.txt'),
+          ('https://raw.githubusercontent.com/lhie1/Rules/master/Surge/Surge%203/Provider/Domestic%20IPs.list',
+           r'原始文件/Direct/Domestic_IPs.txt'),
+          ('https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaIp.list',
+           r'原始文件/Direct/ChinaIp.txt'),
+          ('https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaMedia.list', r'原始文件/Direct/ChinaMedia.txt')]
 
 
 # proxy
@@ -448,6 +476,9 @@ Apple.close()
 for eachline in alllines:
     del_line(open(r'DRuleSet.list', 'r+'), eachline)
 
+del_line(open(r'DRuleSet.list', 'r+'), "DOMAIN-SUFFIX,cn\n")
+
+
 # """从direct中排除reject"""
 # RuleSet = open(r'RuleSet.list', 'r')
 # alllines = RuleSet.readlines()
@@ -555,9 +586,9 @@ RuleSet = open(r'RuleSet.txt', 'r')
 DRuleSet = open(r'DRuleSet.txt', 'r')
 PRuleSet = open(r'PRuleSet.txt', 'r')
 url = open(r'BLOCK/URL.list', 'r')
-titlep = open(r'原始文件/titlep.txt', 'r')
+title = open(r'原始文件/title.txt', 'r')
 tail = open(r'原始文件/tail.txt', 'r')
-All.write(titlep.read())
+All.write(title.read())
 All.write(PRuleSet.read())
 All.write(DRuleSet.read())
 All.write(RuleSet.read())
@@ -568,29 +599,29 @@ RuleSet.close()
 DRuleSet.close()
 PRuleSet.close()
 url.close()
-titlep.close()
+title.close()
 tail.close()
 
-All = open(r'customq.conf', 'w')
-RuleSet = open(r'RuleSet.txt', 'r')
-DRuleSet = open(r'DRuleSet.txt', 'r')
-PRuleSet = open(r'PRuleSet.txt', 'r')
-url = open(r'BLOCK/URL.list', 'r')
-titleq = open(r'原始文件/titleq.txt', 'r')
-tail = open(r'原始文件/tail.txt', 'r')
-All.write(titleq.read())
-All.write(PRuleSet.read())
-All.write(DRuleSet.read())
-All.write(RuleSet.read())
-All.write(url.read())
-All.write(tail.read())
-All.close()
-RuleSet.close()
-DRuleSet.close()
-PRuleSet.close()
-url.close()
-titleq.close()
-tail.close()
+# All = open(r'customq.conf', 'w')
+# RuleSet = open(r'RuleSet.txt', 'r')
+# DRuleSet = open(r'DRuleSet.txt', 'r')
+# PRuleSet = open(r'PRuleSet.txt', 'r')
+# url = open(r'BLOCK/URL.list', 'r')
+# titleq = open(r'原始文件/titleq.txt', 'r')
+# tail = open(r'原始文件/tail.txt', 'r')
+# All.write(titleq.read())
+# All.write(PRuleSet.read())
+# All.write(DRuleSet.read())
+# All.write(RuleSet.read())
+# All.write(url.read())
+# All.write(tail.read())
+# All.close()
+# RuleSet.close()
+# DRuleSet.close()
+# PRuleSet.close()
+# url.close()
+# titleq.close()
+# tail.close()
 
 
 # 创建 DOMAIN-SET 规则集

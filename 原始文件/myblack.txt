@@ -26232,6 +26232,7 @@ DOMAIN-SUFFIX,events.turbosquid.com
 DOMAIN-SUFFIX,fzeahussyd.com
 DOMAIN-SUFFIX,affiliate-robot.com
 DOMAIN-KEYWORD,jpush
+DOMAIN-SUFFIX,im64.jpush.cn
 DOMAIN-SUFFIX,pic50.pingguolv.com
 DOMAIN-SUFFIX,2fx32.cn
 DOMAIN-SUFFIX,sitetraq.nl
