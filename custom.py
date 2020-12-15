@@ -581,7 +581,7 @@ for eachline in alllines:
     PRuleSet.writelines(a)
 PRuleSet.close()
 
-All = open(r'customp.conf', 'w')
+All = open(r'custom.conf', 'w')
 RuleSet = open(r'RuleSet.txt', 'r')
 DRuleSet = open(r'DRuleSet.txt', 'r')
 PRuleSet = open(r'PRuleSet.txt', 'r')
