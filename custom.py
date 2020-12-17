@@ -223,7 +223,7 @@ Download_Cloud(External)
 
 # 制作 External 策略组
 Extract_Line(open(r'../External.txt', 'r'),
-             open(r'../egroup.txt', 'w'), 'vmess')
+             open(r'../egroup.txt', 'w'), 'vmess|trojan')
 
 e = open(r'../egroup.txt', 'r')
 a = e.read()
