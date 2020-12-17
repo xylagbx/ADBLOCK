@@ -469,6 +469,15 @@ Apple.close()
 for eachline in alllines:
     del_line(open(r'PRuleSet.list', 'r+'), eachline)
 
+# PRuleSet = open(r'PRuleSet.list', 'r')
+# alllines = PRuleSet.readlines()
+# PRuleSet.close()
+# alllines = alllines + 'DOMAIN-SUFFIX, smartmailcloud.com\n'
+PRuleSet = open(r'PRuleSet.list', 'r+')
+PRuleSet.write('DOMAIN-SUFFIX, smartmailcloud.com\n')
+PRuleSet.close()
+
+
 """从direct中排除apple"""
 Apple = open(r'原始文件/Apple.txt', 'r')
 alllines = Apple.readlines()
@@ -477,6 +486,7 @@ for eachline in alllines:
     del_line(open(r'DRuleSet.list', 'r+'), eachline)
 
 del_line(open(r'DRuleSet.list', 'r+'), "DOMAIN-SUFFIX,cn\n")
+del_line(open(r'DRuleSet.list', 'r+'), "smartmailcloud.com")
 
 
 # """从direct中排除reject"""
