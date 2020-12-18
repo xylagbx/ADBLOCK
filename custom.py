@@ -612,6 +612,8 @@ url.close()
 title.close()
 tail.close()
 
+del_line(open(r'custom.conf', 'r+'), 'DOMAIN-KEYWORD,')
+
 # All = open(r'customq.conf', 'w')
 # RuleSet = open(r'RuleSet.txt', 'r')
 # DRuleSet = open(r'DRuleSet.txt', 'r')
