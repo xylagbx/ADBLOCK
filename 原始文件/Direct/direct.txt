@@ -34830,6 +34830,7 @@ DOMAIN-SUFFIX,jb51.net
 DOMAIN-SUFFIX,jbaier023.com
 DOMAIN-SUFFIX,jbaobao.com
 DOMAIN-SUFFIX,jbb.one
+DOMAIN-SUFFIX,jbcz.tv
 DOMAIN-SUFFIX,jbczzcj.com
 DOMAIN-SUFFIX,jbdown.com
 DOMAIN-SUFFIX,jbelf.com
