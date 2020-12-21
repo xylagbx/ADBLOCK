@@ -122,8 +122,6 @@ Host = [('https://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master
          r'原始文件/AdGuard/NoCoin Filter List.txt'),
         ('https://paulgb.github.io/BarbBlock/blacklists/hosts-file.txt',
          r'原始文件/AdGuard/BarbBlock.txt'),
-        ('https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn-social/hosts',
-         r'原始文件/AdGuard/fakenews-gambling-porn-social.txt'),
         ('https://www.github.developerdan.com/hosts/lists/ads-and-tracking-extended.txt',
          r'原始文件/AdGuard/ads-and-tracking-extended.txt'),
         ('https://www.github.developerdan.com/hosts/lists/tracking-aggressive-extended.txt',
