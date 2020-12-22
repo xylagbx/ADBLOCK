@@ -105,9 +105,7 @@ urls = [('https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/mas
 Adblock = [('https://raw.githubusercontent.com/durablenapkin/scamblocklist/master/adguard.txt',
             r'原始文件/AdGuard/Scam Blocklist by DurableNapkin.txt'),
            ('https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt',
-            r'原始文件/AdGuard/filter.txt'),
-           ('https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_224_Chinese/filter.txt',
-            r'原始文件/AdGuard/filter-Chinese.txt')]
+            r'原始文件/AdGuard/filter.txt')]
 
 # domain 开头的规则
 Domain = [('https://raw.githubusercontent.com/Spam404/lists/master/main-blacklist.txt',
