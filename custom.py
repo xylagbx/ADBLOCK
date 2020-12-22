@@ -111,21 +111,13 @@ Adblock = [('https://raw.githubusercontent.com/durablenapkin/scamblocklist/maste
 Domain = [('https://raw.githubusercontent.com/Spam404/lists/master/main-blacklist.txt',
            r'原始文件/AdGuard/Spam404.txt'),
           ('https://raw.githubusercontent.com/mitchellkrogza/The-Big-List-of-Hacked-Malware-Web-Sites/master/hacked-domains.list',
-           r'原始文件/AdGuard/The Big List of Hacked Malware Web Sites.txt'),
-          ('https://raw.githubusercontent.com/notracking/hosts-blocklists/master/dnscrypt-proxy/dnscrypt-proxy.blacklist.txt',
-           r'原始文件/AdGuard/dnscrypt-proxy.blacklist.txt')]
+           r'原始文件/AdGuard/The Big List of Hacked Malware Web Sites.txt')]
 
 # 0.0.0.0 开头的规则
 Host = [('https://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/hosts.txt',
          r'原始文件/AdGuard/NoCoin Filter List.txt'),
         ('https://paulgb.github.io/BarbBlock/blacklists/hosts-file.txt',
-         r'原始文件/AdGuard/BarbBlock.txt'),
-        ('https://www.github.developerdan.com/hosts/lists/ads-and-tracking-extended.txt',
-         r'原始文件/AdGuard/ads-and-tracking-extended.txt'),
-        ('https://www.github.developerdan.com/hosts/lists/tracking-aggressive-extended.txt',
-         r'原始文件/AdGuard/tracking-aggressive-extended.txt'),
-        ('https://www.github.developerdan.com/hosts/lists/hate-and-junk-extended.txt',
-         r'原始文件/AdGuard/hate-and-junk-extended.txt')]
+         r'原始文件/AdGuard/BarbBlock.txt'),]
 
 
 # direct
