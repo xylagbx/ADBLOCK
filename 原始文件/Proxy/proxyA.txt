@@ -12434,6 +12434,7 @@ DOMAIN-SUFFIX,kkkk0102.com
 DOMAIN-SUFFIX,kkkxv.com
 DOMAIN-SUFFIX,kknews.cc
 DOMAIN-SUFFIX,kkswami.com
+DOMAIN-SUFFIX,kktix.com
 DOMAIN-SUFFIX,kktv-theater.kk.stream
 DOMAIN-SUFFIX,kktv.me
 DOMAIN-SUFFIX,kl8888.com
