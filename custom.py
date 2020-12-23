@@ -491,6 +491,13 @@ del_line(open(r'DRuleSet.list', 'r+'), "DOMAIN-SUFFIX,cn\n")
 del_line(open(r'DRuleSet.list', 'r+'), "smartmailcloud.com")
 
 
+"""从block中排除mywhite"""
+mywhite = open(r'原始文件/mywhite.txt',  "r")
+alllines = mywhite.readlines()
+mywhite.close()
+for eachline in alllines:
+    del_line(open(r'RuleSet.list', 'r+'), eachline)
+
 # """从direct中排除reject"""
 # RuleSet = open(r'RuleSet.list', 'r')
 # alllines = RuleSet.readlines()
