@@ -5879,6 +5879,7 @@ DOMAIN-SUFFIX,cmpaas.com
 DOMAIN-SUFFIX,cms-api.lezhin.com
 DOMAIN-SUFFIX,cms.gov
 DOMAIN-SUFFIX,cms.korea.net
+DOMAIN-SUFFIX,cmu.edu
 DOMAIN-SUFFIX,cmule.com
 DOMAIN-SUFFIX,cmule.net
 DOMAIN-SUFFIX,cmule.org
@@ -20913,11 +20914,9 @@ DOMAIN-SUFFIX,vpn-ninja.net
 DOMAIN-SUFFIX,vpn.airwallex.com
 DOMAIN-SUFFIX,vpn.asia
 DOMAIN-SUFFIX,vpn.cathayglory.org
-DOMAIN-SUFFIX,vpn.cmu.edu
 DOMAIN-SUFFIX,vpn.com
 DOMAIN-SUFFIX,vpn.mbconnect24.net
 DOMAIN-SUFFIX,vpn.net
-DOMAIN-SUFFIX,vpn.sv.cmu.edu
 DOMAIN-SUFFIX,vpn001.jimdo.com
 DOMAIN-SUFFIX,vpn4all.com
 DOMAIN-SUFFIX,vpn99.net

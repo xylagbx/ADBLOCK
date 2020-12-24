@@ -58001,7 +58001,6 @@ DOMAIN-SUFFIX,tooseo.com
 DOMAIN-SUFFIX,tootour.com
 DOMAIN-SUFFIX,toouoo.com
 DOMAIN-SUFFIX,toowa.com
-DOMAIN-SUFFIX,top
 DOMAIN-SUFFIX,top-iot.com
 DOMAIN-SUFFIX,top100summit.com
 DOMAIN-SUFFIX,top147.com
