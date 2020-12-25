@@ -1,8 +1,8 @@
-! Checksum: FLQ5HUZdyKZovuEhQoaJRQ
+! Checksum: lPv83EH48skfHMAvPEbm6A
 ! Title: AdGuard Tracking Protection filter
 ! Description: The most comprehensive list of various online counters and web analytics tools. Use this filter if you do not want your actions on the Internet to be tracked.
-! Version: 2.0.19.41
-! TimeUpdated: 2020-12-24T13:31:40+03:00
+! Version: 2.0.19.42
+! TimeUpdated: 2020-12-25T07:31:23+03:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -9035,6 +9035,8 @@ link.gmapp*.net$image
 ||rover.ebay.$image,object,script,badfilter
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/70789
+@@||cdn.permutive.com/*-web.js$domain=independent.co.uk
 ! https://github.com/AdguardTeam/AdguardFilters/issues/70625
 ||googletagmanager.com/gtm.js$script,redirect=googletagmanager-gtm,domain=game8.jp
 ! https://github.com/AdguardTeam/AdguardFilters/issues/70603

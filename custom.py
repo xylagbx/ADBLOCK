@@ -106,8 +106,6 @@ Adblock = [('https://raw.githubusercontent.com/durablenapkin/scamblocklist/maste
             r'原始文件/AdGuard/Scam Blocklist by DurableNapkin.txt'),
            ('https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt',
             r'原始文件/AdGuard/filter.txt'),
-           ('https://gitee.com/halflife/list/raw/master/ad.txt',
-            r'原始文件/AdGuard/ad.txt'),
            ('https://filters.adtidy.org/extension/chromium/filters/3.txt',
             r'原始文件/AdGuard/AdGuard_Tracking_Protection_filter.txt'),
            ('https://pgl.yoyo.org/adservers/serverlist.php?hostformat=adblockplus&showintro=1&mimetype=plaintext',
@@ -225,13 +223,13 @@ host = open(r'host.txt', 'w')
 
 
 # 从云端下载并保存在本地
-# Download_Cloud(urls)
-# Download_Cloud(Adblock)
-# Download_Cloud(Domain)
-# Download_Cloud(Host)
-# Download_Cloud(Direct)
-# Download_Cloud(Proxy)
-# Download_Cloud(External)
+Download_Cloud(urls)
+Download_Cloud(Adblock)
+Download_Cloud(Domain)
+Download_Cloud(Host)
+Download_Cloud(Direct)
+Download_Cloud(Proxy)
+Download_Cloud(External)
 
 # 制作 External 策略组
 Extract_Line(open(r'../External.txt', 'r'),
