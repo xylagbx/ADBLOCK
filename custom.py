@@ -105,7 +105,17 @@ urls = [('https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/mas
 Adblock = [('https://raw.githubusercontent.com/durablenapkin/scamblocklist/master/adguard.txt',
             r'原始文件/AdGuard/Scam Blocklist by DurableNapkin.txt'),
            ('https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt',
-            r'原始文件/AdGuard/filter.txt')]
+            r'原始文件/AdGuard/filter.txt'),
+           ('https://gitee.com/halflife/list/raw/master/ad.txt',
+            r'原始文件/AdGuard/ad.txt'),
+           ('https://filters.adtidy.org/extension/chromium/filters/3.txt',
+            r'原始文件/AdGuard/AdGuard_Tracking_Protection_filter.txt'),
+           ('https://pgl.yoyo.org/adservers/serverlist.php?hostformat=adblockplus&showintro=1&mimetype=plaintext',
+            r'原始文件/AdGuard/Peter.txt'),
+           ('https://raw.githubusercontent.com/Perflyst/PiHoleBlocklist/master/SmartTV-AGH.txt',
+            r'原始文件/AdGuard/SmartTV-AGH.txt'),
+           ('https://raw.githubusercontent.com/DandelionSprout/adfilt/master/GameConsoleAdblockList.txt',
+            r'原始文件/AdGuard/GameConsoleAdblockList.txt')]
 
 # domain 开头的规则
 Domain = [('https://raw.githubusercontent.com/Spam404/lists/master/main-blacklist.txt',
@@ -117,7 +127,9 @@ Domain = [('https://raw.githubusercontent.com/Spam404/lists/master/main-blacklis
 Host = [('https://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/hosts.txt',
          r'原始文件/AdGuard/NoCoin Filter List.txt'),
         ('https://paulgb.github.io/BarbBlock/blacklists/hosts-file.txt',
-         r'原始文件/AdGuard/BarbBlock.txt'),]
+         r'原始文件/AdGuard/BarbBlock.txt'),
+        ('https://someonewhocares.org/hosts/zero/hosts',
+         r'原始文件/AdGuard/someonewhocares.txt')]
 
 
 # direct
