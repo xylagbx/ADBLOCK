@@ -112,8 +112,6 @@ Adblock = [('https://raw.githubusercontent.com/durablenapkin/scamblocklist/maste
             r'原始文件/AdGuard/AdGuard_Tracking_Protection_filter.txt'),
            ('https://pgl.yoyo.org/adservers/serverlist.php?hostformat=adblockplus&showintro=1&mimetype=plaintext',
             r'原始文件/AdGuard/Peter.txt'),
-           ('https://raw.githubusercontent.com/Perflyst/PiHoleBlocklist/master/SmartTV-AGH.txt',
-            r'原始文件/AdGuard/SmartTV-AGH.txt'),
            ('https://raw.githubusercontent.com/DandelionSprout/adfilt/master/GameConsoleAdblockList.txt',
             r'原始文件/AdGuard/GameConsoleAdblockList.txt')]
 
@@ -637,8 +635,8 @@ title.close()
 tail.close()
 
 del_line(open(r'custom.conf', 'r+'), 'DOMAIN-KEYWORD,')
-"""从block中排除'[a-z]{7,15}$/,REJECT'"""
-del_line(open(r'RuleSet.list', 'r+'), '[a-z]{7,15}')
+# """从block中排除'[a-z]{7,15}$/,REJECT'"""
+# del_line(open(r'custom.conf', 'r+'), '[a-z]{7,15}')
 
 # All = open(r'customq.conf', 'w')
 # RuleSet = open(r'RuleSet.txt', 'r')
