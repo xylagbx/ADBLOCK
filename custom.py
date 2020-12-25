@@ -225,13 +225,13 @@ host = open(r'host.txt', 'w')
 
 
 # 从云端下载并保存在本地
-Download_Cloud(urls)
-Download_Cloud(Adblock)
-Download_Cloud(Domain)
-Download_Cloud(Host)
-Download_Cloud(Direct)
-Download_Cloud(Proxy)
-Download_Cloud(External)
+# Download_Cloud(urls)
+# Download_Cloud(Adblock)
+# Download_Cloud(Domain)
+# Download_Cloud(Host)
+# Download_Cloud(Direct)
+# Download_Cloud(Proxy)
+# Download_Cloud(External)
 
 # 制作 External 策略组
 Extract_Line(open(r'../External.txt', 'r'),
@@ -429,7 +429,16 @@ alllines = File_r.readlines()
 File_r.close()
 File_w = open(r'adblock.txt', 'w')
 for eachline in alllines:
-    a = eachline.replace('||', 'DOMAIN-SUFFIX,')
+    a = eachline.replace('$', '\n')
+    File_w.writelines(a)
+File_w.close()
+
+File_r = open(r'adblock.txt', 'r')
+alllines = File_r.readlines()
+File_r.close()
+File_w = open(r'adblock.txt', 'w')
+for eachline in alllines:
+    a = eachline.replace('||', '\nDOMAIN-SUFFIX,')
     File_w.writelines(a)
 File_w.close()
 
@@ -511,6 +520,8 @@ for eachline in alllines:
 
 
 
+del_line(open(r'custom.conf', 'r+'), '[Adblock Plus 3.4]')
+
 # """从direct中排除reject"""
 # RuleSet = open(r'RuleSet.list', 'r')
 # alllines = RuleSet.readlines()
@@ -556,87 +567,8 @@ File_w.close()
 # File_w.close()
 
 
-# 合并生成 Shadowrocket 配置文件
-a = open(r'RuleSet.txt', 'w')
-RuleSet = open(r'RuleSet.list', 'r')
-a.write(RuleSet.read())
-RuleSet.close()
-a.close()
-RuleSet = open(r'RuleSet.txt', 'r')
-alllines = RuleSet.readlines()
-RuleSet.close()
-RuleSet = open(r'RuleSet.txt', 'w')
-for eachline in alllines:
-    a = eachline.strip() + ',REJECT\n'
-    RuleSet.writelines(a)
-RuleSet.close()
 
-a = open(r'BLOCK/URL.list', 'w')
-RuleSet = open(r'BLOCK/URL.txt', 'r')
-a.write(RuleSet.read())
-RuleSet.close()
-a.close()
-RuleSet = open(r'BLOCK/URL.list', 'r')
-alllines = RuleSet.readlines()
-RuleSet.close()
-RuleSet = open(r'BLOCK/URL.list', 'w')
-for eachline in alllines:
-    a = eachline.strip() + ',REJECT\n'
-    RuleSet.writelines(a)
-RuleSet.close()
 
-a = open(r'DRuleSet.txt', 'w')
-DRuleSet = open(r'DRuleSet.list', 'r')
-a.write(DRuleSet.read())
-DRuleSet.close()
-a.close()
-DRuleSet = open(r'DRuleSet.txt', 'r')
-alllines = DRuleSet.readlines()
-DRuleSet.close()
-DRuleSet = open(r'DRuleSet.txt', 'w')
-for eachline in alllines:
-    a = eachline.strip() + ',DIRECT\n'
-    DRuleSet.writelines(a)
-DRuleSet.close()
-
-a = open(r'PRuleSet.txt', 'w')
-PRuleSet = open(r'PRuleSet.list', 'r')
-a.write(PRuleSet.read())
-PRuleSet.close()
-a.close()
-PRuleSet = open(r'PRuleSet.txt', 'r')
-alllines = PRuleSet.readlines()
-PRuleSet.close()
-PRuleSet = open(r'PRuleSet.txt', 'w')
-for eachline in alllines:
-    a = eachline.strip() + ',PROXY\n'
-    PRuleSet.writelines(a)
-PRuleSet.close()
-
-All = open(r'custom.conf', 'w')
-RuleSet = open(r'RuleSet.txt', 'r')
-DRuleSet = open(r'DRuleSet.txt', 'r')
-PRuleSet = open(r'PRuleSet.txt', 'r')
-url = open(r'BLOCK/URL.list', 'r')
-title = open(r'原始文件/title.txt', 'r')
-tail = open(r'原始文件/tail.txt', 'r')
-All.write(title.read())
-All.write(DRuleSet.read())
-All.write(PRuleSet.read())
-All.write(RuleSet.read())
-All.write(url.read())
-All.write(tail.read())
-All.close()
-RuleSet.close()
-DRuleSet.close()
-PRuleSet.close()
-url.close()
-title.close()
-tail.close()
-
-del_line(open(r'custom.conf', 'r+'), 'DOMAIN-KEYWORD,')
-# """从block中排除'[a-z]{7,15}$/,REJECT'"""
-# del_line(open(r'custom.conf', 'r+'), '[a-z]{7,15}')
 
 # All = open(r'customq.conf', 'w')
 # RuleSet = open(r'RuleSet.txt', 'r')
@@ -761,6 +693,95 @@ Extract_Line(open(r'DRuleSet.list', 'r'), open(
     r'DIRECT/KEYWORD.txt', 'w'), "DOMAIN-KEYWORD,")
 Extract_Line(open(r'PRuleSet.list', 'r'), open(
     r'PROXY/KEYWORD.txt', 'w'), "DOMAIN-KEYWORD,")
+
+
+
+# 合并生成 Shadowrocket 配置文件
+Extract_Line(open(r'RuleSet.list', 'r'), open(
+    r'RuleSet.txt', 'w'), "DOMAIN-SUFFIX,|DOMAIN,|IP-CIDR,|IP-CIDR6,")
+Extract_Line(open(r'DRuleSet.list', 'r'), open(
+    r'DRuleSet.txt', 'w'), "DOMAIN-SUFFIX,|DOMAIN,|IP-CIDR,|IP-CIDR6,")
+Extract_Line(open(r'PRuleSet.list', 'r'), open(
+    r'PRuleSet.txt', 'w'), "DOMAIN-SUFFIX,|DOMAIN,|IP-CIDR,|IP-CIDR6,")
+
+# a = open(r'RuleSet.txt', 'w')
+# RuleSet = open(r'BLOCK/DOMAIN.txt', 'r')
+# a.write(RuleSet.read())
+# RuleSet.close()
+# a.close()
+RuleSet = open(r'RuleSet.txt', 'r')
+alllines = RuleSet.readlines()
+RuleSet.close()
+RuleSet = open(r'RuleSet.txt', 'w')
+for eachline in alllines:
+    a = eachline.strip() + ',REJECT\n'
+    RuleSet.writelines(a)
+RuleSet.close()
+
+a = open(r'BLOCK/URL.list', 'w')
+RuleSet = open(r'BLOCK/URL.txt', 'r')
+a.write(RuleSet.read())
+RuleSet.close()
+a.close()
+RuleSet = open(r'BLOCK/URL.list', 'r')
+alllines = RuleSet.readlines()
+RuleSet.close()
+RuleSet = open(r'BLOCK/URL.list', 'w')
+for eachline in alllines:
+    a = eachline.strip() + ',REJECT\n'
+    RuleSet.writelines(a)
+RuleSet.close()
+
+# a = open(r'DRuleSet.txt', 'w')
+# DRuleSet = open(r'DIRECT/DOMAIN.txt', 'r')
+# a.write(DRuleSet.read())
+# DRuleSet.close()
+# a.close()
+DRuleSet = open(r'DRuleSet.txt', 'r')
+alllines = DRuleSet.readlines()
+DRuleSet.close()
+DRuleSet = open(r'DRuleSet.txt', 'w')
+for eachline in alllines:
+    a = eachline.strip() + ',DIRECT\n'
+    DRuleSet.writelines(a)
+DRuleSet.close()
+
+# a = open(r'PRuleSet.txt', 'w')
+# PRuleSet = open(r'PRuleSet.list', 'r')
+# a.write(PRuleSet.read())
+# PRuleSet.close()
+# a.close()
+PRuleSet = open(r'PRuleSet.txt', 'r')
+alllines = PRuleSet.readlines()
+PRuleSet.close()
+PRuleSet = open(r'PRuleSet.txt', 'w')
+for eachline in alllines:
+    a = eachline.strip() + ',PROXY\n'
+    PRuleSet.writelines(a)
+PRuleSet.close()
+
+All = open(r'custom.conf', 'w')
+RuleSet = open(r'RuleSet.txt', 'r')
+DRuleSet = open(r'DRuleSet.txt', 'r')
+PRuleSet = open(r'PRuleSet.txt', 'r')
+url = open(r'BLOCK/URL.list', 'r')
+title = open(r'原始文件/title.txt', 'r')
+tail = open(r'原始文件/tail.txt', 'r')
+All.write(title.read())
+All.write(DRuleSet.read())
+All.write(PRuleSet.read())
+All.write(RuleSet.read())
+All.write(url.read())
+All.write(tail.read())
+All.close()
+RuleSet.close()
+DRuleSet.close()
+PRuleSet.close()
+url.close()
+title.close()
+tail.close()
+
+del_line(open(r'custom.conf', 'r+'), 'DOMAIN-KEYWORD,')
 
 
 remove(r'AdBlockList.txt')
