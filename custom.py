@@ -511,9 +511,7 @@ for eachline in alllines:
     del_line(open(r'RuleSet.list', 'r+'), eachline)
 
 
-"""从block中排除'[a-z]{7,15}$/,REJECT'"""
-for eachline in alllines:
-    del_line(open(r'RuleSet.list', 'r+'), '[a-z]{7,15}')
+
 
 # """从direct中排除reject"""
 # RuleSet = open(r'RuleSet.list', 'r')
@@ -639,6 +637,8 @@ title.close()
 tail.close()
 
 del_line(open(r'custom.conf', 'r+'), 'DOMAIN-KEYWORD,')
+"""从block中排除'[a-z]{7,15}$/,REJECT'"""
+del_line(open(r'RuleSet.list', 'r+'), '[a-z]{7,15}')
 
 # All = open(r'customq.conf', 'w')
 # RuleSet = open(r'RuleSet.txt', 'r')
