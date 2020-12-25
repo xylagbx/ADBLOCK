@@ -1,3 +1,9 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
+from posix import remove
+
+
 def Remove_Repetition(file1, file2):
     """将 file1 去除重复的行，并写入 file2 中，file1 保持原样"""
     with file1 as f, file2 as ff:
@@ -10,9 +16,16 @@ def Remove_Repetition(file1, file2):
     file2.close()
 
 
-Remove_Repetition(open(r'原始文件/Apple.txt', 'r'), open(r'out.list', 'a'))
-Apple = open(r'原始文件/Apple.txt', 'w')
-out = open(r'out.list', 'r')
-Apple.write(out.read())
-Apple.close()
-out.close()
+def sorted_file_content(filetxt):
+    """将文件内容按行排序"""
+    out = open(r'out.list', 'r')
+    out = sorted(out)
+    for item in out:
+        filetxt.writelines(item)
+    filetxt.close()
+    remove(r'out.list')
+
+
+Remove_Repetition(open(r'原始文件/URL_Rewrite.txt', 'r'), open(r'out.list', 'a'))
+mywhite = open(r'原始文件/URL_Rewrite.txt', 'w')
+sorted_file_content(mywhite)

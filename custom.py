@@ -81,6 +81,50 @@ def Remove_Repetition(file1, file2):
     file2.close()
 
 
+def sorted_file_content(a):
+    """将文件内容按行排序"""
+    b = open(a, 'r')
+    out = open(r'out.list', 'w')
+    out.write(b.read())
+    b.close()
+    out.close()
+    b = open(a, 'w')
+    out = open(r'out.list', 'r')
+    out = sorted(out)
+    for item in out:
+        b.writelines(item)
+    b.close()
+    remove(r'out.list')
+
+
+def sorted_file_content_reverse(a):
+    """将文件内容按行排序-倒序"""
+    b = open(a, 'r')
+    out = open(r'out.list', 'w')
+    out.write(b.read())
+    b.close()
+    out.close()
+    b = open(a, 'w')
+    out = open(r'out.list', 'r')
+    out = sorted(out, reverse=True)
+    for item in out:
+        b.writelines(item)
+    b.close()
+    remove(r'out.list')
+
+
+def add_after_line(a, b):
+    """在每行末尾添加特定的字符串"""
+    RuleSet = open(a, 'r')
+    alllines = RuleSet.readlines()
+    RuleSet.close()
+    RuleSet = open(a, 'w')
+    for eachline in alllines:
+        a = eachline.strip() + b
+        RuleSet.writelines(a)
+    RuleSet.close()
+
+
 # reject
 # 云端地址 本地地址
 # Rule-set
@@ -221,13 +265,13 @@ host = open(r'host.txt', 'w')
 
 
 # 从云端下载并保存在本地
-# Download_Cloud(urls)
-# Download_Cloud(Adblock)
-# Download_Cloud(Domain)
-# Download_Cloud(Host)
-# Download_Cloud(Direct)
-# Download_Cloud(Proxy)
-# Download_Cloud(External)
+Download_Cloud(urls)
+Download_Cloud(Adblock)
+Download_Cloud(Domain)
+Download_Cloud(Host)
+Download_Cloud(Direct)
+Download_Cloud(Proxy)
+Download_Cloud(External)
 
 # 制作 External 策略组
 Extract_Line(open(r'../External.txt', 'r'),
@@ -273,15 +317,15 @@ for eachline in alllines:
 File_w.close()
 
 
-# 将所有到 '#' 替换为 '\n#'
-# 将所有到 ',no-resolve' 替换为 '\n,no-resolve'
+# 将所有到 '#' 替换为 '\n#\n'
+# 将所有到 ',no-resolve' 替换为 '\n,no-resolve\n'
 File_r = open(r'adblock.txt', 'r')
 alllines = File_r.readlines()
 File_r.close()
 File_w = open(r'adblock.txt', 'w')
 for eachline in alllines:
-    a = eachline.replace('#', '\n#')
-    a = a.replace(',no-resolve', '\n,no-resolve')
+    a = eachline.replace('#', '\n#\n')
+    a = a.replace(',no-resolve', '\n,no-resolve\n')
     File_w.writelines(a)
 File_w.close()
 File_r = open(r'domain.txt', 'r')
@@ -289,8 +333,8 @@ alllines = File_r.readlines()
 File_r.close()
 File_w = open(r'domain.txt', 'w')
 for eachline in alllines:
-    a = eachline.replace('#', '\n#')
-    a = a.replace(',no-resolve', '\n,no-resolve')
+    a = eachline.replace('#', '\n#\n')
+    a = a.replace(',no-resolve', '\n,no-resolve\n')
     File_w.writelines(a)
 File_w.close()
 File_r = open(r'host.txt', 'r')
@@ -298,8 +342,8 @@ alllines = File_r.readlines()
 File_r.close()
 File_w = open(r'host.txt', 'w')
 for eachline in alllines:
-    a = eachline.replace('#', '\n#')
-    a = a.replace(',no-resolve', '\n,no-resolve')
+    a = eachline.replace('#', '\n#\n')
+    a = a.replace(',no-resolve', '\n,no-resolve\n')
     File_w.writelines(a)
 File_w.close()
 File_r = open(r'原始文件/myblack.txt', 'r')
@@ -307,8 +351,8 @@ alllines = File_r.readlines()
 File_r.close()
 File_w = open(r'原始文件/myblack.txt', 'w')
 for eachline in alllines:
-    a = eachline.replace('#', '\n#')
-    a = a.replace(',no-resolve', '\n,no-resolve')
+    a = eachline.replace('#', '\n#\n')
+    a = a.replace(',no-resolve', '\n,no-resolve\n')
     File_w.writelines(a)
 File_w.close()
 File_r = open(r'原始文件/clash.txt', 'r')
@@ -316,8 +360,8 @@ alllines = File_r.readlines()
 File_r.close()
 File_w = open(r'原始文件/clash.txt', 'w')
 for eachline in alllines:
-    a = eachline.replace('#', '\n#')
-    a = a.replace(',no-resolve', '\n,no-resolve')
+    a = eachline.replace('#', '\n#\n')
+    a = a.replace(',no-resolve', '\n,no-resolve\n')
     File_w.writelines(a)
 File_w.close()
 File_r = open(r'原始文件/Direct.txt', 'r')
@@ -325,8 +369,8 @@ alllines = File_r.readlines()
 File_r.close()
 File_w = open(r'原始文件/Direct.txt', 'w')
 for eachline in alllines:
-    a = eachline.replace('#', '\n#')
-    a = a.replace(',no-resolve', '\n,no-resolve')
+    a = eachline.replace('#', '\n#\n')
+    a = a.replace(',no-resolve', '\n,no-resolve\n')
     File_w.writelines(a)
 File_w.close()
 File_r = open(r'原始文件/Proxy.txt', 'r')
@@ -334,8 +378,8 @@ alllines = File_r.readlines()
 File_r.close()
 File_w = open(r'原始文件/Proxy.txt', 'w')
 for eachline in alllines:
-    a = eachline.replace('#', '\n#')
-    a = a.replace(',no-resolve', '\n,no-resolve')
+    a = eachline.replace('#', '\n#\n')
+    a = a.replace(',no-resolve', '\n,no-resolve\n')
     File_w.writelines(a)
 File_w.close()
 File_r = open(r'AdBlockList.txt', 'r')
@@ -343,8 +387,8 @@ alllines = File_r.readlines()
 File_r.close()
 File_w = open(r'AdBlockList.txt', 'w')
 for eachline in alllines:
-    a = eachline.replace('#', '\n#')
-    a = a.replace(',no-resolve', '\n,no-resolve')
+    a = eachline.replace('#', '\n#\n')
+    a = a.replace(',no-resolve', '\n,no-resolve\n')
     File_w.writelines(a)
 File_w.close()
 File_r = open(r'DirectList.txt', 'r')
@@ -352,8 +396,8 @@ alllines = File_r.readlines()
 File_r.close()
 File_w = open(r'DirectList.txt', 'w')
 for eachline in alllines:
-    a = eachline.replace('#', '\n#')
-    a = a.replace(',no-resolve', '\n,no-resolve')
+    a = eachline.replace('#', '\n#\n')
+    a = a.replace(',no-resolve', '\n,no-resolve\n')
     File_w.writelines(a)
 File_w.close()
 File_r = open(r'ProxyList.txt', 'r')
@@ -361,8 +405,8 @@ alllines = File_r.readlines()
 File_r.close()
 File_w = open(r'ProxyList.txt', 'w')
 for eachline in alllines:
-    a = eachline.replace('#', '\n#')
-    a = a.replace(',no-resolve', '\n,no-resolve')
+    a = eachline.replace('#', '\n#\n')
+    a = a.replace(',no-resolve', '\n,no-resolve\n')
     File_w.writelines(a)
 File_w.close()
 
@@ -439,23 +483,23 @@ for eachline in alllines:
 File_w.close()
 
 
-# 对 domain 规则进行修改，在每行开头添加'DOMAIN-SUFFIX,'
+# 对 domain 规则进行修改，在每行开头添加'DOMAIN,'
 domain = open(r'domain.txt', 'r')
 alllines = domain.readlines()
 domain.close()
 domain = open(r'domain.txt', 'w')
 for eachline in alllines:
-    a = 'DOMAIN-SUFFIX,' + eachline
+    a = 'DOMAIN,' + eachline
     domain.writelines(a)
 domain.close()
 
-# 对 host 规则进行修改，替换开头的 '0.0.0.0 ' 为 'DOMAIN-SUFFIX,'
+# 对 host 规则进行修改，替换开头的 '0.0.0.0 ' 为 'DOMAIN,'
 File_r = open(r'host.txt', 'r')
 alllines = File_r.readlines()
 File_r.close()
 File_w = open(r'host.txt', 'w')
 for eachline in alllines:
-    a = eachline.replace('0.0.0.0 ', 'DOMAIN-SUFFIX,')
+    a = eachline.replace('0.0.0.0 ', 'DOMAIN,')
     File_w.writelines(a)
 File_w.close()
 
@@ -514,9 +558,7 @@ for eachline in alllines:
     del_line(open(r'RuleSet.list', 'r+'), eachline)
 
 
-
-
-del_line(open(r'custom.conf', 'r+'), '[Adblock Plus 3.4]')
+# del_line(open(r'custom.conf', 'r+'), '[Adblock Plus 3.4]')
 
 # """从direct中排除reject"""
 # RuleSet = open(r'RuleSet.list', 'r')
@@ -563,9 +605,6 @@ File_w.close()
 # File_w.close()
 
 
-
-
-
 # All = open(r'customq.conf', 'w')
 # RuleSet = open(r'RuleSet.txt', 'r')
 # DRuleSet = open(r'DRuleSet.txt', 'r')
@@ -586,6 +625,11 @@ File_w.close()
 # url.close()
 # titleq.close()
 # tail.close()
+
+
+# ,no-resolveDOMAIN-SUFFIX,0.nextyourcontent.com,REJECT
+del_line(open(r'RuleSet.list', 'r+'),
+         ',no-resolveDOMAIN-SUFFIX,0.nextyourcontent.com')
 
 
 # 创建 DOMAIN-SET 规则集
@@ -672,7 +716,6 @@ Extract_Line(open(r'DRuleSet.list', 'r'), open(
 Extract_Line(open(r'PRuleSet.list', 'r'), open(
     r'PROXY/IP-CIDR.txt', 'w'), "IP-CIDR,|IP-CIDR6,")
 
-
 File_r = open(r'BLOCK/IP-CIDR.txt', 'r')
 alllines = File_r.readlines()
 File_r.close()
@@ -681,6 +724,7 @@ for eachline in alllines:
     a = eachline.replace('# 广告列表 adblock rules', '')
     File_w.writelines(a)
 File_w.close()
+
 
 # keyword 规则集
 Extract_Line(open(r'RuleSet.list', 'r'), open(
@@ -691,28 +735,84 @@ Extract_Line(open(r'PRuleSet.list', 'r'), open(
     r'PROXY/KEYWORD.txt', 'w'), "DOMAIN-KEYWORD,")
 
 
+sorted_file_content(r'BLOCK/DOMAIN-SET.txt')
+sorted_file_content(r'BLOCK/DOMAIN.txt')
+sorted_file_content(r'BLOCK/IP-CIDR.txt')
+sorted_file_content(r'BLOCK/KEYWORD.txt')
+sorted_file_content(r'BLOCK/URL.txt')
+
+sorted_file_content(r'DIRECT/DOMAIN-SET.txt')
+sorted_file_content(r'DIRECT/DOMAIN.txt')
+sorted_file_content(r'DIRECT/IP-CIDR.txt')
+sorted_file_content(r'DIRECT/KEYWORD.txt')
+sorted_file_content(r'DIRECT/URL.txt')
+
+sorted_file_content(r'PROXY/DOMAIN-SET.txt')
+sorted_file_content(r'PROXY/DOMAIN.txt')
+sorted_file_content(r'PROXY/IP-CIDR.txt')
+sorted_file_content(r'PROXY/KEYWORD.txt')
+sorted_file_content(r'PROXY/URL.txt')
+
 
 # 合并生成 Shadowrocket 配置文件
 Extract_Line(open(r'RuleSet.list', 'r'), open(
-    r'RuleSet.txt', 'w'), "DOMAIN-SUFFIX,|DOMAIN,|IP-CIDR,|IP-CIDR6,")
-Extract_Line(open(r'DRuleSet.list', 'r'), open(
-    r'DRuleSet.txt', 'w'), "DOMAIN-SUFFIX,|DOMAIN,|IP-CIDR,|IP-CIDR6,")
-Extract_Line(open(r'PRuleSet.list', 'r'), open(
-    r'PRuleSet.txt', 'w'), "DOMAIN-SUFFIX,|DOMAIN,|IP-CIDR,|IP-CIDR6,")
+    r'RuleSet_DOMAIN-SUFFIX.txt', 'w'), "DOMAIN-SUFFIX,")
+Extract_Line(open(r'RuleSet.list', 'r'), open(
+    r'RuleSet_DOMAIN.txt', 'w'), "DOMAIN,")
+Extract_Line(open(r'RuleSet.list', 'r'), open(
+    r'RuleSet_IP.txt', 'w'), "IP-CIDR,|IP-CIDR6,")
+Extract_Line(open(r'RuleSet.list', 'r'), open(
+    r'RuleSet_DOMAIN-KEYWORD.txt', 'w'), "DOMAIN-KEYWORD,")
 
-# a = open(r'RuleSet.txt', 'w')
-# RuleSet = open(r'BLOCK/DOMAIN.txt', 'r')
-# a.write(RuleSet.read())
-# RuleSet.close()
-# a.close()
-RuleSet = open(r'RuleSet.txt', 'r')
-alllines = RuleSet.readlines()
-RuleSet.close()
-RuleSet = open(r'RuleSet.txt', 'w')
-for eachline in alllines:
-    a = eachline.strip() + ',REJECT\n'
-    RuleSet.writelines(a)
-RuleSet.close()
+
+Extract_Line(open(r'DRuleSet.list', 'r'), open(
+    r'DRuleSet_DOMAIN-SUFFIX.txt', 'w'), "DOMAIN-SUFFIX,")
+Extract_Line(open(r'DRuleSet.list', 'r'), open(
+    r'DRuleSet_DOMAIN.txt', 'w'), "DOMAIN,")
+Extract_Line(open(r'DRuleSet.list', 'r'), open(
+    r'DRuleSet_IP.txt', 'w'), "IP-CIDR,|IP-CIDR6,")
+Extract_Line(open(r'DRuleSet.list', 'r'), open(
+    r'DRuleSet_DOMAIN-KEYWORD.txt', 'w'), "DOMAIN-KEYWORD,")
+
+
+Extract_Line(open(r'PRuleSet.list', 'r'), open(
+    r'PRuleSet_DOMAIN-SUFFIX.txt', 'w'), "DOMAIN-SUFFIX,")
+Extract_Line(open(r'PRuleSet.list', 'r'), open(
+    r'PRuleSet_DOMAIN.txt', 'w'), "DOMAIN,")
+Extract_Line(open(r'PRuleSet.list', 'r'), open(
+    r'PRuleSet_IP.txt', 'w'), "IP-CIDR,|IP-CIDR6,")
+Extract_Line(open(r'PRuleSet.list', 'r'), open(
+    r'PRuleSet_DOMAIN-KEYWORD.txt', 'w'), "DOMAIN-KEYWORD,")
+
+
+add_after_line(r'RuleSet_DOMAIN-SUFFIX.txt', ',REJECT\n')
+add_after_line(r'RuleSet_DOMAIN.txt', ',REJECT\n')
+add_after_line(r'RuleSet_IP.txt', ',REJECT\n')
+add_after_line(r'RuleSet_DOMAIN-KEYWORD.txt', ',REJECT\n')
+sorted_file_content(r'RuleSet_DOMAIN-SUFFIX.txt')
+sorted_file_content(r'RuleSet_DOMAIN.txt')
+sorted_file_content(r'RuleSet_IP.txt')
+sorted_file_content(r'RuleSet_DOMAIN-KEYWORD.txt')
+
+
+add_after_line(r'DRuleSet_DOMAIN-SUFFIX.txt', ',DIRECT\n')
+add_after_line(r'DRuleSet_DOMAIN.txt', ',DIRECT\n')
+add_after_line(r'DRuleSet_IP.txt', ',DIRECT\n')
+add_after_line(r'DRuleSet_DOMAIN-KEYWORD.txt', ',DIRECT\n')
+sorted_file_content(r'DRuleSet_DOMAIN-SUFFIX.txt')
+sorted_file_content(r'DRuleSet_DOMAIN.txt')
+sorted_file_content(r'DRuleSet_IP.txt')
+sorted_file_content(r'DRuleSet_DOMAIN-KEYWORD.txt')
+
+add_after_line(r'PRuleSet_DOMAIN-SUFFIX.txt', ',PROXY\n')
+add_after_line(r'PRuleSet_DOMAIN.txt', ',PROXY\n')
+add_after_line(r'PRuleSet_IP.txt', ',PROXY\n')
+add_after_line(r'PRuleSet_DOMAIN-KEYWORD.txt', ',PROXY\n')
+sorted_file_content(r'PRuleSet_DOMAIN-SUFFIX.txt')
+sorted_file_content(r'PRuleSet_DOMAIN.txt')
+sorted_file_content(r'PRuleSet_IP.txt')
+sorted_file_content(r'PRuleSet_DOMAIN-KEYWORD.txt')
+
 
 a = open(r'BLOCK/URL.list', 'w')
 RuleSet = open(r'BLOCK/URL.txt', 'r')
@@ -728,56 +828,64 @@ for eachline in alllines:
     RuleSet.writelines(a)
 RuleSet.close()
 
-# a = open(r'DRuleSet.txt', 'w')
-# DRuleSet = open(r'DIRECT/DOMAIN.txt', 'r')
-# a.write(DRuleSet.read())
-# DRuleSet.close()
-# a.close()
-DRuleSet = open(r'DRuleSet.txt', 'r')
-alllines = DRuleSet.readlines()
-DRuleSet.close()
-DRuleSet = open(r'DRuleSet.txt', 'w')
-for eachline in alllines:
-    a = eachline.strip() + ',DIRECT\n'
-    DRuleSet.writelines(a)
-DRuleSet.close()
 
-# a = open(r'PRuleSet.txt', 'w')
-# PRuleSet = open(r'PRuleSet.list', 'r')
-# a.write(PRuleSet.read())
-# PRuleSet.close()
-# a.close()
-PRuleSet = open(r'PRuleSet.txt', 'r')
-alllines = PRuleSet.readlines()
-PRuleSet.close()
-PRuleSet = open(r'PRuleSet.txt', 'w')
-for eachline in alllines:
-    a = eachline.strip() + ',PROXY\n'
-    PRuleSet.writelines(a)
-PRuleSet.close()
+a1 = open(r'RuleSet_DOMAIN-SUFFIX.txt', 'r')
+a2 = open(r'RuleSet_DOMAIN.txt', 'r')
+a3 = open(r'RuleSet_IP.txt', 'r')
+a4 = open(r'RuleSet_DOMAIN-KEYWORD.txt', 'r')
+
+
+b1 = open(r'DRuleSet_DOMAIN-SUFFIX.txt', 'r')
+b2 = open(r'DRuleSet_DOMAIN.txt', 'r')
+b3 = open(r'DRuleSet_IP.txt', 'r')
+# b4 = open(r'DRuleSet_DOMAIN-KEYWORD.txt', 'r')
+
+
+c1 = open(r'PRuleSet_DOMAIN-SUFFIX.txt', 'r')
+c2 = open(r'PRuleSet_DOMAIN.txt', 'r')
+c3 = open(r'PRuleSet_IP.txt', 'r')
+# c4 = open(r'PRuleSet_DOMAIN-KEYWORD.txt', 'r')
+
 
 All = open(r'custom.conf', 'w')
-RuleSet = open(r'RuleSet.txt', 'r')
-DRuleSet = open(r'DRuleSet.txt', 'r')
-PRuleSet = open(r'PRuleSet.txt', 'r')
+# RuleSet = open(r'RuleSet.txt', 'r')
+# DRuleSet = open(r'DRuleSet.txt', 'r')
+# PRuleSet = open(r'PRuleSet.txt', 'r')
 url = open(r'BLOCK/URL.list', 'r')
 title = open(r'原始文件/title.txt', 'r')
 tail = open(r'原始文件/tail.txt', 'r')
 All.write(title.read())
-All.write(DRuleSet.read())
-All.write(PRuleSet.read())
-All.write(RuleSet.read())
+All.write(b1.read())
+All.write(c1.read())
+All.write(b2.read())
+All.write(c2.read())
+All.write(b3.read())
+All.write(c3.read())
+All.write(a4.read())
+All.write(a1.read())
+All.write(a2.read())
+All.write(a3.read())
+# All.write(DRuleSet.read())
+# All.write(PRuleSet.read())
+# All.write(RuleSet.read())
 All.write(url.read())
 All.write(tail.read())
 All.close()
-RuleSet.close()
-DRuleSet.close()
-PRuleSet.close()
+a1.close()
+a2.close()
+a3.close()
+a4.close()
+b1.close()
+b2.close()
+b3.close()
+c1.close()
+c2.close()
+c3.close()
 url.close()
 title.close()
 tail.close()
 
-del_line(open(r'custom.conf', 'r+'), 'DOMAIN-KEYWORD,')
+# del_line(open(r'custom.conf', 'r+'), 'DOMAIN-KEYWORD,')
 
 
 remove(r'AdBlockList.txt')
@@ -790,15 +898,27 @@ remove(r'RuleSet.list')
 remove(r'DRuleSet.list')
 remove(r'PRuleSet.list')
 
-remove(r'RuleSet.txt')
-remove(r'DRuleSet.txt')
-remove(r'PRuleSet.txt')
+# remove(r'RuleSet.txt')
+# remove(r'DRuleSet.txt')
+# remove(r'PRuleSet.txt')
 remove(r'BLOCK/URL.list')
 
 remove(r'out1.txt')
 remove(r'out2.txt')
 remove(r'out3.txt')
 
+remove(r'RuleSet_DOMAIN-SUFFIX.txt')
+remove(r'RuleSet_DOMAIN.txt')
+remove(r'RuleSet_IP.txt')
+remove(r'RuleSet_DOMAIN-KEYWORD.txt')
+remove(r'DRuleSet_DOMAIN-SUFFIX.txt')
+remove(r'DRuleSet_DOMAIN.txt')
+remove(r'DRuleSet_IP.txt')
+remove(r'DRuleSet_DOMAIN-KEYWORD.txt')
+remove(r'PRuleSet_DOMAIN-SUFFIX.txt')
+remove(r'PRuleSet_DOMAIN.txt')
+remove(r'PRuleSet_IP.txt')
+remove(r'PRuleSet_DOMAIN-KEYWORD.txt')
 
 # remove(r'BLOCK/total.list')
 # remove(r'out.txt')
