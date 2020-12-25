@@ -513,7 +513,7 @@ for eachline in alllines:
 
 """从block中排除'[a-z]{7,15}$/,REJECT'"""
 for eachline in alllines:
-    del_line(open(r'RuleSet.list', 'r+'), '[a-z]{7,15}$/,REJECT')
+    del_line(open(r'RuleSet.list', 'r+'), '[a-z]{7,15}')
 
 # """从direct中排除reject"""
 # RuleSet = open(r'RuleSet.list', 'r')
