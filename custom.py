@@ -245,11 +245,6 @@ Proxy = [
     ('https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyGFWlist.list', r'原始文件/Proxy/ProxyGFWlist.txt')]
 
 
-# External 策略组
-External = [
-    ('https://api.dler.io/sub?target=surge&ver=4&url=https%3A%2F%2Fjj-rss-01.best%2Flink%2FaKgikRhRwi8v2kOv%3Fclash%3D2&insert=true&append_type=true&emoji=true&list=false&udp=true&tfo=false&scv=false&fdn=true&sort=true&surge.doh=true', r'../External.txt')]
-
-
 # 本地已有文件
 myblack = open(r'原始文件/myblack.txt',  "r")
 myclash = open(r'原始文件/clash.txt',  "r")
@@ -271,19 +266,7 @@ Download_Cloud(Domain)
 Download_Cloud(Host)
 Download_Cloud(Direct)
 Download_Cloud(Proxy)
-Download_Cloud(External)
 
-# 制作 External 策略组
-Extract_Line(open(r'../External.txt', 'r'),
-             open(r'../egroup.txt', 'w'), 'vmess|trojan')
-
-e = open(r'../egroup.txt', 'r')
-a = e.read()
-e.close()
-a = a + 'ssr = http, 127.0.0.1, 7890'
-e = open(r'../egroup.txt', 'w')
-e.write(a)
-e.close()
 
 # 合并文件
 AdBlockList.write(myblack.read())
