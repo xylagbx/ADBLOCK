@@ -6892,6 +6892,7 @@
 .admixer.co.kr
 .admixer.net
 .admized.com
+.admjmp.com
 .admngronline.com
 .admo.tv
 .admob-app-id-*.firebaseio.com
@@ -10959,6 +10960,7 @@
 .adultpay.net
 .adultsadv.com
 .adultsense.com
+.adultsense.net
 .adultsense.org
 .adulttds.com
 .adultterritory.net
@@ -14062,6 +14064,7 @@
 .apddozcgdh.com
 .apdigitalorg.112.2o7.net
 .apdigitalorgovn.112.2o7.net
+.apdingqian.com
 .apdrive.win
 .ape-tagit.timeinc.net
 .ape78cn2.com
@@ -18306,6 +18309,7 @@
 .betvisa.com
 .betway787.com
 .betweendigital.com
+.betweenstep.online
 .betwer.com
 .betwinnerpromo.com
 .betzeplinreklam.com
@@ -20321,6 +20325,7 @@
 .bulletprofitadclick.com
 .bulletprofitads.com
 .bulletprofitpop.com
+.bullionyield.com
 .bullpit.faboshine.com
 .bulls.nimiqpool.com
 .bullseye.backbeatmedia.com
@@ -22009,6 +22014,7 @@
 .cbjslog.baidu.cn
 .cbjslog.baidu.com
 .cbleads.com
+.cbmiocw.com
 .cbmsn.112.2o7.net
 .cbn.tbn.ru
 .cbpsdvozwsbf.com
@@ -23212,6 +23218,7 @@
 .check.ddos-guard.net
 .check.goodroundtoupdates.date
 .check.goodroundtoupdates.date
+.check.tadapi.info
 .check.thealwaysnewandfreeupdating.stream
 .check.thealwaysnewandfreeupdating.stream
 .checkabil.com
@@ -31645,6 +31652,7 @@
 .dq95d35.com
 .dq95d35.com
 .dqburpwaqwehj.com
+.dqbwqzkajkuif.com
 .dqdwvmpez.com
 .dqekudhbwprx.com
 .dqeqsiwc.com
@@ -38231,6 +38239,7 @@
 .foxnews.us.intellitxt.com
 .foxpush.com
 .foxpush.net
+.foxrevenue.com
 .foxsimpsons.112.2o7.net
 .foxsnews.net
 .foxton.nimiqpool.com
@@ -42032,6 +42041,7 @@
 .goatsegirl.org
 .goautofinance.com
 .goautofinance.com
+.goawayn0w.com
 .gobaiwhe.net
 .gobali.cn
 .gobba.myeffect.net
@@ -43352,6 +43362,7 @@
 .gymboree.hs.llnwd.net
 .gymcraft.es
 .gynax.com
+.gynvqipvmcv.com
 .gynzvwhup.com
 .gyoajmeq.com
 .gyojplgn.com
@@ -53237,6 +53248,7 @@
 .ladsecs.com
 .ladsimz.com
 .ladsinfo.com
+.ladsips.com
 .ladsipz.com
 .ladskis.com
 .ladskiz.com
@@ -53373,6 +53385,7 @@
 .lanphuong.vn
 .lansha.tv
 .lanshi021.com
+.lanshiwan.cn
 .lansrv030.com
 .lant.pro
 .lantata.com
@@ -64613,6 +64626,7 @@
 .nowcheck.seethisamazinguogradeswinmacawesome.win
 .nowddns.com
 .nowdownloadhack.com
+.nowfastcrew.online
 .nowfunnygame.com
 .nowgetsoft.pushingnewforcontentsafeload.download
 .nowgetsoft.pushingnewforcontentsafeload.download
@@ -65027,6 +65041,7 @@
 .nuociss.com
 .nuogahntmkid.com
 .nuonuo1.icu
+.nuoqingck.cn
 .nuoque.com
 .nuovo.shaolinsoccer.it
 .nuowoczmvits.com
@@ -68930,7 +68945,9 @@
 .pc.yingshi.tcclick.1kxun.mobi
 .pc1.da.mgtv.com
 .pc1.io
+.pc180101.com
 .pc1ads.com
+.pc20160301.com
 .pc20160522.com
 .pc2ads.com
 .pc3ads.com
@@ -70630,7 +70647,6 @@
 .playlink.pl
 .playlog.youku.com
 .playmaster.co.kr
-.playmobileads.com
 .playmovie.biz
 .playnewgame.net
 .playnow.guru
@@ -70818,6 +70834,7 @@
 .pmstrk.mercadolivre.com.br
 .pmstrk.mercadolivre.com.br
 .pmtdatarow.pro
+.pmvlwjy.cn
 .pmw-konsult.se
 .pmwlvixdyts.com
 .pmxsvdb.pro
@@ -70920,6 +70937,7 @@
 .pohs2oom.com
 .poifinsegg.com
 .poignantcover.com
+.poignantsat.com
 .poijugh.top
 .point-of-entry.com
 .pointclicktrack.com
@@ -75473,6 +75491,7 @@
 .realracinghack.com
 .realsecuredredir.com
 .realsecuredredirect.com
+.realshieldjump.com
 .realsrv.com
 .realssp.co.kr
 .realtechnetwork.com
@@ -81420,6 +81439,7 @@
 .siqcrwlrqjc.com
 .siqwqjza.m.yikanxiaoshuo.net
 .siradsalot.com
+.sireundermineoperative.com
 .sirimba.com.br
 .sirinuj.net
 .siripornautocar.com
@@ -82136,6 +82156,7 @@
 .smjhzmln.com
 .smkn1muaraenim.sch.id
 .smkn2ponorogo.sch.id
+.smljmp.com
 .smm.sitescout.com
 .smmu-ipv6.smmu.edu.cn
 .smmu-ipv6.smmu.edu.cn
@@ -88491,6 +88512,7 @@
 .titan.babytree.com
 .titan.guestworld.tripod.lycos.com
 .titan01.babytree.com
+.titanads1.com
 .titanads5.com
 .titancash.org
 .titanfall-beta.com
@@ -93508,6 +93530,7 @@
 .utenti.lycos.it
 .utf1.liehuo.net
 .utfusckgnj.com
+.utherverse.com
 .uthifuehb.com
 .uthorner.info
 .uthworkreaseu.info
@@ -94328,6 +94351,7 @@
 .versionsupport.thebig-centeralplacecontentgreat.date
 .versols.com
 .versus.uz
+.versusberryoutdoor.com
 .vertamedia.com
 .vertelka.ru
 .vertex-shop.ru
@@ -104440,6 +104464,7 @@
 .yzesxnzfhyy.com
 .yzetmrsww.com
 .yzexonvknhw.com
+.yzfbank.com
 .yzftqx.cn
 .yzh.jyjhkz.com
 .yzh360.com

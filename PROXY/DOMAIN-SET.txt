@@ -3994,7 +3994,6 @@
 .bbb
 .bbb111.com
 .bbb112.net
-.bbb26.net
 .bbb678.com
 .bbb858.com
 .bbc
@@ -7044,7 +7043,6 @@
 .cn.shafaqna.com
 .cn.streetvoice.com
 .cn.theaustralian.com.au
-.cn.thegay.com
 .cn.tmagazine.com.nyud.net
 .cn.uncyclopedia.wikia.com
 .cn.uptodown.com
@@ -13574,6 +13572,7 @@
 .hpbuiltforlearning.com
 .hpbundle.com
 .hpcampus.com
+.hpcatridge.com
 .hpccp.com
 .hpceo.com
 .hpcmw.net
@@ -23743,6 +23742,7 @@
 .teleconomiser.com
 .telefonica
 .telega.one
+.telegra.ph
 .telegram.dog
 .telegram.me
 .telegram.org

@@ -4037,7 +4037,6 @@ DOMAIN-SUFFIX,bb9617.pw
 DOMAIN-SUFFIX,bbb
 DOMAIN-SUFFIX,bbb111.com
 DOMAIN-SUFFIX,bbb112.net
-DOMAIN-SUFFIX,bbb26.net
 DOMAIN-SUFFIX,bbb678.com
 DOMAIN-SUFFIX,bbb858.com
 DOMAIN-SUFFIX,bbc
@@ -7082,7 +7081,6 @@ DOMAIN-SUFFIX,cn.sandscotaicentral.com
 DOMAIN-SUFFIX,cn.shafaqna.com
 DOMAIN-SUFFIX,cn.streetvoice.com
 DOMAIN-SUFFIX,cn.theaustralian.com.au
-DOMAIN-SUFFIX,cn.thegay.com
 DOMAIN-SUFFIX,cn.tmagazine.com.nyud.net
 DOMAIN-SUFFIX,cn.uncyclopedia.wikia.com
 DOMAIN-SUFFIX,cn.uptodown.com
@@ -13590,6 +13588,7 @@ DOMAIN-SUFFIX,hpbluecarpet.net
 DOMAIN-SUFFIX,hpbuiltforlearning.com
 DOMAIN-SUFFIX,hpbundle.com
 DOMAIN-SUFFIX,hpcampus.com
+DOMAIN-SUFFIX,hpcatridge.com
 DOMAIN-SUFFIX,hpccp.com
 DOMAIN-SUFFIX,hpceo.com
 DOMAIN-SUFFIX,hpcmw.net
@@ -23749,6 +23748,7 @@ DOMAIN-SUFFIX,telecomspace.com
 DOMAIN-SUFFIX,teleconomiser.com
 DOMAIN-SUFFIX,telefonica
 DOMAIN-SUFFIX,telega.one
+DOMAIN-SUFFIX,telegra.ph
 DOMAIN-SUFFIX,telegram.dog
 DOMAIN-SUFFIX,telegram.me
 DOMAIN-SUFFIX,telegram.org
