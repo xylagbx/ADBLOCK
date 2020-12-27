@@ -3267,7 +3267,6 @@ DOMAIN-SUFFIX,applemagickeyboard.com
 DOMAIN-SUFFIX,applemasters.info
 DOMAIN-SUFFIX,applemusic.berlin
 DOMAIN-SUFFIX,applemusic.com
-DOMAIN-SUFFIX,applemusic.hamburg
 DOMAIN-SUFFIX,applemusic.wang
 DOMAIN-SUFFIX,applemusicconnect.com
 DOMAIN-SUFFIX,applemusicfestival.com
@@ -4037,6 +4036,7 @@ DOMAIN-SUFFIX,bb9617.pw
 DOMAIN-SUFFIX,bbb
 DOMAIN-SUFFIX,bbb111.com
 DOMAIN-SUFFIX,bbb112.net
+DOMAIN-SUFFIX,bbb26.net
 DOMAIN-SUFFIX,bbb678.com
 DOMAIN-SUFFIX,bbb858.com
 DOMAIN-SUFFIX,bbc
@@ -7081,6 +7081,7 @@ DOMAIN-SUFFIX,cn.sandscotaicentral.com
 DOMAIN-SUFFIX,cn.shafaqna.com
 DOMAIN-SUFFIX,cn.streetvoice.com
 DOMAIN-SUFFIX,cn.theaustralian.com.au
+DOMAIN-SUFFIX,cn.thegay.com
 DOMAIN-SUFFIX,cn.tmagazine.com.nyud.net
 DOMAIN-SUFFIX,cn.uncyclopedia.wikia.com
 DOMAIN-SUFFIX,cn.uptodown.com
@@ -20689,7 +20690,6 @@ DOMAIN-SUFFIX,proxyb.com
 DOMAIN-SUFFIX,proxybay.xyz
 DOMAIN-SUFFIX,proxybig.net
 DOMAIN-SUFFIX,proxybrowsing.com
-DOMAIN-SUFFIX,proxybytes.com
 DOMAIN-SUFFIX,proxydb.org
 DOMAIN-SUFFIX,proxydns.com
 DOMAIN-SUFFIX,proxyfort.com

@@ -3224,7 +3224,6 @@
 .applemasters.info
 .applemusic.berlin
 .applemusic.com
-.applemusic.hamburg
 .applemusic.wang
 .applemusicconnect.com
 .applemusicfestival.com
@@ -3994,6 +3993,7 @@
 .bbb
 .bbb111.com
 .bbb112.net
+.bbb26.net
 .bbb678.com
 .bbb858.com
 .bbc
@@ -7043,6 +7043,7 @@
 .cn.shafaqna.com
 .cn.streetvoice.com
 .cn.theaustralian.com.au
+.cn.thegay.com
 .cn.tmagazine.com.nyud.net
 .cn.uncyclopedia.wikia.com
 .cn.uptodown.com
@@ -20681,7 +20682,6 @@
 .proxybay.xyz
 .proxybig.net
 .proxybrowsing.com
-.proxybytes.com
 .proxydb.org
 .proxydns.com
 .proxyfort.com
