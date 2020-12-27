@@ -8,7 +8,7 @@ FINAL,PROXY
 ^https?:\/\/(www.)?google\.cn https://www.google.com 302
 
 [Script]
-AQI = type=http-response,script-path=https://raw.githubusercontent.com/Hackl0us/SS-Rule-Snippet/master/Scripts/Surge/iOS_Weather_AQI_Standard.js,pattern=https://weather-data.apple.com/v1/weather/[\w-_]+/[0-9]+\.[0-9]+/[0-9]+\.[0-9]+\?include=,max-size=131072,requires-body=true,timeout=100,script-update-interval=86400,enable=true
+AQI = type=http-response,script-path=https://raw.githubusercontent.com/xylagbx/ADBLOCK/master/iOS_Weather_AQI_Standard.js,pattern=https://weather-data.apple.com/v1/weather/[\w-_]+/[0-9]+\.[0-9]+/[0-9]+\.[0-9]+\?include=,max-size=131072,requires-body=true,timeout=100,script-update-interval=86400,enable=true
 
 [MITM]
 hostname = weather-data.apple.com
