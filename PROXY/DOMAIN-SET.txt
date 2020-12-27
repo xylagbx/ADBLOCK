@@ -3224,6 +3224,7 @@
 .applemasters.info
 .applemusic.berlin
 .applemusic.com
+.applemusic.hamburg
 .applemusic.wang
 .applemusicconnect.com
 .applemusicfestival.com
@@ -8310,7 +8311,6 @@
 .ddnete.com
 .ddns.info
 .ddns.me.uk
-.ddns.mobi
 .ddns.ms
 .ddns.name
 .ddns.net
@@ -20682,6 +20682,7 @@
 .proxybay.xyz
 .proxybig.net
 .proxybrowsing.com
+.proxybytes.com
 .proxydb.org
 .proxydns.com
 .proxyfort.com
@@ -24796,7 +24797,6 @@
 .tweakguides.com
 .tweakwarevpn.net
 .tweepguide.com
-.tweeplike.me
 .tweepmag.com
 .tweepml.org
 .tweetbackup.com

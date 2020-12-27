@@ -1807,6 +1807,7 @@
 .46.17.40.234
 .46.38.52.225
 .46.4.239.76
+.46186911.vtt
 .466128.com
 .467.red
 .46709394.com
@@ -18180,6 +18181,7 @@
 .besthuaxia.com
 .besti.ga
 .besti.ga
+.bestialearnbuds.com
 .bestimg.pw
 .bestinghana.com
 .bestlolaray.com
@@ -45245,6 +45247,7 @@
 .hjggt.com
 .hjgmasrve.com
 .hjgtnhierc.com
+.hjhbhddren.com
 .hjiebsdcxldu.com
 .hjiec.com
 .hjihwmtsltqi.com
@@ -46343,6 +46346,7 @@
 .hwyoikfrfdtjp.com
 .hx623.cn
 .hxadt.com
+.hxbt.alading123.com
 .hxbvxmyldlt.com
 .hxcav77.com
 .hxfu.nz53h.cn
@@ -66710,6 +66714,7 @@
 .onclicksuper.com
 .onclicksuper.com
 .onclicktop.com
+.onclicktraffic.com
 .onclkds.com
 .onclkds.com
 .oncustomer.asia
@@ -79380,6 +79385,7 @@
 .scund.com
 .scupio.com
 .scupwail.com
+.scurewall.co
 .scvdxxgbvoz.com
 .scvxgm.cn
 .scw.systems
@@ -80641,6 +80647,7 @@
 .sgs001.adtech.fr
 .sgs001.adtech.us
 .sgs001.adtech.us
+.sgswuesocfr.com
 .sguac.com
 .sgutelyg.com
 .sgvillage.com
@@ -104253,6 +104260,7 @@
 .yuanhsu.com
 .yuanmengbi.com
 .yuanming.net
+.yuanqitu.com
 .yuanyanglw.com
 .yuazwfzvdzfc.com
 .yucce.com
@@ -105849,5 +105857,3 @@
 .zzzrtrcm2.com
 .zzzrtrcm2.com
 .zzzzz4.52896368.com
-There is a version of this file that uses 127.0.0.1 instead of .
-that reads ".machine.domain.tld". This will have the effect of

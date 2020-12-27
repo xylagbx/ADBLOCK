@@ -614,6 +614,10 @@ File_w.close()
 del_line(open(r'RuleSet.list', 'r+'),
          ',no-resolveDOMAIN-SUFFIX,0.nextyourcontent.com')
 
+del_line(open(r'RuleSet.list', 'r+'),
+         'There is a version of this file that uses 127.0.0.1 instead of DOMAIN,')
+del_line(open(r'RuleSet.list', 'r+'),
+         'that reads "DOMAIN,machine.domain.tld". This will have the effect of')
 
 # 创建 DOMAIN-SET 规则集
 Extract_Line(open(r'RuleSet.list', 'r'), open(

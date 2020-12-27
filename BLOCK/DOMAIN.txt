@@ -34312,6 +34312,7 @@ DOMAIN-SUFFIX,45f2373b26b8e2.com
 DOMAIN-SUFFIX,45i73jv6.com
 DOMAIN-SUFFIX,45le.cn
 DOMAIN-SUFFIX,45xa.cn
+DOMAIN-SUFFIX,46186911.vtt
 DOMAIN-SUFFIX,466128.com
 DOMAIN-SUFFIX,467.red
 DOMAIN-SUFFIX,468.vologdainfo.ru
@@ -45827,6 +45828,7 @@ DOMAIN-SUFFIX,besthitsnow.com
 DOMAIN-SUFFIX,besthpath.club
 DOMAIN-SUFFIX,besthuaxia.com
 DOMAIN-SUFFIX,besti.ga
+DOMAIN-SUFFIX,bestialearnbuds.com
 DOMAIN-SUFFIX,bestlolaray.com
 DOMAIN-SUFFIX,bestmmo2018.com
 DOMAIN-SUFFIX,bestmobiworld.com
@@ -63409,6 +63411,7 @@ DOMAIN-SUFFIX,hjgajfbhiefjigafafc.ru
 DOMAIN-SUFFIX,hjgen.cn
 DOMAIN-SUFFIX,hjgmasrve.com
 DOMAIN-SUFFIX,hjgtnhierc.com
+DOMAIN-SUFFIX,hjhbhddren.com
 DOMAIN-SUFFIX,hjiebsdcxldu.com
 DOMAIN-SUFFIX,hjiec.com
 DOMAIN-SUFFIX,hjihwmtsltqi.com
@@ -64199,6 +64202,7 @@ DOMAIN-SUFFIX,hwt.player888.cn
 DOMAIN-SUFFIX,hwyoikfrfdtjp.com
 DOMAIN-SUFFIX,hx623.cn
 DOMAIN-SUFFIX,hxadt.com
+DOMAIN-SUFFIX,hxbt.alading123.com
 DOMAIN-SUFFIX,hxbvxmyldlt.com
 DOMAIN-SUFFIX,hxcav77.com
 DOMAIN-SUFFIX,hxfu.nz53h.cn
@@ -78762,6 +78766,7 @@ DOMAIN-SUFFIX,onclickpredictiv.com
 DOMAIN-SUFFIX,onclickpulse.com
 DOMAIN-SUFFIX,onclicksuper.com
 DOMAIN-SUFFIX,onclicktop.com
+DOMAIN-SUFFIX,onclicktraffic.com
 DOMAIN-SUFFIX,onclkds.com
 DOMAIN-SUFFIX,oncustomer.asia
 DOMAIN-SUFFIX,ondayswr.club
@@ -88178,6 +88183,7 @@ DOMAIN-SUFFIX,scswuliu.com
 DOMAIN-SUFFIX,sculifinanthools.site
 DOMAIN-SUFFIX,scund.com
 DOMAIN-SUFFIX,scupio.com
+DOMAIN-SUFFIX,scurewall.co
 DOMAIN-SUFFIX,scvdxxgbvoz.com
 DOMAIN-SUFFIX,scvxgm.cn
 DOMAIN-SUFFIX,scw.systems
@@ -88963,6 +88969,7 @@ DOMAIN-SUFFIX,sgr1.com
 DOMAIN-SUFFIX,sgrreqyxvigwuh.com
 DOMAIN-SUFFIX,sgs001.adtech.fr
 DOMAIN-SUFFIX,sgs001.adtech.us
+DOMAIN-SUFFIX,sgswuesocfr.com
 DOMAIN-SUFFIX,sguac.com
 DOMAIN-SUFFIX,sgutelyg.com
 DOMAIN-SUFFIX,sgvip.chinahdcm.com
@@ -104490,6 +104497,7 @@ DOMAIN-SUFFIX,yuanhangpiju.cn
 DOMAIN-SUFFIX,yuanhsu.com
 DOMAIN-SUFFIX,yuanmengbi.com
 DOMAIN-SUFFIX,yuanming.net
+DOMAIN-SUFFIX,yuanqitu.com
 DOMAIN-SUFFIX,yuanyanglw.com
 DOMAIN-SUFFIX,yuazwfzvdzfc.com
 DOMAIN-SUFFIX,yucce.com
@@ -105849,5 +105857,3 @@ DOMAIN-SUFFIX,zzz7.52896368.com
 DOMAIN-SUFFIX,zzznews.ru
 DOMAIN-SUFFIX,zzzrtrcm2.com
 DOMAIN-SUFFIX,zzzzz4.52896368.com
-There is a version of this file that uses 127.0.0.1 instead of DOMAIN,
-that reads "DOMAIN,machine.domain.tld". This will have the effect of
