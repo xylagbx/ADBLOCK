@@ -1058,7 +1058,6 @@ DOMAIN-SUFFIX,42842815.com
 DOMAIN-SUFFIX,42842821.com
 DOMAIN-SUFFIX,42842823.com
 DOMAIN-SUFFIX,42842825.com
-DOMAIN-SUFFIX,428428bb.com
 DOMAIN-SUFFIX,428428cc.com
 DOMAIN-SUFFIX,428428gg.com
 DOMAIN-SUFFIX,428428ii.com
@@ -8341,6 +8340,7 @@ DOMAIN-SUFFIX,ddm.nctu.me
 DOMAIN-SUFFIX,ddnete.com
 DOMAIN-SUFFIX,ddns.info
 DOMAIN-SUFFIX,ddns.me.uk
+DOMAIN-SUFFIX,ddns.mobi
 DOMAIN-SUFFIX,ddns.ms
 DOMAIN-SUFFIX,ddns.name
 DOMAIN-SUFFIX,ddns.net
@@ -24802,6 +24802,7 @@ DOMAIN-SUFFIX,twdvd.com
 DOMAIN-SUFFIX,tweakguides.com
 DOMAIN-SUFFIX,tweakwarevpn.net
 DOMAIN-SUFFIX,tweepguide.com
+DOMAIN-SUFFIX,tweeplike.me
 DOMAIN-SUFFIX,tweepmag.com
 DOMAIN-SUFFIX,tweepml.org
 DOMAIN-SUFFIX,tweetbackup.com
@@ -30678,7 +30679,6 @@ DOMAIN-SUFFIX,www.vidoevo.com
 DOMAIN-SUFFIX,www.vidoosh.tv
 DOMAIN-SUFFIX,www.vidproxy.com
 DOMAIN-SUFFIX,www.vids.net
-DOMAIN-SUFFIX,www.vimeopro.com
 DOMAIN-SUFFIX,www.vintagerolexforum.com
 DOMAIN-SUFFIX,www.violibrary.com
 DOMAIN-SUFFIX,www.vioramed.com

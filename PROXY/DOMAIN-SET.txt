@@ -1011,7 +1011,6 @@
 .42842821.com
 .42842823.com
 .42842825.com
-.428428bb.com
 .428428cc.com
 .428428gg.com
 .428428ii.com
@@ -8311,6 +8310,7 @@
 .ddnete.com
 .ddns.info
 .ddns.me.uk
+.ddns.mobi
 .ddns.ms
 .ddns.name
 .ddns.net
@@ -24797,6 +24797,7 @@
 .tweakguides.com
 .tweakwarevpn.net
 .tweepguide.com
+.tweeplike.me
 .tweepmag.com
 .tweepml.org
 .tweetbackup.com
@@ -30676,7 +30677,6 @@
 .www.vidoosh.tv
 .www.vidproxy.com
 .www.vids.net
-.www.vimeopro.com
 .www.vintagerolexforum.com
 .www.violibrary.com
 .www.vioramed.com
