@@ -127,6 +127,28 @@ def add_after_line(a, b):
 
 # reject
 # 云端地址 本地地址
+
+# Domain-set
+domainset = [
+    ('https://raw.githubusercontent.com/geekdada/surge-list/master/domain-set/adaway.txt',
+     r'原始文件/Domain_set/adaway.txt'),
+    ('https://raw.githubusercontent.com/geekdada/surge-list/master/domain-set/annoyances-filter.txt',
+     r'原始文件/Domain_set/annoyances-filter.txt'),
+    ('https://raw.githubusercontent.com/geekdada/surge-list/master/domain-set/base-filter.txt',
+     r'原始文件/Domain_set/base-filter.txt'),
+    ('https://raw.githubusercontent.com/geekdada/surge-list/master/domain-set/chinese-filter.txt',
+     r'原始文件/Domain_set/chinese-filter.txt'),
+    ('https://raw.githubusercontent.com/geekdada/surge-list/master/domain-set/dns-filter.txt',
+     r'原始文件/Domain_set/dns-filter.txt'),
+    ('https://raw.githubusercontent.com/geekdada/surge-list/master/domain-set/neohosts-full.txt',
+     r'原始文件/Domain_set/neohosts-full.txt'),
+    ('https://raw.githubusercontent.com/geekdada/surge-list/master/domain-set/neohosts.txt',
+     r'原始文件/Domain_set/neohosts.txt'),
+    ('https://raw.githubusercontent.com/geekdada/surge-list/master/domain-set/social-media-filter.txt',
+     r'原始文件/Domain_set/social-media-filter.txt'),
+    ('https://raw.githubusercontent.com/geekdada/surge-list/master/domain-set/tracking-protection-filter.txt',
+     r'原始文件/Domain_set/tracking-protection-filter.txt')]
+
 # Rule-set
 urls = [('https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-surge.txt',
          r'原始文件/Rule_set/anti-ad.txt'),
@@ -263,6 +285,7 @@ host = open(r'host.txt', 'w')
 Download_Cloud(urls)
 Download_Cloud(Adblock)
 Download_Cloud(Domain)
+Download_Cloud(domainset)
 Download_Cloud(Host)
 Download_Cloud(Direct)
 Download_Cloud(Proxy)
@@ -275,6 +298,7 @@ myblack.close()
 Merge_Files(open(r'AdBlockList.txt', 'a'), urls)
 Merge_Files(open(r'adblock.txt', 'a'), Adblock)
 Merge_Files(open(r'domain.txt', 'a'), Domain)
+Merge_Files(open(r'domainset.txt', 'a'), domainset)
 Merge_Files(open(r'host.txt', 'a'), Host)
 DirectList.write(myDirect.read())
 DirectList.close()
@@ -296,6 +320,27 @@ for eachline in alllines:
                          'IP-CIDR,180.76.76.76/32\nDOMAIN-SUFFIX,0-100.com')
     a = a.replace('IP-CIDR,2001:67c:4e8::/48DOMAIN-SUFFIX,000000000000000000000000000000000000000000000000000000000000001.com',
                   'IP-CIDR,2001:67c:4e8::/48\nDOMAIN-SUFFIX,000000000000000000000000000000000000000000000000000000000000001.com')
+    File_w.writelines(a)
+File_w.close()
+
+
+# domainset = open(r'domainset.txt', 'r+')
+# domainset.write('\n')
+# domainset.write(' ')
+# domainset.close()
+# sorted_file_content(r'domainset.txt')
+
+
+del_line(open(r'domainset.txt', 'r+'), ' nalytics.163.com')
+
+
+# 将 domainset 中开头的 '.' 替换为 'DOMAIN-SUFFIX,'
+File_r = open(r'domainset.txt', 'r')
+alllines = File_r.readlines()
+File_r.close()
+File_w = open(r'domainset.txt', 'w')
+for eachline in alllines:
+    a = eachline.replace('.', 'DOMAIN-SUFFIX,', 1)
     File_w.writelines(a)
 File_w.close()
 
@@ -490,6 +535,7 @@ File_w.close()
 Merge_File(open(r'AdBlockList.txt', 'a'), open(r'adblock.txt', 'r'))
 Merge_File(open(r'AdBlockList.txt', 'a'), open(r'domain.txt', 'r'))
 Merge_File(open(r'AdBlockList.txt', 'a'), open(r'host.txt', 'r'))
+Merge_File(open(r'AdBlockList.txt', 'a'), open(r'domainset.txt', 'r'))
 
 
 # 新建一个 RuleSet.list 文件，如果已经存在，就覆盖掉它
@@ -880,6 +926,7 @@ remove(r'DirectList.txt')
 remove(r'ProxyList.txt')
 remove(r'adblock.txt')
 remove(r'domain.txt')
+remove(r'domainset.txt')
 remove(r'host.txt')
 remove(r'RuleSet.list')
 remove(r'DRuleSet.list')

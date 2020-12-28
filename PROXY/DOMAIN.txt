@@ -1058,6 +1058,7 @@ DOMAIN-SUFFIX,42842815.com
 DOMAIN-SUFFIX,42842821.com
 DOMAIN-SUFFIX,42842823.com
 DOMAIN-SUFFIX,42842825.com
+DOMAIN-SUFFIX,428428bb.com
 DOMAIN-SUFFIX,428428cc.com
 DOMAIN-SUFFIX,428428gg.com
 DOMAIN-SUFFIX,428428ii.com
@@ -10803,7 +10804,6 @@ DOMAIN-SUFFIX,filthdump.com
 DOMAIN-SUFFIX,finalcutpro.com
 DOMAIN-SUFFIX,finalteens.com
 DOMAIN-SUFFIX,finalworkportfolio.ml
-DOMAIN-SUFFIX,financeleadsonline.com
 DOMAIN-SUFFIX,financetwitter.com
 DOMAIN-SUFFIX,finchvpn.com
 DOMAIN-SUFFIX,find-apple.com
@@ -30679,6 +30679,7 @@ DOMAIN-SUFFIX,www.vidoevo.com
 DOMAIN-SUFFIX,www.vidoosh.tv
 DOMAIN-SUFFIX,www.vidproxy.com
 DOMAIN-SUFFIX,www.vids.net
+DOMAIN-SUFFIX,www.vimeopro.com
 DOMAIN-SUFFIX,www.vintagerolexforum.com
 DOMAIN-SUFFIX,www.violibrary.com
 DOMAIN-SUFFIX,www.vioramed.com
