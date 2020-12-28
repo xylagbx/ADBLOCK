@@ -2834,6 +2834,7 @@
 .ampj90.com
 .amplifyapp.com
 .amplifyframework.com
+.amplitude.com
 .ampproject.com
 .ampproject.net
 .ampproject.org
@@ -3894,7 +3895,7 @@
 .ballbet.com
 .balloi.com
 .baltimorebmw.com
-.bam.nr-date.net
+.bam.nr-data.net
 .bamgrid.com
 .bamsoftware.com
 .banamex
@@ -4104,6 +4105,7 @@
 .bcast.co.nz
 .bcbits.com
 .bcbolt446c5271-a.akamaihd.net
+.bcbolthboa-a.akamaihd.net
 .bcbolthboa-a.akamaihd.net
 .bcc.com.tw
 .bccard.xyz
@@ -5699,7 +5701,6 @@
 .buyu8001.com
 .buyu8007.com
 .buyu866.com
-.buyu867.com
 .buyu872.com
 .buyu875.com
 .buyu876.com
@@ -6313,6 +6314,7 @@
 .cdn.kik.com
 .cdn.line-apps.com
 .cdn.mobileread.com
+.cdn.optimizely.com
 .cdn.plus500.com
 .cdn.printfriendly.com
 .cdn.registerdisney.go.com
@@ -6324,7 +6326,6 @@
 .cdn.tophatch.com
 .cdn.tranquilli.org
 .cdn.ub8go.com
-.cdn.unid.go.com
 .cdn1.lp.saboom.com
 .cdn77.scoreuniverse.com
 .cdnews.com.tw
@@ -6394,6 +6395,7 @@
 .certificate.revocationcheck.com
 .cevin.me
 .cex.io
+.cf-images.ap-southeast-1.prod.boltdns.net
 .cf-images.ap-southeast-1.prod.boltdns.net
 .cf5.herokuapp.com
 .cf7.com
@@ -7569,6 +7571,8 @@
 .cwb.gov.tw
 .cwbbooks.com
 .cweb-pix.com
+.cws-hulu.conviva.com
+.cws.conviva.com
 .cx
 .cx.atdmt.com
 .cx.v2ray.cx
@@ -8676,6 +8680,7 @@
 .disneypeoplesurveys.com
 .disneyplus.bn5x.net
 .disneyplus.com
+.disneyplus.com.ssl.sc.omtrdc.net
 .disneyredirects.com
 .disneysrivieraresort.com
 .disneystore.com
@@ -10776,6 +10781,7 @@
 .finalcutpro.com
 .finalteens.com
 .finalworkportfolio.ml
+.financeleadsonline.com
 .financetwitter.com
 .finchvpn.com
 .find-apple.com
@@ -13763,7 +13769,9 @@
 .huloo.cc
 .huloo.tv
 .hulu.com
+.hulu.hb.omtrdc.net
 .hulu.jp
+.hulu.sc.omtrdc.net
 .hulu.tv
 .huluaction.com
 .huluad.com
@@ -14536,7 +14544,6 @@
 .iphone4s.com
 .iphone5.com
 .iphone5casescovers.com
-.iphone5s5case.com
 .iphonecase2013.com
 .iphonecase5.com
 .iphonecases100.com
@@ -16277,7 +16284,6 @@
 .logitechg.com
 .logme.in
 .logmein.com
-.logx.optimizely.com
 .lol-europe.com
 .lolclub.org
 .lolespor.com
@@ -16735,6 +16741,7 @@
 .manhub.com
 .maniash.com
 .manicur4ik.ru
+.manifest.prod.boltdns.net
 .manilastandard.net
 .manmin.org
 .manorama.com
@@ -18110,6 +18117,8 @@
 .mytinari.etowns.net
 .mytizi.com
 .mytvsuper.com
+.mytvsuperlimited.hb.omtrdc.net
+.mytvsuperlimited.sc.omtrdc.net
 .myuni.adelaide.edu.au
 .myvisaluxuryhotels.com
 .myvnc.com
@@ -19227,7 +19236,6 @@
 .on2.com
 .onapp.com
 .onbeatsbydresale.com
-.onboarding.indazn.com
 .one.one.one
 .oneapi.com
 .oneclient.sfx.ms
@@ -20799,7 +20807,6 @@
 .pu9900.com
 .pu9944.com
 .puba.com
-.pubby.indazn.com
 .publ.co
 .public-trust.com
 .publicaffairsbooks.com
@@ -21092,7 +21099,6 @@
 .raid
 .raidcall.com.tw
 .raidtalk.com.tw
-.rail.discovery.indazn.com
 .railway.co.th
 .rainbowplan.org
 .raindrop.io
@@ -21209,6 +21215,7 @@
 .read01.com
 .read100.com
 .read9891.github.io
+.readdle.com
 .reader.roodo.com
 .readfun.xyz
 .readingtimes.com.tw
@@ -23184,6 +23191,7 @@
 .straplessdildo.com
 .strapline.org
 .strart.art
+.streaks.jp
 .streamable.com
 .streamate.com
 .streamer1.rfaweb.org
@@ -23598,10 +23606,12 @@
 .taohuazu.cc
 .taoism.net
 .taolun.info
+.tap.io
 .tapanwap.com
 .tapatalk.com
 .tapbots.com
 .tapbots.net
+.taptap.tw
 .taptotokyo.com
 .taragana.com
 .target
@@ -31709,6 +31719,7 @@
 .yazhouseba.com
 .yb.domain888.pw
 .yb.freepac.pw
+.yb.uncn.jp
 .yb00000.com
 .yb1111.com
 .yb1666.com

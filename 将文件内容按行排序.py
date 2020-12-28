@@ -29,4 +29,4 @@ def sorted_file_content(a):
 
 
 # a = r'原始文件/clash.txt'
-sorted_file_content(r'原始文件/clash.txt')
+sorted_file_content(r'原始文件/Direct.txt')

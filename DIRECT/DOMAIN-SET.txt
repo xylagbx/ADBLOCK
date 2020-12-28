@@ -9976,7 +9976,6 @@
 .ampc8.com
 .ampcn.com
 .amplesky.com
-.amplitude.com
 .ampmake.com
 .ampxl.com
 .ams-ic.com
@@ -10092,6 +10091,7 @@
 .anilumin.com
 .animalchina.com
 .animationcritics.com
+.animebytes.tv
 .animetaste.net
 .animetorrents.me
 .anitama.net
@@ -10409,6 +10409,7 @@
 .api.mob.app.letv.com
 .api.sfacg.com
 .api.smoot.apple.cn
+.api.waqi.info
 .apiadmin.org
 .apiairasia.com
 .apicloud.com
@@ -10594,6 +10595,7 @@
 .aqfen.com
 .aqfy.net
 .aqhuayu.com
+.aqicn.org
 .aqidb.org
 .aqinfo.net
 .aqioo.com
@@ -25176,7 +25178,6 @@
 .fire233.com
 .fire2333.com
 .firebase-settings.crashlytics.com
-.firebaseio.com
 .firebirdprint.com
 .fireemblem.net
 .fireemulator.com
@@ -30800,7 +30801,6 @@
 .hoau.net
 .hobalab.com
 .hobbiestree.com
-.hockeyapp.net
 .hocode.com
 .hodoop.com
 .hoehub.com
@@ -61362,6 +61362,7 @@
 .waptt.com
 .waptw.com
 .wapzk.net
+.waqi.info
 .waqiang.com
 .war3we.net
 .warcraftchina.com

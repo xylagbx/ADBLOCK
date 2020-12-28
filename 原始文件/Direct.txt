@@ -1,5 +1,7 @@
+DOMAIN,api.waqi.info
 DOMAIN,apm.music.163.com
 DOMAIN,apm3.music.163.com
+DOMAIN,aqicn.org
 DOMAIN,blzddist1-a.akamaihd.net
 DOMAIN,cdn.angruo.com
 DOMAIN,client.amplifi.com
@@ -14,6 +16,7 @@ DOMAIN,music.163.com
 DOMAIN,ping.huatuo.qq.com
 DOMAIN,safebrowsing.googleapis.com
 DOMAIN,speedtest.macpaw.com
+DOMAIN,waqi.info
 DOMAIN-SUFFIX,12306.cn
 DOMAIN-SUFFIX,12306.com
 DOMAIN-SUFFIX,126.net

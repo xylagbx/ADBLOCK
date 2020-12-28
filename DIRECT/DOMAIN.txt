@@ -1,9 +1,11 @@
 DOMAIN,aod.itunes.apple.com
 DOMAIN,api.smoot.apple.cn
+DOMAIN,api.waqi.info
 DOMAIN,apm.music.163.com
 DOMAIN,apm3.music.163.com
 DOMAIN,appldnld.apple.com
 DOMAIN,apptrailers.itunes.apple.com
+DOMAIN,aqicn.org
 DOMAIN,blzddist1-a.akamaihd.net
 DOMAIN,cdn.angruo.com
 DOMAIN,cdp.cloud.unity3d.com
@@ -30,6 +32,7 @@ DOMAIN,supportdownload.apple.com
 DOMAIN,swcdn.apple.com
 DOMAIN,updates-http.cdn-apple.com
 DOMAIN,upos-hz-mirrorakam.akamaized.net
+DOMAIN,waqi.info
 DOMAIN-SUFFIX,0-100.com
 DOMAIN-SUFFIX,0-6.com
 DOMAIN-SUFFIX,0-gold.net
@@ -10008,7 +10011,6 @@ DOMAIN-SUFFIX,amorrisroofing.com
 DOMAIN-SUFFIX,ampc8.com
 DOMAIN-SUFFIX,ampcn.com
 DOMAIN-SUFFIX,amplesky.com
-DOMAIN-SUFFIX,amplitude.com
 DOMAIN-SUFFIX,ampmake.com
 DOMAIN-SUFFIX,ampxl.com
 DOMAIN-SUFFIX,ams-ic.com
@@ -10124,6 +10126,7 @@ DOMAIN-SUFFIX,anilnikz.com
 DOMAIN-SUFFIX,anilumin.com
 DOMAIN-SUFFIX,animalchina.com
 DOMAIN-SUFFIX,animationcritics.com
+DOMAIN-SUFFIX,animebytes.tv
 DOMAIN-SUFFIX,animetaste.net
 DOMAIN-SUFFIX,animetorrents.me
 DOMAIN-SUFFIX,anitama.net
@@ -25196,7 +25199,6 @@ DOMAIN-SUFFIX,fir.vip
 DOMAIN-SUFFIX,fire233.com
 DOMAIN-SUFFIX,fire2333.com
 DOMAIN-SUFFIX,firebase-settings.crashlytics.com
-DOMAIN-SUFFIX,firebaseio.com
 DOMAIN-SUFFIX,firebirdprint.com
 DOMAIN-SUFFIX,fireemblem.net
 DOMAIN-SUFFIX,fireemulator.com
@@ -30819,7 +30821,6 @@ DOMAIN-SUFFIX,hnzzgjly.com
 DOMAIN-SUFFIX,hoau.net
 DOMAIN-SUFFIX,hobalab.com
 DOMAIN-SUFFIX,hobbiestree.com
-DOMAIN-SUFFIX,hockeyapp.net
 DOMAIN-SUFFIX,hocode.com
 DOMAIN-SUFFIX,hodoop.com
 DOMAIN-SUFFIX,hoehub.com
