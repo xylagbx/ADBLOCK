@@ -2171,6 +2171,7 @@
 .acgheaven.org
 .acgkj.com
 .acglover.me
+.acgnx.se
 .acgpy.com
 .acgpy.net
 .achat-followers-instagram.com
@@ -5009,8 +5010,10 @@
 .bloomberg.co.jp
 .bloomberg.com
 .bloomberg.de
+.bloomberg.fm
 .bloomberg.it
 .bloomberg.net
+.bloomberg.tv
 .bloombergapps.com
 .bloombergarcade.com
 .bloombergbeta.com
@@ -5701,6 +5704,7 @@
 .buyu8001.com
 .buyu8007.com
 .buyu866.com
+.buyu867.com
 .buyu872.com
 .buyu875.com
 .buyu876.com
@@ -7657,7 +7661,6 @@
 .d1ae6hadrbjhyp.cloudfront.net
 .d1ani98g6ik72n.cloudfront.net
 .d1ate9io4mqkko.cloudfront.net
-.d1b183sg0nvnuh.cloudfront.net
 .d1b3gtspywx8mw.cloudfront.net
 .d1bdz086ztl2x6.cloudfront.net
 .d1bgcxp91frokk.cloudfront.net
@@ -9915,7 +9918,9 @@
 .esmatube.com
 .esmtp.biz
 .espn.com
+.espn.net
 .espncdn.com
+.espnqa.com
 .esri.com
 .est-a-la-masion.com
 .est-le-patron.com
@@ -10473,7 +10478,6 @@
 .fandango.com
 .fandiingah.com
 .fandom.com
-.fandom.zendesk.com
 .fanfictio.net
 .fanfou.im
 .fangbinxing.com
@@ -11976,8 +11980,12 @@
 .getsocialscope.com
 .getsync.com
 .gettrials.com
+.gettyimages.be
+.gettyimages.ch
 .gettyimages.com
 .gettyimages.hk
+.gettyimages.it
+.gettyimages.pt
 .getukvpn.com
 .getuploader.com
 .getwiki.org
@@ -12067,7 +12075,6 @@
 .git.io
 .gitbook.com
 .gitbook.io
-.gitbook.zendesk.com
 .gitbooks.io
 .github-avatars.oss-cn-hongkong.aliyuncs.com
 .github.blog
@@ -12249,6 +12256,7 @@
 .gold888world.com
 .goldbet.com
 .goldbetsports.com
+.golden-ages.org
 .golden-beauty-web.firebaseio.com
 .goldeneyevault.com
 .goldenfrog.biz
@@ -12615,6 +12623,7 @@
 .gotdns.ch
 .gotgeeks.com
 .gotporn.com
+.gotraffic.net
 .gotrusted.com
 .gotv
 .gotv.ctitv.com.tw
@@ -13485,6 +13494,7 @@
 .hongmeimei.com
 .hongzhi.li
 .honto.jp
+.honven.xyz
 .hooloo.tv
 .hoolu.com
 .hoolu.tv
@@ -13911,6 +13921,7 @@
 .ibeatsbydre.com
 .ibiblio.org
 .ibid1.com
+.ibit.am
 .iblist.com
 .iblogserv-f.net
 .ibm
@@ -14544,6 +14555,7 @@
 .iphone4s.com
 .iphone5.com
 .iphone5casescovers.com
+.iphone5s5case.com
 .iphonecase2013.com
 .iphonecase5.com
 .iphonecases100.com
@@ -15730,6 +15742,7 @@
 .kwcg.ca
 .kwfq.tk
 .kwikj.com
+.kwok7.com
 .kwongwah.com.my
 .kwp52.com
 .kxsw.life
@@ -16396,6 +16409,7 @@
 .lubeyourtube.com
 .lubinscy.pl
 .lubl.xyz
+.luckydesigner.space
 .luckyissue.com
 .lucyintheskywithdi.com
 .ludwigvonkoopa.com
@@ -19160,6 +19174,7 @@
 .ohayoutube.com
 .ohchr.org
 .ohiofreenet.org
+.ohmyrss.com
 .oho.slyip.net
 .ohyeah1080.com
 .oikos.com.tw
@@ -19458,6 +19473,7 @@
 .ourtv.hk
 .ourworldindata.org
 .ourxxtv.com
+.outbound.io
 .outfw.net
 .outingsapp.com
 .outletbeatsshop.com
@@ -21012,6 +21028,7 @@
 .quicken.com
 .quickleft.net
 .quickoffice.com
+.quicktake.video
 .quicktime.cc
 .quicktime.com
 .quicktime.net
@@ -21098,7 +21115,6 @@
 .rahsmann.de
 .raid
 .raidcall.com.tw
-.raidtalk.com.tw
 .railway.co.th
 .rainbowplan.org
 .raindrop.io
@@ -24189,6 +24205,7 @@
 .ticket.com.tw
 .ticketmonster.co.kr
 .tickling-videos.com
+.tictoc.video
 .tidal-cms.s3.amazonaws.com
 .tidal.com
 .tidalhifi.com
@@ -24711,6 +24728,7 @@
 .tv.domain888.pw
 .tv.freepac.pw
 .tv.itver.cc
+.tv.jtbc.joins.com
 .tv.kakao.com
 .tv.proxydns.com
 .tv.tv2.myddns.com
@@ -31919,6 +31937,7 @@
 .youshun12.com
 .yout.com
 .youtanhua.ml
+.youthforfreechina.org
 .youthnetradio.org
 .youthtaiwan.net
 .youthwant.com.tw
@@ -32127,9 +32146,11 @@
 .zc2877.com
 .zc88e.com
 .zcssr.com
+.zdassets.com
 .zdbwoet.com
 .zdnet.com
 .zdnet.com.tw
+.zdusercontent.com
 .zdx.in
 .zebnet.coloraccounting.com
 .zedge.com
@@ -32154,6 +32175,7 @@
 .zen.nctu.me
 .zencdn.net
 .zend2.com
+.zendesk.com
 .zendproxy.com
 .zengjinyan.org
 .zenguard.org
@@ -32273,6 +32295,7 @@
 .zmw.cn
 .zmz2019.com
 .zmzapi.com
+.zndsk.com
 .zneth.com
 .znetlive.com
 .znrw.4.688.org
@@ -32307,6 +32330,7 @@
 .zootool.com
 .zoozle.net
 .zophar.net
+.zopim.com
 .zorpia.com
 .zorrovpn.com
 .zozotown.com

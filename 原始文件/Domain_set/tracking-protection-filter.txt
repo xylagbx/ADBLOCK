@@ -2130,7 +2130,6 @@
 .omgpm.com
 .omguk.com
 .omkt.co
-.omnitagjs.com
 .on-line.lv
 .onefeed.co.uk
 .onelink-translations.com
