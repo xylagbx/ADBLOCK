@@ -1,6 +1,7 @@
 DOMAIN-SUFFIX,acs.m.taobao.com
 DOMAIN-SUFFIX,anime-pictures.net
 DOMAIN-SUFFIX,api.ad.xiaomi.com
+DOMAIN-SUFFIX,ccb.com
 DOMAIN-SUFFIX,issuecdn.baidupcs.com
 DOMAIN-SUFFIX,ping.huatuo.qq.com
 DOMAIN-SUFFIX,safebrowsing.urlsec.qq.com

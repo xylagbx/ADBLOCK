@@ -4812,7 +4812,6 @@ DOMAIN-SUFFIX,bk.cylab.org
 DOMAIN-SUFFIX,bk2888.com
 DOMAIN-SUFFIX,bk8188.com
 DOMAIN-SUFFIX,bkk029.com
-DOMAIN-SUFFIX,bkk166.com
 DOMAIN-SUFFIX,bkk589.com
 DOMAIN-SUFFIX,bkk789.com
 DOMAIN-SUFFIX,bkpi666.com
@@ -7699,6 +7698,7 @@ DOMAIN-SUFFIX,d1a6f7r0yathe0.cloudfront.net
 DOMAIN-SUFFIX,d1ae6hadrbjhyp.cloudfront.net
 DOMAIN-SUFFIX,d1ani98g6ik72n.cloudfront.net
 DOMAIN-SUFFIX,d1ate9io4mqkko.cloudfront.net
+DOMAIN-SUFFIX,d1b183sg0nvnuh.cloudfront.net
 DOMAIN-SUFFIX,d1b3gtspywx8mw.cloudfront.net
 DOMAIN-SUFFIX,d1bdz086ztl2x6.cloudfront.net
 DOMAIN-SUFFIX,d1bgcxp91frokk.cloudfront.net
@@ -12397,7 +12397,6 @@ DOMAIN-SUFFIX,google.co.uk
 DOMAIN-SUFFIX,google.co.uz
 DOMAIN-SUFFIX,google.co.ve
 DOMAIN-SUFFIX,google.co.vi
-DOMAIN-SUFFIX,google.co.za
 DOMAIN-SUFFIX,google.co.zm
 DOMAIN-SUFFIX,google.co.zw
 DOMAIN-SUFFIX,google.com
@@ -21123,6 +21122,7 @@ DOMAIN-SUFFIX,raggedbanner.com
 DOMAIN-SUFFIX,rahsmann.de
 DOMAIN-SUFFIX,raid
 DOMAIN-SUFFIX,raidcall.com.tw
+DOMAIN-SUFFIX,raidtalk.com.tw
 DOMAIN-SUFFIX,railway.co.th
 DOMAIN-SUFFIX,rainbowplan.org
 DOMAIN-SUFFIX,raindrop.io

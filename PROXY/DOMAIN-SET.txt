@@ -4769,7 +4769,6 @@
 .bk2888.com
 .bk8188.com
 .bkk029.com
-.bkk166.com
 .bkk589.com
 .bkk789.com
 .bkpi666.com
@@ -7661,6 +7660,7 @@
 .d1ae6hadrbjhyp.cloudfront.net
 .d1ani98g6ik72n.cloudfront.net
 .d1ate9io4mqkko.cloudfront.net
+.d1b183sg0nvnuh.cloudfront.net
 .d1b3gtspywx8mw.cloudfront.net
 .d1bdz086ztl2x6.cloudfront.net
 .d1bgcxp91frokk.cloudfront.net
@@ -12372,7 +12372,6 @@
 .google.co.uz
 .google.co.ve
 .google.co.vi
-.google.co.za
 .google.co.zm
 .google.co.zw
 .google.com
@@ -21115,6 +21114,7 @@
 .rahsmann.de
 .raid
 .raidcall.com.tw
+.raidtalk.com.tw
 .railway.co.th
 .rainbowplan.org
 .raindrop.io
