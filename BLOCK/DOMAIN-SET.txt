@@ -101,7 +101,6 @@
 .039ad0897e6da.com
 .0413fsiuhwem.xyz
 .0420zvnmljgfdsa.xyz
-.04273b4d0ffe.com
 .0427d7.se
 .0427d7.se
 .04426f8b7ce9b069431.com
@@ -738,6 +737,7 @@
 .185.162.8.101
 .185.17.120.130
 .185.179.190.31
+.185.22.67.108
 .185.46.11.73
 .185.67.2.156
 .185.75.46.122
@@ -813,6 +813,7 @@
 .19beda38dc2ce42.com
 .19bk5lo5q2.com
 .19d12dd9de1.com
+.19shows.net
 .1ab5bb25e29d576.com
 .1affmedia.com
 .1aogoh1j81g3.com
@@ -1114,7 +1115,6 @@
 .22.qingsongbar.com
 .220efda3143.com
 .221.5.69.52
-.2219ca6fc1.com
 .222.45.224.77
 .22222jsc.com
 .222627.com
@@ -1264,7 +1264,6 @@
 .28amen.org
 .28mcw1.cn
 .28ysc.com
-.292f18b4e7b4.com
 .292news.biz
 .293870.com
 .2975c.v.fwmrm.net
@@ -1586,6 +1585,7 @@
 .36c6ce350b32.com
 .36ia2.cn
 .36pn.com
+.37.139.2.214
 .37.235.50.29
 .37.235.53.18
 .37.235.53.210
@@ -2226,7 +2226,6 @@
 .5c.com.cn
 .5c43cbc0f41.com
 .5c577fc74618431b.com
-.5cebdc16d51ea.com
 .5cwr93yyd4lf.com
 .5d02977f6511aa.com
 .5dabf928ad9ad4.com
@@ -2995,6 +2994,10 @@
 .88ysg.com
 .89.108.83.189
 .89.108.83.196
+.89.108.84.132
+.89.108.84.155
+.89.108.84.87
+.89.108.85.163
 .89.145.78.9
 .89.8ox.cn
 .890x.com
@@ -4260,11 +4263,7 @@
 .ablad.ma
 .ablaze-class.space
 .ablehed.pro
-.ablen02.tk
-.ablen03.tk
-.ablen06.tk
-.ablen10.tk
-.ablen11.tk
+.ablen12.tk
 .ablenctionalle.info
 .ablerivetdoubted.com
 .ablida-rotation.com
@@ -5407,7 +5406,6 @@
 .ad.prv.pl
 .ad.prv.pl
 .ad.pt.doubleclick.net
-.ad.pttcn.net
 .ad.qingting.fm
 .ad.qingting.fm
 .ad.qn.img-space.com
@@ -5894,7 +5892,6 @@
 .ad41.checkm8.com
 .ad41digital.checkm8.com
 .ad42.checkm8.com
-.ad42877d321.com
 .ad42digital.checkm8.com
 .ad43.checkm8.com
 .ad43digital.checkm8.com
@@ -7474,7 +7471,6 @@
 .adreporting.com
 .adreq.vivo.com.cn
 .adrequests.com
-.adres.internet.com
 .adres.myaora.net
 .adresellers.com
 .adresponse.it
@@ -10059,6 +10055,7 @@
 .adsebs.ximalaya.com
 .adsebs.ximalaya.com
 .adsee.jp
+.adsehera.ximalaya.com
 .adselector.ru
 .adsellers.net
 .adsence.sogou.com
@@ -12700,7 +12697,6 @@
 .aidomination.xyz
 .aidps.atdmt.com
 .aidps.atdmt.com
-.aidu-ads.de
 .aifei.info
 .aifei0755.net
 .aifgroup.jp
@@ -13301,6 +13297,7 @@
 .alli-tcod.com
 .alliance.adbureau.net
 .allibestru.ru
+.alliedthirteen.com
 .alljazeera.co
 .allkeygenscheats.hackspress.net
 .allkeygensdownload.com
@@ -13541,6 +13538,7 @@
 .amateur.amarotic.com
 .amateur.xxxcounter.com
 .amateurcouplewebcam.com
+.amateurporn.net
 .amatic.in
 .amatoi.com
 .amaumomt.com
@@ -14744,7 +14742,6 @@
 .api-js.mixpanel.com
 .api-js.mixpanel.com/track
 .api-keks.com
-.api-location-prd.pelcro.com
 .api-log-analytics.cloud.toast.com
 .api-log.immomo.com
 .api-pravoved.s3.amazonaws.com
@@ -18587,6 +18584,7 @@
 .baystrade.com
 .bayunblocked.eu
 .baywest.ac
+.baywttgdhe.do
 .baywttgdhe.download
 .baywttgdhe.download
 .bazaar.tokyo
@@ -19334,6 +19332,7 @@
 .besocial.online
 .besstahete.info
 .best-cargo.ru
+.best-cdn.pl
 .best-cheat.org
 .best-cheats24.com
 .best-files.org
@@ -23160,7 +23159,6 @@
 .carpetusiko.club
 .carrecase.com
 .carriagecan.com
-.carrier-spb.ru
 .carrier.bz
 .carrier.bz
 .carrotquest.io
@@ -23343,6 +23341,7 @@
 .catbears.com
 .catch.gift
 .catchinemuj.club
+.catchtheclick.com
 .catchvid.info
 .catchvid.info
 .catchynerves.com
@@ -23400,7 +23399,6 @@
 .cb1.counterbot.com
 .cb3fzwkkt6yxt.xyz
 .cb4faf87ffae.com
-.cb74a5af6bedd.com
 .cb8717377086c72d.com
 .cba-fed-igh.com
 .cbactive.com
@@ -24330,7 +24328,6 @@
 .celebrity-numbers.com
 .celebrity-phone-numbers.com
 .celebrityloft.com
-.celebrityonline.cz
 .celebrityphone.net
 .celebrityphonehacks.com
 .celebrityphotoleaks.com
@@ -26178,6 +26175,7 @@
 .clientservices.googleapis.com
 .clientstorage.cxense.com
 .clifftopper.com
+.cliggi.download
 .clikerz.net
 .cliksolution.com
 .climairuk.com
@@ -26514,6 +26512,7 @@
 .cmop.mgtv.com
 .cmp-cdn.ghostery.com
 .cmp-lb-ap-southeast.tubemogul.com
+.cmp-sp.wiwo.de
 .cmp.advertising.com
 .cmp.arnnet.com.au
 .cmp.channelpartner.de
@@ -26829,6 +26828,7 @@
 .code-server.biz
 .code.3shangyou.com
 .code.51sotu.com
+.code.acstat.com
 .code.adtlgc.com
 .code.afsanalytics.com
 .code.ainsyndication.com
@@ -31116,7 +31116,6 @@
 .darkavenger.hackfree.us
 .darkhacks.eu
 .darkhollowcoffee.com
-.darking05.tk
 .darking07.tk
 .darknesscsgo.com
 .darky.cba.pl
@@ -33183,6 +33182,7 @@
 .dm0acvguygm9h.cloudfront.net
 .dm1.3199.cn
 .dm1.3328.cn
+.dm1.ddwk8.cn
 .dm1.dnpz123.com
 .dm1.guanwawa.com
 .dm1.tom61.com
@@ -35349,7 +35349,6 @@
 .e98fe.luytr.com
 .e9976b21f1b2775b.com
 .e9c1khhwn4uf.com
-.e9e1542c796.com
 .e9emh.cn
 .e9mlrvy1.com
 .ea.auchantelecom.fr
@@ -37408,6 +37407,7 @@
 .esgvhaspsjg.com
 .eshengconsulting.com
 .esherrugby.com
+.eshncdkjp.com
 .eshortonempleae.info
 .eshowever.club
 .eshuy.com
@@ -39400,6 +39400,7 @@
 .fembsflungod.com
 .femininefurrow.com
 .feminysteph.com
+.femvxitrquzretxzdq.info
 .femworldview.com
 .fen.dkdlsj.com
 .fenailany.com
@@ -42190,6 +42191,7 @@
 .fxdepo.com
 .fxfahn.com
 .fxfhjs.com
+.fxfvttu.cn
 .fxfxpyrq.com
 .fxgpbkwu.com
 .fxhoog.com
@@ -42275,6 +42277,7 @@
 .g--o.info
 .g-c.com
 .g-cash.biz
+.g-content.bi
 .g-content.bid
 .g-content.bid
 .g-peer.at
@@ -44830,6 +44833,7 @@
 .goldbach.com
 .goldbach.hit.gemius.pl
 .goldberg-share.com
+.golden-bereg.ru
 .golden-coast.net
 .golden-fishka.com
 .golden-hacks.com
@@ -45647,6 +45651,7 @@
 .gruppa-yug.ru
 .gruppoeslabon.com.ph
 .gruppostolfaedilizia.it
+.grupticaje.pro
 .grursusy.com
 .grushashuka.pro
 .grvmedia.com
@@ -46063,6 +46068,7 @@
 .gxe.husky.sogou.com
 .gxejgs.com
 .gxeoadmo.com
+.gxfc2021.top
 .gxgydnhz.com
 .gxgzyny.com
 .gxhxmy88.com
@@ -49297,6 +49303,7 @@
 .hzdhr.cn
 .hzdmacore.kejet.net
 .hzfcx.top
+.hzhfhkj.cn
 .hzht666.com
 .hzhyhm.com
 .hzkachqd.com
@@ -50536,7 +50543,6 @@
 .imetinyang.za.pl
 .imetrix.it
 .imevdywafhro.com
-.imexltd.eu
 .imfsr.lenovomm.com
 .img*.hc360.com
 .img-a2.ak.imagevz.net
@@ -50805,6 +50811,7 @@
 .imhd.io
 .imhizxejm.com
 .imho.ru
+.imhvlhaelvvbrq.ru
 .imiclk.com
 .imidshmpzr.com
 .imiek.com
@@ -52308,7 +52315,6 @@
 .iss0.tripod.com
 .issges.oewabox.at
 .issuesconsultationsocially.com
-.ist-profy.ru
 .ist-track.com
 .istana-impian.com
 .istana-impian2.com
@@ -52428,6 +52434,7 @@
 .itracmediav4.com
 .itrajy.ru
 .itrechtsanwalt.at
+.itrght.com
 .itrigra.ru
 .itruni.com
 .itrustzone.site
@@ -53093,6 +53100,7 @@
 .jeekeglu.net
 .jeeng.com
 .jeepyy.com
+.jeerszitstoke.com
 .jeeshapi.net
 .jeetyetmedia.com
 .jeeumttalzwt.com
@@ -53883,6 +53891,7 @@
 .jqhevyf.cn
 .jqk72ugyl2pz.com
 .jqki.cn
+.jqmrqgaunex.ru
 .jqmt.qq.com
 .jqnshpbuj.com
 .jqpccewciuzj.com
@@ -54063,6 +54072,7 @@
 .js.moatads.com
 .js.mobojoy.baidu.com
 .js.monetize-ssp.com
+.js.mscto.com
 .js.mumayi.net
 .js.mzxxiend.com
 .js.nahnoji.cz
@@ -54693,6 +54703,7 @@
 .k.intellitxt.com
 .k.intellitxt.com
 .k.kksgl.top
+.k.kolplay.com
 .k.qzzxjc.com
 .k.rueducommerce.fr
 .k.streamrail.com
@@ -55493,6 +55504,7 @@
 .kjizuuuvqbcd.com
 .kjkwrmwdyhi.com
 .kjlahwtvckpaci.com
+.kjli.fi
 .kjltxn.com
 .kjlvutytm.com
 .kjlzt.cn
@@ -55947,7 +55959,6 @@
 .kralseo.info
 .kraruzatefci.com
 .krasisa.info
-.kraskileto.ru
 .krasnodar-sp.ru
 .krasnyepyatnanakozhe.ru
 .krb.devphp.org.ua
@@ -57912,7 +57923,6 @@
 .live.rads.msn.com
 .live.rads.msn.com
 .live.rezync.com
-.live.simcitybuildit.com
 .live.streams24.tv
 .live.tvpot.daum.net
 .live.xunlei.com
@@ -58052,6 +58062,7 @@
 .ljjaiargqfwtzu.com
 .ljkihuolgoh.com
 .ljkmwpvahv.com
+.ljmei.com
 .ljqnbiogjp.com
 .ljrljohnoqa.com
 .ljrtb.cn
@@ -58266,7 +58277,6 @@
 .loadr.exelator.com
 .loadus.exelator.com
 .loadus.exelator.com
-.loaloeloaeeo.com
 .loamauji.com
 .loan.aol.msk.su
 .loan.aol.msk.su
@@ -58477,6 +58487,7 @@
 .log.pinterest.com
 .log.pladform.ru
 .log.pladform.ru
+.log.plinga.de
 .log.popin.cc
 .log.prezi.com
 .log.propermessage.io
@@ -61934,6 +61945,7 @@
 .mcshop.me
 .mcskucrxgwx.com
 .mcsnhbdil.com
+.mct.etherscan.com
 .mct01.com
 .mcteu.cn
 .mcti.co.ao
@@ -67667,7 +67679,6 @@
 .niledestratherg.club
 .niltutch.com
 .nim.qiyukf.com
-.nimarakshayurja.com
 .nimatey.info
 .nimdinb.com
 .nimelytranst.club
@@ -72888,6 +72899,7 @@
 .pcnetworkreliablecloudservices.online
 .pcnetworkreliablecloudservices.online
 .pcommaging.site
+.pcon.space
 .pcookie.aliexpress.com
 .pcookie.aliexpress.com
 .pcookie.cnzz.com
@@ -73066,7 +73078,6 @@
 .pekingpk10.com
 .pelano.ru
 .pelckw.qjudpxkisv.xyz
-.pelcro.com
 .pelicanprogram.com
 .pelicansource.com
 .pelicula20.com
@@ -74005,6 +74016,7 @@
 .pinresentag.info
 .pintour.com
 .pinuserror.com
+.pinwu123.com
 .pinyoux.com
 .pinzhitmall.com
 .pion.loveserials.net
@@ -74586,6 +74598,7 @@
 .playboymethod.com
 .playcapt.com
 .playcinema.stream80.com
+.playcvn.com
 .playdowncenter.com
 .playdowngames.com
 .playdownload.info
@@ -75315,6 +75328,7 @@
 .portech315.net
 .portedlysarcatc.info
 .portfold.com
+.portionlilacrig.com
 .portkingric.net
 .portlytinytimeout.com
 .pos.baidu.com
@@ -76591,7 +76605,6 @@
 .prscripts.com
 .prsitecheck.com
 .prsmglob.com
-.prsrjdr.ru
 .prstats.postrelease.com
 .prt-stsdk.vivo.com.cn
 .prt-stsdk.vivoglobal.com
@@ -77119,6 +77132,7 @@
 .punctualbuzzerleaflet.com
 .punfbtrcvfdxl.com
 .punklocalbabez.com
+.punkrevealed.com
 .punlkhusprgw.com
 .punosy.com
 .punosy.top
@@ -79307,6 +79321,7 @@
 .rating.in
 .rating6.kingsoft-office-service.com
 .ratings.lycos.com
+.ratingtoplist.com
 .ratioboom.ru
 .rationalan.pro
 .ratkalol.com
@@ -80095,7 +80110,6 @@
 .reichertgmbh.de
 .reidancis.com
 .reiffen.info
-.reify.ru
 .reimageplus.com
 .reimageplus.com
 .reimburs.co
@@ -81179,7 +81193,6 @@
 .rljakgkixu.com
 .rllvjujeyeuy.com
 .rlog-api.under9.co
-.rlog-video.conn.aiseet.atianqi.com
 .rlog.9gag.com
 .rlog.popin.cc
 .rlog.video.qq.com
@@ -83090,6 +83103,7 @@
 .s86.cnzz.com
 .s87.cnzz.com
 .s88.cnzz.com
+.s88.vdl.pl
 .s89.cnzz.com
 .s8dj.com
 .s8t.teads.tv
@@ -84058,7 +84072,6 @@
 .sdc.cnn.com
 .sdc.rbistats.com
 .sdc.rbistats.com
-.sdcswingers.online
 .sdd.dzsc.com
 .sdd.hi1718.com
 .sddan.com
@@ -85476,7 +85489,6 @@
 .sextadate.net
 .sextizer.net
 .sextracker.com
-.sextronix.*.cdnaccess.com
 .sexvertise.com
 .sexvrusko.org
 .sexy-ch.com
@@ -90123,6 +90135,7 @@
 .steam-gift-code.com
 .steam-halloween.com
 .steam-key-giveaway.com
+.steam-keys.ezar.ru
 .steam-wallet-cards.com
 .steam-wallet-gifts.com
 .steam-wallet-money.com
@@ -91144,6 +91157,7 @@
 .svip.xsmy2.cn
 .sviter2s1olenyami1.com
 .svitnews.com
+.svivqrhrh.ru
 .svjat0rx99.com
 .svk-native.ru
 .svk100hp.ru
@@ -91481,6 +91495,7 @@
 .syncfish.com
 .synconnector.com
 .synconnector.com
+.syncwowsails.com
 .syndapop.com
 .syndicate.payloadz.com
 .syndicated.mondominishows.com
@@ -92093,6 +92108,7 @@
 .taib52.club
 .taifouwo.com
 .taihe2002.cn
+.taiji.sina.cn
 .taikyo-mold.com
 .tailer.it
 .tailfeathersenviro.ca
@@ -93162,7 +93178,6 @@
 .texasboston.com
 .texasholdemfreechips.com
 .texasholdempoker.prod-review.info
-.texfibre.eu
 .text-ali.ru
 .text-link-ads-inventory.com
 .text-link-ads-inventory.com
@@ -93207,6 +93222,7 @@
 .tf2www.com
 .tf58.com
 .tfa5e.top
+.tfaa2.com
 .tfag.de
 .tfatalonepres.top
 .tfbqvqclg.com
@@ -96316,7 +96332,6 @@
 .traffic-go.com
 .traffic-hammer.de
 .traffic-in.com
-.traffic-info-service.info
 .traffic-media.co
 .traffic-media.co.uk
 .traffic-redirecting.com
@@ -96897,6 +96912,7 @@
 .true-hacks.com
 .true25.com
 .true2file.com
+.trueaussielocal.com.au
 .truecrypt.fr
 .truecrypt.fr
 .truefalsetalk.com
@@ -97246,6 +97262,7 @@
 .tulecheja.pro
 .tulip18.com
 .tulip18.com
+.tulipluv.xyz
 .tuliprejoice.com
 .tuliprfawfq.com
 .tulisasource.com
@@ -100617,6 +100634,7 @@
 .vietbet.eu
 .vietbuzzad.com
 .vietdorje.com
+.vietic.vn
 .vietnamnetad.vn
 .vietstarpreschool.vn
 .view-ads.de
@@ -101303,7 +101321,6 @@
 .vpn.baolq666.com
 .vpn.celueziben.com
 .vpn.jnj-energy.com
-.vpn.szdatayj.com
 .vpn.tuodupingguomiao.com
 .vpn.yike0515.com
 .vpn.youyisheng.net
@@ -102283,7 +102300,6 @@
 .wavecurersquire.cam
 .wavefoundationbd.org
 .waves.retentionscience.com
-.wavetshirt.com
 .waveview.info
 .wawlfosfkdy.com
 .wawpklaws.com
@@ -108171,6 +108187,7 @@
 .xclickdirect.com
 .xclicks.net
 .xclk-integracion.com
+.xclofrfa.com
 .xclusivedigital.com
 .xcmxsw.com
 .xcnn.com
@@ -108591,6 +108608,7 @@
 .xl-partenariat.com
 .xl-trk.com
 .xl-trk.com
+.xl4z7.cn
 .xladapi.izuiyou.com
 .xlbbhdarc.com
 .xlcun.com
@@ -108923,6 +108941,7 @@
 .xpwwqbkezdr.com
 .xpx7heciz9.com
 .xpx7heciz9.com
+.xpxvok.cn
 .xpywzbxjwbxafv.com
 .xpyyrkwpcpwf.com
 .xpzdvubwncvi.com
@@ -109369,6 +109388,7 @@
 .yab-adimages.s3.amazonaws.com
 .yaba.org.cn
 .yabeme.ru
+.yabo168.cc
 .yabo816.com
 .yaboshadi.com
 .yabuka.com
@@ -109866,6 +109886,7 @@
 .yiwanuu.com
 .yiwk.com
 .yiwuds.com
+.yixiangzhan.cn
 .yixige.com
 .yixui.com
 .yiyangart.com
@@ -110534,7 +110555,6 @@
 .yujiangchu.com
 .yujyjms.cn
 .yukhj.com
-.yukngobrol.com
 .yule.fulevmy.com
 .yule.sohu.com
 .yule12888.com
@@ -111299,6 +111319,7 @@
 .zhinanw.cc
 .zhinengap.com
 .zhiong.net
+.zhipinbook.cn
 .zhitkise.info
 .zhivalley.cn
 .zhiwuba.com
@@ -111320,6 +111341,7 @@
 .zhlfogiy.com
 .zhlrcaahpuqh.com
 .zhmatou.com
+.zhongbolm.com
 .zhongchengzp.com
 .zhongchouyan.com
 .zhongdoulicai.com
@@ -111569,6 +111591,7 @@
 .zmujsnyzujuy.com
 .zmutugjqvia.com
 .zmyuer.com
+.zmzfile.com
 .znany-lekarz.pl
 .znapapp.ae
 .znaptag.com
@@ -112033,6 +112056,7 @@
 .zygrlkimddjzd.com
 .zyiis.net
 .zyikzhgqzjyvgu.com
+.zykxjt.com
 .zylotcosp.com
 .zylstina.xyz
 .zymbrlgu.cn

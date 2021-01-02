@@ -4298,7 +4298,6 @@
 .ds.reson8.com
 .idsync.reson8.com
 .track.reson8.com
-.responsys.net
 .restartad.com
 .sdk.resu.io
 .sdk1.resu.io

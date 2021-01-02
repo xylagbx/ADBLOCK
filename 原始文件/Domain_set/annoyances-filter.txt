@@ -79,6 +79,7 @@
 .clickio.mgr.consensu.org
 .cdn.consentmanager.mgr.consensu.org
 .quantcast.mgr.consensu.org
+.cmp-sp.wiwo.de
 .privacy.selbst.de
 .baseendpoint.stern.de
 .thestrad-gb.thestrad.com

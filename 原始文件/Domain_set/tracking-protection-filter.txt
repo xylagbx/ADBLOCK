@@ -97,6 +97,7 @@
 .client-analytics.braintreegateway.com
 .log.propermessage.io
 .hit.acstat.com
+.code.acstat.com
 .fhits.xyz
 .intelligenceretarget.com
 .stpmgo.com

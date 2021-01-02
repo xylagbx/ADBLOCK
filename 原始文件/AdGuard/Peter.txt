@@ -11,7 +11,7 @@
 !Last modified: Thu, 17 Dec 2020 09:47:06 GMT
 !Homepage:      https://pgl.yoyo.org/adservers/
 !Format:        adblockplus
-!Entries:       3563
+!Entries:       3558
 !Credits:       Peter Lowe - pgl@yoyo.org - pgl on github - https://pgl.yoyo.org/
 !This URL:      https://pgl.yoyo.org/adservers/serverlist.php?hostformat=adblockplus&showintro=1&mimetype=plaintext
 !Policy:        https://pgl.yoyo.org/adservers/policy.php
@@ -175,7 +175,6 @@
 ||ad.preferances.com^
 ||ad.profiwin.de^
 ||ad.prv.pl^
-||ad.pttcn.net^
 ||ad.reunion.com^
 ||ad.sensismediasmart.com.au^
 ||ad.seznam.cz^
@@ -379,7 +378,6 @@
 ||adrecreate.com^
 ||adremedy.com^
 ||adreporting.com^
-||adres.internet.com^
 ||adrevolver.com^
 ||adriver.ru^
 ||adrolays.de^
@@ -1027,7 +1025,6 @@
 ||ah-ha.com^
 ||ahalogy.com^
 ||aheadday.com^
-||aidu-ads.de^
 ||aim4media.com^
 ||airpush.com^
 ||aistat.net^
@@ -2339,7 +2336,6 @@
 ||mintegral.com^
 ||mixedreading.com^
 ||mixpanel.com^
-||mjxads.internet.com^
 ||mkto-ab410147.com^
 ||mktoresp.com^
 ||ml314.com^
@@ -2904,7 +2900,6 @@
 ||screechingfurniture.com^
 ||scripte-monster.de^
 ||scrubswim.com^
-||sdcswingers.online^
 ||sdkfjxjertertry.com^
 ||seadform.net^
 ||searching-place.com^
