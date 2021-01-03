@@ -4,9 +4,10 @@ DOMAIN,44wilhpljf.execute-api.ap-southeast-1.amazonaws.com
 DOMAIN,aod-dash-uk-live.akamaized.net
 DOMAIN,aod-hls-uk-live.akamaized.net
 DOMAIN,api.viu.now.com
-DOMAIN,bcbolt446c5271-a.akamaihd.net
+DOMAIN,apple.comscoreresearch.comDOMAIN,bcbolt446c5271-a.akamaihd.net
 DOMAIN,bcbolthboa-a.akamaihd.net
 DOMAIN,cdn-fox-networks-group-green.akamaized.net
+DOMAIN,cdn.apple-cloudkit.com
 DOMAIN,cdn.registerdisney.go.com
 DOMAIN,cf-images.ap-southeast-1.prod.boltdns.net
 DOMAIN,content.jwplatform.com
@@ -17,7 +18,10 @@ DOMAIN,d349g9zuie06uo.cloudfront.net
 DOMAIN,d3c7rimkq79yfu.cloudfront.net
 DOMAIN,d3cv4a9a9wh0bt.cloudfront.net
 DOMAIN,dai3fd1oh325y.cloudfront.net
+DOMAIN,devimages-cdn.apple.com
+DOMAIN,devstreaming-cdn.apple.com
 DOMAIN,dfp6rglgjqszk.cloudfront.net
+DOMAIN,docs-assets.developer.apple.com
 DOMAIN,edge.api.brightcove.com
 DOMAIN,foxsports01-i.akamaihd.net
 DOMAIN,foxsports02-i.akamaihd.net
@@ -32,11 +36,14 @@ DOMAIN,hboasia3-i.akamaihd.net
 DOMAIN,hboasia4-i.akamaihd.net
 DOMAIN,hboasia5-i.akamaihd.net
 DOMAIN,itvpnpmobile-a.akamaihd.net
+DOMAIN,js-cdn.music.apple.com
 DOMAIN,kktv-theater.kk.stream
 DOMAIN,litvfreemobile-hichannel.cdn.hinet.net
 DOMAIN,mytvsuperlimited.hb.omtrdc.net
 DOMAIN,mytvsuperlimited.sc.omtrdc.net
 DOMAIN,netflix.com.edgesuite.net
+DOMAIN,news-edge.apple.com
+DOMAIN,news-events.apple.com
 DOMAIN,np-edge.itunes.apple.com
 DOMAIN,play-edge.itunes.apple.com
 DOMAIN,players.brightcove.net
@@ -2377,7 +2384,6 @@ DOMAIN-SUFFIX,ajcheng.com
 DOMAIN-SUFFIX,aje.io
 DOMAIN-SUFFIX,ajplus.net
 DOMAIN-SUFFIX,ajsands.com
-DOMAIN-SUFFIX,ajtalk.com
 DOMAIN-SUFFIX,ak1.net
 DOMAIN-SUFFIX,ak633.com
 DOMAIN-SUFFIX,aka-ai.com
@@ -3019,6 +3025,7 @@ DOMAIN-SUFFIX,apple-darwin.net
 DOMAIN-SUFFIX,apple-darwin.org
 DOMAIN-SUFFIX,apple-dns.com
 DOMAIN-SUFFIX,apple-dns.net
+DOMAIN-SUFFIX,apple-dns.net
 DOMAIN-SUFFIX,apple-enews.com
 DOMAIN-SUFFIX,apple-expo.com
 DOMAIN-SUFFIX,apple-hk.com
@@ -3049,6 +3056,7 @@ DOMAIN-SUFFIX,apple.it
 DOMAIN-SUFFIX,apple.lv
 DOMAIN-SUFFIX,apple.me
 DOMAIN-SUFFIX,apple.net
+DOMAIN-SUFFIX,apple.news
 DOMAIN-SUFFIX,apple.pk
 DOMAIN-SUFFIX,apple.pt
 DOMAIN-SUFFIX,apple.rs
@@ -3447,6 +3455,7 @@ DOMAIN-SUFFIX,audi
 DOMAIN-SUFFIX,audible.com
 DOMAIN-SUFFIX,audiencenetwork.com
 DOMAIN-SUFFIX,audiencenetwork.tv
+DOMAIN-SUFFIX,audio-ssl.itunes.apple.com
 DOMAIN-SUFFIX,audiobar.net
 DOMAIN-SUFFIX,audiobeatsau.com
 DOMAIN-SUFFIX,audiobeatsbydre.com
@@ -4620,6 +4629,7 @@ DOMAIN-SUFFIX,bkk789.com
 DOMAIN-SUFFIX,bkpi666.com
 DOMAIN-SUFFIX,bkrtx.com
 DOMAIN-SUFFIX,bl-doujinsouko.com
+DOMAIN-SUFFIX,blackboxgames.com
 DOMAIN-SUFFIX,blackbullmarkets.com
 DOMAIN-SUFFIX,blacked.com
 DOMAIN-SUFFIX,blackfridaydrebeatsnew.com
@@ -5284,6 +5294,7 @@ DOMAIN-SUFFIX,brazilpartneruniversity.com
 DOMAIN-SUFFIX,brazzers-girls.com
 DOMAIN-SUFFIX,brazzers.com
 DOMAIN-SUFFIX,brazzersnetwork.com
+DOMAIN-SUFFIX,break.com
 DOMAIN-SUFFIX,breakdown.me
 DOMAIN-SUFFIX,breakgfw.com
 DOMAIN-SUFFIX,breaking911.com
@@ -6077,6 +6088,7 @@ DOMAIN-SUFFIX,cdef.org
 DOMAIN-SUFFIX,cdig.info
 DOMAIN-SUFFIX,cdjp.org
 DOMAIN-SUFFIX,cdkworkshop.com
+DOMAIN-SUFFIX,cdn-apple.com
 DOMAIN-SUFFIX,cdn-cvprhkn01m01.streaming.mediaservices.windows.net
 DOMAIN-SUFFIX,cdn-cvprsg101m01.streaming.mediaservices.windows.net
 DOMAIN-SUFFIX,cdn-images.mailchimp.com
@@ -11034,7 +11046,6 @@ DOMAIN-SUFFIX,freevpnhosting.com
 DOMAIN-SUFFIX,freevpnss.com
 DOMAIN-SUFFIX,freevpnssh.com
 DOMAIN-SUFFIX,freevpnworld.com
-DOMAIN-SUFFIX,freewallpaper4.me
 DOMAIN-SUFFIX,freewebs.com
 DOMAIN-SUFFIX,freewechat.com
 DOMAIN-SUFFIX,freeweibo.com
@@ -12952,6 +12963,8 @@ DOMAIN-SUFFIX,hkwesi77.xyz
 DOMAIN-SUFFIX,hkzh247.wwtta1.com
 DOMAIN-SUFFIX,hkzone.org
 DOMAIN-SUFFIX,hl8r.j4.biz.tm
+DOMAIN-SUFFIX,hls-amt.itunes.apple.com
+DOMAIN-SUFFIX,hls.itunes.apple.com
 DOMAIN-SUFFIX,hlw22.com
 DOMAIN-SUFFIX,hlw555.com
 DOMAIN-SUFFIX,hm.com
@@ -18405,6 +18418,7 @@ DOMAIN-SUFFIX,ocreampies.com
 DOMAIN-SUFFIX,ocregister.com
 DOMAIN-SUFFIX,ocry.com
 DOMAIN-SUFFIX,ocsolutions.servehttp.com
+DOMAIN-SUFFIX,ocsp.apple.com
 DOMAIN-SUFFIX,ocsp.int-x1.letsencrypt.org
 DOMAIN-SUFFIX,ocsp.int-x3.letsencrypt.org
 DOMAIN-SUFFIX,ocsp.pki.goog

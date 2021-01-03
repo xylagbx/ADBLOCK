@@ -36898,6 +36898,7 @@ DOMAIN-SUFFIX,ad.caprofitx.com
 DOMAIN-SUFFIX,ad.caradisiac.com
 DOMAIN-SUFFIX,ad.cauly.co.kr
 DOMAIN-SUFFIX,ad.cbonds.info
+DOMAIN-SUFFIX,ad.ccement.com
 DOMAIN-SUFFIX,ad.cctv.com
 DOMAIN-SUFFIX,ad.cdn.sex
 DOMAIN-SUFFIX,ad.cdnjm.cn
@@ -37523,6 +37524,7 @@ DOMAIN-SUFFIX,adashxgc.ut.taobao.com
 DOMAIN-SUFFIX,adasiaholdings.com
 DOMAIN-SUFFIX,adasiatagmanager.appspot.com
 DOMAIN-SUFFIX,adasist.com
+DOMAIN-SUFFIX,adasta.it
 DOMAIN-SUFFIX,adatrix.com
 DOMAIN-SUFFIX,adavideo.baidu.com
 DOMAIN-SUFFIX,adavz.xyz
@@ -51826,6 +51828,7 @@ DOMAIN-SUFFIX,cloudioo.net
 DOMAIN-SUFFIX,cloudmade.com
 DOMAIN-SUFFIX,cloudmobi.net
 DOMAIN-SUFFIX,cloudplane.xyz
+DOMAIN-SUFFIX,cloudpsvn.com
 DOMAIN-SUFFIX,cloudpush.iqiyi.com
 DOMAIN-SUFFIX,cloudsdestruction.com
 DOMAIN-SUFFIX,cloudservice12.kingsoft-office-service.com
@@ -94309,6 +94312,7 @@ DOMAIN-SUFFIX,shuffele.com
 DOMAIN-SUFFIX,shuiguo.com
 DOMAIN-SUFFIX,shuihulu.com
 DOMAIN-SUFFIX,shujuwu.com
+DOMAIN-SUFFIX,shukongshebei.net
 DOMAIN-SUFFIX,shulhanafuh.com
 DOMAIN-SUFFIX,shunlige.com
 DOMAIN-SUFFIX,shunxinyuancaiwu.cn

@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
+# from _typeshed import OpenTextMode
 import requests
 from posix import remove
 import re
@@ -665,6 +666,13 @@ del_line(open(r'RuleSet.list', 'r+'),
 del_line(open(r'RuleSet.list', 'r+'),
          'that reads "DOMAIN,machine.domain.tld". This will have the effect of')
 
+
+# 添加 Apple 规则
+Merge_File(open(r'DRuleSet.list', 'a'),
+           open(r'原始文件/Apple_Direct.txt', 'r'))
+Merge_File(open(r'PRuleSet.list', 'a'), open(r'原始文件/Apple_Proxy.txt', 'r'))
+
+
 # 创建 DOMAIN-SET 规则集
 Extract_Line(open(r'RuleSet.list', 'r'), open(
     r'BLOCK/DOMAIN.txt', 'w'), "DOMAIN-SUFFIX,|DOMAIN,")
@@ -672,6 +680,7 @@ Extract_Line(open(r'DRuleSet.list', 'r'), open(
     r'DIRECT/DOMAIN.txt', 'w'), "DOMAIN-SUFFIX,|DOMAIN,")
 Extract_Line(open(r'PRuleSet.list', 'r'), open(
     r'PROXY/DOMAIN.txt', 'w'), "DOMAIN-SUFFIX,|DOMAIN,")
+
 
 # 将 DOMAIN.txt 的内容复制给 BLOCK/DOMAIN-SET.txt
 BLOCKDomainSet = open(r'BLOCK/DOMAIN-SET.txt', 'w')
@@ -767,6 +776,12 @@ Extract_Line(open(r'DRuleSet.list', 'r'), open(
 Extract_Line(open(r'PRuleSet.list', 'r'), open(
     r'PROXY/KEYWORD.txt', 'w'), "DOMAIN-KEYWORD,")
 
+# USER-AGENT 规则集
+Extract_Line(open(r'DRuleSet.list', 'r'), open(
+    r'DIRECT/USER-AGENT.txt', 'w'), "USER-AGENT,")
+Extract_Line(open(r'PRuleSet.list', 'r'), open(
+    r'PROXY/USER-AGENT.txt', 'w'), "USER-AGENT,")
+
 
 sorted_file_content(r'BLOCK/DOMAIN-SET.txt')
 sorted_file_content(r'BLOCK/DOMAIN.txt')
@@ -827,11 +842,11 @@ sorted_file_content(r'RuleSet_DOMAIN.txt')
 sorted_file_content(r'RuleSet_IP.txt')
 sorted_file_content(r'RuleSet_DOMAIN-KEYWORD.txt')
 
-
 add_after_line(r'DRuleSet_DOMAIN-SUFFIX.txt', ',DIRECT\n')
 add_after_line(r'DRuleSet_DOMAIN.txt', ',DIRECT\n')
 add_after_line(r'DRuleSet_IP.txt', ',DIRECT\n')
 add_after_line(r'DRuleSet_DOMAIN-KEYWORD.txt', ',DIRECT\n')
+add_after_line(r'DIRECT/USER-AGENT.txt', ',DIRECT\n')
 sorted_file_content(r'DRuleSet_DOMAIN-SUFFIX.txt')
 sorted_file_content(r'DRuleSet_DOMAIN.txt')
 sorted_file_content(r'DRuleSet_IP.txt')
@@ -841,6 +856,7 @@ add_after_line(r'PRuleSet_DOMAIN-SUFFIX.txt', ',PROXY\n')
 add_after_line(r'PRuleSet_DOMAIN.txt', ',PROXY\n')
 add_after_line(r'PRuleSet_IP.txt', ',PROXY\n')
 add_after_line(r'PRuleSet_DOMAIN-KEYWORD.txt', ',PROXY\n')
+add_after_line(r'PROXY/USER-AGENT.txt', ',PROXY\n')
 sorted_file_content(r'PRuleSet_DOMAIN-SUFFIX.txt')
 sorted_file_content(r'PRuleSet_DOMAIN.txt')
 sorted_file_content(r'PRuleSet_IP.txt')
@@ -871,13 +887,13 @@ a4 = open(r'RuleSet_DOMAIN-KEYWORD.txt', 'r')
 b1 = open(r'DRuleSet_DOMAIN-SUFFIX.txt', 'r')
 b2 = open(r'DRuleSet_DOMAIN.txt', 'r')
 b3 = open(r'DRuleSet_IP.txt', 'r')
-# b4 = open(r'DRuleSet_DOMAIN-KEYWORD.txt', 'r')
+b4 = open(r'DIRECT/USER-AGENT.txt', 'r')
 
 
 c1 = open(r'PRuleSet_DOMAIN-SUFFIX.txt', 'r')
 c2 = open(r'PRuleSet_DOMAIN.txt', 'r')
 c3 = open(r'PRuleSet_IP.txt', 'r')
-# c4 = open(r'PRuleSet_DOMAIN-KEYWORD.txt', 'r')
+c4 = open(r'PROXY/USER-AGENT.txt', 'r')
 
 
 All = open(r'custom.conf', 'w')
@@ -894,6 +910,8 @@ All.write(b2.read())
 All.write(c2.read())
 All.write(b3.read())
 All.write(c3.read())
+All.write(b4.read())
+All.write(c4.read())
 All.write(a4.read())
 All.write(a1.read())
 All.write(a2.read())
@@ -911,9 +929,11 @@ a4.close()
 b1.close()
 b2.close()
 b3.close()
+b4.close()
 c1.close()
 c2.close()
 c3.close()
+c4.close()
 url.close()
 title.close()
 tail.close()

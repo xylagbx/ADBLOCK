@@ -6048,6 +6048,7 @@
 .growltoe.com
 .grownuplieutenant.com
 .grsdvgnr.com
+.grtexch.com
 .grubsoan.com
 .grudgeslylonging.com
 .grudreeb.com
@@ -20362,7 +20363,6 @@
 .kbnetworkz.s3.amazonaws.com
 .leaddyno-client-images.s3.amazonaws.com
 .link.link.ru
-.liveresources.mensxp.com
 .lp.ncdownloader.com
 .madisonlogic.com
 .marketing.888.com

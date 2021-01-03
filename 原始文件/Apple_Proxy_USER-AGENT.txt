@@ -1,0 +1,2 @@
+USER-AGENT,com.apple.trustd*
+USER-AGENT,AppleNews*

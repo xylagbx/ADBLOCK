@@ -1,0 +1,111 @@
+# {% macro main(default_rule, api_rule, cdn_rule, location_rule, apple_news_rule) %}
+# http://www.jjinc.com.au/announcements/apple170008services
+# https://gist.github.com/joseconstela/a6e06ef9737e097eddcaf940ea313e38
+#
+# Apple 直连
+#
+# Weather
+DOMAIN,weather-data.apple.com
+# Maps
+# Settings
+
+#
+# 一些 com.apple.appstored* 会连接的 API（优先级高）
+#
+DOMAIN,guzzoni.apple.com
+DOMAIN,apps.apple.com
+DOMAIN,xp.apple.com
+DOMAIN,bag.itunes.apple.com
+DOMAIN,api-edge.apps.apple.com
+DOMAIN,api.apps.apple.com
+DOMAIN,play.itunes.apple.com
+DOMAIN,se.itunes.apple.com
+DOMAIN,se-edge.itunes.apple.com
+DOMAIN,su.itunes.apple.com
+DOMAIN,upp.itunes.apple.com
+DOMAIN,beta.music.apple.com
+DOMAIN-KEYWORD,buy.itunes.apple.com
+
+#
+# Apple Global CDN
+#
+# iOS App Store
+DOMAIN,iosapps.itunes.apple.com
+# Mac App Store
+DOMAIN,osxapps.itunes.apple.com
+DOMAIN,oscdn.apple.com
+# Update
+DOMAIN,supportdownload.apple.com
+# Update
+DOMAIN,appldnld.apple.com
+# Update
+DOMAIN,swcdn.apple.com
+DOMAIN,apptrailers.itunes.apple.com
+DOMAIN,updates-http.cdn-apple.com
+DOMAIN,updates.cdn-apple.com
+# App Store & iTunes Images
+DOMAIN-SUFFIX,mzstatic.com
+# Mac App Store
+PROCESS-NAME,storedownloadd
+# iOS App Store
+# Apple Music Streaming
+DOMAIN,aod.itunes.apple.com
+DOMAIN,mvod.itunes.apple.com
+DOMAIN,streamingaudio.itunes.apple.com
+# Other
+DOMAIN,download.developer.apple.com
+DOMAIN,downloaddispatch.itunes.apple.com
+DOMAIN,app-site-association.cdn-apple.com
+
+
+
+#
+# Apple 其他直连
+#
+# Spotlight
+DOMAIN,api.smoot.apple.com
+DOMAIN,api.smoot.apple.cn
+# Hotspot captive
+DOMAIN,captive.apple.com
+# Apple Pay
+DOMAIN,smp-device-content.apple.com
+DOMAIN-KEYWORD,smp-device
+# locationd
+DOMAIN,gs-loc.apple.com
+DOMAIN-SUFFIX,ls.apple.com.akadns.net
+DOMAIN-SUFFIX,ls.apple.com.edgesuite.net
+# Reserve
+DOMAIN,reserve-prime.apple.com
+# Push
+DOMAIN-KEYWORD,push-apple.com.akadns.net
+DOMAIN-SUFFIX,push.apple.com.akadns.net
+DOMAIN-SUFFIX,push.apple.com
+# GeoServices.framework
+DOMAIN-SUFFIX,ls.apple.com
+# Asset Cache Locator Service
+DOMAIN-SUFFIX,lcdn-locator.apple.com
+# Caching Server Registration
+DOMAIN-SUFFIX,lcdn-registration.apple.com
+
+#
+# Apple 其他自选
+#
+# iMessage
+DOMAIN-SUFFIX,ess.apple.com
+# Apple Music
+DOMAIN-SUFFIX,music.apple.com
+# Configuration
+DOMAIN,configuration.apple.com
+# Others
+DOMAIN-SUFFIX,aaplimg.com
+DOMAIN-SUFFIX,apple.co
+DOMAIN-SUFFIX,itunes.com
+DOMAIN-SUFFIX,itunes.apple.com
+DOMAIN-SUFFIX,apple
+DOMAIN,weather-analytics-events.apple.com
+# iCloud 上传和下载
+DOMAIN-SUFFIX,icloud-content.com
+DOMAIN-SUFFIX,me.com
+DOMAIN-SUFFIX,apple.com
+DOMAIN-SUFFIX,icloud.com
+DOMAIN-SUFFIX,apple-cloudkit.com

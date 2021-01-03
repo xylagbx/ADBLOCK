@@ -2329,7 +2329,6 @@
 .aje.io
 .ajplus.net
 .ajsands.com
-.ajtalk.com
 .ak1.net
 .ak633.com
 .aka-ai.com
@@ -2974,6 +2973,7 @@
 .apple-darwin.org
 .apple-dns.com
 .apple-dns.net
+.apple-dns.net
 .apple-enews.com
 .apple-expo.com
 .apple-hk.com
@@ -2995,7 +2995,7 @@
 .apple.com.pr
 .apple.com.pt
 .apple.com.py
-.apple.comscoreresearch.com
+.apple.comscoreresearch.com.apple.comscoreresearch.com
 .apple.ee
 .apple.hamburg
 .apple.hr
@@ -3004,6 +3004,7 @@
 .apple.lv
 .apple.me
 .apple.net
+.apple.news
 .apple.pk
 .apple.pt
 .apple.rs
@@ -3402,6 +3403,7 @@
 .audible.com
 .audiencenetwork.com
 .audiencenetwork.tv
+.audio-ssl.itunes.apple.com
 .audiobar.net
 .audiobeatsau.com
 .audiobeatsbydre.com
@@ -4577,6 +4579,7 @@
 .bkpi666.com
 .bkrtx.com
 .bl-doujinsouko.com
+.blackboxgames.com
 .blackbullmarkets.com
 .blacked.com
 .blackfridaydrebeatsnew.com
@@ -5241,6 +5244,7 @@
 .brazzers-girls.com
 .brazzers.com
 .brazzersnetwork.com
+.break.com
 .breakdown.me
 .breakgfw.com
 .breaking911.com
@@ -6034,6 +6038,7 @@
 .cdig.info
 .cdjp.org
 .cdkworkshop.com
+.cdn-apple.com
 .cdn-cvprhkn01m01.streaming.mediaservices.windows.net
 .cdn-cvprsg101m01.streaming.mediaservices.windows.net
 .cdn-fox-networks-group-green.akamaized.net
@@ -6042,6 +6047,7 @@
 .cdn-osawaris.nutaku.net
 .cdn-terapeak.com
 .cdn.angruo.com
+.cdn.apple-cloudkit.com
 .cdn.assets.lfpcontent.com
 .cdn.entelectonline.co.za
 .cdn.gitpod.io
@@ -8125,12 +8131,14 @@
 .deviantart.com
 .deviantart.net
 .devilsfilm.com
+.devimages-cdn.apple.com
 .devio.us
 .devm2m.com
 .devopsassessment.net
 .devopsms.com
 .devpn.com
 .devsitetest.how
+.devstreaming-cdn.apple.com
 .devtools-paypal.com
 .dewitwithdurex.com
 .dex582tcn7be8.cloudfront.net
@@ -8497,6 +8505,7 @@
 .docker.io
 .dockerizer.com
 .docomo
+.docs-assets.developer.apple.com
 .docs-examples.firebaseio.com
 .docs.com
 .docs.majesticseagull.com.tw
@@ -11007,7 +11016,6 @@
 .freevpnss.com
 .freevpnssh.com
 .freevpnworld.com
-.freewallpaper4.me
 .freewebs.com
 .freewechat.com
 .freeweibo.com
@@ -12934,6 +12942,8 @@
 .hkzh247.wwtta1.com
 .hkzone.org
 .hl8r.j4.biz.tm
+.hls-amt.itunes.apple.com
+.hls.itunes.apple.com
 .hlw22.com
 .hlw555.com
 .hm.com
@@ -14654,6 +14664,7 @@
 .jqueryui.com
 .jria.jpn.com
 .js-agent.newrelic.com
+.js-cdn.music.apple.com
 .js.org
 .js.revsci.net
 .js22222.com
@@ -17740,6 +17751,8 @@
 .newpowerparty.tw
 .newrealmstudios.ca
 .newrepublic.com
+.news-edge.apple.com
+.news-events.apple.com
 .news.abs-cbn.com
 .news.atebits.com
 .news.cnyes.com
@@ -18394,6 +18407,7 @@
 .ocregister.com
 .ocry.com
 .ocsolutions.servehttp.com
+.ocsp.apple.com
 .ocsp.int-x1.letsencrypt.org
 .ocsp.int-x3.letsencrypt.org
 .ocsp.pki.goog

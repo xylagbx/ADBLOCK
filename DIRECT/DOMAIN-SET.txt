@@ -4659,7 +4659,6 @@
 .51ielts.com
 .51ifind.com
 .51ifonts.com
-.51igouwu.com
 .51img1.com
 .51img2.com
 .51img3.com
@@ -6390,7 +6389,6 @@
 .699g.com
 .699pic.com
 .699xs.com
-.69b7.com
 .69fenxiang.com
 .69hr.com
 .69jianzhi.com
@@ -8546,7 +8544,6 @@
 .a8tg.com
 .a8v5.com
 .a8z8.com
-.a8zown.store
 .a9188.com
 .a9377j.com
 .a9377x.com
@@ -8569,6 +8566,7 @@
 .aamachina.org
 .aaniao.com
 .aapig.com
+.aaplimg.com
 .aaqqw.com
 .aarch64.me
 .aardio.com
@@ -9329,7 +9327,6 @@
 .aimaoji.com
 .aimapp.net
 .aimeas.com
-.aimeicaizhuang.com
 .aimeike.tv
 .aimeit.com
 .aimikuajinggou.com
@@ -10275,6 +10272,7 @@
 .aoclia.com
 .aocslb.com
 .aod.itunes.apple.com
+.aod.itunes.apple.com
 .aodabo.tech
 .aodaliyaqianzheng.com
 .aoddoll.com
@@ -10379,12 +10377,16 @@
 .apgblogs.com
 .apgoview.com
 .aphidic.com
+.api-edge.apps.apple.com
 .api-zdj.com
+.api.apps.apple.com
 .api.bz
 .api.crisp.chat
 .api.mob.app.letv.com
 .api.sfacg.com
 .api.smoot.apple.cn
+.api.smoot.apple.cn
+.api.smoot.apple.com
 .api.waqi.info
 .apiadmin.org
 .apiairasia.com
@@ -10434,6 +10436,7 @@
 .app-measurement.com
 .app-router.com
 .app-sage.com
+.app-site-association.cdn-apple.com
 .app-store.name
 .app-web-seo-aso.com
 .app-zh.com
@@ -10493,7 +10496,11 @@
 .applaudads.com
 .appldnld.apple.com
 .appldnld.apple.com
+.appldnld.apple.com
 .appldnld.g.aaplimg.com
+.apple
+.apple-cloudkit.com.apple.co
+.apple.com
 .apple110.com
 .apple21.com
 .apple4.us
@@ -10518,6 +10525,7 @@
 .apppoo.com
 .appresource.net
 .apps.apple.com
+.apps.apple.com
 .apps.mzstatic.com
 .apps.samsung.com
 .apps121.com
@@ -10529,6 +10537,7 @@
 .appsodo.com
 .appstochina.com
 .apptao.com
+.apptrailers.itunes.apple.com
 .apptrailers.itunes.apple.com
 .appubang.com
 .appublisher.com
@@ -11239,6 +11248,7 @@
 .bafang.com
 .bafangka.com
 .bafangwang.com
+.bag.itunes.apple.com
 .bagb2b.com
 .bagehd.com
 .bagesoft.net
@@ -11349,7 +11359,6 @@
 .baifae.com
 .baifan.net
 .baifendian.com
-.baiftong13.com
 .baifubao.com
 .baifumeiba.com
 .baigepo.com
@@ -12286,11 +12295,13 @@
 .bestwing.me
 .bet007.com
 .bet365.com
+.bet63k.com
 .bet7158.com
 .bet810.vip
 .bet91308.com
 .bet9504.com
 .bet9629.com
+.beta.music.apple.com
 .betaflare.com
 .betaidc.com
 .betajy.com
@@ -14120,7 +14131,6 @@
 .byts.com
 .bytter.com
 .bytx888.com
-.byxfsc.com
 .byxy.com
 .byyapp.com
 .byzhihuo.com
@@ -14531,6 +14541,7 @@
 .capjoy.com
 .cappchem.com
 .cappeg.com
+.captive.apple.com
 .capvision.com
 .car-sort.com
 .car0575.com
@@ -17043,7 +17054,6 @@
 .chunshuizhijia.com
 .chunsuns.com
 .chunxuanmao.com
-.chunxuu.com
 .chunyao.org
 .chunyiscdk.com
 .chunyu.me
@@ -18590,6 +18600,7 @@
 .conchdesktop.com
 .concox.net
 .configuration.apple.com
+.configuration.apple.com
 .configuration.apple.com.akadns.net
 .conflictmgmtassociates.com
 .confuciusinstitute.net
@@ -18849,7 +18860,6 @@
 .cqddnap.com
 .cqddzx.com
 .cqdent.com
-.cqdhhmj.com
 .cqdting.com
 .cqdzw.com
 .cqedo.com
@@ -21978,12 +21988,14 @@
 .downkr.com
 .downkuai.com
 .download.developer.apple.com
+.download.developer.apple.com
 .download.jetbrains.com
 .download.microsoft.com
 .download.visualstudio.microsoft.com
 .download.windowsupdate.com
 .download05.com
 .downloadcenter.samsung.com
+.downloaddispatch.itunes.apple.com
 .downnovel.com
 .downok.com
 .downol.com
@@ -23843,6 +23855,7 @@
 .esoyu.com
 .espier.mobi
 .espnlol.com
+.ess.apple.com
 .essaystar.com
 .essca.com
 .essdc.com
@@ -24665,6 +24678,7 @@
 .fcgtt.com
 .fcheche.com
 .fcjob88.com
+.fcloudpaas.com
 .fcnes.com
 .fcpiao.com
 .fcrc114.com
@@ -25637,6 +25651,7 @@
 .freeuid.com
 .freewhale.net
 .freexs.org
+.freeydch.com
 .freeyun.com
 .freezl.net
 .frensworkz.com
@@ -26218,6 +26233,7 @@
 .gameinns.com
 .gamekee.com
 .gameloft.com
+.gameloveman.com
 .gamemei.com
 .gameol.com
 .gamepf.com
@@ -27682,6 +27698,7 @@
 .gs-loc-cn.apple.com
 .gs-loc-cn.apple.com
 .gs-loc.apple.com
+.gs-loc.apple.com
 .gs.ww.np.dl.playstation.net
 .gs14.com
 .gs2.ww.prod.dl.playstation.net
@@ -28141,6 +28158,7 @@
 .guzhifengds.com
 .guzhiwang.com
 .guziyy.com
+.guzzoni.apple.com
 .guzzservices.com
 .gvi-tech.com
 .gvlocalization.com
@@ -28183,7 +28201,6 @@
 .gxb2b.net
 .gxbaidutg.com
 .gxbf.net
-.gxblwh.com
 .gxbys.com
 .gxbyw.com
 .gxc-coin.com
@@ -28734,6 +28751,7 @@
 .haishun.com
 .haitaibrowser.com
 .haitaichina.com
+.haitao.co
 .haitao.com
 .haitao369.com
 .haitao8.com
@@ -32222,7 +32240,6 @@
 .hydcd.com
 .hyds360.com
 .hydzfp.com
-.hydzs.com
 .hyedu.com
 .hyext.com
 .hyfutures.com
@@ -32764,7 +32781,9 @@
 .iclicash.com
 .iclickstatic.com
 .icloud-cdn.icloud.com.akadns.net
+.icloud-content.com
 .icloud.cdn-apple.com
+.icloud.com
 .icloudgslb.com
 .icloudnews.net
 .iclouds.work
@@ -33486,7 +33505,6 @@
 .imags-google.com
 .imahui.com
 .imaibo.net
-.imaidai.com
 .imaijia.com
 .imaitu.com
 .imalljoy.com
@@ -33705,7 +33723,6 @@
 .indmi.com
 .indomoge.com
 .indongfang.com
-.indscijcy.com
 .industrial-automation-beijing.com
 .induta.com
 .indvaan.com
@@ -33923,6 +33940,7 @@
 .ioqq.com
 .ios1234.com
 .ios8.app
+.iosapps.itunes.apple.com
 .iosapps.itunes.apple.com
 .iosapps.itunes.g.aaplimg.com
 .iosappx.com
@@ -34482,6 +34500,8 @@
 .ituite.com
 .itunes-apple.com.akadns.net
 .itunes.apple.com
+.itunes.apple.com
+.itunes.com
 .itunesconnect.apple.com
 .itushuo.com
 .itutu.tv
@@ -35146,7 +35166,6 @@
 .jfh.com
 .jfinal.com
 .jfinfo.com
-.jfmys.com
 .jfocus.net
 .jfq.com
 .jfrft.com
@@ -36833,7 +36852,6 @@
 .jsxat788.com
 .jsxcra.com
 .jsxfedu.com
-.jsxfzgxb.com
 .jsxhrb.com
 .jsxhrcb.com
 .jsxhw.org
@@ -39544,7 +39562,6 @@
 .lbsheng.com
 .lbuilder.com
 .lbwbw.com
-.lbwtk.com
 .lbx.cc
 .lbx777.com
 .lbxcn.com
@@ -39568,6 +39585,8 @@
 .lcd-miro.com
 .lcddjm.com
 .lcdhome.net
+.lcdn-locator.apple.com
+.lcdn-registration.apple.com
 .lcdushi.com
 .lcdwiki.com
 .lcfby.com
@@ -39600,6 +39619,7 @@
 .ldcang.com
 .ldd.me
 .lddengine.com
+.lddgo.net
 .ldeng.com
 .ldgmc.com
 .ldmap.net
@@ -41435,6 +41455,9 @@
 .ls-gb.com
 .ls-marathon.com
 .ls.apple.com
+.ls.apple.com
+.ls.apple.com.akadns.net
+.ls.apple.com.edgesuite.net
 .ls12.me
 .lsbankchina.com
 .lsbchina.com
@@ -42758,6 +42781,7 @@
 .mdy-edu.com
 .mdybk.com
 .me-city.com
+.me.com
 .me2log.com
 .me361.com
 .me4399.com
@@ -43080,7 +43104,6 @@
 .mengshanzhongxue.com
 .mengshihm.com
 .mengso.com
-.mengtaier.com
 .mengtian.com
 .mengtu.cc
 .mengtuiapp.com
@@ -44520,6 +44543,7 @@
 .music.163.com
 .music.apple.com
 .music.apple.com
+.music.apple.com
 .music163.com
 .music4x.com
 .musicbody.net
@@ -44568,6 +44592,7 @@
 .mvhere.com
 .mvmpg.com
 .mvnjar.com
+.mvod.itunes.apple.com
 .mvod.itunes.apple.com
 .mvoicer.com
 .mvote.net
@@ -44952,6 +44977,7 @@
 .mzread.com
 .mzres.com
 .mzsky.cc
+.mzstatic.com
 .mztgame.com
 .mztzzx.com
 .mzuan.com
@@ -46209,6 +46235,8 @@
 .nwenxue.com
 .nwpu.net
 .nwtongcheng.com
+.nwxs2.com
+.nwxs4.com
 .nx.cm
 .nx5.com
 .nxadmin.com
@@ -46877,6 +46905,7 @@
 .oscartutor.com
 .oscarzhoud.com
 .oscdn.apple.com
+.oscdn.apple.com
 .oscdn.origin-apple.com.akadns.net
 .oschina.com
 .oschina.io
@@ -46909,6 +46938,7 @@
 .oswdj.com
 .oswhy.com
 .osx.cx
+.osxapps.itunes.apple.com
 .osxapps.itunes.apple.com
 .osyum.com
 .osyunwei.com
@@ -47999,7 +48029,6 @@
 .pinpailun.com
 .pinpaiv.com
 .pinpinhang.com
-.pinqing845.wang
 .pinshan.com
 .pinshanghe.com
 .pinshiwen.com
@@ -48134,6 +48163,7 @@
 .platinum-traveller.com
 .platinumchina.com
 .play-analytics.com
+.play.itunes.apple.com
 .play68.com
 .play700.com
 .play78.com
@@ -48665,7 +48695,6 @@
 .pulisi.com
 .pullywood.com
 .pulsigame.com
-.puminlvyou.com
 .pumpvip.com
 .punaide.com
 .punchbox.info
@@ -48686,6 +48715,8 @@
 .purenyy.com
 .puroyal.com
 .pusa123.com
+.push.apple.com
+.push.apple.com.akadns.net
 .push2333.com
 .push2u.com
 .pushauction.com
@@ -51002,6 +51033,7 @@
 .res0w.com
 .resclassaction.com
 .rescup.com
+.reserve-prime.apple.com
 .resheji.com
 .resistor.today
 .resotoutiao.com
@@ -52310,6 +52342,8 @@
 .sdzhidian.com
 .sdzjsy.com
 .sdzk.co
+.se-edge.itunes.apple.com
+.se.itunes.apple.com
 .se77en.cc
 .se7c.com
 .se7enzone.com
@@ -54531,6 +54565,7 @@
 .smokeliq.com
 .smoothgroup.cc
 .smovie168.com
+.smp-device-content.apple.com
 .smpeizi.com
 .smppw.com
 .sms9.net
@@ -55463,6 +55498,7 @@
 .strcpy.me
 .streamaxtech.com
 .streamcomputing.com
+.streamingaudio.itunes.apple.com
 .strong-study.com
 .strongcms.net
 .strongled.com
@@ -55509,6 +55545,7 @@
 .stzw.com
 .su-long.com
 .su-yongchen.com
+.su.itunes.apple.com
 .suaee.com
 .suanbanyun.com
 .suanbuliu.com
@@ -55674,7 +55711,6 @@
 .sungoal.org
 .sungoedu.com
 .sunhaojie.com
-.sunhongfeng.com
 .suninf.net
 .suning.com
 .suning.design
@@ -55804,6 +55840,7 @@
 .support.apple.com
 .support.lenovo.com
 .supportdownload.apple.com
+.supportdownload.apple.com
 .supumall.com
 .supuy.com
 .suqian360.com
@@ -55892,6 +55929,7 @@
 .swcatalog-cdn.apple.com.akadns.net
 .swcatalog.apple.com
 .swcd3.com
+.swcdn.apple.com
 .swcdn.apple.com
 .swcdn.apple.com
 .swcdn.g.aaplimg.com
@@ -56046,7 +56084,6 @@
 .sxxyfw.com
 .sxy7.com
 .sxycrb.com
-.sxyinhua.com
 .sxyj.net
 .sxzfcy.com
 .sxzhaobiao.com
@@ -57719,7 +57756,6 @@
 .timeso.cc
 .timetw.com
 .timev.com
-.timezu.com
 .timing360.com
 .timipc.com
 .timitime.com
@@ -59746,7 +59782,9 @@
 .update.googleapis.com
 .updates-http.cdn-apple.com
 .updates-http.cdn-apple.com
+.updates-http.cdn-apple.com
 .updates-http.cdn-apple.com.akadns.net
+.updates.cdn-apple.com
 .updba.com
 .updrv.com
 .upecp.com
@@ -59766,6 +59804,7 @@
 .upnb.com
 .upos-hz-mirrorakam.akamaized.net
 .upos-hz-mirrorakam.akamaized.net
+.upp.itunes.apple.com
 .uppsd.com
 .upqzfile.com
 .upqzfilebk.com
@@ -61209,6 +61248,7 @@
 .wanshahao.com
 .wanshanshuju.com
 .wanshh.com
+.wanshhh.com
 .wanshifu.com
 .wanshitong.com
 .wanshouyou.net
@@ -61454,6 +61494,8 @@
 .weareqy.com
 .weartrends.com
 .weasing.com
+.weather-analytics-events.apple.com
+.weather-data.apple.com
 .weather-data.apple.com
 .weather.bjango.com
 .weather.com
@@ -62779,7 +62821,6 @@
 .wjkwl.com
 .wjlkj.com
 .wjlxmedia.com
-.wjpqyv.store
 .wjrcb.com
 .wjshu.com
 .wjshw.com
@@ -63078,7 +63119,6 @@
 .woodnn.com
 .wooee.net
 .wooffice.net
-.woohd.com
 .wookb.com
 .woola.net
 .woolteam.com
@@ -63192,6 +63232,7 @@
 .woxuexue.com
 .woxuyuan.com
 .woyao998.com
+.woyaobaoliang.com
 .woyaofanyi.com
 .woyaogexing.com
 .woyaommm.com
@@ -65229,7 +65270,6 @@
 .xingming.net
 .xingpan.com
 .xingpin.com
-.xingqitouzi.com
 .xingqiu.tv
 .xingqu11.com
 .xingren.com
@@ -65992,6 +66032,7 @@
 .xoyocdn.com
 .xoyq.net
 .xoyue.com
+.xp.apple.com
 .xp002.com
 .xp5.com
 .xp510.com
@@ -66017,7 +66058,6 @@
 .xpjj.net
 .xpjm.net
 .xplian.net
-.xplmc.com
 .xpsheying.com
 .xpsy.net
 .xptt.com
@@ -69158,7 +69198,6 @@
 .yuexingfurniture.com
 .yuexinli.com
 .yuexinyouxi.com
-.yuexinyp.com
 .yuexirc.com
 .yuexunedu.com
 .yueyaa.com
@@ -71932,6 +71971,7 @@
 .zkhcsoft.com
 .zkhcsy.com
 .zkii.net
+.zkk7.com
 .zkl2333.com
 .zknysp.com
 .zkread.com
