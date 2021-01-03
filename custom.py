@@ -282,13 +282,13 @@ host = open(r'host.txt', 'w')
 
 
 # 从云端下载并保存在本地
-Download_Cloud(urls)
-Download_Cloud(Adblock)
-Download_Cloud(Domain)
-Download_Cloud(domainset)
-Download_Cloud(Host)
-Download_Cloud(Direct)
-Download_Cloud(Proxy)
+# Download_Cloud(urls)
+# Download_Cloud(Adblock)
+# Download_Cloud(Domain)
+# Download_Cloud(domainset)
+# Download_Cloud(Host)
+# Download_Cloud(Direct)
+# Download_Cloud(Proxy)
 
 
 # 合并文件
@@ -845,6 +845,8 @@ Extract_Line(open(r'DRuleSet.list', 'r'), open(
     r'DRuleSet_IP.txt', 'w'), "IP-CIDR,|IP-CIDR6,")
 Extract_Line(open(r'DRuleSet.list', 'r'), open(
     r'DRuleSet_DOMAIN-KEYWORD.txt', 'w'), "DOMAIN-KEYWORD,")
+Extract_Line(open(r'DRuleSet.list', 'r'), open(
+    r'DRuleSet_USER-AGENT.txt', 'w'), "USER-AGENT,")
 
 
 Extract_Line(open(r'PRuleSet.list', 'r'), open(
@@ -855,6 +857,8 @@ Extract_Line(open(r'PRuleSet.list', 'r'), open(
     r'PRuleSet_IP.txt', 'w'), "IP-CIDR,|IP-CIDR6,")
 Extract_Line(open(r'PRuleSet.list', 'r'), open(
     r'PRuleSet_DOMAIN-KEYWORD.txt', 'w'), "DOMAIN-KEYWORD,")
+Extract_Line(open(r'PRuleSet.list', 'r'), open(
+    r'PRuleSet_USER-AGENT.txt', 'w'), "USER-AGENT,")
 
 
 add_after_line(r'RuleSet_DOMAIN-SUFFIX.txt', ',REJECT\n')
@@ -870,23 +874,23 @@ add_after_line(r'DRuleSet_DOMAIN-SUFFIX.txt', ',DIRECT\n')
 add_after_line(r'DRuleSet_DOMAIN.txt', ',DIRECT\n')
 add_after_line(r'DRuleSet_IP.txt', ',DIRECT\n')
 add_after_line(r'DRuleSet_DOMAIN-KEYWORD.txt', ',DIRECT\n')
-add_after_line(r'DIRECT/USER-AGENT.txt', ',DIRECT\n')
+add_after_line(r'DRuleSet_USER-AGENT.txt', ',DIRECT\n')
 sorted_file_content(r'DRuleSet_DOMAIN-SUFFIX.txt')
 sorted_file_content(r'DRuleSet_DOMAIN.txt')
 sorted_file_content(r'DRuleSet_IP.txt')
 sorted_file_content(r'DRuleSet_DOMAIN-KEYWORD.txt')
-sorted_file_content(r'DIRECT/USER-AGENT.txt')
+sorted_file_content(r'DRuleSet_USER-AGENT.txt')
 
 add_after_line(r'PRuleSet_DOMAIN-SUFFIX.txt', ',PROXY\n')
 add_after_line(r'PRuleSet_DOMAIN.txt', ',PROXY\n')
 add_after_line(r'PRuleSet_IP.txt', ',PROXY\n')
 add_after_line(r'PRuleSet_DOMAIN-KEYWORD.txt', ',PROXY\n')
-add_after_line(r'PROXY/USER-AGENT.txt', ',PROXY\n')
+add_after_line(r'PRuleSet_USER-AGENT.txt', ',PROXY\n')
 sorted_file_content(r'PRuleSet_DOMAIN-SUFFIX.txt')
 sorted_file_content(r'PRuleSet_DOMAIN.txt')
 sorted_file_content(r'PRuleSet_IP.txt')
 sorted_file_content(r'PRuleSet_DOMAIN-KEYWORD.txt')
-sorted_file_content(r'PROXY/USER-AGENT.txt')
+sorted_file_content(r'PRuleSet_USER-AGENT.txt')
 
 
 a = open(r'BLOCK/URL.list', 'w')

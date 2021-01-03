@@ -8121,7 +8121,6 @@ DOMAIN-SUFFIX,denverpost.com
 DOMAIN-SUFFIX,dependabot.com
 DOMAIN-SUFFIX,depositphotos.com
 DOMAIN-SUFFIX,deqmgur9wakvx.cloudfront.net
-DOMAIN-SUFFIX,derekhsu.homeip.net
 DOMAIN-SUFFIX,desc.se
 DOMAIN-SUFFIX,desertbmw.com
 DOMAIN-SUFFIX,design.google
@@ -20988,6 +20987,7 @@ DOMAIN-SUFFIX,salvationarmyradio.org
 DOMAIN-SUFFIX,samace.ca
 DOMAIN-SUFFIX,samair.ru
 DOMAIN-SUFFIX,sambhota.org
+DOMAIN-SUFFIX,samebags.com
 DOMAIN-SUFFIX,sametband.com.ar
 DOMAIN-SUFFIX,samkoeh.com
 DOMAIN-SUFFIX,sammah.org
@@ -29422,6 +29422,7 @@ DOMAIN-SUFFIX,www.turfclub.com.sg
 DOMAIN-SUFFIX,www.tusi8.com
 DOMAIN-SUFFIX,www.tuwang.org
 DOMAIN-SUFFIX,www.tv.com.pk
+DOMAIN-SUFFIX,www.tv5.ca
 DOMAIN-SUFFIX,www.tvboxnow.com
 DOMAIN-SUFFIX,www.tvi24.iol.pt
 DOMAIN-SUFFIX,www.tvshowme.net

@@ -8083,7 +8083,6 @@
 .dependabot.com
 .depositphotos.com
 .deqmgur9wakvx.cloudfront.net
-.derekhsu.homeip.net
 .desc.se
 .desertbmw.com
 .design.google
@@ -20981,6 +20980,7 @@
 .samace.ca
 .samair.ru
 .sambhota.org
+.samebags.com
 .sametband.com.ar
 .samkoeh.com
 .sammah.org
@@ -29420,6 +29420,7 @@
 .www.tusi8.com
 .www.tuwang.org
 .www.tv.com.pk
+.www.tv5.ca
 .www.tvboxnow.com
 .www.tvi24.iol.pt
 .www.tvshowme.net
