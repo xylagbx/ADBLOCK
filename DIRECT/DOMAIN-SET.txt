@@ -10272,7 +10272,6 @@
 .aoclia.com
 .aocslb.com
 .aod.itunes.apple.com
-.aod.itunes.apple.com
 .aodabo.tech
 .aodaliyaqianzheng.com
 .aoddoll.com
@@ -10385,7 +10384,6 @@
 .api.mob.app.letv.com
 .api.sfacg.com
 .api.smoot.apple.cn
-.api.smoot.apple.cn
 .api.smoot.apple.com
 .api.waqi.info
 .apiadmin.org
@@ -10496,10 +10494,10 @@
 .applaudads.com
 .appldnld.apple.com
 .appldnld.apple.com
-.appldnld.apple.com
 .appldnld.g.aaplimg.com
 .apple
-.apple-cloudkit.com.apple.co
+.apple-cloudkit.com# Apple 直连
+.apple.co
 .apple.com
 .apple110.com
 .apple21.com
@@ -10537,7 +10535,6 @@
 .appsodo.com
 .appstochina.com
 .apptao.com
-.apptrailers.itunes.apple.com
 .apptrailers.itunes.apple.com
 .appubang.com
 .appublisher.com
@@ -33941,7 +33938,6 @@
 .ios1234.com
 .ios8.app
 .iosapps.itunes.apple.com
-.iosapps.itunes.apple.com
 .iosapps.itunes.g.aaplimg.com
 .iosappx.com
 .iosask.com
@@ -34499,7 +34495,6 @@
 .ituibar.com
 .ituite.com
 .itunes-apple.com.akadns.net
-.itunes.apple.com
 .itunes.apple.com
 .itunes.com
 .itunesconnect.apple.com
@@ -41455,7 +41450,6 @@
 .ls-gb.com
 .ls-marathon.com
 .ls.apple.com
-.ls.apple.com
 .ls.apple.com.akadns.net
 .ls.apple.com.edgesuite.net
 .ls12.me
@@ -44543,7 +44537,6 @@
 .music.163.com
 .music.apple.com
 .music.apple.com
-.music.apple.com
 .music163.com
 .music4x.com
 .musicbody.net
@@ -44592,7 +44585,6 @@
 .mvhere.com
 .mvmpg.com
 .mvnjar.com
-.mvod.itunes.apple.com
 .mvod.itunes.apple.com
 .mvoicer.com
 .mvote.net
@@ -46938,7 +46930,6 @@
 .oswdj.com
 .oswhy.com
 .osx.cx
-.osxapps.itunes.apple.com
 .osxapps.itunes.apple.com
 .osyum.com
 .osyunwei.com
@@ -55840,7 +55831,6 @@
 .support.apple.com
 .support.lenovo.com
 .supportdownload.apple.com
-.supportdownload.apple.com
 .supumall.com
 .supuy.com
 .suqian360.com
@@ -55929,7 +55919,6 @@
 .swcatalog-cdn.apple.com.akadns.net
 .swcatalog.apple.com
 .swcd3.com
-.swcdn.apple.com
 .swcdn.apple.com
 .swcdn.apple.com
 .swcdn.g.aaplimg.com
@@ -59780,7 +59769,6 @@
 .upchinaproduct.com
 .upd.kaspersky.com
 .update.googleapis.com
-.updates-http.cdn-apple.com
 .updates-http.cdn-apple.com
 .updates-http.cdn-apple.com
 .updates-http.cdn-apple.com.akadns.net

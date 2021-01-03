@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-# from _typeshed import OpenTextMode
 import requests
 from posix import remove
 import re
@@ -671,6 +670,29 @@ del_line(open(r'RuleSet.list', 'r+'),
 Merge_File(open(r'DRuleSet.list', 'a'),
            open(r'原始文件/Apple_Direct.txt', 'r'))
 Merge_File(open(r'PRuleSet.list', 'a'), open(r'原始文件/Apple_Proxy.txt', 'r'))
+Merge_File(open(r'DRuleSet.list', 'a'),
+           open(r'原始文件/Apple_Direct_USER-AGENT.txt', 'r'))
+Merge_File(open(r'PRuleSet.list', 'a'), open(
+    r'原始文件/Apple_Proxy_USER-AGENT.txt', 'r'))
+
+a = open(r'a.list', 'w')
+a.close()
+b = open(r'b.list', 'w')
+b.close()
+Remove_Repetition(open(r'DRuleSet.list', 'r'), open(r'a.list', 'a'))
+Remove_Repetition(open(r'PRuleSet.list', 'r'), open(r'b.list', 'a'))
+a = open(r'a.list', 'r')
+a1 = open(r'DRuleSet.list', 'w')
+a1.write(a.read())
+a.close()
+a1.close
+b = open(r'b.list', 'r')
+b1 = open(r'PRuleSet.list', 'w')
+b1.write(b.read())
+b.close()
+b1.close
+remove(r'a.list')
+remove(r'b.list')
 
 
 # 创建 DOMAIN-SET 规则集
@@ -794,12 +816,14 @@ sorted_file_content(r'DIRECT/DOMAIN.txt')
 sorted_file_content(r'DIRECT/IP-CIDR.txt')
 sorted_file_content(r'DIRECT/KEYWORD.txt')
 sorted_file_content(r'DIRECT/URL.txt')
+sorted_file_content(r'DIRECT/USER-AGENT.txt')
 
 sorted_file_content(r'PROXY/DOMAIN-SET.txt')
 sorted_file_content(r'PROXY/DOMAIN.txt')
 sorted_file_content(r'PROXY/IP-CIDR.txt')
 sorted_file_content(r'PROXY/KEYWORD.txt')
 sorted_file_content(r'PROXY/URL.txt')
+sorted_file_content(r'PROXY/USER-AGENT.txt')
 
 
 # 合并生成 Shadowrocket 配置文件
@@ -851,6 +875,7 @@ sorted_file_content(r'DRuleSet_DOMAIN-SUFFIX.txt')
 sorted_file_content(r'DRuleSet_DOMAIN.txt')
 sorted_file_content(r'DRuleSet_IP.txt')
 sorted_file_content(r'DRuleSet_DOMAIN-KEYWORD.txt')
+sorted_file_content(r'DIRECT/USER-AGENT.txt')
 
 add_after_line(r'PRuleSet_DOMAIN-SUFFIX.txt', ',PROXY\n')
 add_after_line(r'PRuleSet_DOMAIN.txt', ',PROXY\n')
@@ -861,6 +886,7 @@ sorted_file_content(r'PRuleSet_DOMAIN-SUFFIX.txt')
 sorted_file_content(r'PRuleSet_DOMAIN.txt')
 sorted_file_content(r'PRuleSet_IP.txt')
 sorted_file_content(r'PRuleSet_DOMAIN-KEYWORD.txt')
+sorted_file_content(r'PROXY/USER-AGENT.txt')
 
 
 a = open(r'BLOCK/URL.list', 'w')

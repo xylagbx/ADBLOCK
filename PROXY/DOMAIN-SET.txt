@@ -2329,6 +2329,7 @@
 .aje.io
 .ajplus.net
 .ajsands.com
+.ajtalk.com
 .ak1.net
 .ak633.com
 .aka-ai.com
@@ -2973,7 +2974,6 @@
 .apple-darwin.org
 .apple-dns.com
 .apple-dns.net
-.apple-dns.net
 .apple-enews.com
 .apple-expo.com
 .apple-hk.com
@@ -2995,7 +2995,8 @@
 .apple.com.pr
 .apple.com.pt
 .apple.com.py
-.apple.comscoreresearch.com.apple.comscoreresearch.com
+.apple.comscoreresearch.com
+.apple.comscoreresearch.com
 .apple.ee
 .apple.hamburg
 .apple.hr
@@ -11016,6 +11017,7 @@
 .freevpnss.com
 .freevpnssh.com
 .freevpnworld.com
+.freewallpaper4.me
 .freewebs.com
 .freewechat.com
 .freeweibo.com
@@ -20979,7 +20981,6 @@
 .samace.ca
 .samair.ru
 .sambhota.org
-.samebags.com
 .sametband.com.ar
 .samkoeh.com
 .sammah.org
@@ -29419,7 +29420,6 @@
 .www.tusi8.com
 .www.tuwang.org
 .www.tv.com.pk
-.www.tv5.ca
 .www.tvboxnow.com
 .www.tvi24.iol.pt
 .www.tvshowme.net

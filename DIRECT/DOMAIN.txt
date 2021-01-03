@@ -1,8 +1,6 @@
 DOMAIN,aod.itunes.apple.com
-DOMAIN,aod.itunes.apple.com
 DOMAIN,api-edge.apps.apple.com
 DOMAIN,api.apps.apple.com
-DOMAIN,api.smoot.apple.cn
 DOMAIN,api.smoot.apple.cn
 DOMAIN,api.smoot.apple.com
 DOMAIN,api.waqi.info
@@ -10,9 +8,7 @@ DOMAIN,apm.music.163.com
 DOMAIN,apm3.music.163.com
 DOMAIN,app-site-association.cdn-apple.com
 DOMAIN,appldnld.apple.com
-DOMAIN,appldnld.apple.com
 DOMAIN,apps.apple.com
-DOMAIN,apptrailers.itunes.apple.com
 DOMAIN,apptrailers.itunes.apple.com
 DOMAIN,aqicn.org
 DOMAIN,bag.itunes.apple.com
@@ -34,16 +30,13 @@ DOMAIN,images-cn.ssl-images-amazon.com
 DOMAIN,interface.music.163.com
 DOMAIN,interface3.music.163.com
 DOMAIN,iosapps.itunes.apple.com
-DOMAIN,iosapps.itunes.apple.com
 DOMAIN,ip.bjango.com
 DOMAIN,magi.com
 DOMAIN,music.126.net
 DOMAIN,music.163.com
 DOMAIN,music.apple.com
 DOMAIN,mvod.itunes.apple.com
-DOMAIN,mvod.itunes.apple.com
 DOMAIN,oscdn.apple.com
-DOMAIN,osxapps.itunes.apple.com
 DOMAIN,osxapps.itunes.apple.com
 DOMAIN,ping.huatuo.qq.com
 DOMAIN,play.itunes.apple.com
@@ -57,10 +50,7 @@ DOMAIN,speedtest.macpaw.com
 DOMAIN,streamingaudio.itunes.apple.com
 DOMAIN,su.itunes.apple.com
 DOMAIN,supportdownload.apple.com
-DOMAIN,supportdownload.apple.com
 DOMAIN,swcdn.apple.com
-DOMAIN,swcdn.apple.com
-DOMAIN,updates-http.cdn-apple.com
 DOMAIN,updates-http.cdn-apple.com
 DOMAIN,updates.cdn-apple.com
 DOMAIN,upos-hz-mirrorakam.akamaized.net
@@ -10557,7 +10547,8 @@ DOMAIN-SUFFIX,applaudads.com
 DOMAIN-SUFFIX,appldnld.apple.com
 DOMAIN-SUFFIX,appldnld.g.aaplimg.com
 DOMAIN-SUFFIX,apple
-DOMAIN-SUFFIX,apple-cloudkit.comDOMAIN-SUFFIX,apple.co
+DOMAIN-SUFFIX,apple-cloudkit.com# Apple 直连
+DOMAIN-SUFFIX,apple.co
 DOMAIN-SUFFIX,apple.com
 DOMAIN-SUFFIX,apple110.com
 DOMAIN-SUFFIX,apple21.com
@@ -34533,7 +34524,6 @@ DOMAIN-SUFFIX,ituibar.com
 DOMAIN-SUFFIX,ituite.com
 DOMAIN-SUFFIX,itunes-apple.com.akadns.net
 DOMAIN-SUFFIX,itunes.apple.com
-DOMAIN-SUFFIX,itunes.apple.com
 DOMAIN-SUFFIX,itunes.com
 DOMAIN-SUFFIX,itunesconnect.apple.com
 DOMAIN-SUFFIX,itushuo.com
@@ -41488,7 +41478,6 @@ DOMAIN-SUFFIX,ls-17.com
 DOMAIN-SUFFIX,ls-gb.com
 DOMAIN-SUFFIX,ls-marathon.com
 DOMAIN-SUFFIX,ls.apple.com
-DOMAIN-SUFFIX,ls.apple.com
 DOMAIN-SUFFIX,ls.apple.com.akadns.net
 DOMAIN-SUFFIX,ls.apple.com.edgesuite.net
 DOMAIN-SUFFIX,ls12.me
@@ -44571,7 +44560,6 @@ DOMAIN-SUFFIX,mushada.com
 DOMAIN-SUFFIX,mushafa.net
 DOMAIN-SUFFIX,mushapi.com
 DOMAIN-SUFFIX,mushroomchina.com
-DOMAIN-SUFFIX,music.apple.com
 DOMAIN-SUFFIX,music.apple.com
 DOMAIN-SUFFIX,music163.com
 DOMAIN-SUFFIX,music4x.com
