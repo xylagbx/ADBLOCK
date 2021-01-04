@@ -1,8 +1,8 @@
 # 广告列表 adblock rules
 # 内容：EasyListChina列表，只包含ABP中的 EasyListChina 内容
 # 来源：https://easylist-downloads.adblockplus.org/easylistchina.txt
-# 更新：2021-01-01 18:08:51
-# 数量：5208条
+# 更新：2021-01-04 21:25:22
+# 数量：5213条
 
 DOMAIN-SUFFIX,00-gov.cn
 DOMAIN-SUFFIX,0024aaaa.com
@@ -669,6 +669,7 @@ DOMAIN-SUFFIX,ad-img.diyidan.net
 DOMAIN-SUFFIX,ad.52av.one
 DOMAIN-SUFFIX,ad.52av.tv
 DOMAIN-SUFFIX,ad.bobi.tw
+DOMAIN-SUFFIX,ad.ccement.com
 DOMAIN-SUFFIX,ad.cdnjm.cn
 DOMAIN-SUFFIX,ad.muyang888.top
 DOMAIN-SUFFIX,ad.walkgame.com
@@ -896,7 +897,7 @@ DOMAIN-SUFFIX,badding.oss-ap-southeast-1.aliyuncs.com
 DOMAIN-SUFFIX,baful.net
 DOMAIN-SUFFIX,bahu.xyz
 DOMAIN-SUFFIX,baiapk.com
-DOMAIN-SUFFIX,baidu.bxwx666.org
+DOMAIN-SUFFIX,baidu.bxwx555.org
 DOMAIN-SUFFIX,baidu1.codejie.net
 DOMAIN-SUFFIX,baiduace.com
 DOMAIN-SUFFIX,baiduada.babihu.com
@@ -1275,6 +1276,7 @@ DOMAIN-SUFFIX,claz.com.cn
 DOMAIN-SUFFIX,client.88tours.com
 DOMAIN-SUFFIX,climbcoder.com
 DOMAIN-SUFFIX,clmmw.com
+DOMAIN-SUFFIX,cloudpsvn.com
 DOMAIN-SUFFIX,clxxkz.com.cn
 DOMAIN-SUFFIX,cmaxisolation.com
 DOMAIN-SUFFIX,cmm.xmfish.com
@@ -1552,7 +1554,6 @@ DOMAIN-SUFFIX,dm.taobaojuhuasuan.cn
 DOMAIN-SUFFIX,dm.wenshenxiu.com
 DOMAIN-SUFFIX,dm.zuowenku.net
 DOMAIN-SUFFIX,dm1.ddwk8.cn
-DOMAIN-SUFFIX,dm1.dnpz123.com
 DOMAIN-SUFFIX,dm1.guanwawa.com
 DOMAIN-SUFFIX,dm1.zjydt.com
 DOMAIN-SUFFIX,dmm.aizhan.com
@@ -3575,6 +3576,7 @@ DOMAIN-SUFFIX,r3wd6.cn
 DOMAIN-SUFFIX,rabc1.iteye.com
 DOMAIN-SUFFIX,raeqqe.cn
 DOMAIN-SUFFIX,rainfinemalawi.com
+DOMAIN-SUFFIX,ranqibio.com
 DOMAIN-SUFFIX,rbign.cn
 DOMAIN-SUFFIX,rbmry.com
 DOMAIN-SUFFIX,rbtjkx.cn
@@ -3773,6 +3775,7 @@ DOMAIN-SUFFIX,shuake.ink
 DOMAIN-SUFFIX,shuangshiyihightgo.top
 DOMAIN-SUFFIX,shucaihangjia.com
 DOMAIN-SUFFIX,shuccn.com
+DOMAIN-SUFFIX,shukongshebei.net
 DOMAIN-SUFFIX,shunlige.com
 DOMAIN-SUFFIX,shunxinyuancaiwu.cn
 DOMAIN-SUFFIX,shuwuzhan.com
@@ -4345,6 +4348,7 @@ DOMAIN-SUFFIX,werpig.com
 DOMAIN-SUFFIX,wervp.com
 DOMAIN-SUFFIX,wew.dushiwenxue.net
 DOMAIN-SUFFIX,wf321.com
+DOMAIN-SUFFIX,wfaffwshop.xyz
 DOMAIN-SUFFIX,wffengtai.com.cn
 DOMAIN-SUFFIX,wfslj.cn
 DOMAIN-SUFFIX,wfxoi.xyz
@@ -5107,6 +5111,7 @@ DOMAIN-SUFFIX,zxsmxt.com
 DOMAIN-SUFFIX,zxzhengxin.com
 DOMAIN-SUFFIX,zybpj.com
 DOMAIN-SUFFIX,zydyjzw.cn
+DOMAIN-SUFFIX,zykxjt.com
 DOMAIN-SUFFIX,zymro.com
 DOMAIN-SUFFIX,zyqp9.com
 DOMAIN-SUFFIX,zyrfanli.com

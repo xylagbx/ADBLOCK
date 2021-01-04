@@ -28604,7 +28604,6 @@ DOMAIN-SUFFIX,metrics.el-mundo.net
 DOMAIN-SUFFIX,metrics.extremetech.com
 DOMAIN-SUFFIX,metrics.feedroom.com
 DOMAIN-SUFFIX,metrics.foxnews.com
-DOMAIN-SUFFIX,metrics.icloud.com
 DOMAIN-SUFFIX,metrics.infranken.de
 DOMAIN-SUFFIX,metrics.io
 DOMAIN-SUFFIX,metrics.macys.net

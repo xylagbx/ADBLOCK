@@ -76,10 +76,6 @@ DOMAIN-SUFFIX,ls.apple.com.akadns.net
 DOMAIN-SUFFIX,ls.apple.com.edgesuite.net
 # Reserve
 DOMAIN,reserve-prime.apple.com
-# Push
-DOMAIN-KEYWORD,push-apple.com.akadns.net
-DOMAIN-SUFFIX,push.apple.com.akadns.net
-DOMAIN-SUFFIX,push.apple.com
 # GeoServices.framework
 DOMAIN-SUFFIX,ls.apple.com
 # Asset Cache Locator Service
@@ -102,7 +98,6 @@ DOMAIN-SUFFIX,apple.co
 DOMAIN-SUFFIX,itunes.com
 DOMAIN-SUFFIX,itunes.apple.com
 DOMAIN-SUFFIX,apple
-DOMAIN,weather-analytics-events.apple.com
 # iCloud 上传和下载
 DOMAIN-SUFFIX,icloud-content.com
 DOMAIN-SUFFIX,me.com

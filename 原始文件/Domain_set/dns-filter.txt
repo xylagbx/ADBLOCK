@@ -7956,6 +7956,7 @@
 .moneyzenith.com
 .mongdaughc.fun
 .monotonoussurveytoxic.com
+.montafp.top
 .montkpl.top
 .montwam.top
 .mooaleoat.com
@@ -18763,7 +18764,6 @@
 .lcs.loginfra.com
 .adblock-analytics.io
 .aukana.jp
-.telemetry.api.wmcdp.io
 .logs.psm.wmcdp.io
 .pixel.tapad.com
 .nlog.nethru.io
@@ -24953,6 +24953,7 @@
 .d28g9g3vb08y70.cloudfront.net
 .d2as12kgjg8gw5.cloudfront.net
 .d2cpw6kwpff7n5.cloudfront.net
+.d2gbtcuv3w9qyv.cloudfront.net
 .d2ibu2ug0mt5qp.cloudfront.net
 .d2kdl5wcwrtj90.cloudfront.net
 .d2nxi61n77zqpl.cloudfront.net
@@ -25137,12 +25138,14 @@
 .ipapi.tmbi.com
 .irqs.ioam.de
 .itracking.fccinteractive.com
+.jac.yahoosandbox.com
 .javascriptcounter.appspot.com
 .jelly.mdhv.io
 .js-agent.newrelic.com
 .k.streamrail.com
 .kalstats.kaltura.com
 .keyword.daumdn.com
+.keywords.complex.com
 .l.fairblocker.com
 .l.ooyala.com
 .l.player.ooyala.com
@@ -25474,6 +25477,7 @@
 .tc.airfrance.com
 .tcheck.outbrainimg.com
 .te.supportfreecontent.com
+.telemetry.api.wmcdp.io
 .telemetry.reembed.com
 .telemetry.soundcloud.com
 .telemetry.tableausoftware.com
@@ -32260,6 +32264,7 @@
 .nonstoppartner.net
 .notenpartner.de
 .nwave.de
+.onlymega.com
 .paidlinkz.net
 .paidsolution.de
 .performance-netzwerk.de
@@ -32295,6 +32300,7 @@
 .siyl.net
 .smartaffiliate.de
 .software-archiv.com
+.solads.media
 .sparkads.ws
 .sparkassen-partner.de
 .special-sponsor.de
@@ -32775,7 +32781,6 @@
 .cleverads.vn
 .clevernet.vn
 .clickbuy.bz
-.cokhach.com
 .contineljs.com
 .d2ox6x0y9xhicd.cloudfront.net
 .dable.io
@@ -32784,7 +32789,6 @@
 .eclick.vn
 .eva*-ad.24hstatic.com
 .ezimar.com
-.fff.com.vn
 .flygame.io
 .fuseplatform.net
 .gammaplatform.com
@@ -32799,8 +32803,8 @@
 .ladipage.com
 .ladipage.net
 .ladipage.vn
+.ladisales.com
 .lavanetwork.net
-.laydata.com
 .log*.zing.vn
 .log.api.zaloapp.com
 .log.o2o.service.zaloapp.com
@@ -32876,6 +32880,7 @@
 .zplayer-trk.zdn.vn
 .zplayer.trk.zapps.vn
 .ztevents.zaloapp.com
+.5734a40f2d.vws.vegacdn.vn
 .703531862.vws.vegacdn.vn
 .ad-admin.vnay.vn
 .ad.24h.com.vn
@@ -32921,10 +32926,12 @@
 .ads.vietbao.vn
 .ads.vkool.info
 .ads.vovlive.vn
+.ads.xedoisong.vn
 .ads.xemphimso.com
 .ads1.careerbuilder.vn
 .adserver.lag.vn
 .adserver.luzu.vn
+.adserver.trangphim.net
 .adsgo.nhipcaudautu.vn
 .adsplus.vn
 .adsv2.autodaily.vn
@@ -32937,6 +32944,7 @@
 .advserver.cgv.vn
 .adx.baolongan.vn
 .adx.edutimes.com.vn
+.adx.hongtinnhanh.com
 .adx.kul.vn
 .adx.xemvtv.net
 .affiliate.k4.tinhte.vn
@@ -32957,6 +32965,7 @@
 .banner.5giay.vn
 .banner.vietnamfinance.vn
 .bgadx.com
+.bluemaulpuffs.com
 .boxpr.aiservice.vn
 .cdn-ads.thesaigontimes.vn
 .cdn2.cache.vn
@@ -32974,7 +32983,9 @@
 .delivery.vtcnew.com.vn
 .deltago.com
 .demopage.me
+.deqik.com
 .dt.vnecdn.com
+.duamilsyr.com
 .ff.imacdn.com
 .financial-agent.headlines.pw
 .fptad.com
@@ -33000,6 +33011,7 @@
 .qcv5.blogtruyen.vn
 .quangcao.24h.com.vn
 .quangcao.baovannghe.com.vn
+.quangcao.fff.com.vn
 .quangcao.thanhnien.vn
 .quangcao.tuoitre.vn
 .quangcao247.com.vn
@@ -33039,6 +33051,7 @@
 .analytics.easyvideo.vn
 .analytics.explus.vn
 .analytics.hub-js.com
+.analytics.nhattao.com
 .analytics.sohatv.vn
 .analytics.thethao247.org
 .analytics.tiki.vn
@@ -33048,7 +33061,8 @@
 .apl.headlines.pw
 .clientinfo.phimmoizz.net
 .counter.ntdvn.com
-.deqik.com
+.crm.bizfly.vn
+.crmbizfly.todo.vn
 .elogs.vnexpress.net
 .event.headlines.pw
 .event.vntoday.news
@@ -33088,6 +33102,7 @@
 .log.vnay.vn
 .log.vntoday.news
 .log.vov.vn
+.log.zamba.vn
 .log4x.nixcdn.com
 .logg4u.cnnd.vn
 .logging.galaxypub.vn
@@ -33105,6 +33120,7 @@
 .s.tuoitre.vn
 .sharefb.cnnd.vn
 .stat.headlines.pw
+.static.accesstrade.vn
 .static.subiz.com
 .staticad.thethao247.vn
 .statistics.vov.vn
@@ -33132,6 +33148,8 @@
 .tracking.appwifi.com
 .tracking.dantri.com.vn
 .tracking.fado.vn
+.tracking.fff.com.vn
+.tracking.hongtinnhanh.com
 .tracking.vht.com.vn
 .tracking.vietbao.vn
 .tracking.vtc.vn
@@ -33144,6 +33162,8 @@
 .userstats.shopee.vn
 .vn.alexajstrack.com
 .vtrack.vht.com.vn
+.webpush.bizfly.vn
+.webpush.todo.vn
 .widget.sbz.vn
 .widget.subiz.xyz
 .11bet.com
@@ -38168,6 +38188,7 @@
 .wenbangsh.com.cn
 .wenzhougy.cn
 .wervp.com
+.wfaffwshop.xyz
 .wfslj.cn
 .wfxoi.xyz
 .wfyqc.com

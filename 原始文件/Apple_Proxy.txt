@@ -14,6 +14,7 @@ DOMAIN,devimages-cdn.apple.com
 DOMAIN,devstreaming-cdn.apple.com
 DOMAIN,js-cdn.music.apple.com
 DOMAIN,docs-assets.developer.apple.com
+DOMAIN,testflight.apple.com
 # Other
 DOMAIN-SUFFIX,apple-dns.net
 # OCSP
@@ -26,3 +27,4 @@ DOMAIN-SUFFIX,apple.news
 DOMAIN,news-events.apple.com
 DOMAIN,news-edge.apple.com
 DOMAIN,apple.comscoreresearch.com
+

@@ -17,9 +17,7 @@ DOMAIN-KEYWORD,epicgames
 DOMAIN-KEYWORD,jdpay
 DOMAIN-KEYWORD,moke
 DOMAIN-KEYWORD,mtalk.google.com
-DOMAIN-KEYWORD,push-apple.com.akadns.net
 DOMAIN-KEYWORD,qhimg
-DOMAIN-KEYWORD,qiyi
 DOMAIN-KEYWORD,smp-device
 DOMAIN-KEYWORD,torrent
 DOMAIN-KEYWORD,tracker

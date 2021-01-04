@@ -3,7 +3,7 @@
 ! Description: Filter composed of several other filters (AdGuard Base filter, Social media filter, Tracking Protection filter, Mobile ads filter, EasyList, EasyPrivacy, etc) and simplified specifically to be better compatible with DNS-level ad blocking.
 ! Homepage: https://github.com/AdguardTeam/AdguardSDNSFilter
 ! License: https://github.com/AdguardTeam/AdguardSDNSFilter/blob/master/LICENSE
-! Last modified: 2021-01-03T00:16:19.563Z
+! Last modified: 2021-01-04T12:05:53.937Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.8
 !
@@ -1784,11 +1784,9 @@ www.llllllllllll.net^
 !
 ||sak.userreport.com^
 ||api.flygame.io^
-||d2sbzwmcg5amr3.cloudfront.net^
 ||tontent.powv1deo.cc^
 ||cintent.streanplay.cc^
 ||my.shymilftube.com^
-||d1f05vr3sjsuy7.cloudfront.net^
 ||s2.everydaygayporn.com^
 ||apiads.gg.pl^
 ||feedads.feedblitz.com^
@@ -1798,7 +1796,6 @@ www.llllllllllll.net^
 ||adilk.ilikecomix.com^
 ||a.letsjerk.to^
 ||d2j042cj1421wi.cloudfront.net^
-||dq3yxnlzwhcys.cloudfront.net^
 ||d3ithbwcmjcxl7.cloudfront.net^
 ||rek.www.wp.pl^
 ||d3mr7y154d2qg5.cloudfront.net^
@@ -8057,6 +8054,7 @@ vkcdnservice.appspot.com^
 ||moneyzenith.com^
 ||mongdaughc.fun^
 ||monotonoussurveytoxic.com^
+||montafp.top^
 ||montkpl.top^
 ||montwam.top^
 ||mooaleoat.com^
@@ -9939,7 +9937,6 @@ vkcdnservice.appspot.com^
 ||rechampouinerai.website^
 ||rechaptalisent.xyz^
 ||recheriend.top^
-||recipetocook.recipes^
 ||reckedmane.club^
 ||recomine.club^
 ||recommendedscenery.com^
@@ -18971,7 +18968,6 @@ vkcdnservice.appspot.com^
 ||aukana.jp^
 ||stat.tiara.
 ||track.tiara.
-||telemetry.api.wmcdp.io^
 ||logs.psm.wmcdp.io^
 ||pixel.tapad.com^
 ||nlog.nethru.io^
@@ -20524,6 +20520,7 @@ t.yesware.com
 ! https://github.com/AdguardTeam/AdGuardSDNSFilter/issues/344
 ! Disabled in DNS filter
 !
+||lcs.modoo.at^
 ||check.tadapi.info^
 ||count.munhwa.com^
 ||geo.mattel163.com^
@@ -24737,6 +24734,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||cubchannel.com^
 ||culturedcrayon.com^
 ||curvycry.com^
+||cushionpig.com^
 ||damdoor.com^
 ||dampdock.com^
 ||dapperdiscussion.com^
@@ -25272,6 +25270,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||d28g9g3vb08y70.cloudfront.net^
 ||d2as12kgjg8gw5.cloudfront.net^
 ||d2cpw6kwpff7n5.cloudfront.net^
+||d2gbtcuv3w9qyv.cloudfront.net^
 ||d2ibu2ug0mt5qp.cloudfront.net^
 ||d2kdl5wcwrtj90.cloudfront.net^
 ||d2nxi61n77zqpl.cloudfront.net^
@@ -25448,6 +25447,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||ingest.sentry.io^
 ||insight.mintel.com^
 ||insight.rapid7.com^
+||insights.algolia.io^
 ||insights.plista.com^
 ||insights.sitesearch360.com^
 ||insitez.blob.core.windows.net^
@@ -25456,12 +25456,14 @@ charlestownwyllie.oaklawnnonantum.com^
 ||ipapi.tmbi.com^
 ||irqs.ioam.de^
 ||itracking.fccinteractive.com^
+||jac.yahoosandbox.com^
 ||javascriptcounter.appspot.com^
 ||jelly.mdhv.io^
 ||js-agent.newrelic.com^
 ||k.streamrail.com^
 ||kalstats.kaltura.com^
 ||keyword.daumdn.com^
+||keywords.complex.com^
 ||l.fairblocker.com^
 ||l.ooyala.com^
 ||l.player.ooyala.com^
@@ -25793,6 +25795,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||tc.airfrance.com^
 ||tcheck.outbrainimg.com^
 ||te.supportfreecontent.com^
+||telemetry.api.wmcdp.io^
 ||telemetry.reembed.com^
 ||telemetry.soundcloud.com^
 ||telemetry.tableausoftware.com^
@@ -25994,6 +25997,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||uhytajrtpo-a.akamaihd.net^
 ||zvsuhljiha-a.akamaihd.net^
 ! fastly
+||7q1z79gxsi.global.ssl.fastly.net^
 ||clarium.global.ssl.fastly.net^
 ||dfapvmql-q.global.ssl.fastly.net^
 ! Unnecessary third-party scripts
@@ -32938,6 +32942,7 @@ adbetnet.com
 ||nonstoppartner.net^
 ||notenpartner.de^
 ||nwave.de^
+||onlymega.com^
 ||paidlinkz.net^
 ||paidsolution.de^
 ||performance-netzwerk.de^
@@ -32973,6 +32978,7 @@ adbetnet.com
 ||siyl.net^
 ||smartaffiliate.de^
 ||software-archiv.com^
+||solads.media^
 ||sparkads.ws^
 ||sparkassen-partner.de^
 ||special-sponsor.de^
@@ -33419,9 +33425,9 @@ adbetnet.com
 !
 ! Title: hostsVN
 ! Description: The filter contains ad and tracking networks in Vietnam.
-! Last modified: 30 Dec 2020 20:43 UTC+7
-! Version: 2012302043
-! Blocked: 587 rules
+! Last modified: 03 Jan 2021 19:22 UTC+7
+! Version: 2101031922
+! Blocked: 601 rules
 ! Expires: 1 days (update frequency)
 ! Homepage: https://bigdargon.github.io/hostsVN/
 !
@@ -33478,7 +33484,6 @@ adbetnet.com
 ||cleverads.vn^
 ||clevernet.vn^
 ||clickbuy.bz^
-||cokhach.com^
 ||contineljs.com^
 ||d2ox6x0y9xhicd.cloudfront.net^
 ||dable.io^
@@ -33487,7 +33492,6 @@ adbetnet.com
 ||eclick.vn^
 ||eva*-ad.24hstatic.com^
 ||ezimar.com^
-||fff.com.vn^
 ||flygame.io^
 ||fuseplatform.net^
 ||gammaplatform.com^
@@ -33502,8 +33506,8 @@ adbetnet.com
 ||ladipage.com^
 ||ladipage.net^
 ||ladipage.vn^
+||ladisales.com^
 ||lavanetwork.net^
-||laydata.com^
 ||log*.zing.vn^
 ||log.api.zaloapp.com^
 ||log.o2o.service.zaloapp.com^
@@ -33579,6 +33583,7 @@ adbetnet.com
 ||zplayer-trk.zdn.vn^
 ||zplayer.trk.zapps.vn^
 ||ztevents.zaloapp.com^
+||5734a40f2d.vws.vegacdn.vn^
 ||703531862.vws.vegacdn.vn^
 ||ad-admin.vnay.vn^
 ||ad.24h.com.vn^
@@ -33624,10 +33629,12 @@ adbetnet.com
 ||ads.vietbao.vn^
 ||ads.vkool.info^
 ||ads.vovlive.vn^
+||ads.xedoisong.vn^
 ||ads.xemphimso.com^
 ||ads1.careerbuilder.vn^
 ||adserver.lag.vn^
 ||adserver.luzu.vn^
+||adserver.trangphim.net^
 ||adsgo.nhipcaudautu.vn^
 ||adsplus.vn^
 ||adsv2.autodaily.vn^
@@ -33640,6 +33647,7 @@ adbetnet.com
 ||advserver.cgv.vn^
 ||adx.baolongan.vn^
 ||adx.edutimes.com.vn^
+||adx.hongtinnhanh.com^
 ||adx.kul.vn^
 ||adx.xemvtv.net^
 ||affiliate.k4.tinhte.vn^
@@ -33660,6 +33668,7 @@ adbetnet.com
 ||banner.5giay.vn^
 ||banner.vietnamfinance.vn^
 ||bgadx.com^
+||bluemaulpuffs.com^
 ||boxpr.aiservice.vn^
 ||cdn-ads.thesaigontimes.vn^
 ||cdn2.cache.vn^
@@ -33677,7 +33686,9 @@ adbetnet.com
 ||delivery.vtcnew.com.vn^
 ||deltago.com^
 ||demopage.me^
+||deqik.com^
 ||dt.vnecdn.com^
+||duamilsyr.com^
 ||ff.imacdn.com^
 ||financial-agent.headlines.pw^
 ||fptad.com^
@@ -33703,6 +33714,7 @@ adbetnet.com
 ||qcv5.blogtruyen.vn^
 ||quangcao.24h.com.vn^
 ||quangcao.baovannghe.com.vn^
+||quangcao.fff.com.vn^
 ||quangcao.thanhnien.vn^
 ||quangcao.tuoitre.vn^
 ||quangcao247.com.vn^
@@ -33742,6 +33754,7 @@ adbetnet.com
 ||analytics.easyvideo.vn^
 ||analytics.explus.vn^
 ||analytics.hub-js.com^
+||analytics.nhattao.com^
 ||analytics.sohatv.vn^
 ||analytics.thethao247.org^
 ||analytics.tiki.vn^
@@ -33751,7 +33764,8 @@ adbetnet.com
 ||apl.headlines.pw^
 ||clientinfo.phimmoizz.net^
 ||counter.ntdvn.com^
-||deqik.com^
+||crm.bizfly.vn^
+||crmbizfly.todo.vn^
 ||elogs.vnexpress.net^
 ||event.headlines.pw^
 ||event.vntoday.news^
@@ -33791,6 +33805,7 @@ adbetnet.com
 ||log.vnay.vn^
 ||log.vntoday.news^
 ||log.vov.vn^
+||log.zamba.vn^
 ||log4x.nixcdn.com^
 ||logg4u.cnnd.vn^
 ||logging.galaxypub.vn^
@@ -33808,6 +33823,7 @@ adbetnet.com
 ||s.tuoitre.vn^
 ||sharefb.cnnd.vn^
 ||stat.headlines.pw^
+||static.accesstrade.vn^
 ||static.subiz.com^
 ||staticad.thethao247.vn^
 ||statistics.vov.vn^
@@ -33835,6 +33851,8 @@ adbetnet.com
 ||tracking.appwifi.com^
 ||tracking.dantri.com.vn^
 ||tracking.fado.vn^
+||tracking.fff.com.vn^
+||tracking.hongtinnhanh.com^
 ||tracking.vht.com.vn^
 ||tracking.vietbao.vn^
 ||tracking.vtc.vn^
@@ -33847,6 +33865,8 @@ adbetnet.com
 ||userstats.shopee.vn^
 ||vn.alexajstrack.com^
 ||vtrack.vht.com.vn^
+||webpush.bizfly.vn^
+||webpush.todo.vn^
 ||widget.sbz.vn^
 ||widget.subiz.xyz^
 ||11bet.com^
@@ -36727,7 +36747,6 @@ adbetnet.com
 ||dm.wenshenxiu.com^
 ||dm.zuowenku.net^
 ||dm1.ddwk8.cn^
-||dm1.dnpz123.com^
 ||dm1.guanwawa.com^
 ||dm1.zjydt.com^
 ||dmm.aizhan.com^
@@ -39007,6 +39026,7 @@ adbetnet.com
 ||wenbangsh.com.cn^
 ||wenzhougy.cn^
 ||wervp.com^
+||wfaffwshop.xyz^
 ||wfslj.cn^
 ||wfxoi.xyz^
 ||wfyqc.com^

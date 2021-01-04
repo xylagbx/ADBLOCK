@@ -1,8 +1,8 @@
 # 广告列表 adblock rules
 # 内容：EasyPrivacy列表，隐私保护，屏蔽隐私追踪
 # 来源：https://easylist-downloads.adblockplus.org/easyprivacy.txt
-# 更新：2021-01-01 18:08:56
-# 数量：2792条
+# 更新：2021-01-04 20:52:05
+# 数量：2794条
 
 DOMAIN-SUFFIX,0sbm.consobaby.co.uk
 DOMAIN-SUFFIX,0x1f4b0.com
@@ -16,6 +16,7 @@ DOMAIN-SUFFIX,6ddc.tartine-et-chocolat.com
 DOMAIN-SUFFIX,6pal.consobaby.com
 DOMAIN-SUFFIX,7lbd4.armandthiery.fr
 DOMAIN-SUFFIX,7mx.eider.com
+DOMAIN-SUFFIX,7q1z79gxsi.global.ssl.fastly.net
 DOMAIN-SUFFIX,913nd.dieti-natura.es
 DOMAIN-SUFFIX,a.20minutes.fr
 DOMAIN-SUFFIX,a.mobify.com
@@ -280,7 +281,6 @@ DOMAIN-SUFFIX,as.mirapodo.de
 DOMAIN-SUFFIX,as.mytoys.de
 DOMAIN-SUFFIX,as.payback.it
 DOMAIN-SUFFIX,as.yomonda.de
-DOMAIN-SUFFIX,as01.overbuff.com
 DOMAIN-SUFFIX,aserve.directorym.com
 DOMAIN-SUFFIX,asianimage-gb.asianimage.co.uk
 DOMAIN-SUFFIX,astat.nikkei.com
@@ -862,6 +862,11 @@ DOMAIN-SUFFIX,et.unclejeans.com
 DOMAIN-SUFFIX,etacontent.com
 DOMAIN-SUFFIX,etui.fs.ml.com
 DOMAIN-SUFFIX,eu.groupondata.com
+DOMAIN-SUFFIX,eu1l.dotabuff.com
+DOMAIN-SUFFIX,eu1l.overbuff.com
+DOMAIN-SUFFIX,eu1l.speedrun.com
+DOMAIN-SUFFIX,eu1l.trackdota.com
+DOMAIN-SUFFIX,eu1l.valorbuff.com
 DOMAIN-SUFFIX,eulerian.belambra.be
 DOMAIN-SUFFIX,eulerian.belambra.fr
 DOMAIN-SUFFIX,eulerian.brandalley.fr
@@ -1051,7 +1056,6 @@ DOMAIN-SUFFIX,geoservice.curse.com
 DOMAIN-SUFFIX,gets.faz.net
 DOMAIN-SUFFIX,gj.mmstat.com
 DOMAIN-SUFFIX,gjr5.yoigo.com
-DOMAIN-SUFFIX,gk3o.trackdota.com
 DOMAIN-SUFFIX,glasgowtimes-gb.glasgowtimes.co.uk
 DOMAIN-SUFFIX,glassmoni.researchgate.net
 DOMAIN-SUFFIX,glbdns.microsoft.com
@@ -1144,6 +1148,7 @@ DOMAIN-SUFFIX,informers.sinoptik.ua
 DOMAIN-SUFFIX,ingest.sentry.io
 DOMAIN-SUFFIX,inquiries.redhat.com
 DOMAIN-SUFFIX,insight.fonecta.fi
+DOMAIN-SUFFIX,insights.algolia.io
 DOMAIN-SUFFIX,insights.cdt.ch
 DOMAIN-SUFFIX,insights.sitesearch360.com
 DOMAIN-SUFFIX,insitez.blob.core.windows.net
@@ -1162,17 +1167,18 @@ DOMAIN-SUFFIX,ipcheck.blogsys.jp
 DOMAIN-SUFFIX,irqs.ioam.de
 DOMAIN-SUFFIX,is.base.de
 DOMAIN-SUFFIX,itracking.fccinteractive.com
+DOMAIN-SUFFIX,jac.yahoosandbox.com
 DOMAIN-SUFFIX,javascriptcounter.appspot.com
 DOMAIN-SUFFIX,jelly.mdhv.io
 DOMAIN-SUFFIX,jppolid-track.trackprod.integration.jppol.dk
 DOMAIN-SUFFIX,k.kolplay.com
 DOMAIN-SUFFIX,k.rueducommerce.fr
 DOMAIN-SUFFIX,k.streamrail.com
-DOMAIN-SUFFIX,k9v7.dotabuff.com
 DOMAIN-SUFFIX,kalstats.kaltura.com
 DOMAIN-SUFFIX,kbn.korben.info
 DOMAIN-SUFFIX,keighleynews-gb.keighleynews.co.uk
 DOMAIN-SUFFIX,keyword.daumdn.com
+DOMAIN-SUFFIX,keywords.complex.com
 DOMAIN-SUFFIX,kidderminstershuttle-gb.kidderminstershuttle.co.uk
 DOMAIN-SUFFIX,kiks.auto.ru
 DOMAIN-SUFFIX,kinesisproxy.hearstlabs.com
@@ -1247,6 +1253,7 @@ DOMAIN-SUFFIX,log.optimizely.com
 DOMAIN-SUFFIX,log.outbrain.com
 DOMAIN-SUFFIX,log.outbrainimg.com
 DOMAIN-SUFFIX,log.pinterest.com
+DOMAIN-SUFFIX,log.plinga.de
 DOMAIN-SUFFIX,log.popin.cc
 DOMAIN-SUFFIX,log.prezi.com
 DOMAIN-SUFFIX,log.ren.tv
@@ -1404,7 +1411,6 @@ DOMAIN-SUFFIX,mormont.gamer-network.net
 DOMAIN-SUFFIX,morozhko.club
 DOMAIN-SUFFIX,mors22.com
 DOMAIN-SUFFIX,mqs.ioam.de
-DOMAIN-SUFFIX,mqzy.dotabuff.com
 DOMAIN-SUFFIX,ms-apps.haaretz.com
 DOMAIN-SUFFIX,ms.computerbild.de
 DOMAIN-SUFFIX,msg.71.am
@@ -1431,8 +1437,6 @@ DOMAIN-SUFFIX,nexioniect.com
 DOMAIN-SUFFIX,nexttime.ovh
 DOMAIN-SUFFIX,nil.naver.com
 DOMAIN-SUFFIX,ninja.akamaized.net
-DOMAIN-SUFFIX,nj1r.valorbuff.com
-DOMAIN-SUFFIX,nkeq.speedrun.com
 DOMAIN-SUFFIX,nm.newegg.com
 DOMAIN-SUFFIX,nmtracking.netflix.com
 DOMAIN-SUFFIX,noa0.compteczam.fr
@@ -1442,7 +1446,6 @@ DOMAIN-SUFFIX,northwichguardian-gb.northwichguardian.co.uk
 DOMAIN-SUFFIX,nova.dice.net
 DOMAIN-SUFFIX,nrg.red-by-sfr.fr
 DOMAIN-SUFFIX,ns.rvmkitt.com
-DOMAIN-SUFFIX,nvea.valorbuff.com
 DOMAIN-SUFFIX,nws.naltis.com
 DOMAIN-SUFFIX,nxakpj4ac8gkd53.info
 DOMAIN-SUFFIX,o.addthis.com
@@ -1599,7 +1602,6 @@ DOMAIN-SUFFIX,pos.baidu.com
 DOMAIN-SUFFIX,postpixel.vindicosuite.com
 DOMAIN-SUFFIX,powercount.jswelt.de
 DOMAIN-SUFFIX,powersearch.us.com
-DOMAIN-SUFFIX,pqoz.trackdota.com
 DOMAIN-SUFFIX,pr.blogflux.com
 DOMAIN-SUFFIX,prd-collector-anon.ex.co
 DOMAIN-SUFFIX,prd-collector-anon.playbuzz.com
@@ -2268,6 +2270,7 @@ DOMAIN-SUFFIX,tdf1.vente-unique.pt
 DOMAIN-SUFFIX,te.mytoys.de
 DOMAIN-SUFFIX,te.supportfreecontent.com
 DOMAIN-SUFFIX,ted.metro.co.uk
+DOMAIN-SUFFIX,telemetry.api.wmcdp.io
 DOMAIN-SUFFIX,telemetry.art19.com
 DOMAIN-SUFFIX,telemetry.jivosite.com
 DOMAIN-SUFFIX,telemetry.reembed.com
@@ -2658,7 +2661,6 @@ DOMAIN-SUFFIX,utle.tech426.com
 DOMAIN-SUFFIX,utrack.hexun.com
 DOMAIN-SUFFIX,uts.auction.co.kr
 DOMAIN-SUFFIX,uue2.destinia.ir
-DOMAIN-SUFFIX,uuqz.overbuff.com
 DOMAIN-SUFFIX,v.emedia.cn
 DOMAIN-SUFFIX,v.oui.sncf
 DOMAIN-SUFFIX,v.shopify.com

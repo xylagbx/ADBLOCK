@@ -10,7 +10,7 @@ USER-AGENT,FindMyFriends*
 USER-AGENT,FindMyiPhone*
 USER-AGENT,MOO*
 USER-AGENT,Maps*
-USER-AGENT,QIYI*
+USER-AGENT,QYPlayer*
 USER-AGENT,RemotePlay*
 USER-AGENT,Steam*
 USER-AGENT,TencentMidasConnect*
@@ -22,6 +22,6 @@ USER-AGENT,com.apple.geod*
 USER-AGENT,fmflocatord*
 USER-AGENT,geod*
 USER-AGENT,hearthstone*
-USER-AGENT,iQiYi*
+USER-AGENT,iQIYI*
 USER-AGENT,locationd*
 USER-AGENT,passd*

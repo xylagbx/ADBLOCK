@@ -1,2 +1,2 @@
 URL-REGEX,(Subject|HELO|SMTP)
-URL-REGEX,(Subject|HELO|SMTP)
+URL-REGEX,^https?:\/\/int[\w-\.]+iqiyi\.com
