@@ -15,6 +15,7 @@ DOMAIN,global.msads.net
 DOMAIN,google-analytics.com
 DOMAIN,lads.myspace.com
 DOMAIN,ll.a.hulu.com
+DOMAIN,metrics.icloud.com
 DOMAIN,metrics.ticketmaster.com
 DOMAIN,nl.sitestat.com
 DOMAIN,pro.hit.gemius.pl
