@@ -1,3 +1,5 @@
+USER-AGENT,OffScreen*
+IP-CIDR,183.232.25.151/32
 DOMAIN,aax-eu.amazon-adsystem.com
 DOMAIN,ad.ca.doubleclick.net
 DOMAIN,ad.doubleclick.net

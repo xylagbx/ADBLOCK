@@ -38,7 +38,6 @@ DOMAIN,hboasia4-i.akamaihd.net
 DOMAIN,hboasia5-i.akamaihd.net
 DOMAIN,itvpnpmobile-a.akamaihd.net
 DOMAIN,js-cdn.music.apple.com
-DOMAIN,kktv-theater.kk.stream
 DOMAIN,litvfreemobile-hichannel.cdn.hinet.net
 DOMAIN,mytvsuperlimited.hb.omtrdc.net
 DOMAIN,mytvsuperlimited.sc.omtrdc.net
@@ -2727,6 +2726,7 @@ DOMAIN-SUFFIX,ampj662.com
 DOMAIN-SUFFIX,ampj665.com
 DOMAIN-SUFFIX,ampj778.com
 DOMAIN-SUFFIX,ampj90.com
+DOMAIN-SUFFIX,amplify.outbrain.com
 DOMAIN-SUFFIX,amplifyapp.com
 DOMAIN-SUFFIX,amplifyframework.com
 DOMAIN-SUFFIX,amplitude.com
@@ -4463,6 +4463,7 @@ DOMAIN-SUFFIX,big.one
 DOMAIN-SUFFIX,big2wt.com
 DOMAIN-SUFFIX,big5.zhengjian.org
 DOMAIN-SUFFIX,big5sex.com
+DOMAIN-SUFFIX,bigbigshop.com
 DOMAIN-SUFFIX,bigbird18.com
 DOMAIN-SUFFIX,bigbozz.org
 DOMAIN-SUFFIX,bigbreastarchive.com
@@ -4894,6 +4895,7 @@ DOMAIN-SUFFIX,bluedart.com
 DOMAIN-SUFFIX,bluefootcms.com
 DOMAIN-SUFFIX,bluehatil.com
 DOMAIN-SUFFIX,bluehatnights.com
+DOMAIN-SUFFIX,bluekai.com
 DOMAIN-SUFFIX,bluekoff.net
 DOMAIN-SUFFIX,bluemix.com
 DOMAIN-SUFFIX,bluemix.net
@@ -6080,6 +6082,7 @@ DOMAIN-SUFFIX,cdn-osawaris.nutaku.net
 DOMAIN-SUFFIX,cdn-terapeak.com
 DOMAIN-SUFFIX,cdn.angruo.com
 DOMAIN-SUFFIX,cdn.assets.lfpcontent.com
+DOMAIN-SUFFIX,cdn.cookielaw.org
 DOMAIN-SUFFIX,cdn.entelectonline.co.za
 DOMAIN-SUFFIX,cdn.gitpod.io
 DOMAIN-SUFFIX,cdn.helixstudios.net
@@ -8130,6 +8133,7 @@ DOMAIN-SUFFIX,dettol.com.bd
 DOMAIN-SUFFIX,dettol.net
 DOMAIN-SUFFIX,dettol.pk
 DOMAIN-SUFFIX,dettol.pt
+DOMAIN-SUFFIX,dettolarabia.com
 DOMAIN-SUFFIX,dettolcleannaija.com
 DOMAIN-SUFFIX,dettolthailand.com
 DOMAIN-SUFFIX,deutsche-welle.de
@@ -8516,6 +8520,7 @@ DOMAIN-SUFFIX,docker.com
 DOMAIN-SUFFIX,docker.io
 DOMAIN-SUFFIX,dockerizer.com
 DOMAIN-SUFFIX,docomo
+DOMAIN-SUFFIX,docomo.ne.jp
 DOMAIN-SUFFIX,docs-examples.firebaseio.com
 DOMAIN-SUFFIX,docs.com
 DOMAIN-SUFFIX,docs.majesticseagull.com.tw
@@ -9220,6 +9225,8 @@ DOMAIN-SUFFIX,ecommtools.com
 DOMAIN-SUFFIX,econ.st
 DOMAIN-SUFFIX,economicsandpeace.org
 DOMAIN-SUFFIX,economist.com
+DOMAIN-SUFFIX,economistgroup.com
+DOMAIN-SUFFIX,economistgroupcareers.com
 DOMAIN-SUFFIX,ecosys.eu
 DOMAIN-SUFFIX,ecped.tk
 DOMAIN-SUFFIX,ecrans.fr
@@ -9240,6 +9247,7 @@ DOMAIN-SUFFIX,edgesuite.net
 DOMAIN-SUFFIX,edicypages.com
 DOMAIN-SUFFIX,edilly.com
 DOMAIN-SUFFIX,edisebay.com
+DOMAIN-SUFFIX,editorx.com
 DOMAIN-SUFFIX,edmontonchina.cn
 DOMAIN-SUFFIX,edmontonservice.com
 DOMAIN-SUFFIX,edninfo.com
@@ -9316,6 +9324,7 @@ DOMAIN-SUFFIX,eip.pccp.com.tw
 DOMAIN-SUFFIX,eireinikotaerukai.com
 DOMAIN-SUFFIX,eiresol.com
 DOMAIN-SUFFIX,eisbb.com
+DOMAIN-SUFFIX,eiu.com
 DOMAIN-SUFFIX,ekh3.way-to-win.com
 DOMAIN-SUFFIX,ekhindi.com
 DOMAIN-SUFFIX,ekiry.com
@@ -17356,7 +17365,6 @@ DOMAIN-SUFFIX,mykomica.org
 DOMAIN-SUFFIX,mylcloud.net
 DOMAIN-SUFFIX,mylftv.com
 DOMAIN-SUFFIX,myluckymap.com
-DOMAIN-SUFFIX,mylust.com
 DOMAIN-SUFFIX,mymaji.com
 DOMAIN-SUFFIX,mymd.sytes.net
 DOMAIN-SUFFIX,mymediafinder.com
@@ -18938,6 +18946,7 @@ DOMAIN-SUFFIX,parallels.com
 DOMAIN-SUFFIX,paramitadirect.com
 DOMAIN-SUFFIX,paramount.com
 DOMAIN-SUFFIX,parapentemanquehue.cl
+DOMAIN-SUFFIX,parastorage.com
 DOMAIN-SUFFIX,pardot.com
 DOMAIN-SUFFIX,park-now.com
 DOMAIN-SUFFIX,parkansky.com
@@ -18974,6 +18983,7 @@ DOMAIN-SUFFIX,patreon.com
 DOMAIN-SUFFIX,patrickemaher.com
 DOMAIN-SUFFIX,paulsimon-music.com
 DOMAIN-SUFFIX,paulsin.blogspot.hk
+DOMAIN-SUFFIX,pause-confirmed-marketing-images-prod.s3.eu-central-1.amazonaws.com
 DOMAIN-SUFFIX,pausedmemories.com
 DOMAIN-SUFFIX,pavpal.com
 DOMAIN-SUFFIX,pawoo.net
@@ -19211,6 +19221,7 @@ DOMAIN-SUFFIX,perfectgirls.net
 DOMAIN-SUFFIX,perfectinter.net
 DOMAIN-SUFFIX,perfectkickz.net
 DOMAIN-SUFFIX,perfectvpn.net
+DOMAIN-SUFFIX,perfops.doracdn.com
 DOMAIN-SUFFIX,periscope.tv
 DOMAIN-SUFFIX,perl.org
 DOMAIN-SUFFIX,perma.cc
@@ -19800,6 +19811,7 @@ DOMAIN-SUFFIX,probit.com
 DOMAIN-SUFFIX,prochan.com
 DOMAIN-SUFFIX,procopytips.com
 DOMAIN-SUFFIX,prod-support.apple-support.akadns.net
+DOMAIN-SUFFIX,prod.hjholdings.tv
 DOMAIN-SUFFIX,prodrive-japan.com
 DOMAIN-SUFFIX,products.copangroup.com
 DOMAIN-SUFFIX,profile.line-scdn.net
@@ -20543,6 +20555,7 @@ DOMAIN-SUFFIX,reseed.onion.im
 DOMAIN-SUFFIX,resilio.com
 DOMAIN-SUFFIX,resistchina.org
 DOMAIN-SUFFIX,respawnbyrazer.com
+DOMAIN-SUFFIX,rest.zuora.com
 DOMAIN-SUFFIX,restauranticos.com
 DOMAIN-SUFFIX,restoreprivacy.com
 DOMAIN-SUFFIX,resumebear.com
@@ -21425,6 +21438,7 @@ DOMAIN-SUFFIX,shoers.com
 DOMAIN-SUFFIX,shoestop2.com
 DOMAIN-SUFFIX,shooshtime.com
 DOMAIN-SUFFIX,shop-headphones.net
+DOMAIN-SUFFIX,shop.app
 DOMAIN-SUFFIX,shop.tm
 DOMAIN-SUFFIX,shop2000.com.tw
 DOMAIN-SUFFIX,shopbeatsdre.com
@@ -21445,6 +21459,7 @@ DOMAIN-SUFFIX,shopibay.net
 DOMAIN-SUFFIX,shopify.com
 DOMAIN-SUFFIX,shopify.dev
 DOMAIN-SUFFIX,shopifycdn.com
+DOMAIN-SUFFIX,shopifycloud.com
 DOMAIN-SUFFIX,shopifystatus.com
 DOMAIN-SUFFIX,shopifysvc.com
 DOMAIN-SUFFIX,shoping.com
@@ -23772,11 +23787,14 @@ DOMAIN-SUFFIX,tv72.tk
 DOMAIN-SUFFIX,tvants.com
 DOMAIN-SUFFIX,tvappstore.net
 DOMAIN-SUFFIX,tvb.com
+DOMAIN-SUFFIX,tvbanywhere.com
 DOMAIN-SUFFIX,tvbccc.com
 DOMAIN-SUFFIX,tvbddd.com
 DOMAIN-SUFFIX,tvboxnow.com
 DOMAIN-SUFFIX,tvbppp.com
 DOMAIN-SUFFIX,tvbs.com.tw
+DOMAIN-SUFFIX,tvbusa.com
+DOMAIN-SUFFIX,tvbweekly.com
 DOMAIN-SUFFIX,tvd.azureedge.net
 DOMAIN-SUFFIX,tvider.com
 DOMAIN-SUFFIX,tvmost.com.hk
@@ -24782,6 +24800,7 @@ DOMAIN-SUFFIX,vizvaz.com
 DOMAIN-SUFFIX,vjav.com
 DOMAIN-SUFFIX,vjet.co
 DOMAIN-SUFFIX,vjmedia.com.hk
+DOMAIN-SUFFIX,vjs.zencdn.net
 DOMAIN-SUFFIX,vk-cdn.me
 DOMAIN-SUFFIX,vk-cdn.net
 DOMAIN-SUFFIX,vk-portal.net
@@ -25706,7 +25725,10 @@ DOMAIN-SUFFIX,witnessleeteaching.com
 DOMAIN-SUFFIX,witopia.com
 DOMAIN-SUFFIX,witopia.net
 DOMAIN-SUFFIX,wiwiwiki.kfd.me
+DOMAIN-SUFFIX,wix-code.com
 DOMAIN-SUFFIX,wix.com
+DOMAIN-SUFFIX,wixanswers.com
+DOMAIN-SUFFIX,wixapps.net
 DOMAIN-SUFFIX,wixmp.com
 DOMAIN-SUFFIX,wixsite.com
 DOMAIN-SUFFIX,wixstatic.com
@@ -28277,6 +28299,7 @@ DOMAIN-SUFFIX,www.milffox.com
 DOMAIN-SUFFIX,www.milivpn.com
 DOMAIN-SUFFIX,www.milulucn.com
 DOMAIN-SUFFIX,www.mimemi.org
+DOMAIN-SUFFIX,www.mimi.ooo
 DOMAIN-SUFFIX,www.mimiok.com
 DOMAIN-SUFFIX,www.mimissr.net
 DOMAIN-SUFFIX,www.mindandlife.org

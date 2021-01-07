@@ -2671,6 +2671,7 @@
 .ampj665.com
 .ampj778.com
 .ampj90.com
+.amplify.outbrain.com
 .amplifyapp.com
 .amplifyframework.com
 .amplitude.com
@@ -4413,6 +4414,7 @@
 .big2wt.com
 .big5.zhengjian.org
 .big5sex.com
+.bigbigshop.com
 .bigbird18.com
 .bigbozz.org
 .bigbreastarchive.com
@@ -4844,6 +4846,7 @@
 .bluefootcms.com
 .bluehatil.com
 .bluehatnights.com
+.bluekai.com
 .bluekoff.net
 .bluemix.com
 .bluemix.net
@@ -6032,6 +6035,7 @@
 .cdn.angruo.com
 .cdn.apple-cloudkit.com
 .cdn.assets.lfpcontent.com
+.cdn.cookielaw.org
 .cdn.entelectonline.co.za
 .cdn.gitpod.io
 .cdn.helixstudios.net
@@ -8092,6 +8096,7 @@
 .dettol.net
 .dettol.pk
 .dettol.pt
+.dettolarabia.com
 .dettolcleannaija.com
 .dettolthailand.com
 .deutsche-welle.de
@@ -8481,6 +8486,7 @@
 .docker.io
 .dockerizer.com
 .docomo
+.docomo.ne.jp
 .docs-assets.developer.apple.com
 .docs-examples.firebaseio.com
 .docs.com
@@ -9186,6 +9192,8 @@
 .econ.st
 .economicsandpeace.org
 .economist.com
+.economistgroup.com
+.economistgroupcareers.com
 .ecosys.eu
 .ecped.tk
 .ecrans.fr
@@ -9207,6 +9215,7 @@
 .edicypages.com
 .edilly.com
 .edisebay.com
+.editorx.com
 .edmontonchina.cn
 .edmontonservice.com
 .edninfo.com
@@ -9283,6 +9292,7 @@
 .eireinikotaerukai.com
 .eiresol.com
 .eisbb.com
+.eiu.com
 .ekh3.way-to-win.com
 .ekhindi.com
 .ekiry.com
@@ -14962,7 +14972,6 @@
 .kkswami.com
 .kktix.com
 .kktv-theater.kk.stream
-.kktv-theater.kk.stream
 .kktv.com.tw
 .kktv.me
 .kl8888.com
@@ -17339,7 +17348,6 @@
 .mylcloud.net
 .mylftv.com
 .myluckymap.com
-.mylust.com
 .mymaji.com
 .mymd.sytes.net
 .mymediafinder.com
@@ -18927,6 +18935,7 @@
 .paramitadirect.com
 .paramount.com
 .parapentemanquehue.cl
+.parastorage.com
 .pardot.com
 .park-now.com
 .parkansky.com
@@ -18963,6 +18972,7 @@
 .patrickemaher.com
 .paulsimon-music.com
 .paulsin.blogspot.hk
+.pause-confirmed-marketing-images-prod.s3.eu-central-1.amazonaws.com
 .pausedmemories.com
 .pavpal.com
 .pawoo.net
@@ -19200,6 +19210,7 @@
 .perfectinter.net
 .perfectkickz.net
 .perfectvpn.net
+.perfops.doracdn.com
 .periscope.tv
 .perl.org
 .perma.cc
@@ -19792,6 +19803,7 @@
 .prochan.com
 .procopytips.com
 .prod-support.apple-support.akadns.net
+.prod.hjholdings.tv
 .prodrive-japan.com
 .products.copangroup.com
 .profile.line-scdn.net
@@ -20535,6 +20547,7 @@
 .resilio.com
 .resistchina.org
 .respawnbyrazer.com
+.rest.zuora.com
 .restauranticos.com
 .restoreprivacy.com
 .resumebear.com
@@ -21418,6 +21431,7 @@
 .shoestop2.com
 .shooshtime.com
 .shop-headphones.net
+.shop.app
 .shop.tm
 .shop2000.com.tw
 .shopbeatsdre.com
@@ -21438,6 +21452,7 @@
 .shopify.com
 .shopify.dev
 .shopifycdn.com
+.shopifycloud.com
 .shopifystatus.com
 .shopifysvc.com
 .shoping.com
@@ -23767,11 +23782,14 @@
 .tvants.com
 .tvappstore.net
 .tvb.com
+.tvbanywhere.com
 .tvbccc.com
 .tvbddd.com
 .tvboxnow.com
 .tvbppp.com
 .tvbs.com.tw
+.tvbusa.com
+.tvbweekly.com
 .tvd.azureedge.net
 .tvider.com
 .tvmost.com.hk
@@ -24778,6 +24796,7 @@
 .vjav.com
 .vjet.co
 .vjmedia.com.hk
+.vjs.zencdn.net
 .vk-cdn.me
 .vk-cdn.net
 .vk-portal.net
@@ -25704,7 +25723,10 @@
 .witopia.com
 .witopia.net
 .wiwiwiki.kfd.me
+.wix-code.com
 .wix.com
+.wixanswers.com
+.wixapps.net
 .wixmp.com
 .wixsite.com
 .wixstatic.com
@@ -28275,6 +28297,7 @@
 .www.milivpn.com
 .www.milulucn.com
 .www.mimemi.org
+.www.mimi.ooo
 .www.mimiok.com
 .www.mimissr.net
 .www.mindandlife.org

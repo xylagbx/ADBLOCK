@@ -3,6 +3,7 @@
 .ib.snssdk.com
 .xlog.snssdk.com
 .log.snssdk.com
+.log.perfecttitspics.com
 .analytics.mbga.jp
 .herald.loginside.co.kr
 .log002.commutil.kr
@@ -4231,6 +4232,8 @@
 .collection-endpoint-prod.herokuapp.com
 .collection-endpoint-staging.herokuapp.com
 .telemetry.mozilla.org
+.tracking.game8.jp
+.lcs.modoo.at
 .check.tadapi.info
 .count.munhwa.com
 .geo.mattel163.com
@@ -4253,7 +4256,6 @@
 .log.cinematoday.jp
 .et.nytimes.com
 .adlog.shopping.naver.com
-.signal-collector.gemaltodigitalbankingidcloud.com
 .analytics.bi.encuentra24.com
 .sl-h-statistics-ch-1.storeland.ru
 .hc-analytics.idp.clogin.att.com
@@ -5849,6 +5851,15 @@
 .plbslog.umeng.com
 .analysys.cn
 .logs.supersonic.com
+.datacollector-drru.dt.hicloud.com
+.app-analytics-ru.huami.com
+.metrics.spbtv.com
+.sas53netbynet.visualon.info
+.android-stat.acestream.net
+.privatestats.whatsapp.net
+.usage.influxdata.com
+.stats.grafana.org
+.rumstat.cdnvideo.ru
 .telemetry.api.swiftkey.com
 .telemetry.swiftkey.com
 .analytics.qoqa.ninja
@@ -5867,6 +5878,14 @@
 .track.appsflyer.com
 .relap.io
 .adj.st
+.analytics.prod.mybuddy.ai
+.logs.amap.com
+.edmanalytics.pandahall.com
+.applogs.pixelfederation.com
+.applogs-v2.pixelfederation.com
+.analytics.dns-shop.ru
+.smetrics.aem.playstation.com
+.telemetry.api.playstation.com
 .trk2.pinterest.com
 .mobiletelemetry.ebay.com
 .tracker.departapp.com

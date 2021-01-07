@@ -1,0 +1,5 @@
+#!name=AdGuardHome
+#!desc=AdGuardHome
+
+[General]
+dns-server = 127.0.0.1

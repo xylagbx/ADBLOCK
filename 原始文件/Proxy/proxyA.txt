@@ -3706,6 +3706,7 @@ DOMAIN-SUFFIX,big-cup.tv
 DOMAIN-SUFFIX,big.one
 DOMAIN-SUFFIX,big2wt.com
 DOMAIN-SUFFIX,big5sex.com
+DOMAIN-SUFFIX,bigbigshop.com
 DOMAIN-SUFFIX,bigbird18.com
 DOMAIN-SUFFIX,bigbozz.org
 DOMAIN-SUFFIX,bigbreastarchive.com
@@ -7242,6 +7243,8 @@ DOMAIN-SUFFIX,ecoinbroker.com
 DOMAIN-SUFFIX,ecommtools.com
 DOMAIN-SUFFIX,economicsandpeace.org
 DOMAIN-SUFFIX,economist.com
+DOMAIN-SUFFIX,economistgroup.com
+DOMAIN-SUFFIX,economistgroupcareers.com
 DOMAIN-SUFFIX,ecsm.vs.com
 DOMAIN-SUFFIX,ecv.ebacc777.com
 DOMAIN-SUFFIX,edeka
@@ -7254,6 +7257,7 @@ DOMAIN-SUFFIX,edgesuite.net
 DOMAIN-SUFFIX,edicypages.com
 DOMAIN-SUFFIX,edilly.com
 DOMAIN-SUFFIX,edisebay.com
+DOMAIN-SUFFIX,editorx.com
 DOMAIN-SUFFIX,edmontonservice.com
 DOMAIN-SUFFIX,edninfo.com
 DOMAIN-SUFFIX,edns.biz
@@ -7316,6 +7320,7 @@ DOMAIN-SUFFIX,einstein.com
 DOMAIN-SUFFIX,eireinikotaerukai.com
 DOMAIN-SUFFIX,eiresol.com
 DOMAIN-SUFFIX,eisbb.com
+DOMAIN-SUFFIX,eiu.com
 DOMAIN-SUFFIX,ekh3.way-to-win.com
 DOMAIN-SUFFIX,ekhindi.com
 DOMAIN-SUFFIX,ekiry.com
@@ -15166,6 +15171,7 @@ DOMAIN-SUFFIX,paragon.com
 DOMAIN-SUFFIX,parallels.com
 DOMAIN-SUFFIX,paramitadirect.com
 DOMAIN-SUFFIX,paramount.com
+DOMAIN-SUFFIX,parastorage.com
 DOMAIN-SUFFIX,pardot.com
 DOMAIN-SUFFIX,park-now.com
 DOMAIN-SUFFIX,parkansky.com
@@ -17186,6 +17192,7 @@ DOMAIN-SUFFIX,shoers.com
 DOMAIN-SUFFIX,shoestop2.com
 DOMAIN-SUFFIX,shooshtime.com
 DOMAIN-SUFFIX,shop-headphones.net
+DOMAIN-SUFFIX,shop.app
 DOMAIN-SUFFIX,shopbeatsdre.com
 DOMAIN-SUFFIX,shopbmwmotorcycles.com
 DOMAIN-SUFFIX,shopbmwusa.com
@@ -17202,6 +17209,7 @@ DOMAIN-SUFFIX,shopibay.net
 DOMAIN-SUFFIX,shopify.com
 DOMAIN-SUFFIX,shopify.dev
 DOMAIN-SUFFIX,shopifycdn.com
+DOMAIN-SUFFIX,shopifycloud.com
 DOMAIN-SUFFIX,shopifystatus.com
 DOMAIN-SUFFIX,shopifysvc.com
 DOMAIN-SUFFIX,shoping.com
@@ -19045,10 +19053,13 @@ DOMAIN-SUFFIX,tv72.gq
 DOMAIN-SUFFIX,tvants.com
 DOMAIN-SUFFIX,tvappstore.net
 DOMAIN-SUFFIX,tvb.com
+DOMAIN-SUFFIX,tvbanywhere.com
 DOMAIN-SUFFIX,tvbccc.com
 DOMAIN-SUFFIX,tvbddd.com
 DOMAIN-SUFFIX,tvboxnow.com
 DOMAIN-SUFFIX,tvbppp.com
+DOMAIN-SUFFIX,tvbusa.com
+DOMAIN-SUFFIX,tvbweekly.com
 DOMAIN-SUFFIX,tvider.com
 DOMAIN-SUFFIX,tvplayvideos.com
 DOMAIN-SUFFIX,tvple.com
@@ -20676,7 +20687,10 @@ DOMAIN-SUFFIX,witnessleeteaching.com
 DOMAIN-SUFFIX,witopia.com
 DOMAIN-SUFFIX,witopia.net
 DOMAIN-SUFFIX,wiwiwiki.kfd.me
+DOMAIN-SUFFIX,wix-code.com
 DOMAIN-SUFFIX,wix.com
+DOMAIN-SUFFIX,wixanswers.com
+DOMAIN-SUFFIX,wixapps.net
 DOMAIN-SUFFIX,wixmp.com
 DOMAIN-SUFFIX,wixsite.com
 DOMAIN-SUFFIX,wixstatic.com

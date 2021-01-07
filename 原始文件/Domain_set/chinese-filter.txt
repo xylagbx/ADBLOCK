@@ -133,6 +133,8 @@
 .f.zgbmw.com.cn
 .83.locksmaker.com.cn
 .yqrta.xyz
+.mitao17.com
+.ianpos.com
 .00-gov.cn
 .0024aaaa.com
 .00880808.com
@@ -3303,13 +3305,13 @@
 .dm.wenshenxiu.com
 .dm.zuowenku.net
 .dm1.ddwk8.cn
-.dm1.dnpz123.com
 .dm1.guanwawa.com
 .dm1.zjydt.com
 .dmm.aizhan.com
 .dmr.cnhoney.com
 .dmym.aixyy.com
 .dn*.ixinwei.com
+.dnpz123.com
 .du1.bbdj.com
 .dudm.qingsj.cn
 .dyscb.cn
@@ -3757,6 +3759,8 @@
 .runkao.net
 .stunninglover.com
 .watakaw133.xyz
+.gcctqal.cn
+.saastt.com
 .01w47q.cn
 .0217qpineuxbcdhopswkvf.xyz
 .0224fqpowiuxybnmvdfghj.xyz
@@ -3798,6 +3802,7 @@
 .114com.cc
 .118ex.cn
 .1214bdk.xyz
+.1221dhb.xyz
 .125331.top
 .12gf.gold
 .12jf3.cn
@@ -3834,6 +3839,7 @@
 .2l1f.cn
 .2q5p.cn
 .2scjbg.com
+.2shol4.cn
 .2shoushi.com
 .2zm4.cn
 .333bj.cloud
@@ -4063,7 +4069,7 @@
 .babalink.top
 .baful.net
 .bahu.xyz
-.baidu.bxwx666.org
+.baidu.bxwx555.org
 .baiduspider1.cn
 .bailequan.net.cn
 .baitaoidc.com
@@ -5220,6 +5226,7 @@
 .qflwh.cn
 .qfzcxs.cn
 .qgaot.com
+.qgdvyvd.cn
 .qhdmqzc.cn
 .qhdop.com
 .qhxcdmfj.cn
@@ -5267,6 +5274,7 @@
 .r2wm5.cn
 .r3wd6.cn
 .raeqqe.cn
+.ranqibio.com
 .rbign.cn
 .rbtjkx.cn
 .rbywg.com
@@ -5664,6 +5672,7 @@
 .wvcdn.cn
 .wvfgiio.cn
 .wvver.com
+.wxebgpj.cn
 .wxhdwy.com
 .wxmg2016.com
 .wxvsj.com.cn
@@ -5698,6 +5707,7 @@
 .xiandafood.cn
 .xiangchim0.com
 .xiangwangdesh.com
+.xiangyuym.cn
 .xiansenmeng.cn
 .xiaobingmai.cn
 .xiaogouzhuanqian.cn

@@ -41,7 +41,7 @@ e = open(r'../egroup.txt', 'r')
 a = e.read()
 e.close()
 
-a = 'iPad = http, 192.168.1.12, 1082\niPhone = http, 192.168.1.3, 1082\nssr = http, 127.0.0.1, 7890\n' + a
+a = 'iPad = http, 192.168.1.7, 1082\niPhone = http, 192.168.1.3, 1082\nssr = http, 127.0.0.1, 7890\n' + a
 e = open(r'../egroup.txt', 'w')
 e.write(a)
 e.close()
