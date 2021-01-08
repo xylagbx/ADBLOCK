@@ -26,6 +26,7 @@ def sorted_file_content(filetxt):
     remove(r'out.list')
 
 
-Remove_Repetition(open(r'原始文件/URL_Rewrite.txt', 'r'), open(r'out.list', 'a'))
-mywhite = open(r'原始文件/URL_Rewrite.txt', 'w')
+Remove_Repetition(open(r'原始文件/Domain_set/dns.txt', 'r'),
+                  open(r'out.list', 'a'))
+mywhite = open(r'原始文件/Domain_set/dns.txt', 'w')
 sorted_file_content(mywhite)

@@ -72829,12 +72829,3 @@
 .中国
 .公司
 .网络
-// .du-feige-intl.iqiyi.com
-// .intl-act.vip.iqiyi.com
-// .intl-cmonitor.iqiyi.com
-// .intl-i.vip.iqiyi.com
-// .intl-im-hist-api.iqiyi.com
-// .intl-passport.iqiyi.com
-// .intl-sns.iqiyi.com
-// .intl.policy.iqiyi.com
-// .msg-intl.qy.net

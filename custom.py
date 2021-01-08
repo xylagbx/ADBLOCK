@@ -142,8 +142,6 @@ domainset = [
      r'原始文件/Domain_set/dns-filter.txt'),
     ('https://raw.githubusercontent.com/geekdada/surge-list/master/domain-set/neohosts-full.txt',
      r'原始文件/Domain_set/neohosts-full.txt'),
-    ('https://raw.githubusercontent.com/geekdada/surge-list/master/domain-set/neohosts.txt',
-     r'原始文件/Domain_set/neohosts.txt'),
     ('https://raw.githubusercontent.com/geekdada/surge-list/master/domain-set/social-media-filter.txt',
      r'原始文件/Domain_set/social-media-filter.txt'),
     ('https://raw.githubusercontent.com/geekdada/surge-list/master/domain-set/tracking-protection-filter.txt',
