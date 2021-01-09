@@ -26,7 +26,7 @@ def sorted_file_content(filetxt):
     remove(r'out.list')
 
 
-Remove_Repetition(open(r'原始文件/Domain_set/dns.txt', 'r'),
-                  open(r'out.list', 'a'))
-mywhite = open(r'原始文件/Domain_set/dns.txt', 'w')
-sorted_file_content(mywhite)
+Remove_Repetition(open(r'/Users/bx/Downloads/未命名文件夹/domain.txt', 'r'),
+                  open(r'/Users/bx/Downloads/未命名文件夹/domain1.txt', 'a'))
+# mywhite = open(r'/Users/bx/Downloads/未命名文件夹/domain2.txt', 'w')
+# sorted_file_content(mywhite)
