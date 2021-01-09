@@ -13,10 +13,24 @@ def Extract_Line(file1, file2, words):
         file2.close()
 
 
-org = open(r'原始文件/Rule_set/dns-f.txt', 'r')
-ipv4 = open(r'原始文件/Rule_set/dns-g.txt', 'w')
+org = open(
+    r'/Users/bx/Downloads/Uncategorized/custom/原始文件/未命名文件夹/direct/user_agent的副本.txt', 'r')
+tag = open(
+    r'/Users/bx/Downloads/Uncategorized/custom/原始文件/未命名文件夹/direct/user_agent.txt', 'w')
 # ipv6 = open(r'PROXY/ipv6.txt', 'w')
 
-Extract_Line(org, ipv4, 'DOMAIN,|DOMAIN-SUFFIX,')
+Extract_Line(org, tag, ',DIRECT')
 # org = open(r'PROXY/IP-CIDR.txt', 'r')
 # Extract_Line(org, ipv6, 'IP-CIDR6,')
+
+org = open(
+    r'/Users/bx/Downloads/Uncategorized/custom/原始文件/未命名文件夹/direct/user_agent的副本.txt', 'r')
+tag = open(
+    r'/Users/bx/Downloads/Uncategorized/custom/原始文件/未命名文件夹/proxy/user_agent.txt', 'w')
+Extract_Line(org, tag, ',PROXY')
+
+org = open(
+    r'/Users/bx/Downloads/Uncategorized/custom/原始文件/未命名文件夹/direct/user_agent的副本.txt', 'r')
+tag = open(
+    r'/Users/bx/Downloads/Uncategorized/custom/原始文件/未命名文件夹/reject/user_agent.txt', 'w')
+Extract_Line(org, tag, ',REJECT')

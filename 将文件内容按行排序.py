@@ -29,7 +29,8 @@ def sorted_file_content(a):
 
 
 # a = r'原始文件/clash.txt'
-sorted_file_content(r'/Users/bx/Downloads/未命名文件夹/domain.txt')
+sorted_file_content(
+    r'/Users/bx/Downloads/Uncategorized/custom/原始文件/myblack_domain.txt')
 # sorted_file_content(r'/Users/bx/Downloads/未命名文件夹/rule/KEYWORD.txt')
 # sorted_file_content(r'/Users/bx/Downloads/未命名文件夹/rule/myblack.txt')
 # sorted_file_content(r'/Users/bx/Downloads/未命名文件夹/rule/URL.txt')

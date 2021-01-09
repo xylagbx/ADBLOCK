@@ -11,14 +11,15 @@ def del_line(file, words):
         f.writelines(lines)
 
 
-RuleSet = open(
-    r'/Users/bx/Downloads/Uncategorized/custom/原始文件/mywhite的副本.txt', 'r')
-alllines = RuleSet.readlines()
-RuleSet.close()
-for eachline in alllines:
-# eachline = open(r'/Users/bx/Downloads/未命名文件夹/myblack_rule.txt', 'r').read()
-    del_line(open(
-        r'/Users/bx/Downloads/Uncategorized/custom/原始文件/myblack_domain_set.txt', 'r+'), eachline)
+# RuleSet = open(
+#     r'/Users/bx/Downloads/Uncategorized/custom/原始文件/mywhite的副本.txt', 'r')
+# alllines = RuleSet.readlines()
+# RuleSet.close()
+# for eachline in alllines:
+eachline = open(
+    r'/Users/bx/Downloads/Uncategorized/custom/原始文件/未命名文件夹/dns-filter.txt', 'r').read()
+del_line(open(
+    r'/Users/bx/Downloads/Uncategorized/custom/原始文件/myblack_domain.txt', 'r+'), eachline)
     # del_line(open(r'/Users/bx/Downloads/未命名文件夹/rule/URL.txt', 'r+'), eachline)
 
 

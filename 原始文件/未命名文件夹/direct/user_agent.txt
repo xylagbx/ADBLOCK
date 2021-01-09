@@ -1,0 +1,17 @@
+USER-AGENT,%E5%9C%B0%E5%9B%BE*
+USER-AGENT,%E8%AE%BE%E7%BD%AE*
+USER-AGENT,*WeatherFoundation*
+USER-AGENT,*com.apple.mobileme.fmip1
+USER-AGENT,FMDClient*
+USER-AGENT,FMFD*
+USER-AGENT,FindMyFriends*
+USER-AGENT,FindMyiPhone*
+USER-AGENT,Maps*
+USER-AGENT,Wallet*
+USER-AGENT,com.apple.Maps
+USER-AGENT,com.apple.appstored*
+USER-AGENT,com.apple.geod*
+USER-AGENT,fmflocatord*
+USER-AGENT,geod*
+USER-AGENT,locationd*
+USER-AGENT,passd*
