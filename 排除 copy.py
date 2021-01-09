@@ -17,10 +17,10 @@ def del_line(file, words):
 # RuleSet.close()
 # for eachline in alllines:
 eachline = open(
-    r'/Users/bx/Downloads/Uncategorized/custom/原始文件/未命名文件夹/dns-filter.txt', 'r').read()
+    r'/Users/bx/Downloads/Uncategorized/custom/原始文件/未命名文件夹/surge2.txt', 'r').read()
 del_line(open(
-    r'/Users/bx/Downloads/Uncategorized/custom/原始文件/myblack_domain.txt', 'r+'), eachline)
-    # del_line(open(r'/Users/bx/Downloads/未命名文件夹/rule/URL.txt', 'r+'), eachline)
+    r'/Users/bx/Downloads/Uncategorized/custom/原始文件/未命名文件夹/dns-filter.txt', 'r+'), eachline)
+# del_line(open(r'/Users/bx/Downloads/未命名文件夹/rule/URL.txt', 'r+'), eachline)
 
 
 # eachline = open(r'/Users/bx/Downloads/未命名文件夹/rule/IP-CIDR.txt', 'r').read()
