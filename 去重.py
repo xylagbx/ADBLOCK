@@ -26,7 +26,7 @@ def sorted_file_content(filetxt):
     remove(r'out.list')
 
 
-Remove_Repetition(open(r'/Users/bx/Downloads/Uncategorized/custom/原始文件/myblack_domain.txt', 'r'),
-                  open(r'/Users/bx/Downloads/Uncategorized/custom/原始文件/myblack_domain1.txt', 'a'))
+Remove_Repetition(open(r'/Users/bx/Downloads/Uncategorized/custom/原始文件/myblack_rule_set.txt', 'r'),
+                  open(r'/Users/bx/Downloads/Uncategorized/custom/原始文件/myblack_rule_set1.txt', 'a'))
 # mywhite = open(r'/Users/bx/Downloads/未命名文件夹/domain2.txt', 'w')
 # sorted_file_content(mywhite)
