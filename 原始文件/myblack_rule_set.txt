@@ -6444,6 +6444,7 @@ DOMAIN-SUFFIX,cra-arc.gc.ca.bioder.com.tr
 DOMAIN-SUFFIX,crab.baidu.com
 DOMAIN-SUFFIX,cracwrddcb.com
 DOMAIN-SUFFIX,crashlytics2.l.google.com
+DOMAIN-SUFFIX,crashlyticsreports-pa.googleapis.com
 DOMAIN-SUFFIX,crawlability.com
 DOMAIN-SUFFIX,crazypopups.com
 DOMAIN-SUFFIX,crcewevoy.com
@@ -12015,6 +12016,7 @@ DOMAIN-SUFFIX,messaging.influencemobile.com
 DOMAIN-SUFFIX,messardu.com
 DOMAIN-SUFFIX,messenger.ngageics.com
 DOMAIN-SUFFIX,mesterads.com
+DOMAIN-SUFFIX,mesu.apple.com
 DOMAIN-SUFFIX,met.adwhirl.com
 DOMAIN-SUFFIX,meta.streamcloud.eu
 DOMAIN-SUFFIX,metaapi.bulletproofserving.com

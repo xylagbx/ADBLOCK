@@ -6444,6 +6444,7 @@ cra-arc.gc.ca.bioder.com.tr
 crab.baidu.com
 cracwrddcb.com
 crashlytics2.l.google.com
+crashlyticsreports-pa.googleapis.com
 crawlability.com
 crazypopups.com
 crcewevoy.com
@@ -12015,6 +12016,7 @@ messaging.influencemobile.com
 messardu.com
 messenger.ngageics.com
 mesterads.com
+mesu.apple.com
 met.adwhirl.com
 meta.streamcloud.eu
 metaapi.bulletproofserving.com

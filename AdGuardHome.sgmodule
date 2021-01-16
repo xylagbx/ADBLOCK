@@ -2,4 +2,4 @@
 #!desc=AdGuardHome
 
 [General]
-dns-server = 127.0.0.1
+dns-server = https://dns.wzxsw.top:4433/dns-query
