@@ -14,23 +14,10 @@ def Extract_Line(file1, file2, words):
 
 
 org = open(
-    r'/Users/bx/Downloads/Uncategorized/custom/原始文件/未命名文件夹/direct/user_agent的副本.txt', 'r')
+    r'/Users/bx/Downloads/Uncategorized/未命名文件夹/大圣.txt', 'r')
 tag = open(
-    r'/Users/bx/Downloads/Uncategorized/custom/原始文件/未命名文件夹/direct/user_agent.txt', 'w')
-# ipv6 = open(r'PROXY/ipv6.txt', 'w')
+    r'/Users/bx/Downloads/Uncategorized/未命名文件夹/大圣1.txt', 'w')
+# Extract_Line(org, tag, '"FilterID":1}')
 
-Extract_Line(org, tag, ',DIRECT')
-# org = open(r'PROXY/IP-CIDR.txt', 'r')
-# Extract_Line(org, ipv6, 'IP-CIDR6,')
 
-org = open(
-    r'/Users/bx/Downloads/Uncategorized/custom/原始文件/未命名文件夹/direct/user_agent的副本.txt', 'r')
-tag = open(
-    r'/Users/bx/Downloads/Uncategorized/custom/原始文件/未命名文件夹/proxy/user_agent.txt', 'w')
-Extract_Line(org, tag, ',PROXY')
-
-org = open(
-    r'/Users/bx/Downloads/Uncategorized/custom/原始文件/未命名文件夹/direct/user_agent的副本.txt', 'r')
-tag = open(
-    r'/Users/bx/Downloads/Uncategorized/custom/原始文件/未命名文件夹/reject/user_agent.txt', 'w')
-Extract_Line(org, tag, ',REJECT')
+Extract_Line(org, tag, '127.0.0.1')
