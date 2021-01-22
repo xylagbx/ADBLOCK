@@ -4,7 +4,6 @@
 ! Contribute: https://github.com/durablenapkin/scamblocklist/issues
 ! License: MIT (https://mit-license.org/)
 
-||1n.yarrid.com^
 ||1stireland.com^
 ||1sttheglobal.com^
 ||1sttheworld.co^
@@ -37,10 +36,10 @@
 ||assassinfitness.com^
 ||atrendsz.com^
 ||aussiesportfashion.com^
+||azitecs.com^
 ||baroconcept.com^
 ||beaswan.com^
 ||benecharm.com^
-||bentozi.store^
 ||berfumetee.com^
 ||bestbabyyoda.com^
 ||bestmoonshop.com^
@@ -79,6 +78,7 @@
 ||csgoproleague.com^
 ||customurink.com^
 ||danylevych.com^
+||daradis.com^
 ||defcon7.com.br^
 ||deforts.com^
 ||denningwelldrilling.com^
@@ -124,7 +124,6 @@
 ||gearclover.com^
 ||gearhuman.com^
 ||gearstastic.com^
-||gearstastic.net^
 ||gearstastics.com^
 ||gearver.com^
 ||giftbias.com^
@@ -144,6 +143,7 @@
 ||helpnanacenter.helpscoutdocs.com^
 ||hermanistore.com^
 ||hernoclothing.com^
+||himete.com^
 ||hippie-pets.com^
 ||hmccommerce.com^
 ||hollisternorge.com^
@@ -169,7 +169,6 @@
 ||kxu.myinstructus.com^
 ||ladamustore.com^
 ||lakersfanshoponline.com^
-||legarralazcoz.com^
 ||lericettedifrancy74.com^
 ||letrantrunghieu.com^
 ||lifewonderland.com^
@@ -219,7 +218,6 @@
 ||nofotballstore.com^
 ||nonofy.com^
 ||norfotball.com^
-||norge.parkaoutdoor.com^
 ||norgefotball.com^
 ||norgejakke.com^
 ||norgejakkerbutikk.com^
@@ -241,17 +239,16 @@
 ||peekpok.com^
 ||pepatees.com^
 ||peppatees.com^
-||petparty.store^
 ||pharaohstore.com^
 ||pickablegift.com^
 ||pickcheaptee.com^
 ||pjs.outlet.com^
 ||plutostars.com^
-||podmart.mobi^
 ||popeurope.com^
 ||poravoda.com^
 ||potterheads.co^
 ||premiumqualityblanket.com^
+||premiumrosebear.com^
 ||premiumtour-don.com^
 ||printteestore.com^
 ||promotebuy.com^
@@ -259,7 +256,6 @@
 ||quatangidol.com^
 ||quintrendy.com^
 ||rabamnetee.com^
-||realteepro.com^
 ||reanimando.org^
 ||rebeccatees.com^
 ||reforest-iita.org^
@@ -294,6 +290,7 @@
 ||skytee3d.com^
 ||smartpower4all.org^
 ||smartproduct.site^
+||snappystoreonline.co.za^
 ||solepersonal.com^
 ||somethingapparel.com^
 ||souhoney.com^
@@ -363,6 +360,7 @@
 ||ushiro.org^
 ||uuc.joyofprogress.com^
 ||verfun.com^
+||vetoro.cc^
 ||vikingstore.co^
 ||vipticketgiveaway.com^
 ||wanedo.net^

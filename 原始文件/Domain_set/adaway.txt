@@ -3654,7 +3654,6 @@
 .mtrcss.com
 .api.muneris.io
 .adv.mxmcdn.net
-.s.mxmcdn.net
 .mxpnl.com
 .mxtads.com
 .tracker-api.my.com
@@ -5308,7 +5307,6 @@
 .analytics.valuepotion.com
 .vamaker.com
 .varravgames.com
-.vcdn.biz
 .admicro1.vcmedia.vn
 .ads.vcnc.co.kr
 .tracking.vcommission.com

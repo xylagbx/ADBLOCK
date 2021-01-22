@@ -1,5 +1,7 @@
 .ext-stat.ru
 .mystatext.ru
+.cdn.convertbox.com
+.app.conversiobot.com
 .sdk.getsitekit.com
 .web.webformscr.com
 .engine.findaphd.com
@@ -39,6 +41,7 @@
 .puffypull.com
 .copperchickens.com
 .ttauri.toptenreviews.com
+.traceprof.com
 .cookihq.com
 .cookiepro.com
 .choices.consentframework.com
@@ -79,7 +82,6 @@
 .clickio.mgr.consensu.org
 .cdn.consentmanager.mgr.consensu.org
 .quantcast.mgr.consensu.org
-.privacy.madame.de
 .cmp-sp.wiwo.de
 .privacy.selbst.de
 .baseendpoint.stern.de
@@ -147,6 +149,7 @@
 .karuna4u.com
 .pushofferpro.com
 .leechiza.net
+.colamirus.com
 .trynews.me
 .push.webandname.com
 .aswpsdkeu.com
@@ -450,6 +453,10 @@
 .app.dengage.com
 .salesmanago.com
 .leefmylife.info
+.wp.24smi.org
+.burstinious.com
+.motazeever.com
+.shaidolt.com
 .pp.teksty-pesenok.ru
 .gu7socdn.txxx.com
 .cdn.pushowl.com
@@ -578,6 +585,7 @@
 .widgets.opinary.com
 .app.mycountrytalks.org
 .insticator.com
+.cdn-chat.grattis.ru
 .widget.replain.cc
 .cdn.qform24.com
 .widget.feedot-lawyer.ru
