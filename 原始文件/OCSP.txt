@@ -1,8 +1,0 @@
-.ocsp-lb.apple.com.akadns.net
-.ocsp-cn-lb.apple.com.akadns.net
-.ocsp.apple.com.download.ks-cdn.com
-.k128-mzstatic.gslb.ksyuncdn.com
-.ocsp.apple.com.cdn20.com
-.ocsp.g.aaplimg.com
-.ocsp.apple.com
-.ocsp.digicert.com
