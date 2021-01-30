@@ -1,5 +1,5 @@
 #!name=AdGuardHome
-#!desc=AdGuardHome
+#!desc=Enable DNS over HTTPS (DoH) with AdGuardHome
 
 [General]
-dns-server = https://dns.wzxsw.top:444/dns-query
+doh-server = https://dns.wzxsw.top:444/dns-query
