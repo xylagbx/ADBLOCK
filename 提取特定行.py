@@ -14,10 +14,10 @@ def Extract_Line(file1, file2, words):
 
 
 org = open(
-    r'/Users/bx/Downloads/Uncategorized/未命名文件夹/大圣.txt', 'r')
+    r'/Users/bx/Downloads/querylog.json', 'r')
 tag = open(
-    r'/Users/bx/Downloads/Uncategorized/未命名文件夹/大圣1.txt', 'w')
+    r'/Users/bx/Downloads/querylog1.json', 'w')
 # Extract_Line(org, tag, '"FilterID":1}')
 
 
-Extract_Line(org, tag, '127.0.0.1')
+Extract_Line(org, tag, '1611035938')
