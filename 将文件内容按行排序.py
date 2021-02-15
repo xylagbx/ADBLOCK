@@ -30,7 +30,7 @@ def sorted_file_content(a):
 
 # a = r'原始文件/clash.txt'
 sorted_file_content(
-    r'/Users/bx/Downloads/2.txt')
+    r'/Users/bx/Downloads/Uncategorized/未命名文件夹/customadblock.txt')
 # sorted_file_content(
 #     r'/Users/bx/Downloads/Uncategorized/custom/原始文件/myblack_domain.txt')
 # sorted_file_content(
