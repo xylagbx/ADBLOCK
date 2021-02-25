@@ -26,7 +26,7 @@ def sorted_file_content(filetxt):
     remove(r'out.list')
 
 
-Remove_Repetition(open(r'/Users/bx/Downloads/Uncategorized/未命名文件夹/addomain.json', 'r'),
-                  open(r'/Users/bx/Downloads/Uncategorized/未命名文件夹/addomain1.json', 'a'))
+Remove_Repetition(open(r'/Users/bx/Downloads/Uncategorized/未命名文件夹/world.txt', 'r'),
+                  open(r'/Users/bx/Downloads/Uncategorized/未命名文件夹/world1.txt', 'a'))
 # mywhite = open(r'/Users/bx/Downloads/未命名文件夹/domain2.txt', 'w')
 # sorted_file_content(mywhite)

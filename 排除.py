@@ -20,8 +20,9 @@ def del_line(file, words):
 
 """从direct中排除reject"""
 RuleSet = open(
-    r'原始文件/Rule_set/anti-ad.txt', 'r')
+    r'/Users/bx/Downloads/Uncategorized/未命名文件夹/防打架.txt', 'r')
 alllines = RuleSet.readlines()
 RuleSet.close()
 for eachline in alllines:
-    del_line(open(r'原始文件/myblack的副本.txt', 'r+'), eachline)
+    del_line(open(
+        r'/Users/bx/Downloads/Uncategorized/未命名文件夹/accelerated-domains.china.conf', 'r+'), eachline)
