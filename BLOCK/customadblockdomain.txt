@@ -78,7 +78,6 @@
 .js.intercomcdn.com
 .keyshot.cc
 .kingdeecn.cn
-.loc.map.baidu.com
 .log.aliyuncs.com
 .log.mmstat.com
 .logoshejishi.com
